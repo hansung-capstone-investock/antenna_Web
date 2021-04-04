@@ -10,4 +10,5 @@
 
    - mysqlclient-1.4.6-cp38-cp38-win32.whl
 
-4. 
+4. beautifulsoup4
+
