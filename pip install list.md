@@ -12,3 +12,6 @@
 
 4. beautifulsoup4
 
+5. djangorestframework
+
+6. django-filter
