@@ -24,3 +24,15 @@ class companyData(models.Model):
         return self.name
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+    
+class MainNews(models.Model):
+    title = models.TextField()
+    summery = models.TextField()
+    publishDay = models.CharField(max_length=100)
+    link = models.TextField()
+    
+    def __str__(self):
+        return [self.title, self.summery, self.publishDay, self.link]
+    
+    class Meta:
+        db_table = 'breakingnews'

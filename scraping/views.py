@@ -5,8 +5,11 @@ import requests
 import json
 from kiwipiepy import Kiwi, Option
 from django.http import HttpResponse
-from .models import dcData, fmkorData, companyData
+from .models import dcData, fmkorData, companyData, MainNews
 from wordcloud import WordCloud
+import datetime as dt
+import urllib.request as req
+from urllib import parse
 
 # dcinside 주식갤러리 크롤링
 def parse_dc(request):
@@ -98,3 +101,38 @@ def company_list(request):
     for i, j in zip(krx['code'], krx['company']):
         companyData(code=i, name=j).save()
     return HttpResponse('krx')
+
+#네이버 증권 주요 뉴스 스크래핑
+def crawlerNews(request):
+    BASE_URL = 'https://finance.naver.com/'
+    
+    now = dt.datetime.now()
+    nowDate = now.strftime('%Y-%m-%d')
+    nowTime = now.strftime('%H:%M:%S').split(':')[0]
+    
+    url = BASE_URL+"news/mainnews.nhn?date="+str(nowDate)
+    res = req.urlopen(url)
+    soup = BeautifulSoup(res,"html.parser",from_encoding='euc-kr')
+    articleList = soup.select("#contentarea_left > div.mainNewsList > ul > li > dl")
+
+    # 기사를 매시각 정각마다 1시간씩 받아오도록 반복문 설정
+    
+    for article in articleList:
+        articleTime = article.select_one(".articleSummary > .wdate").get_text()
+        articleHour = int(articleTime.split(' ')[1].split(':')[0]) 
+        if articleHour <  nowTime-1:
+            break
+        title = article.select_one(".articleSubject > a").get_text()
+        summeryList = article.select_one(".articleSummary").get_text().strip().split('..')[0]
+        linkList = article.select_one(".articleSubject > a")
+        links = url
+        links += linkList.attrs['href']
+        mainnews = MainNews(
+            title = title,
+            summery= summeryList,
+            link = links,
+            publishDay = nowDate
+        )
+        mainnews.save()
+
+    return HttpResponse(title)
