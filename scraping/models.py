@@ -15,3 +15,12 @@ class fmkorData(models.Model):
         return self.title
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+
+class companyData(models.Model):
+    name = models.CharField(max_length=200)
+    code = models.CharField(max_length=6)
+
+    def __str__(self):
+        return self.name
+    def was_published_recently(self):
+        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)

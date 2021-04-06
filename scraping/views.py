@@ -5,7 +5,7 @@ import requests
 import json
 from kiwipiepy import Kiwi, Option
 from django.http import HttpResponse
-from .models import dcData, fmkorData
+from .models import dcData, fmkorData, companyData
 from wordcloud import WordCloud
 
 # dcinside 주식갤러리 크롤링
@@ -86,4 +86,15 @@ def parse_fmkor(request):
     wcImg = wc.generate_from_frequencies(wordCounts)
     wcImg.to_file('wordcloud_fmkor.jpg')
     return HttpResponse(wcImg, content_type="image/jpeg")
-    
+
+# KRX로부터 상장기업 목록 파일을 읽어옴
+def company_list(request):
+    url = 'http://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13'
+    krx = pd.read_html(url, header=0)[0]
+    krx = krx[['종목코드', '회사명']]
+    krx = krx.rename(columns={'종목코드': 'code', '회사명': 'company'})
+    krx.code = krx.code.map('{:06d}'.format)
+
+    for i, j in zip(krx['code'], krx['company']):
+        companyData(code=i, name=j).save()
+    return HttpResponse('krx')
