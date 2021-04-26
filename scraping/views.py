@@ -1,15 +1,21 @@
 from django.shortcuts import render
+from django.http import HttpResponse
+from .scraping.models import dcData, fmkorData, companyData, MainNews
 import pandas as pd
+import datetime as dt
+import urllib.request as req
+from urllib import parse
 from bs4 import BeautifulSoup
 import requests
 import json
 from kiwipiepy import Kiwi, Option
-from django.http import HttpResponse
-from .models import dcData, fmkorData, companyData, MainNews
 from wordcloud import WordCloud
-import datetime as dt
-import urllib.request as req
-from urllib import parse
+from rest_framework.parsers import JSONParser
+from rest_framework import status
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from scraping.serializers import MainNewsSerializer
+
 
 # dcinside 주식갤러리 크롤링
 def parse_dc(request):
@@ -116,23 +122,40 @@ def crawlerNews(request):
     articleList = soup.select("#contentarea_left > div.mainNewsList > ul > li > dl")
 
     # 기사를 매시각 정각마다 1시간씩 받아오도록 반복문 설정
+    title_list=[]
     
     for article in articleList:
         articleTime = article.select_one(".articleSummary > .wdate").get_text()
-        articleHour = int(articleTime.split(' ')[1].split(':')[0]) 
-        if articleHour <  nowTime-1:
-            break
+        # articleHour = int(articleTime.split(' ')[1].split(':')[0]) 
+        # if articleHour <  int(nowTime)-1:
+        #     break
         title = article.select_one(".articleSubject > a").get_text()
-        summeryList = article.select_one(".articleSummary").get_text().strip().split('..')[0]
+        summaryList = article.select_one(".articleSummary").get_text().strip().split('..')[0]
         linkList = article.select_one(".articleSubject > a")
         links = url
         links += linkList.attrs['href']
         mainnews = MainNews(
             title = title,
-            summery= summeryList,
+            summary= summaryList,
             link = links,
             publishDay = nowDate
         )
+        title_list = title
         mainnews.save()
 
-    return HttpResponse(title)
+    return HttpResponse(title_list)
+
+@api_view(['GET', 'POST'])
+def mainnews_list(request):
+    if request.method == 'GET':
+        news = MainNews.objects.all()
+        news_serializer = MainNewsSerializer(news, many=True)
+        return Response(news_serializer.data)
+
+    elif request.method == 'POST':
+        news_serializer = MainNewsSerializer(data=request.data)
+        if news_serializer.is_valid():
+            news_serializer.save()
+            return Response(news_serializer.data, status=status.HTTP_201_CREATED)
+        return Response(news_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    

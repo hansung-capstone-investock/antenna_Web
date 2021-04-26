@@ -26,13 +26,14 @@ class companyData(models.Model):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
     
 class MainNews(models.Model):
-    title = models.TextField()
-    summery = models.TextField()
+    title = models.CharField(max_length=1000,default='')
+    summary = models.TextField()
     publishDay = models.CharField(max_length=100)
     link = models.TextField()
     
-    def __str__(self):
-        return [self.title, self.summery, self.publishDay, self.link]
+    # def __str__(self):
+    #     return [self.title, self.summary, self.publishDay, self.link]
     
     class Meta:
-        db_table = 'breakingnews'
+        # db_table = 'breakingnews'
+        ordering= ('title',)
