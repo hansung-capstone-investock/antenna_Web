@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .scraping.models import dcData, fmkorData, companyData, MainNews
+from .models import *
 import pandas as pd
 import datetime as dt
 import urllib.request as req
@@ -14,7 +14,7 @@ from rest_framework.parsers import JSONParser
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from scraping.serializers import MainNewsSerializer
+from scraping.serializers import *
 
 
 # dcinside 주식갤러리 크롤링
@@ -50,11 +50,8 @@ def parse_dc(request):
                     if data not in wordCounts:
                         wordCounts[data] = 0
                     wordCounts[data] += 1
-                    dcData(title=data).save()
-
-    wcImg = wc.generate_from_frequencies(wordCounts)
-    wcImg.to_file('wordcloud_dc.jpg')
-    return HttpResponse(wcImg, content_type="image/jpeg")
+                    dcData(title=data, count=wordCounts[data]).save()
+    return HttpResponse("dc 크롤링 성공")
 
 # 에펨코리아 주식게시판 크롤링
 # 테스트 자주하면 사이트에서 막음
@@ -75,10 +72,6 @@ def parse_fmkor(request):
     temp = {}
     data = {}
     wordCounts = {}
-    wc = WordCloud(
-    font_path='NanumGothic.ttf',
-    background_color='white',
-    )
     i = 0
     for nouns in df['제목']:
         noun = kiwi.analyze(nouns)
@@ -90,11 +83,9 @@ def parse_fmkor(request):
                     if data not in wordCounts:
                         wordCounts[data] = 0
                     wordCounts[data] += 1
-                    dcData(title=data).save()
+                    fmkorData(title=data, count=wordCounts[data]).save()
 
-    wcImg = wc.generate_from_frequencies(wordCounts)
-    wcImg.to_file('wordcloud_fmkor.jpg')
-    return HttpResponse(wcImg, content_type="image/jpeg")
+    return HttpResponse("fmkor 크롤링 성공")
 
 # KRX로부터 상장기업 목록 파일을 읽어옴
 def company_list(request):
@@ -158,4 +149,47 @@ def mainnews_list(request):
             news_serializer.save()
             return Response(news_serializer.data, status=status.HTTP_201_CREATED)
         return Response(news_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
+
+@api_view(['GET', 'POST'])
+def dc_list(request):
+    if request.method == 'GET':
+        dc = dcData.objects.all()
+        dc_serializer = DcSerializer(dc, many=True)
+        return Response(dc_serializer.data)
+
+    elif request.method == 'POST':
+        dc_serializer = DcSerializer(data=request.data)
+        if dc_serializer.is_valid():
+            dc_serializer.save()
+            return Response(dc_serializer.data, status=status.HTTP_201_CREATED)
+        return Response(dc_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+@api_view(['GET', 'POST'])
+def fmkor_list(request):
+    if request.method == 'GET':
+        fmkor = fmkorData.objects.all()
+        fmkor_serializer = FmkorSerializer(fmkor, many=True)
+        return Response(fmkor_serializer.data)
+
+    elif request.method == 'POST':
+        fmkor_serializer = FmkorSerializer(data=request.data)
+        if fmkor_serializer.is_valid():
+            fmkor_serializer.save()
+            return Response(fmkor_serializer.data, status=status.HTTP_201_CREATED)
+        return Response(fmkor_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+@api_view(['GET', 'POST'])
+def company_list(request):
+    if request.method == 'GET':
+        company = companyData.objects.all()
+        company_serializer = CompanySerializer(company, many=True)
+        return Response(company_serializer.data)
+
+    elif request.method == 'POST':
+        company_serializer = CompanySerializer(data=request.data)
+        if company_serializer.is_valid():
+            company_serializer.save()
+            return Response(company_serializer.data, status=status.HTTP_201_CREATED)
+        return Response(company_serializer.errors, status=status.HTTP_400_BAD_REQUEST)

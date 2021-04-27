@@ -10,5 +10,8 @@ urlpatterns = [
     path('fmkor/', views.parse_fmkor),
     path('company/', views.company_list),
     path('mainnews/',views.crawlerNews),
-    url(r'api/$', views.mainnews_list),
+    url(r'api/news/$', views.mainnews_list),
+    path('api/dcList/', views.dc_list),
+    path('api/companyList/', views.company_list),
+    path('api/fmkorList/', views.fmkor_list)
 ]

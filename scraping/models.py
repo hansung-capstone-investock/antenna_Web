@@ -2,6 +2,7 @@ from django.db import models
 
 class dcData(models.Model):
     title = models.CharField(max_length=200)
+    count = models.IntegerField()
 
     def __str__(self):
         return self.title
@@ -10,6 +11,7 @@ class dcData(models.Model):
 
 class fmkorData(models.Model):
     title = models.CharField(max_length=200)
+    count = models.IntegerField()
 
     def __str__(self):
         return self.title
