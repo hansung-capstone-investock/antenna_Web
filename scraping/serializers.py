@@ -26,3 +26,9 @@ class CompanySerializer(serializers.ModelSerializer):
         model = companyData
         fields = ('name',
                 'code')
+
+class AccountSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = accountData
+        fields = ('id',
+                'password')

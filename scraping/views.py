@@ -193,3 +193,17 @@ def company_list(request):
             company_serializer.save()
             return Response(company_serializer.data, status=status.HTTP_201_CREATED)
         return Response(company_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+@api_view(['GET', 'POST'])
+def account_api(request):
+    if request.method == 'GET':
+        account = accountData.objects.all()
+        account_serializer = AccountSerializer(account, many=True)
+        return Response(account_serializer.data)
+
+    elif request.method == 'POST':
+        account_serializer = AccountSerializer(data=request.data)
+        if account_serializer.is_valid():
+            account_serializer.save()
+            return Response(account_serializer.data, status=status.HTTP_201_CREATED)
+        return Response(account_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
