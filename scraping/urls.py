@@ -14,5 +14,6 @@ urlpatterns = [
     path('api/dcList/', views.dc_list),
     path('api/companyList/', views.company_list),
     path('api/fmkorList/', views.fmkor_list),
-    path('api/account/', views.account_api)
+    path('api/account/', views.account_list),
+    path('api/login/', views.login),
 ]
