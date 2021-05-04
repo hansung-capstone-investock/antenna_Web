@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'scraping.apps.ScrapingConfig',
+    'stock.apps.StockConfig',
     'rest_framework',
 ]
 
@@ -88,21 +89,33 @@ WSGI_APPLICATION = 'antenna_web.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'investock_boot',
-        'USER': 'investock',
-        'PASSWORD': 'hansung-2021',
-        'HOST': 'database-investock.csqfm7ao5z48.ap-northeast-2.rds.amazonaws.com',
+        'USER': 'root',
+        'PASSWORD': 'dkssud12140512!',
+        'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-            'charset': 'utf8mb4',
-        },
+            'init_command': 'SET sql_mode="STRICT_TRANS_TABLES"'
+        }
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'investock_boot',
+#         'USER': 'investock',
+#         'PASSWORD': 'hansung-2021',
+#         'HOST': 'database-investock.csqfm7ao5z48.ap-northeast-2.rds.amazonaws.com',
+#         'PORT': '3306',
+#         'OPTIONS': {
+#             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+#             'charset': 'utf8mb4',
+#         },
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
