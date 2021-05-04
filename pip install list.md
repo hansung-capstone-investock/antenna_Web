@@ -4,7 +4,7 @@
 
 2. wheel
 
-3. mysqlclient
+3. mysqlclient (64bit)
 
    *windows환경에서*
 

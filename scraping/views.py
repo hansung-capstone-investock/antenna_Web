@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from .models import *
 import pandas as pd
 import datetime as dt
@@ -9,7 +9,6 @@ from bs4 import BeautifulSoup
 import requests
 import json
 from kiwipiepy import Kiwi, Option
-from wordcloud import WordCloud
 from rest_framework.parsers import JSONParser
 from rest_framework import status
 from rest_framework.decorators import api_view
@@ -194,16 +193,3 @@ def company_list(request):
             return Response(company_serializer.data, status=status.HTTP_201_CREATED)
         return Response(company_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-@api_view(['GET', 'POST'])
-def account_api(request):
-    if request.method == 'GET':
-        account = accountData.objects.all()
-        account_serializer = AccountSerializer(account, many=True)
-        return Response(account_serializer.data)
-
-    elif request.method == 'POST':
-        account_serializer = AccountSerializer(data=request.data)
-        if account_serializer.is_valid():
-            account_serializer.save()
-            return Response(account_serializer.data, status=status.HTTP_201_CREATED)
-        return Response(account_serializer.errors, status=status.HTTP_400_BAD_REQUEST)

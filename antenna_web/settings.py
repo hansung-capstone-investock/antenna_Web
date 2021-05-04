@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'scraping.apps.ScrapingConfig',
     'stock.apps.StockConfig',
+    'account.apps.AccountConfig',
     'rest_framework',
 ]
 
