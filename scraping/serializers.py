@@ -9,6 +9,14 @@ class MainNewsSerializer(serializers.ModelSerializer):
                 'publishDay',
                 'link')
 
+class LiveNewsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = LiveNews
+        fields = ('title',
+                'summary',
+                'publishDate',
+                'link')
+
 class DcSerializer(serializers.ModelSerializer):
     class Meta:
         model = dcData
