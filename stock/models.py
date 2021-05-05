@@ -1,16 +1,16 @@
 from django.db import models
 
 
-class stockList(models.Model):
-    code = models.CharField(max_length=10,primary_key=True)
+class StockList(models.Model):
+    code= models.CharField(max_length=10,primary_key=True)
     company = models.CharField(max_length=50)
-    last_update = models.DateTimeField()
+    last_update = models.DateField()
     #category = models.IntegerField()
 
 
-class stockInfo(models.Model):
-    code = models.ForeignKey(stockList, related_name = "stockcode", on_delete=models.CASCADE)
-    date = models.DateTimeField()
+class StockInfo(models.Model):
+    code = models.ForeignKey(StockList, to_field='code', on_delete=models.CASCADE)
+    date = models.DateField()
     open = models.FloatField()      #시가
     high =models.FloatField()       #고가
     low = models.FloatField()       #저가

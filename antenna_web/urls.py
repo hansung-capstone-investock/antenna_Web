@@ -9,5 +9,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^views/', include('scraping.urls')),
     url(r'^account/', include('account.urls')),
+    url(r'^stock/', include('stock.urls')),
     # path('fmkor/', include('scraping.urls')),
 ]

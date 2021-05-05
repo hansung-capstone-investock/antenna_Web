@@ -6,7 +6,7 @@ class StockListSerializer(serializers.ModelSerializer):
         model = stockList
         fields = ('code',
                 'name',
-                'category'
+                'last_update'
                 )
 
 class StockInfoSerializer(serializers.ModelSerializer):
