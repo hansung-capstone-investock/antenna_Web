@@ -135,6 +135,52 @@ def crawlerNews(request):
 
     return HttpResponse(title_list)
 
+def liveNews(request):
+    url = 'https://finance.naver.com/news/news_list.nhn?&page='
+
+    for i in range(1, 5):
+        page_url = url + str(i)
+        res = req.urlopen(page_url)
+        soup = BeautifulSoup(res,"html.parser",from_encoding='euc-kr')
+        
+        # newsList top
+        titleList = soup.select("#contentarea_left > ul > li.newsList.top > dl > .articleSubject > a")
+        summaryList = soup.select("#contentarea_left > ul > li.newsList.top > dl > .articleSummary")
+        linkList = soup.select("#contentarea_left > ul > li.newsList.top > dl > .articleSubject > a")
+        dateList = soup.select("#contentarea_left > ul > li.newsList.top > dl > .articleSummary > .wdate")
+        for title, summary, link, date in zip(titleList, summaryList, linkList, dateList):
+            link = link.attrs['href']
+            links = url[0:25] + link[0:55]
+            title = title.text
+            summary = summary.text.strip().split('..')[0]
+            date = date.text
+            LiveNews(
+                title = title,
+                summary = summary,
+                link = links,
+                publishDate = date
+            ).save()
+
+        # newsList bottom
+        titleList = soup.select("#contentarea_left > ul > li:nth-of-type(2) > dl > .articleSubject > a")
+        summaryList = soup.select("#contentarea_left > ul > li:nth-of-type(2) > dl > .articleSummary")
+        linkList = soup.select("#contentarea_left > ul > li:nth-of-type(2) > dl > .articleSubject > a")
+        dateList = soup.select("#contentarea_left > ul > li:nth-of-type(2) > dl > .articleSummary > .wdate")
+        for title, summary, link, date in zip(titleList, summaryList, linkList, dateList):
+            link = link.attrs['href']
+            links = url[0:25] + link[0:55]
+            title = title.text
+            summary = summary.text.strip().split('..')[0]
+            date = date.text
+            LiveNews(
+                title = title,
+                summary = summary,
+                link = links,
+                publishDate = date
+            ).save()
+
+    return HttpResponse("실시간 뉴스 크롤링 성공")
+
 @api_view(['GET', 'POST'])
 def mainnews_list(request):
     if request.method == 'GET':
@@ -148,6 +194,20 @@ def mainnews_list(request):
             news_serializer.save()
             return Response(news_serializer.data, status=status.HTTP_201_CREATED)
         return Response(news_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+@api_view(['GET', 'POST'])
+def livenews_list(request):
+    if request.method == 'GET':
+        livenews = LiveNews.objects.all()
+        livenews_serializer = LiveNewsSerializer(livenews, many=True)
+        return Response(livenews_serializer.data)
+
+    elif request.method == 'POST':
+        livenews_serializer = LiveNewsSerializer(data=request.data)
+        if livenews_serializer.is_valid():
+            livenews_serializer.save()
+            return Response(livenews_serializer.data, status=status.HTTP_201_CREATED)
+        return Response(livenews_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['GET', 'POST'])
 def dc_list(request):

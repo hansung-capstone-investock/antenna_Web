@@ -40,3 +40,12 @@ class MainNews(models.Model):
         # db_table = 'breakingnews'
         ordering= ('title',)
 
+class LiveNews(models.Model):
+    title = models.CharField(max_length=1000,default='')
+    summary = models.TextField()
+    publishDate = models.CharField(max_length=100)
+    link = models.TextField()
+
+    class Meta:
+        ordering= ('publishDate',)
+
