@@ -92,9 +92,7 @@ def read_thema(request):
                 thema = themaName
             )
             themalist.save()
-        
-    # 테마이름 : 테마번호
-    df = pd.DataFrame(columns=['stock','thema'])
+
     for key, value in themaLinkList.items():
         theurl = f"https://finance.naver.com/sise/sise_group_detail.nhn?type=theme&no={value}"
         html = BeautifulSoup(requests.get(theurl,
@@ -118,9 +116,9 @@ def read_naver(request):
     # update_daily_price
     idx =0
     for code in stockList_df.code:
-        #read_naver
+        
         idx+=1
-        if idx<333:
+        if idx<588:
             continue
         url = f"http://finance.naver.com/item/sise_day.nhn?code={code}"
         
