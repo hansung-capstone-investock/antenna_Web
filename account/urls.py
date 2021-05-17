@@ -9,4 +9,6 @@ urlpatterns = [
     path('api/account/', views.account_list),
     path('api/login/', views.login),
     path('api/signup/', views.signup),
+    path('api/intereststock/', views.interestedgroup_list),
+    path('api/interestUpdate/', views.interestedstock_Update),
 ]

@@ -57,3 +57,22 @@ def signup(request):
             return JsonResponse({"code": "0000", "msg": "회원가입 성공하셨습니다."}, status=200)
         else:
             return JsonResponse({"code": "1001", "msg": "회원가입 실패하셨습니다."}, status=200)
+
+@api_view(['POST'])
+def interestedstock_Update(request):
+    if request.method == 'POST':
+        interested_serializer = InterestedstockSerializer(data=request.data)
+        
+        if interested_serializer.is_valid():
+            interested_serializer.save()
+            return JsonResponse({"code": "0000", "msg": "관심종목이 추가되었습니다."}, status=200)
+        else:
+            return JsonResponse({"code": "1002", "msg": "관심종목 추가가 실패하였습니다."}, status=200)
+
+@api_view(['GET'])
+def interestedgroup_list(request):
+    if request.method == 'GET':
+        intersted = interestedstockData.objects.all()
+        intersted_serializer = InterestedstockSerializer(intersted, many=True)
+        
+        return JsonResponse(intersted_serializer.data)

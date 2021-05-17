@@ -6,3 +6,10 @@ class AccountSerializer(serializers.ModelSerializer):
         model = accountData
         fields = ('id',
                 'password')
+
+class InterestedstockSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = interestedstockData
+        fields = ('name',
+                'company',
+                'group')
