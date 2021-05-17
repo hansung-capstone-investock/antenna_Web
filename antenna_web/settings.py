@@ -55,6 +55,9 @@ INSTALLED_APPS = [
     'stock.apps.StockConfig',
     'account.apps.AccountConfig',
     'rest_framework',
+    
+    # ONLY AWS EC2 
+    # 'django_crontab',
 ]
 
 MIDDLEWARE = [
@@ -143,3 +146,16 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+################
+# ONLY AWS EC2 #
+################
+
+# CRONJOBS = [
+#     ('* * */1 * *', 'scraping.views.parse_dc')
+# ]
+
+# on aws ec2
+# python manage.py crontab add
+# python manage.py crontab remove
+# python manage.py crontab show

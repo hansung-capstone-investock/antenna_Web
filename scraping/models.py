@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models, connection
 
 class dcData(models.Model):
     title = models.CharField(max_length=200)
@@ -9,6 +9,13 @@ class dcData(models.Model):
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
+    @classmethod
+    def truncate(cls):
+        with connection.cursor() as cursor:
+            cursor.execute(
+                f'TRUNCATE TABLE {cls._meta.db_table}'
+            )
+
 class fmkorData(models.Model):
     title = models.CharField(max_length=200)
     count = models.IntegerField()
@@ -17,6 +24,13 @@ class fmkorData(models.Model):
         return self.title
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+
+    @classmethod
+    def truncate(cls):
+        with connection.cursor() as cursor:
+            cursor.execute(
+                f'TRUNCATE TABLE {cls._meta.db_table}'
+            )
 
 class companyData(models.Model):
     name = models.CharField(max_length=200)
@@ -32,9 +46,6 @@ class MainNews(models.Model):
     summary = models.TextField()
     publishDay = models.CharField(max_length=100)
     link = models.TextField()
-    
-    # def __str__(self):
-    #     return [self.title, self.summary, self.publishDay, self.link]
     
     class Meta:
         # db_table = 'breakingnews'

@@ -29,6 +29,8 @@ def parse_dc(request):
     df = df.dropna()
     df = df.drop_duplicates()
 
+    dcData.truncate()
+
     kiwi = Kiwi()
     kiwi.prepare()
     temp = {}
