@@ -34,10 +34,6 @@ def parse_dc(request):
     temp = {}
     data = {}
     wordCounts = {}
-    wc = WordCloud(
-    font_path='NanumGothic.ttf',
-    background_color='white',
-    )
     i = 0
     for nouns in df['제목']:
         noun = kiwi.analyze(nouns)
@@ -237,19 +233,3 @@ def fmkor_list(request):
             fmkor_serializer.save()
             return Response(fmkor_serializer.data, status=status.HTTP_201_CREATED)
         return Response(fmkor_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
-@api_view(['GET', 'POST'])
-def company_list(request):
-    if request.method == 'GET':
-        company = companyData.objects.all()
-        company_serializer = CompanySerializer(company, many=True)
-        return Response(company_serializer.data)
-
-    elif request.method == 'POST':
-        company_serializer = CompanySerializer(data=request.data)
-        if company_serializer.is_valid():
-            company_serializer.save()
-            return Response(company_serializer.data, status=status.HTTP_201_CREATED)
-        return Response(company_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
