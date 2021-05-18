@@ -122,16 +122,17 @@ def crawlerNews(request):
         linkList = article.select_one(".articleSubject > a")
         links = url
         links += linkList.attrs['href']
+        link = url[0:25] + links[59:]
+        
         mainnews = MainNews(
             title = title,
             summary= summaryList,
-            link = links,
+            link = link,
             publishDay = nowDate
         )
-        title_list = title
         mainnews.save()
 
-    return HttpResponse(title_list)
+    return HttpResponse("메인뉴스 크롤링")
 
 def liveNews(request):
     url = 'https://finance.naver.com/news/news_list.nhn?&page='
