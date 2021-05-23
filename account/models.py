@@ -6,5 +6,14 @@ class accountData(models.Model):
 
 class interestedstockData(models.Model):
     name = models.CharField(max_length=100, null=True)
-    company = models.CharField(max_length=50, null=True)
-    group = models.IntegerField(null=True)
+    group = models.CharField(max_length=50, null=True)
+    company1 = models.CharField(max_length=50, null=True)
+    company2 = models.CharField(max_length=50, null=True)
+    company3 = models.CharField(max_length=50, null=True)
+    company4 = models.CharField(max_length=50, null=True)
+    company5 = models.CharField(max_length=50, null=True)
+    company6 = models.CharField(max_length=50, null=True)
+    company7 = models.CharField(max_length=50, null=True)
+    company8 = models.CharField(max_length=50, null=True)
+    company9 = models.CharField(max_length=50, null=True)
+    company10 = models.CharField(max_length=50, null=True)

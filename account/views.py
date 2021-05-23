@@ -34,8 +34,8 @@ def account_list(request):
 @api_view(['POST'])
 def login(request):
     if request.method == 'POST':
-        userid = request.data['userid']
-        userpw = request.data['userpw']
+        userid = request.data['id']
+        userpw = request.data['password']
 
         account = accountData.objects.all()
         account_serializer = AccountSerializer(account, many=True)
