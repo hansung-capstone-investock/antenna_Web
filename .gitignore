@@ -9,6 +9,7 @@ db.sqlite3-journal
 media
 secrets.json
 test123.py
+stock/views.py
 
 ### vscode ###
 .vscode/*

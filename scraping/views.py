@@ -180,59 +180,31 @@ def liveNews(request):
 
     return HttpResponse("실시간 뉴스 크롤링 성공")
 
-@api_view(['GET', 'POST'])
+@api_view(['GET'])
 def mainnews_list(request):
     if request.method == 'GET':
         news = MainNews.objects.all()
         news_serializer = MainNewsSerializer(news, many=True)
         return Response(news_serializer.data)
 
-    elif request.method == 'POST':
-        news_serializer = MainNewsSerializer(data=request.data)
-        if news_serializer.is_valid():
-            news_serializer.save()
-            return Response(news_serializer.data, status=status.HTTP_201_CREATED)
-        return Response(news_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-@api_view(['GET', 'POST'])
+@api_view(['GET'])
 def livenews_list(request):
     if request.method == 'GET':
         livenews = LiveNews.objects.all()
         livenews_serializer = LiveNewsSerializer(livenews, many=True)
         return Response(livenews_serializer.data)
 
-    elif request.method == 'POST':
-        livenews_serializer = LiveNewsSerializer(data=request.data)
-        if livenews_serializer.is_valid():
-            livenews_serializer.save()
-            return Response(livenews_serializer.data, status=status.HTTP_201_CREATED)
-        return Response(livenews_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-@api_view(['GET', 'POST'])
+@api_view(['GET'])
 def dc_list(request):
     if request.method == 'GET':
         dc = dcData.objects.all()
         dc_serializer = DcSerializer(dc, many=True)
         return Response(dc_serializer.data)
 
-    elif request.method == 'POST':
-        dc_serializer = DcSerializer(data=request.data)
-        if dc_serializer.is_valid():
-            dc_serializer.save()
-            return Response(dc_serializer.data, status=status.HTTP_201_CREATED)
-        return Response(dc_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-
-@api_view(['GET', 'POST'])
+@api_view(['GET'])
 def fmkor_list(request):
     if request.method == 'GET':
         fmkor = fmkorData.objects.all()
         fmkor_serializer = FmkorSerializer(fmkor, many=True)
         return Response(fmkor_serializer.data)
-
-    elif request.method == 'POST':
-        fmkor_serializer = FmkorSerializer(data=request.data)
-        if fmkor_serializer.is_valid():
-            fmkor_serializer.save()
-            return Response(fmkor_serializer.data, status=status.HTTP_201_CREATED)
-        return Response(fmkor_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
