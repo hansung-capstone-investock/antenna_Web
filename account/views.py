@@ -37,15 +37,15 @@ def login(request):
         userid = request.data['id']
         userpw = request.data['password']
 
-        account = accountData.objects.all()
+        account = accountData.objects.filter(id=userid, password=userpw)
         account_serializer = AccountSerializer(account, many=True)
-        id = account_serializer.data[0]['id']
-        password = account_serializer.data[0]['password']
-
+        try:
+            id = account_serializer.data[0]['id']
+            password = account_serializer.data[0]['password']
+        except IndexError:
+            return JsonResponse({"code": "1001", "msg": "로그인 실패하셨습니다."}, status=200)
         if (id, password) == (userid, userpw):
             return JsonResponse({"code": "0000", "msg": "로그인 성공하셨습니다."}, status=200)
-        else:
-            return JsonResponse({"code": "1001", "msg": "로그인 실패하셨습니다."}, status=200)
 
 @api_view(['POST'])
 def signup(request):
