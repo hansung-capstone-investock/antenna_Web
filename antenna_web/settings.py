@@ -53,8 +53,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'scraping.apps.ScrapingConfig',
     'account.apps.AccountConfig',
+    'stock.apps.StockConfig',
     'rest_framework',
-    
+    'drf_yasg',
     # ONLY AWS EC2 
     # 'django_crontab',
 ]
@@ -92,11 +93,26 @@ WSGI_APPLICATION = 'antenna_web.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+DATABASE_ROUTERS = [
+    'stock.dbrouter.MultiDBRouter',
+]
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'investock_boot',
+        'USER': 'investock',
+        'PASSWORD': 'hansung-2021',
+        'HOST': 'database-investock.csqfm7ao5z48.ap-northeast-2.rds.amazonaws.com',
+        'PORT': '3306',
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+            'charset': 'utf8mb4',
+        },
+    },
+    'stockDB':{
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'stock_data',
         'USER': 'investock',
         'PASSWORD': 'hansung-2021',
         'HOST': 'database-investock.csqfm7ao5z48.ap-northeast-2.rds.amazonaws.com',
@@ -138,7 +154,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -151,8 +167,12 @@ STATIC_URL = '/static/'
 ################
 
 # CRONJOBS = [
-#     ('* * */1 * *', 'scraping.views.parse_dc')
+#     ('* * */1 * *', 'scraping.views.parse_dc'),
+#     ('*/5 9-16 * * 1-5', 'stock.cron.getDailyMarketIndex','>> /tmp/log/getDaily_cron.log'),      #5분마다 주식시장 수치 가져오기
+#     ('30 8 * * *', 'stock.cron.clearDailyMarket','>> /tmp/log/marketclear_cron.log'),      #dailymarket 테이블 초기화
+#     ('00 16 * * 1-5', 'stock.cron.readMarket','>> /tmp/log/readmarket_cron.log'),      #매일 주식시장 종가 정보 받기
 # ]
+
 
 # on aws ec2
 # python manage.py crontab add
