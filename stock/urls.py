@@ -9,4 +9,9 @@ urlpatterns = [
     path('init/', views.initApp),
     path('naver/',views.read_naver),
     path('setmarket/',views.setMarket),
+    path('marketlist/',views.marketList),
+    path('kospiyear/',views.kospiYearList),
+    path('ip/',views.insertPrice),
+    path('rm/',views.readMarket),
+
 ]

@@ -56,8 +56,8 @@ class dailyMarketIndex(models.Model):
 
 
 class StockX000020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -70,8 +70,8 @@ class StockX000020(models.Model):
 
 
 class StockX000040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -84,8 +84,8 @@ class StockX000040(models.Model):
 
 
 class StockX000050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -98,8 +98,8 @@ class StockX000050(models.Model):
 
 
 class StockX000060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -112,8 +112,8 @@ class StockX000060(models.Model):
 
 
 class StockX000070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -126,8 +126,8 @@ class StockX000070(models.Model):
 
 
 class StockX000080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -140,8 +140,8 @@ class StockX000080(models.Model):
 
 
 class StockX000100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -154,8 +154,8 @@ class StockX000100(models.Model):
 
 
 class StockX000120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -168,8 +168,8 @@ class StockX000120(models.Model):
 
 
 class StockX000140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -182,8 +182,8 @@ class StockX000140(models.Model):
 
 
 class StockX000150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -196,8 +196,8 @@ class StockX000150(models.Model):
 
 
 class StockX000180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -210,8 +210,8 @@ class StockX000180(models.Model):
 
 
 class StockX000210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -224,8 +224,8 @@ class StockX000210(models.Model):
 
 
 class StockX000220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -238,8 +238,8 @@ class StockX000220(models.Model):
 
 
 class StockX000230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -252,8 +252,8 @@ class StockX000230(models.Model):
 
 
 class StockX000240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -266,8 +266,8 @@ class StockX000240(models.Model):
 
 
 class StockX000250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -280,8 +280,8 @@ class StockX000250(models.Model):
 
 
 class StockX000270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -294,8 +294,8 @@ class StockX000270(models.Model):
 
 
 class StockX000300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -308,8 +308,8 @@ class StockX000300(models.Model):
 
 
 class StockX000320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -322,8 +322,8 @@ class StockX000320(models.Model):
 
 
 class StockX000370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -336,8 +336,8 @@ class StockX000370(models.Model):
 
 
 class StockX000390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -350,8 +350,8 @@ class StockX000390(models.Model):
 
 
 class StockX000400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -364,8 +364,8 @@ class StockX000400(models.Model):
 
 
 class StockX000430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -378,8 +378,8 @@ class StockX000430(models.Model):
 
 
 class StockX000440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -392,8 +392,8 @@ class StockX000440(models.Model):
 
 
 class StockX000480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -406,8 +406,8 @@ class StockX000480(models.Model):
 
 
 class StockX000490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -420,8 +420,8 @@ class StockX000490(models.Model):
 
 
 class StockX000500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -434,8 +434,8 @@ class StockX000500(models.Model):
 
 
 class StockX000520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -448,8 +448,8 @@ class StockX000520(models.Model):
 
 
 class StockX000540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -462,8 +462,8 @@ class StockX000540(models.Model):
 
 
 class StockX000590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -476,8 +476,8 @@ class StockX000590(models.Model):
 
 
 class StockX000640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -490,8 +490,8 @@ class StockX000640(models.Model):
 
 
 class StockX000650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -504,8 +504,8 @@ class StockX000650(models.Model):
 
 
 class StockX000660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -518,8 +518,8 @@ class StockX000660(models.Model):
 
 
 class StockX000670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -532,8 +532,8 @@ class StockX000670(models.Model):
 
 
 class StockX000680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -546,8 +546,8 @@ class StockX000680(models.Model):
 
 
 class StockX000700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -560,8 +560,8 @@ class StockX000700(models.Model):
 
 
 class StockX000720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -574,8 +574,8 @@ class StockX000720(models.Model):
 
 
 class StockX000760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -588,8 +588,8 @@ class StockX000760(models.Model):
 
 
 class StockX000810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -602,8 +602,8 @@ class StockX000810(models.Model):
 
 
 class StockX000850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -616,8 +616,8 @@ class StockX000850(models.Model):
 
 
 class StockX000860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -630,8 +630,8 @@ class StockX000860(models.Model):
 
 
 class StockX000880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -644,8 +644,8 @@ class StockX000880(models.Model):
 
 
 class StockX000890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -658,8 +658,8 @@ class StockX000890(models.Model):
 
 
 class StockX000910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -672,8 +672,8 @@ class StockX000910(models.Model):
 
 
 class StockX000950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -686,8 +686,8 @@ class StockX000950(models.Model):
 
 
 class StockX000970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -700,8 +700,8 @@ class StockX000970(models.Model):
 
 
 class StockX000990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -714,8 +714,8 @@ class StockX000990(models.Model):
 
 
 class StockX001000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -728,8 +728,8 @@ class StockX001000(models.Model):
 
 
 class StockX001020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -742,8 +742,8 @@ class StockX001020(models.Model):
 
 
 class StockX001040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -756,8 +756,8 @@ class StockX001040(models.Model):
 
 
 class StockX001060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -770,8 +770,8 @@ class StockX001060(models.Model):
 
 
 class StockX001070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -784,8 +784,8 @@ class StockX001070(models.Model):
 
 
 class StockX001080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -798,8 +798,8 @@ class StockX001080(models.Model):
 
 
 class StockX001120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -812,8 +812,8 @@ class StockX001120(models.Model):
 
 
 class StockX001130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -826,8 +826,8 @@ class StockX001130(models.Model):
 
 
 class StockX001140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -840,8 +840,8 @@ class StockX001140(models.Model):
 
 
 class StockX001200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -854,8 +854,8 @@ class StockX001200(models.Model):
 
 
 class StockX001210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -868,8 +868,8 @@ class StockX001210(models.Model):
 
 
 class StockX001230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -882,8 +882,8 @@ class StockX001230(models.Model):
 
 
 class StockX001250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -896,8 +896,8 @@ class StockX001250(models.Model):
 
 
 class StockX001260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -910,8 +910,8 @@ class StockX001260(models.Model):
 
 
 class StockX001270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -924,8 +924,8 @@ class StockX001270(models.Model):
 
 
 class StockX001290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -938,8 +938,8 @@ class StockX001290(models.Model):
 
 
 class StockX001340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -952,8 +952,8 @@ class StockX001340(models.Model):
 
 
 class StockX001360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -966,8 +966,8 @@ class StockX001360(models.Model):
 
 
 class StockX001380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -980,8 +980,8 @@ class StockX001380(models.Model):
 
 
 class StockX001390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -994,8 +994,8 @@ class StockX001390(models.Model):
 
 
 class StockX001420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1008,8 +1008,8 @@ class StockX001420(models.Model):
 
 
 class StockX001430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1022,8 +1022,8 @@ class StockX001430(models.Model):
 
 
 class StockX001440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1036,8 +1036,8 @@ class StockX001440(models.Model):
 
 
 class StockX001450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1050,8 +1050,8 @@ class StockX001450(models.Model):
 
 
 class StockX001460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1064,8 +1064,8 @@ class StockX001460(models.Model):
 
 
 class StockX001470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1078,8 +1078,8 @@ class StockX001470(models.Model):
 
 
 class StockX001500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1092,8 +1092,8 @@ class StockX001500(models.Model):
 
 
 class StockX001510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1106,8 +1106,8 @@ class StockX001510(models.Model):
 
 
 class StockX001520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1120,8 +1120,8 @@ class StockX001520(models.Model):
 
 
 class StockX001530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1134,8 +1134,8 @@ class StockX001530(models.Model):
 
 
 class StockX001540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1148,8 +1148,8 @@ class StockX001540(models.Model):
 
 
 class StockX001550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1162,8 +1162,8 @@ class StockX001550(models.Model):
 
 
 class StockX001560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1176,8 +1176,8 @@ class StockX001560(models.Model):
 
 
 class StockX001570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1190,8 +1190,8 @@ class StockX001570(models.Model):
 
 
 class StockX001620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1204,8 +1204,8 @@ class StockX001620(models.Model):
 
 
 class StockX001630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1218,8 +1218,8 @@ class StockX001630(models.Model):
 
 
 class StockX001680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1232,8 +1232,8 @@ class StockX001680(models.Model):
 
 
 class StockX001720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1246,8 +1246,8 @@ class StockX001720(models.Model):
 
 
 class StockX001740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1260,8 +1260,8 @@ class StockX001740(models.Model):
 
 
 class StockX001750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1274,8 +1274,8 @@ class StockX001750(models.Model):
 
 
 class StockX001770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1288,8 +1288,8 @@ class StockX001770(models.Model):
 
 
 class StockX001780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1302,8 +1302,8 @@ class StockX001780(models.Model):
 
 
 class StockX001790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1316,8 +1316,8 @@ class StockX001790(models.Model):
 
 
 class StockX001800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1330,8 +1330,8 @@ class StockX001800(models.Model):
 
 
 class StockX001810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1344,8 +1344,8 @@ class StockX001810(models.Model):
 
 
 class StockX001820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1358,8 +1358,8 @@ class StockX001820(models.Model):
 
 
 class StockX001840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1372,8 +1372,8 @@ class StockX001840(models.Model):
 
 
 class StockX001880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1386,8 +1386,8 @@ class StockX001880(models.Model):
 
 
 class StockX001940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1400,8 +1400,8 @@ class StockX001940(models.Model):
 
 
 class StockX002020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1414,8 +1414,8 @@ class StockX002020(models.Model):
 
 
 class StockX002030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1428,8 +1428,8 @@ class StockX002030(models.Model):
 
 
 class StockX002070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1442,8 +1442,8 @@ class StockX002070(models.Model):
 
 
 class StockX002100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1456,8 +1456,8 @@ class StockX002100(models.Model):
 
 
 class StockX002140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1470,8 +1470,8 @@ class StockX002140(models.Model):
 
 
 class StockX002150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1484,8 +1484,8 @@ class StockX002150(models.Model):
 
 
 class StockX002170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1498,8 +1498,8 @@ class StockX002170(models.Model):
 
 
 class StockX002200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1512,8 +1512,8 @@ class StockX002200(models.Model):
 
 
 class StockX002210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1526,8 +1526,8 @@ class StockX002210(models.Model):
 
 
 class StockX002220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1540,8 +1540,8 @@ class StockX002220(models.Model):
 
 
 class StockX002230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1554,8 +1554,8 @@ class StockX002230(models.Model):
 
 
 class StockX002240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1568,8 +1568,8 @@ class StockX002240(models.Model):
 
 
 class StockX002270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1582,8 +1582,8 @@ class StockX002270(models.Model):
 
 
 class StockX002290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1596,8 +1596,8 @@ class StockX002290(models.Model):
 
 
 class StockX002310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1610,8 +1610,8 @@ class StockX002310(models.Model):
 
 
 class StockX002320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1624,8 +1624,8 @@ class StockX002320(models.Model):
 
 
 class StockX002350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1638,8 +1638,8 @@ class StockX002350(models.Model):
 
 
 class StockX002360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1652,8 +1652,8 @@ class StockX002360(models.Model):
 
 
 class StockX002380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1666,8 +1666,8 @@ class StockX002380(models.Model):
 
 
 class StockX002390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1680,8 +1680,8 @@ class StockX002390(models.Model):
 
 
 class StockX002410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1694,8 +1694,8 @@ class StockX002410(models.Model):
 
 
 class StockX002420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1708,8 +1708,8 @@ class StockX002420(models.Model):
 
 
 class StockX002450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1722,8 +1722,8 @@ class StockX002450(models.Model):
 
 
 class StockX002460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1736,8 +1736,8 @@ class StockX002460(models.Model):
 
 
 class StockX002600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1750,8 +1750,8 @@ class StockX002600(models.Model):
 
 
 class StockX002620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1764,8 +1764,8 @@ class StockX002620(models.Model):
 
 
 class StockX002630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1778,8 +1778,8 @@ class StockX002630(models.Model):
 
 
 class StockX002680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1792,8 +1792,8 @@ class StockX002680(models.Model):
 
 
 class StockX002690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1806,8 +1806,8 @@ class StockX002690(models.Model):
 
 
 class StockX002700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1820,8 +1820,8 @@ class StockX002700(models.Model):
 
 
 class StockX002710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1834,8 +1834,8 @@ class StockX002710(models.Model):
 
 
 class StockX002720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1848,8 +1848,8 @@ class StockX002720(models.Model):
 
 
 class StockX002760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1862,8 +1862,8 @@ class StockX002760(models.Model):
 
 
 class StockX002780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1876,8 +1876,8 @@ class StockX002780(models.Model):
 
 
 class StockX002790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1890,8 +1890,8 @@ class StockX002790(models.Model):
 
 
 class StockX002800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1904,8 +1904,8 @@ class StockX002800(models.Model):
 
 
 class StockX002810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1918,8 +1918,8 @@ class StockX002810(models.Model):
 
 
 class StockX002820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1932,8 +1932,8 @@ class StockX002820(models.Model):
 
 
 class StockX002840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1946,8 +1946,8 @@ class StockX002840(models.Model):
 
 
 class StockX002870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1960,8 +1960,8 @@ class StockX002870(models.Model):
 
 
 class StockX002880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1974,8 +1974,8 @@ class StockX002880(models.Model):
 
 
 class StockX002900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -1988,8 +1988,8 @@ class StockX002900(models.Model):
 
 
 class StockX002920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2002,8 +2002,8 @@ class StockX002920(models.Model):
 
 
 class StockX002960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2016,8 +2016,8 @@ class StockX002960(models.Model):
 
 
 class StockX002990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2030,8 +2030,8 @@ class StockX002990(models.Model):
 
 
 class StockX003000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2044,8 +2044,8 @@ class StockX003000(models.Model):
 
 
 class StockX003010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2058,8 +2058,8 @@ class StockX003010(models.Model):
 
 
 class StockX003030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2072,8 +2072,8 @@ class StockX003030(models.Model):
 
 
 class StockX003060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2086,8 +2086,8 @@ class StockX003060(models.Model):
 
 
 class StockX003070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2100,8 +2100,8 @@ class StockX003070(models.Model):
 
 
 class StockX003080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2114,8 +2114,8 @@ class StockX003080(models.Model):
 
 
 class StockX003090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2128,8 +2128,8 @@ class StockX003090(models.Model):
 
 
 class StockX003100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2142,8 +2142,8 @@ class StockX003100(models.Model):
 
 
 class StockX003120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2156,8 +2156,8 @@ class StockX003120(models.Model):
 
 
 class StockX003160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2170,8 +2170,8 @@ class StockX003160(models.Model):
 
 
 class StockX003200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2184,8 +2184,8 @@ class StockX003200(models.Model):
 
 
 class StockX003220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2198,8 +2198,8 @@ class StockX003220(models.Model):
 
 
 class StockX003230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2212,8 +2212,8 @@ class StockX003230(models.Model):
 
 
 class StockX003240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2226,8 +2226,8 @@ class StockX003240(models.Model):
 
 
 class StockX003280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2240,8 +2240,8 @@ class StockX003280(models.Model):
 
 
 class StockX003300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2254,8 +2254,8 @@ class StockX003300(models.Model):
 
 
 class StockX003310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2268,8 +2268,8 @@ class StockX003310(models.Model):
 
 
 class StockX003350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2282,8 +2282,8 @@ class StockX003350(models.Model):
 
 
 class StockX003380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2296,8 +2296,8 @@ class StockX003380(models.Model):
 
 
 class StockX003410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2310,8 +2310,8 @@ class StockX003410(models.Model):
 
 
 class StockX003460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2324,8 +2324,8 @@ class StockX003460(models.Model):
 
 
 class StockX003470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2338,8 +2338,8 @@ class StockX003470(models.Model):
 
 
 class StockX003480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2352,8 +2352,8 @@ class StockX003480(models.Model):
 
 
 class StockX003490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2366,8 +2366,8 @@ class StockX003490(models.Model):
 
 
 class StockX003520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2380,8 +2380,8 @@ class StockX003520(models.Model):
 
 
 class StockX003530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2394,8 +2394,8 @@ class StockX003530(models.Model):
 
 
 class StockX003540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2408,8 +2408,8 @@ class StockX003540(models.Model):
 
 
 class StockX003550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2422,8 +2422,8 @@ class StockX003550(models.Model):
 
 
 class StockX003560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2436,8 +2436,8 @@ class StockX003560(models.Model):
 
 
 class StockX003570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2450,8 +2450,8 @@ class StockX003570(models.Model):
 
 
 class StockX003580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2464,8 +2464,8 @@ class StockX003580(models.Model):
 
 
 class StockX003610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2478,8 +2478,8 @@ class StockX003610(models.Model):
 
 
 class StockX003620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2492,8 +2492,8 @@ class StockX003620(models.Model):
 
 
 class StockX003650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2506,8 +2506,8 @@ class StockX003650(models.Model):
 
 
 class StockX003670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2520,8 +2520,8 @@ class StockX003670(models.Model):
 
 
 class StockX003680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2534,8 +2534,8 @@ class StockX003680(models.Model):
 
 
 class StockX003690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2548,8 +2548,8 @@ class StockX003690(models.Model):
 
 
 class StockX003720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2562,8 +2562,8 @@ class StockX003720(models.Model):
 
 
 class StockX003780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2576,8 +2576,8 @@ class StockX003780(models.Model):
 
 
 class StockX003800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2590,8 +2590,8 @@ class StockX003800(models.Model):
 
 
 class StockX003830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2604,8 +2604,8 @@ class StockX003830(models.Model):
 
 
 class StockX003850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2618,8 +2618,8 @@ class StockX003850(models.Model):
 
 
 class StockX003920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2632,8 +2632,8 @@ class StockX003920(models.Model):
 
 
 class StockX003960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2646,8 +2646,8 @@ class StockX003960(models.Model):
 
 
 class StockX004000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2660,8 +2660,8 @@ class StockX004000(models.Model):
 
 
 class StockX004020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2674,8 +2674,8 @@ class StockX004020(models.Model):
 
 
 class StockX004060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2688,8 +2688,8 @@ class StockX004060(models.Model):
 
 
 class StockX004080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2702,8 +2702,8 @@ class StockX004080(models.Model):
 
 
 class StockX004090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2716,8 +2716,8 @@ class StockX004090(models.Model):
 
 
 class StockX004100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2730,8 +2730,8 @@ class StockX004100(models.Model):
 
 
 class StockX004140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2744,8 +2744,8 @@ class StockX004140(models.Model):
 
 
 class StockX004150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2758,8 +2758,8 @@ class StockX004150(models.Model):
 
 
 class StockX004170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2772,8 +2772,8 @@ class StockX004170(models.Model):
 
 
 class StockX004250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2786,8 +2786,8 @@ class StockX004250(models.Model):
 
 
 class StockX004270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2800,8 +2800,8 @@ class StockX004270(models.Model):
 
 
 class StockX004310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2814,8 +2814,8 @@ class StockX004310(models.Model):
 
 
 class StockX004360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2828,8 +2828,8 @@ class StockX004360(models.Model):
 
 
 class StockX004370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2842,8 +2842,8 @@ class StockX004370(models.Model):
 
 
 class StockX004380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2856,8 +2856,8 @@ class StockX004380(models.Model):
 
 
 class StockX004410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2870,8 +2870,8 @@ class StockX004410(models.Model):
 
 
 class StockX004430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2884,8 +2884,8 @@ class StockX004430(models.Model):
 
 
 class StockX004440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2898,8 +2898,8 @@ class StockX004440(models.Model):
 
 
 class StockX004450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2912,8 +2912,8 @@ class StockX004450(models.Model):
 
 
 class StockX004490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2926,8 +2926,8 @@ class StockX004490(models.Model):
 
 
 class StockX004540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2940,8 +2940,8 @@ class StockX004540(models.Model):
 
 
 class StockX004560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2954,8 +2954,8 @@ class StockX004560(models.Model):
 
 
 class StockX004590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2968,8 +2968,8 @@ class StockX004590(models.Model):
 
 
 class StockX004650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2982,8 +2982,8 @@ class StockX004650(models.Model):
 
 
 class StockX004690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -2996,8 +2996,8 @@ class StockX004690(models.Model):
 
 
 class StockX004700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3010,8 +3010,8 @@ class StockX004700(models.Model):
 
 
 class StockX004710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3024,8 +3024,8 @@ class StockX004710(models.Model):
 
 
 class StockX004720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3038,8 +3038,8 @@ class StockX004720(models.Model):
 
 
 class StockX004770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3052,8 +3052,8 @@ class StockX004770(models.Model):
 
 
 class StockX004780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3066,8 +3066,8 @@ class StockX004780(models.Model):
 
 
 class StockX004800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3080,8 +3080,8 @@ class StockX004800(models.Model):
 
 
 class StockX004830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3094,8 +3094,8 @@ class StockX004830(models.Model):
 
 
 class StockX004840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3108,8 +3108,8 @@ class StockX004840(models.Model):
 
 
 class StockX004870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3122,8 +3122,8 @@ class StockX004870(models.Model):
 
 
 class StockX004890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3136,8 +3136,8 @@ class StockX004890(models.Model):
 
 
 class StockX004910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3150,8 +3150,8 @@ class StockX004910(models.Model):
 
 
 class StockX004920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3164,8 +3164,8 @@ class StockX004920(models.Model):
 
 
 class StockX004960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3178,8 +3178,8 @@ class StockX004960(models.Model):
 
 
 class StockX004970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3192,8 +3192,8 @@ class StockX004970(models.Model):
 
 
 class StockX004980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3206,8 +3206,8 @@ class StockX004980(models.Model):
 
 
 class StockX004990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3220,8 +3220,8 @@ class StockX004990(models.Model):
 
 
 class StockX005010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3234,8 +3234,8 @@ class StockX005010(models.Model):
 
 
 class StockX005030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3248,8 +3248,8 @@ class StockX005030(models.Model):
 
 
 class StockX005070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3262,8 +3262,8 @@ class StockX005070(models.Model):
 
 
 class StockX005090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3276,8 +3276,8 @@ class StockX005090(models.Model):
 
 
 class StockX005110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3290,8 +3290,8 @@ class StockX005110(models.Model):
 
 
 class StockX005160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3304,8 +3304,8 @@ class StockX005160(models.Model):
 
 
 class StockX005180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3318,8 +3318,8 @@ class StockX005180(models.Model):
 
 
 class StockX005250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3332,8 +3332,8 @@ class StockX005250(models.Model):
 
 
 class StockX005290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3346,8 +3346,8 @@ class StockX005290(models.Model):
 
 
 class StockX005300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3360,8 +3360,8 @@ class StockX005300(models.Model):
 
 
 class StockX005320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3374,8 +3374,8 @@ class StockX005320(models.Model):
 
 
 class StockX005360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3388,8 +3388,8 @@ class StockX005360(models.Model):
 
 
 class StockX005380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3402,8 +3402,8 @@ class StockX005380(models.Model):
 
 
 class StockX005390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3416,8 +3416,8 @@ class StockX005390(models.Model):
 
 
 class StockX005420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3430,8 +3430,8 @@ class StockX005420(models.Model):
 
 
 class StockX005430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3444,8 +3444,8 @@ class StockX005430(models.Model):
 
 
 class StockX005440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3458,8 +3458,8 @@ class StockX005440(models.Model):
 
 
 class StockX005490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3472,8 +3472,8 @@ class StockX005490(models.Model):
 
 
 class StockX005500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3486,8 +3486,8 @@ class StockX005500(models.Model):
 
 
 class StockX005610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3500,8 +3500,8 @@ class StockX005610(models.Model):
 
 
 class StockX005670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3514,8 +3514,8 @@ class StockX005670(models.Model):
 
 
 class StockX005680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3528,8 +3528,8 @@ class StockX005680(models.Model):
 
 
 class StockX005690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3542,8 +3542,8 @@ class StockX005690(models.Model):
 
 
 class StockX005710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3556,8 +3556,8 @@ class StockX005710(models.Model):
 
 
 class StockX005720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3570,8 +3570,8 @@ class StockX005720(models.Model):
 
 
 class StockX005740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3584,8 +3584,8 @@ class StockX005740(models.Model):
 
 
 class StockX005750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3598,8 +3598,8 @@ class StockX005750(models.Model):
 
 
 class StockX005800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3612,8 +3612,8 @@ class StockX005800(models.Model):
 
 
 class StockX005810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3626,8 +3626,8 @@ class StockX005810(models.Model):
 
 
 class StockX005820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3640,8 +3640,8 @@ class StockX005820(models.Model):
 
 
 class StockX005830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3654,8 +3654,8 @@ class StockX005830(models.Model):
 
 
 class StockX005850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3668,8 +3668,8 @@ class StockX005850(models.Model):
 
 
 class StockX005860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3682,8 +3682,8 @@ class StockX005860(models.Model):
 
 
 class StockX005870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3696,8 +3696,8 @@ class StockX005870(models.Model):
 
 
 class StockX005880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3710,8 +3710,8 @@ class StockX005880(models.Model):
 
 
 class StockX005930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3724,8 +3724,8 @@ class StockX005930(models.Model):
 
 
 class StockX005940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3738,8 +3738,8 @@ class StockX005940(models.Model):
 
 
 class StockX005950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3752,8 +3752,8 @@ class StockX005950(models.Model):
 
 
 class StockX005960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3766,8 +3766,8 @@ class StockX005960(models.Model):
 
 
 class StockX005990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3780,8 +3780,8 @@ class StockX005990(models.Model):
 
 
 class StockX006040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3794,8 +3794,8 @@ class StockX006040(models.Model):
 
 
 class StockX006050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3808,8 +3808,8 @@ class StockX006050(models.Model):
 
 
 class StockX006060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3822,8 +3822,8 @@ class StockX006060(models.Model):
 
 
 class StockX006090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3836,8 +3836,8 @@ class StockX006090(models.Model):
 
 
 class StockX006110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3850,8 +3850,8 @@ class StockX006110(models.Model):
 
 
 class StockX006120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3864,8 +3864,8 @@ class StockX006120(models.Model):
 
 
 class StockX006140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3878,8 +3878,8 @@ class StockX006140(models.Model):
 
 
 class StockX006200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3892,8 +3892,8 @@ class StockX006200(models.Model):
 
 
 class StockX006220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3906,8 +3906,8 @@ class StockX006220(models.Model):
 
 
 class StockX006260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3920,8 +3920,8 @@ class StockX006260(models.Model):
 
 
 class StockX006280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3934,8 +3934,8 @@ class StockX006280(models.Model):
 
 
 class StockX006340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3948,8 +3948,8 @@ class StockX006340(models.Model):
 
 
 class StockX006360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3962,8 +3962,8 @@ class StockX006360(models.Model):
 
 
 class StockX006370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3976,8 +3976,8 @@ class StockX006370(models.Model):
 
 
 class StockX006380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -3990,8 +3990,8 @@ class StockX006380(models.Model):
 
 
 class StockX006390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4004,8 +4004,8 @@ class StockX006390(models.Model):
 
 
 class StockX006400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4018,8 +4018,8 @@ class StockX006400(models.Model):
 
 
 class StockX006490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4032,8 +4032,8 @@ class StockX006490(models.Model):
 
 
 class StockX006570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4046,8 +4046,8 @@ class StockX006570(models.Model):
 
 
 class StockX006580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4060,8 +4060,8 @@ class StockX006580(models.Model):
 
 
 class StockX006620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4074,8 +4074,8 @@ class StockX006620(models.Model):
 
 
 class StockX006650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4088,8 +4088,8 @@ class StockX006650(models.Model):
 
 
 class StockX006660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4102,8 +4102,8 @@ class StockX006660(models.Model):
 
 
 class StockX006730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4116,8 +4116,8 @@ class StockX006730(models.Model):
 
 
 class StockX006740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4130,8 +4130,8 @@ class StockX006740(models.Model):
 
 
 class StockX006800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4144,8 +4144,8 @@ class StockX006800(models.Model):
 
 
 class StockX006840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4158,8 +4158,8 @@ class StockX006840(models.Model):
 
 
 class StockX006880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4172,8 +4172,8 @@ class StockX006880(models.Model):
 
 
 class StockX006890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4186,8 +4186,8 @@ class StockX006890(models.Model):
 
 
 class StockX006910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4200,8 +4200,8 @@ class StockX006910(models.Model):
 
 
 class StockX006920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4214,8 +4214,8 @@ class StockX006920(models.Model):
 
 
 class StockX006980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4228,8 +4228,8 @@ class StockX006980(models.Model):
 
 
 class StockX007070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4242,8 +4242,8 @@ class StockX007070(models.Model):
 
 
 class StockX007110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4256,8 +4256,8 @@ class StockX007110(models.Model):
 
 
 class StockX007120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4270,8 +4270,8 @@ class StockX007120(models.Model):
 
 
 class StockX007160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4284,8 +4284,8 @@ class StockX007160(models.Model):
 
 
 class StockX007210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4298,8 +4298,8 @@ class StockX007210(models.Model):
 
 
 class StockX007280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4312,8 +4312,8 @@ class StockX007280(models.Model):
 
 
 class StockX007310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4326,8 +4326,8 @@ class StockX007310(models.Model):
 
 
 class StockX007330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4340,8 +4340,8 @@ class StockX007330(models.Model):
 
 
 class StockX007340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4354,8 +4354,8 @@ class StockX007340(models.Model):
 
 
 class StockX007370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4368,8 +4368,8 @@ class StockX007370(models.Model):
 
 
 class StockX007390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4382,8 +4382,8 @@ class StockX007390(models.Model):
 
 
 class StockX007460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4396,8 +4396,8 @@ class StockX007460(models.Model):
 
 
 class StockX007530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4410,8 +4410,8 @@ class StockX007530(models.Model):
 
 
 class StockX007540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4424,8 +4424,8 @@ class StockX007540(models.Model):
 
 
 class StockX007570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4438,8 +4438,8 @@ class StockX007570(models.Model):
 
 
 class StockX007590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4452,8 +4452,8 @@ class StockX007590(models.Model):
 
 
 class StockX007610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4466,8 +4466,8 @@ class StockX007610(models.Model):
 
 
 class StockX007630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4480,8 +4480,8 @@ class StockX007630(models.Model):
 
 
 class StockX007660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4494,8 +4494,8 @@ class StockX007660(models.Model):
 
 
 class StockX007680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4508,8 +4508,8 @@ class StockX007680(models.Model):
 
 
 class StockX007690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4522,8 +4522,8 @@ class StockX007690(models.Model):
 
 
 class StockX007700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4536,8 +4536,8 @@ class StockX007700(models.Model):
 
 
 class StockX007720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4550,8 +4550,8 @@ class StockX007720(models.Model):
 
 
 class StockX007770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4564,8 +4564,8 @@ class StockX007770(models.Model):
 
 
 class StockX007810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4578,8 +4578,8 @@ class StockX007810(models.Model):
 
 
 class StockX007820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4592,8 +4592,8 @@ class StockX007820(models.Model):
 
 
 class StockX007860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4606,8 +4606,8 @@ class StockX007860(models.Model):
 
 
 class StockX007980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4620,8 +4620,8 @@ class StockX007980(models.Model):
 
 
 class StockX008040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4634,8 +4634,8 @@ class StockX008040(models.Model):
 
 
 class StockX008060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4648,8 +4648,8 @@ class StockX008060(models.Model):
 
 
 class StockX008110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4662,8 +4662,8 @@ class StockX008110(models.Model):
 
 
 class StockX008250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4676,8 +4676,8 @@ class StockX008250(models.Model):
 
 
 class StockX008260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4690,8 +4690,8 @@ class StockX008260(models.Model):
 
 
 class StockX008290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4704,8 +4704,8 @@ class StockX008290(models.Model):
 
 
 class StockX008350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4718,8 +4718,8 @@ class StockX008350(models.Model):
 
 
 class StockX008370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4732,8 +4732,8 @@ class StockX008370(models.Model):
 
 
 class StockX008420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4746,8 +4746,8 @@ class StockX008420(models.Model):
 
 
 class StockX008470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4760,8 +4760,8 @@ class StockX008470(models.Model):
 
 
 class StockX008490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4774,8 +4774,8 @@ class StockX008490(models.Model):
 
 
 class StockX008500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4788,8 +4788,8 @@ class StockX008500(models.Model):
 
 
 class StockX008560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4802,8 +4802,8 @@ class StockX008560(models.Model):
 
 
 class StockX008600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4816,8 +4816,8 @@ class StockX008600(models.Model):
 
 
 class StockX008700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4830,8 +4830,8 @@ class StockX008700(models.Model):
 
 
 class StockX008730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4844,8 +4844,8 @@ class StockX008730(models.Model):
 
 
 class StockX008770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4858,8 +4858,8 @@ class StockX008770(models.Model):
 
 
 class StockX008800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4872,8 +4872,8 @@ class StockX008800(models.Model):
 
 
 class StockX008830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4886,8 +4886,8 @@ class StockX008830(models.Model):
 
 
 class StockX008870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4900,8 +4900,8 @@ class StockX008870(models.Model):
 
 
 class StockX008930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4914,8 +4914,8 @@ class StockX008930(models.Model):
 
 
 class StockX008970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4928,8 +4928,8 @@ class StockX008970(models.Model):
 
 
 class StockX009070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4942,8 +4942,8 @@ class StockX009070(models.Model):
 
 
 class StockX009140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4956,8 +4956,8 @@ class StockX009140(models.Model):
 
 
 class StockX009150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4970,8 +4970,8 @@ class StockX009150(models.Model):
 
 
 class StockX009160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4984,8 +4984,8 @@ class StockX009160(models.Model):
 
 
 class StockX009180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -4998,8 +4998,8 @@ class StockX009180(models.Model):
 
 
 class StockX009190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5012,8 +5012,8 @@ class StockX009190(models.Model):
 
 
 class StockX009200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5026,8 +5026,8 @@ class StockX009200(models.Model):
 
 
 class StockX009240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5040,8 +5040,8 @@ class StockX009240(models.Model):
 
 
 class StockX009270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5054,8 +5054,8 @@ class StockX009270(models.Model):
 
 
 class StockX009290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5068,8 +5068,8 @@ class StockX009290(models.Model):
 
 
 class StockX009300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5082,8 +5082,8 @@ class StockX009300(models.Model):
 
 
 class StockX009310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5096,8 +5096,8 @@ class StockX009310(models.Model):
 
 
 class StockX009320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5110,8 +5110,8 @@ class StockX009320(models.Model):
 
 
 class StockX009410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5124,8 +5124,8 @@ class StockX009410(models.Model):
 
 
 class StockX009420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5138,8 +5138,8 @@ class StockX009420(models.Model):
 
 
 class StockX009440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5152,8 +5152,8 @@ class StockX009440(models.Model):
 
 
 class StockX009450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5166,8 +5166,8 @@ class StockX009450(models.Model):
 
 
 class StockX009460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5180,8 +5180,8 @@ class StockX009460(models.Model):
 
 
 class StockX009470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5194,8 +5194,8 @@ class StockX009470(models.Model):
 
 
 class StockX009520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5208,8 +5208,8 @@ class StockX009520(models.Model):
 
 
 class StockX009540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5222,8 +5222,8 @@ class StockX009540(models.Model):
 
 
 class StockX009580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5236,8 +5236,8 @@ class StockX009580(models.Model):
 
 
 class StockX009620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5250,8 +5250,8 @@ class StockX009620(models.Model):
 
 
 class StockX009680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5264,8 +5264,8 @@ class StockX009680(models.Model):
 
 
 class StockX009730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5278,8 +5278,8 @@ class StockX009730(models.Model):
 
 
 class StockX009770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5292,8 +5292,8 @@ class StockX009770(models.Model):
 
 
 class StockX009780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5306,8 +5306,8 @@ class StockX009780(models.Model):
 
 
 class StockX009810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5320,8 +5320,8 @@ class StockX009810(models.Model):
 
 
 class StockX009830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5334,8 +5334,8 @@ class StockX009830(models.Model):
 
 
 class StockX009900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5348,8 +5348,8 @@ class StockX009900(models.Model):
 
 
 class StockX009970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5362,8 +5362,8 @@ class StockX009970(models.Model):
 
 
 class StockX010040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5376,8 +5376,8 @@ class StockX010040(models.Model):
 
 
 class StockX010050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5390,8 +5390,8 @@ class StockX010050(models.Model):
 
 
 class StockX010060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5404,8 +5404,8 @@ class StockX010060(models.Model):
 
 
 class StockX010100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5418,8 +5418,8 @@ class StockX010100(models.Model):
 
 
 class StockX010120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5432,8 +5432,8 @@ class StockX010120(models.Model):
 
 
 class StockX010130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5446,8 +5446,8 @@ class StockX010130(models.Model):
 
 
 class StockX010140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5460,8 +5460,8 @@ class StockX010140(models.Model):
 
 
 class StockX010170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5474,8 +5474,8 @@ class StockX010170(models.Model):
 
 
 class StockX010240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5488,8 +5488,8 @@ class StockX010240(models.Model):
 
 
 class StockX010280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5502,8 +5502,8 @@ class StockX010280(models.Model):
 
 
 class StockX010400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5516,8 +5516,8 @@ class StockX010400(models.Model):
 
 
 class StockX010420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5530,8 +5530,8 @@ class StockX010420(models.Model):
 
 
 class StockX010470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5544,8 +5544,8 @@ class StockX010470(models.Model):
 
 
 class StockX010580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5558,8 +5558,8 @@ class StockX010580(models.Model):
 
 
 class StockX010600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5572,8 +5572,8 @@ class StockX010600(models.Model):
 
 
 class StockX010620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5586,8 +5586,8 @@ class StockX010620(models.Model):
 
 
 class StockX010640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5600,8 +5600,8 @@ class StockX010640(models.Model):
 
 
 class StockX010660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5614,8 +5614,8 @@ class StockX010660(models.Model):
 
 
 class StockX010690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5628,8 +5628,8 @@ class StockX010690(models.Model):
 
 
 class StockX010770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5642,8 +5642,8 @@ class StockX010770(models.Model):
 
 
 class StockX010780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5656,8 +5656,8 @@ class StockX010780(models.Model):
 
 
 class StockX010820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5670,8 +5670,8 @@ class StockX010820(models.Model):
 
 
 class StockX010950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5684,8 +5684,8 @@ class StockX010950(models.Model):
 
 
 class StockX010960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5698,8 +5698,8 @@ class StockX010960(models.Model):
 
 
 class StockX011000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5712,8 +5712,8 @@ class StockX011000(models.Model):
 
 
 class StockX011040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5726,8 +5726,8 @@ class StockX011040(models.Model):
 
 
 class StockX011070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5740,8 +5740,8 @@ class StockX011070(models.Model):
 
 
 class StockX011080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5754,8 +5754,8 @@ class StockX011080(models.Model):
 
 
 class StockX011090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5768,8 +5768,8 @@ class StockX011090(models.Model):
 
 
 class StockX011150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5782,8 +5782,8 @@ class StockX011150(models.Model):
 
 
 class StockX011170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5796,8 +5796,8 @@ class StockX011170(models.Model):
 
 
 class StockX011200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5810,8 +5810,8 @@ class StockX011200(models.Model):
 
 
 class StockX011210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5824,8 +5824,8 @@ class StockX011210(models.Model):
 
 
 class StockX011230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5838,8 +5838,8 @@ class StockX011230(models.Model):
 
 
 class StockX011280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5852,8 +5852,8 @@ class StockX011280(models.Model):
 
 
 class StockX011300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5866,8 +5866,8 @@ class StockX011300(models.Model):
 
 
 class StockX011320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5880,8 +5880,8 @@ class StockX011320(models.Model):
 
 
 class StockX011330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5894,8 +5894,8 @@ class StockX011330(models.Model):
 
 
 class StockX011370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5908,8 +5908,8 @@ class StockX011370(models.Model):
 
 
 class StockX011390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5922,8 +5922,8 @@ class StockX011390(models.Model):
 
 
 class StockX011420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5936,8 +5936,8 @@ class StockX011420(models.Model):
 
 
 class StockX011500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5950,8 +5950,8 @@ class StockX011500(models.Model):
 
 
 class StockX011560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5964,8 +5964,8 @@ class StockX011560(models.Model):
 
 
 class StockX011690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5978,8 +5978,8 @@ class StockX011690(models.Model):
 
 
 class StockX011700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -5992,8 +5992,8 @@ class StockX011700(models.Model):
 
 
 class StockX011760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6006,8 +6006,8 @@ class StockX011760(models.Model):
 
 
 class StockX011780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6020,8 +6020,8 @@ class StockX011780(models.Model):
 
 
 class StockX011790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6034,8 +6034,8 @@ class StockX011790(models.Model):
 
 
 class StockX011810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6048,8 +6048,8 @@ class StockX011810(models.Model):
 
 
 class StockX011930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6062,8 +6062,8 @@ class StockX011930(models.Model):
 
 
 class StockX012030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6076,8 +6076,8 @@ class StockX012030(models.Model):
 
 
 class StockX012160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6090,8 +6090,8 @@ class StockX012160(models.Model):
 
 
 class StockX012170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6104,8 +6104,8 @@ class StockX012170(models.Model):
 
 
 class StockX012200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6118,8 +6118,8 @@ class StockX012200(models.Model):
 
 
 class StockX012280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6132,8 +6132,8 @@ class StockX012280(models.Model):
 
 
 class StockX012320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6146,8 +6146,8 @@ class StockX012320(models.Model):
 
 
 class StockX012330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6160,8 +6160,8 @@ class StockX012330(models.Model):
 
 
 class StockX012340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6174,8 +6174,8 @@ class StockX012340(models.Model):
 
 
 class StockX012450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6188,8 +6188,8 @@ class StockX012450(models.Model):
 
 
 class StockX012510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6202,8 +6202,8 @@ class StockX012510(models.Model):
 
 
 class StockX012600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6216,8 +6216,8 @@ class StockX012600(models.Model):
 
 
 class StockX012610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6230,8 +6230,8 @@ class StockX012610(models.Model):
 
 
 class StockX012620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6244,8 +6244,8 @@ class StockX012620(models.Model):
 
 
 class StockX012630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6258,8 +6258,8 @@ class StockX012630(models.Model):
 
 
 class StockX012690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6272,8 +6272,8 @@ class StockX012690(models.Model):
 
 
 class StockX012700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6286,8 +6286,8 @@ class StockX012700(models.Model):
 
 
 class StockX012750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6300,8 +6300,8 @@ class StockX012750(models.Model):
 
 
 class StockX012790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6314,8 +6314,8 @@ class StockX012790(models.Model):
 
 
 class StockX012800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6328,8 +6328,8 @@ class StockX012800(models.Model):
 
 
 class StockX012860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6342,8 +6342,8 @@ class StockX012860(models.Model):
 
 
 class StockX013000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6356,8 +6356,8 @@ class StockX013000(models.Model):
 
 
 class StockX013030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6370,8 +6370,8 @@ class StockX013030(models.Model):
 
 
 class StockX013120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6384,8 +6384,8 @@ class StockX013120(models.Model):
 
 
 class StockX013310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6398,8 +6398,8 @@ class StockX013310(models.Model):
 
 
 class StockX013360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6412,8 +6412,8 @@ class StockX013360(models.Model):
 
 
 class StockX013520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6426,8 +6426,8 @@ class StockX013520(models.Model):
 
 
 class StockX013570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6440,8 +6440,8 @@ class StockX013570(models.Model):
 
 
 class StockX013580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6454,8 +6454,8 @@ class StockX013580(models.Model):
 
 
 class StockX013700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6468,8 +6468,8 @@ class StockX013700(models.Model):
 
 
 class StockX013720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6482,8 +6482,8 @@ class StockX013720(models.Model):
 
 
 class StockX013810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6496,8 +6496,8 @@ class StockX013810(models.Model):
 
 
 class StockX013870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6510,8 +6510,8 @@ class StockX013870(models.Model):
 
 
 class StockX013890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6524,8 +6524,8 @@ class StockX013890(models.Model):
 
 
 class StockX013990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6538,8 +6538,8 @@ class StockX013990(models.Model):
 
 
 class StockX014100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6552,8 +6552,8 @@ class StockX014100(models.Model):
 
 
 class StockX014130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6566,8 +6566,8 @@ class StockX014130(models.Model):
 
 
 class StockX014160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6580,8 +6580,8 @@ class StockX014160(models.Model):
 
 
 class StockX014190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6594,8 +6594,8 @@ class StockX014190(models.Model):
 
 
 class StockX014200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6608,8 +6608,8 @@ class StockX014200(models.Model):
 
 
 class StockX014280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6622,8 +6622,8 @@ class StockX014280(models.Model):
 
 
 class StockX014440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6636,8 +6636,8 @@ class StockX014440(models.Model):
 
 
 class StockX014470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6650,8 +6650,8 @@ class StockX014470(models.Model):
 
 
 class StockX014530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6664,8 +6664,8 @@ class StockX014530(models.Model):
 
 
 class StockX014570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6678,8 +6678,8 @@ class StockX014570(models.Model):
 
 
 class StockX014580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6692,8 +6692,8 @@ class StockX014580(models.Model):
 
 
 class StockX014620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6706,8 +6706,8 @@ class StockX014620(models.Model):
 
 
 class StockX014680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6720,8 +6720,8 @@ class StockX014680(models.Model):
 
 
 class StockX014710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6734,8 +6734,8 @@ class StockX014710(models.Model):
 
 
 class StockX014790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6748,8 +6748,8 @@ class StockX014790(models.Model):
 
 
 class StockX014820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6762,8 +6762,8 @@ class StockX014820(models.Model):
 
 
 class StockX014830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6776,8 +6776,8 @@ class StockX014830(models.Model):
 
 
 class StockX014910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6790,8 +6790,8 @@ class StockX014910(models.Model):
 
 
 class StockX014940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6804,8 +6804,8 @@ class StockX014940(models.Model):
 
 
 class StockX014970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6818,8 +6818,8 @@ class StockX014970(models.Model):
 
 
 class StockX014990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6832,8 +6832,8 @@ class StockX014990(models.Model):
 
 
 class StockX015020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6846,8 +6846,8 @@ class StockX015020(models.Model):
 
 
 class StockX015230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6860,8 +6860,8 @@ class StockX015230(models.Model):
 
 
 class StockX015260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6874,8 +6874,8 @@ class StockX015260(models.Model):
 
 
 class StockX015350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6888,8 +6888,8 @@ class StockX015350(models.Model):
 
 
 class StockX015360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6902,8 +6902,8 @@ class StockX015360(models.Model):
 
 
 class StockX015540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6916,8 +6916,8 @@ class StockX015540(models.Model):
 
 
 class StockX015590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6930,8 +6930,8 @@ class StockX015590(models.Model):
 
 
 class StockX015710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6944,8 +6944,8 @@ class StockX015710(models.Model):
 
 
 class StockX015750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6958,8 +6958,8 @@ class StockX015750(models.Model):
 
 
 class StockX015760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6972,8 +6972,8 @@ class StockX015760(models.Model):
 
 
 class StockX015860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -6986,8 +6986,8 @@ class StockX015860(models.Model):
 
 
 class StockX015890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7000,8 +7000,8 @@ class StockX015890(models.Model):
 
 
 class StockX016090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7014,8 +7014,8 @@ class StockX016090(models.Model):
 
 
 class StockX016100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7028,8 +7028,8 @@ class StockX016100(models.Model):
 
 
 class StockX016250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7042,8 +7042,8 @@ class StockX016250(models.Model):
 
 
 class StockX016360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7056,8 +7056,8 @@ class StockX016360(models.Model):
 
 
 class StockX016380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7070,8 +7070,8 @@ class StockX016380(models.Model):
 
 
 class StockX016450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7084,8 +7084,8 @@ class StockX016450(models.Model):
 
 
 class StockX016580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7098,8 +7098,8 @@ class StockX016580(models.Model):
 
 
 class StockX016590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7112,8 +7112,8 @@ class StockX016590(models.Model):
 
 
 class StockX016600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7126,8 +7126,8 @@ class StockX016600(models.Model):
 
 
 class StockX016610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7140,8 +7140,8 @@ class StockX016610(models.Model):
 
 
 class StockX016670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7154,8 +7154,8 @@ class StockX016670(models.Model):
 
 
 class StockX016710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7168,8 +7168,8 @@ class StockX016710(models.Model):
 
 
 class StockX016740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7182,8 +7182,8 @@ class StockX016740(models.Model):
 
 
 class StockX016790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7196,8 +7196,8 @@ class StockX016790(models.Model):
 
 
 class StockX016800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7210,8 +7210,8 @@ class StockX016800(models.Model):
 
 
 class StockX016880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7224,8 +7224,8 @@ class StockX016880(models.Model):
 
 
 class StockX016920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7238,8 +7238,8 @@ class StockX016920(models.Model):
 
 
 class StockX017000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7252,8 +7252,8 @@ class StockX017000(models.Model):
 
 
 class StockX017040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7266,8 +7266,8 @@ class StockX017040(models.Model):
 
 
 class StockX017180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7280,8 +7280,8 @@ class StockX017180(models.Model):
 
 
 class StockX017250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7294,8 +7294,8 @@ class StockX017250(models.Model):
 
 
 class StockX017370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7308,8 +7308,8 @@ class StockX017370(models.Model):
 
 
 class StockX017390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7322,8 +7322,8 @@ class StockX017390(models.Model):
 
 
 class StockX017480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7336,8 +7336,8 @@ class StockX017480(models.Model):
 
 
 class StockX017510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7350,8 +7350,8 @@ class StockX017510(models.Model):
 
 
 class StockX017550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7364,8 +7364,8 @@ class StockX017550(models.Model):
 
 
 class StockX017650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7378,8 +7378,8 @@ class StockX017650(models.Model):
 
 
 class StockX017670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7392,8 +7392,8 @@ class StockX017670(models.Model):
 
 
 class StockX017800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7406,8 +7406,8 @@ class StockX017800(models.Model):
 
 
 class StockX017810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7420,8 +7420,8 @@ class StockX017810(models.Model):
 
 
 class StockX017890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7434,8 +7434,8 @@ class StockX017890(models.Model):
 
 
 class StockX017900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7448,8 +7448,8 @@ class StockX017900(models.Model):
 
 
 class StockX017940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7462,8 +7462,8 @@ class StockX017940(models.Model):
 
 
 class StockX017960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7476,8 +7476,8 @@ class StockX017960(models.Model):
 
 
 class StockX018000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7490,8 +7490,8 @@ class StockX018000(models.Model):
 
 
 class StockX018120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7504,8 +7504,8 @@ class StockX018120(models.Model):
 
 
 class StockX018250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7518,8 +7518,8 @@ class StockX018250(models.Model):
 
 
 class StockX018260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7532,8 +7532,8 @@ class StockX018260(models.Model):
 
 
 class StockX018290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7546,8 +7546,8 @@ class StockX018290(models.Model):
 
 
 class StockX018310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7560,8 +7560,8 @@ class StockX018310(models.Model):
 
 
 class StockX018470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7574,8 +7574,8 @@ class StockX018470(models.Model):
 
 
 class StockX018500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7588,8 +7588,8 @@ class StockX018500(models.Model):
 
 
 class StockX018620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7602,8 +7602,8 @@ class StockX018620(models.Model):
 
 
 class StockX018670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7616,8 +7616,8 @@ class StockX018670(models.Model):
 
 
 class StockX018680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7630,8 +7630,8 @@ class StockX018680(models.Model):
 
 
 class StockX018700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7644,8 +7644,8 @@ class StockX018700(models.Model):
 
 
 class StockX018880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7658,8 +7658,8 @@ class StockX018880(models.Model):
 
 
 class StockX019010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7672,8 +7672,8 @@ class StockX019010(models.Model):
 
 
 class StockX019170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7686,8 +7686,8 @@ class StockX019170(models.Model):
 
 
 class StockX019180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7700,8 +7700,8 @@ class StockX019180(models.Model):
 
 
 class StockX019210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7714,8 +7714,8 @@ class StockX019210(models.Model):
 
 
 class StockX019440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7728,8 +7728,8 @@ class StockX019440(models.Model):
 
 
 class StockX019490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7742,8 +7742,8 @@ class StockX019490(models.Model):
 
 
 class StockX019540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7756,8 +7756,8 @@ class StockX019540(models.Model):
 
 
 class StockX019550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7770,8 +7770,8 @@ class StockX019550(models.Model):
 
 
 class StockX019570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7784,8 +7784,8 @@ class StockX019570(models.Model):
 
 
 class StockX019590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7798,8 +7798,8 @@ class StockX019590(models.Model):
 
 
 class StockX019660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7812,8 +7812,8 @@ class StockX019660(models.Model):
 
 
 class StockX019680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7826,8 +7826,8 @@ class StockX019680(models.Model):
 
 
 class StockX019770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7840,8 +7840,8 @@ class StockX019770(models.Model):
 
 
 class StockX019990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7854,8 +7854,8 @@ class StockX019990(models.Model):
 
 
 class StockX020000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7868,8 +7868,8 @@ class StockX020000(models.Model):
 
 
 class StockX020120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7882,8 +7882,8 @@ class StockX020120(models.Model):
 
 
 class StockX020150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7896,8 +7896,8 @@ class StockX020150(models.Model):
 
 
 class StockX020180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7910,8 +7910,8 @@ class StockX020180(models.Model):
 
 
 class StockX020400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7924,8 +7924,8 @@ class StockX020400(models.Model):
 
 
 class StockX020560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7938,8 +7938,8 @@ class StockX020560(models.Model):
 
 
 class StockX020710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7952,8 +7952,8 @@ class StockX020710(models.Model):
 
 
 class StockX020760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7966,8 +7966,8 @@ class StockX020760(models.Model):
 
 
 class StockX021040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7980,8 +7980,8 @@ class StockX021040(models.Model):
 
 
 class StockX021050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -7994,8 +7994,8 @@ class StockX021050(models.Model):
 
 
 class StockX021080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8008,8 +8008,8 @@ class StockX021080(models.Model):
 
 
 class StockX021240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8022,8 +8022,8 @@ class StockX021240(models.Model):
 
 
 class StockX021320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8036,8 +8036,8 @@ class StockX021320(models.Model):
 
 
 class StockX021650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8050,8 +8050,8 @@ class StockX021650(models.Model):
 
 
 class StockX021820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8064,8 +8064,8 @@ class StockX021820(models.Model):
 
 
 class StockX021880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8078,8 +8078,8 @@ class StockX021880(models.Model):
 
 
 class StockX022100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8092,8 +8092,8 @@ class StockX022100(models.Model):
 
 
 class StockX022220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8106,8 +8106,8 @@ class StockX022220(models.Model):
 
 
 class StockX023000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8120,8 +8120,8 @@ class StockX023000(models.Model):
 
 
 class StockX023150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8134,8 +8134,8 @@ class StockX023150(models.Model):
 
 
 class StockX023160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8148,8 +8148,8 @@ class StockX023160(models.Model):
 
 
 class StockX023350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8162,8 +8162,8 @@ class StockX023350(models.Model):
 
 
 class StockX023410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8176,8 +8176,8 @@ class StockX023410(models.Model):
 
 
 class StockX023440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8190,8 +8190,8 @@ class StockX023440(models.Model):
 
 
 class StockX023450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8204,8 +8204,8 @@ class StockX023450(models.Model):
 
 
 class StockX023460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8218,8 +8218,8 @@ class StockX023460(models.Model):
 
 
 class StockX023530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8232,8 +8232,8 @@ class StockX023530(models.Model):
 
 
 class StockX023590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8246,8 +8246,8 @@ class StockX023590(models.Model):
 
 
 class StockX023600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8260,8 +8260,8 @@ class StockX023600(models.Model):
 
 
 class StockX023760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8274,8 +8274,8 @@ class StockX023760(models.Model):
 
 
 class StockX023770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8288,8 +8288,8 @@ class StockX023770(models.Model):
 
 
 class StockX023790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8302,8 +8302,8 @@ class StockX023790(models.Model):
 
 
 class StockX023800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8316,8 +8316,8 @@ class StockX023800(models.Model):
 
 
 class StockX023810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8330,8 +8330,8 @@ class StockX023810(models.Model):
 
 
 class StockX023900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8344,8 +8344,8 @@ class StockX023900(models.Model):
 
 
 class StockX023910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8358,8 +8358,8 @@ class StockX023910(models.Model):
 
 
 class StockX023960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8372,8 +8372,8 @@ class StockX023960(models.Model):
 
 
 class StockX024060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8386,8 +8386,8 @@ class StockX024060(models.Model):
 
 
 class StockX024070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8400,8 +8400,8 @@ class StockX024070(models.Model):
 
 
 class StockX024090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8414,8 +8414,8 @@ class StockX024090(models.Model):
 
 
 class StockX024110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8428,8 +8428,8 @@ class StockX024110(models.Model):
 
 
 class StockX024120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8442,8 +8442,8 @@ class StockX024120(models.Model):
 
 
 class StockX024720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8456,8 +8456,8 @@ class StockX024720(models.Model):
 
 
 class StockX024740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8470,8 +8470,8 @@ class StockX024740(models.Model):
 
 
 class StockX024800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8484,8 +8484,8 @@ class StockX024800(models.Model):
 
 
 class StockX024810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8498,8 +8498,8 @@ class StockX024810(models.Model):
 
 
 class StockX024830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8512,8 +8512,8 @@ class StockX024830(models.Model):
 
 
 class StockX024840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8526,8 +8526,8 @@ class StockX024840(models.Model):
 
 
 class StockX024850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8540,8 +8540,8 @@ class StockX024850(models.Model):
 
 
 class StockX024880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8554,8 +8554,8 @@ class StockX024880(models.Model):
 
 
 class StockX024890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8568,8 +8568,8 @@ class StockX024890(models.Model):
 
 
 class StockX024900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8582,8 +8582,8 @@ class StockX024900(models.Model):
 
 
 class StockX024910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8596,8 +8596,8 @@ class StockX024910(models.Model):
 
 
 class StockX024940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8610,8 +8610,8 @@ class StockX024940(models.Model):
 
 
 class StockX024950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8624,8 +8624,8 @@ class StockX024950(models.Model):
 
 
 class StockX025000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8638,8 +8638,8 @@ class StockX025000(models.Model):
 
 
 class StockX025320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8652,8 +8652,8 @@ class StockX025320(models.Model):
 
 
 class StockX025440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8666,8 +8666,8 @@ class StockX025440(models.Model):
 
 
 class StockX025530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8680,8 +8680,8 @@ class StockX025530(models.Model):
 
 
 class StockX025540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8694,8 +8694,8 @@ class StockX025540(models.Model):
 
 
 class StockX025550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8708,8 +8708,8 @@ class StockX025550(models.Model):
 
 
 class StockX025560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8722,8 +8722,8 @@ class StockX025560(models.Model):
 
 
 class StockX025620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8736,8 +8736,8 @@ class StockX025620(models.Model):
 
 
 class StockX025750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8750,8 +8750,8 @@ class StockX025750(models.Model):
 
 
 class StockX025770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8764,8 +8764,8 @@ class StockX025770(models.Model):
 
 
 class StockX025820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8778,8 +8778,8 @@ class StockX025820(models.Model):
 
 
 class StockX025860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8792,8 +8792,8 @@ class StockX025860(models.Model):
 
 
 class StockX025870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8806,8 +8806,8 @@ class StockX025870(models.Model):
 
 
 class StockX025880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8820,8 +8820,8 @@ class StockX025880(models.Model):
 
 
 class StockX025890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8834,8 +8834,8 @@ class StockX025890(models.Model):
 
 
 class StockX025900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8848,8 +8848,8 @@ class StockX025900(models.Model):
 
 
 class StockX025950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8862,8 +8862,8 @@ class StockX025950(models.Model):
 
 
 class StockX025980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8876,8 +8876,8 @@ class StockX025980(models.Model):
 
 
 class StockX026040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8890,8 +8890,8 @@ class StockX026040(models.Model):
 
 
 class StockX026150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8904,8 +8904,8 @@ class StockX026150(models.Model):
 
 
 class StockX026890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8918,8 +8918,8 @@ class StockX026890(models.Model):
 
 
 class StockX026910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8932,8 +8932,8 @@ class StockX026910(models.Model):
 
 
 class StockX026940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8946,8 +8946,8 @@ class StockX026940(models.Model):
 
 
 class StockX026960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8960,8 +8960,8 @@ class StockX026960(models.Model):
 
 
 class StockX027040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8974,8 +8974,8 @@ class StockX027040(models.Model):
 
 
 class StockX027050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -8988,8 +8988,8 @@ class StockX027050(models.Model):
 
 
 class StockX027360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9002,8 +9002,8 @@ class StockX027360(models.Model):
 
 
 class StockX027410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9016,8 +9016,8 @@ class StockX027410(models.Model):
 
 
 class StockX027580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9030,8 +9030,8 @@ class StockX027580(models.Model):
 
 
 class StockX027710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9044,8 +9044,8 @@ class StockX027710(models.Model):
 
 
 class StockX027740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9058,8 +9058,8 @@ class StockX027740(models.Model):
 
 
 class StockX027830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9072,8 +9072,8 @@ class StockX027830(models.Model):
 
 
 class StockX027970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9086,8 +9086,8 @@ class StockX027970(models.Model):
 
 
 class StockX028050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9100,8 +9100,8 @@ class StockX028050(models.Model):
 
 
 class StockX028080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9114,8 +9114,8 @@ class StockX028080(models.Model):
 
 
 class StockX028100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9128,8 +9128,8 @@ class StockX028100(models.Model):
 
 
 class StockX028150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9142,8 +9142,8 @@ class StockX028150(models.Model):
 
 
 class StockX028260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9156,8 +9156,8 @@ class StockX028260(models.Model):
 
 
 class StockX028300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9170,8 +9170,8 @@ class StockX028300(models.Model):
 
 
 class StockX028670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9184,8 +9184,8 @@ class StockX028670(models.Model):
 
 
 class StockX029460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9198,8 +9198,8 @@ class StockX029460(models.Model):
 
 
 class StockX029480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9212,8 +9212,8 @@ class StockX029480(models.Model):
 
 
 class StockX029530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9226,8 +9226,8 @@ class StockX029530(models.Model):
 
 
 class StockX029780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9240,8 +9240,8 @@ class StockX029780(models.Model):
 
 
 class StockX029960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9254,8 +9254,8 @@ class StockX029960(models.Model):
 
 
 class StockX030000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9268,8 +9268,8 @@ class StockX030000(models.Model):
 
 
 class StockX030190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9282,8 +9282,8 @@ class StockX030190(models.Model):
 
 
 class StockX030200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9296,8 +9296,8 @@ class StockX030200(models.Model):
 
 
 class StockX030210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9310,8 +9310,8 @@ class StockX030210(models.Model):
 
 
 class StockX030350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9324,8 +9324,8 @@ class StockX030350(models.Model):
 
 
 class StockX030520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9338,8 +9338,8 @@ class StockX030520(models.Model):
 
 
 class StockX030530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9352,8 +9352,8 @@ class StockX030530(models.Model):
 
 
 class StockX030610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9366,8 +9366,8 @@ class StockX030610(models.Model):
 
 
 class StockX030720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9380,8 +9380,8 @@ class StockX030720(models.Model):
 
 
 class StockX030790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9394,8 +9394,8 @@ class StockX030790(models.Model):
 
 
 class StockX030960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9408,8 +9408,8 @@ class StockX030960(models.Model):
 
 
 class StockX031310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9422,8 +9422,8 @@ class StockX031310(models.Model):
 
 
 class StockX031330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9436,8 +9436,8 @@ class StockX031330(models.Model):
 
 
 class StockX031390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9450,8 +9450,8 @@ class StockX031390(models.Model):
 
 
 class StockX031430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9464,8 +9464,8 @@ class StockX031430(models.Model):
 
 
 class StockX031440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9478,8 +9478,8 @@ class StockX031440(models.Model):
 
 
 class StockX031510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9492,8 +9492,8 @@ class StockX031510(models.Model):
 
 
 class StockX031820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9506,8 +9506,8 @@ class StockX031820(models.Model):
 
 
 class StockX031860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9520,8 +9520,8 @@ class StockX031860(models.Model):
 
 
 class StockX031980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9534,8 +9534,8 @@ class StockX031980(models.Model):
 
 
 class StockX032080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9548,8 +9548,8 @@ class StockX032080(models.Model):
 
 
 class StockX032190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9562,8 +9562,8 @@ class StockX032190(models.Model):
 
 
 class StockX032280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9576,8 +9576,8 @@ class StockX032280(models.Model):
 
 
 class StockX032300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9590,8 +9590,8 @@ class StockX032300(models.Model):
 
 
 class StockX032350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9604,8 +9604,8 @@ class StockX032350(models.Model):
 
 
 class StockX032500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9618,8 +9618,8 @@ class StockX032500(models.Model):
 
 
 class StockX032540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9632,8 +9632,8 @@ class StockX032540(models.Model):
 
 
 class StockX032560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9646,8 +9646,8 @@ class StockX032560(models.Model):
 
 
 class StockX032580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9660,8 +9660,8 @@ class StockX032580(models.Model):
 
 
 class StockX032620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9674,8 +9674,8 @@ class StockX032620(models.Model):
 
 
 class StockX032640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9688,8 +9688,8 @@ class StockX032640(models.Model):
 
 
 class StockX032680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9702,8 +9702,8 @@ class StockX032680(models.Model):
 
 
 class StockX032750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9716,8 +9716,8 @@ class StockX032750(models.Model):
 
 
 class StockX032790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9730,8 +9730,8 @@ class StockX032790(models.Model):
 
 
 class StockX032800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9744,8 +9744,8 @@ class StockX032800(models.Model):
 
 
 class StockX032820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9758,8 +9758,8 @@ class StockX032820(models.Model):
 
 
 class StockX032830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9772,8 +9772,8 @@ class StockX032830(models.Model):
 
 
 class StockX032850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9786,8 +9786,8 @@ class StockX032850(models.Model):
 
 
 class StockX032860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9800,8 +9800,8 @@ class StockX032860(models.Model):
 
 
 class StockX032940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9814,8 +9814,8 @@ class StockX032940(models.Model):
 
 
 class StockX032960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9828,8 +9828,8 @@ class StockX032960(models.Model):
 
 
 class StockX032980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9842,8 +9842,8 @@ class StockX032980(models.Model):
 
 
 class StockX033050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9856,8 +9856,8 @@ class StockX033050(models.Model):
 
 
 class StockX033100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9870,8 +9870,8 @@ class StockX033100(models.Model):
 
 
 class StockX033110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9884,8 +9884,8 @@ class StockX033110(models.Model):
 
 
 class StockX033130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9898,8 +9898,8 @@ class StockX033130(models.Model):
 
 
 class StockX033160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9912,8 +9912,8 @@ class StockX033160(models.Model):
 
 
 class StockX033170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9926,8 +9926,8 @@ class StockX033170(models.Model):
 
 
 class StockX033180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9940,8 +9940,8 @@ class StockX033180(models.Model):
 
 
 class StockX033200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9954,8 +9954,8 @@ class StockX033200(models.Model):
 
 
 class StockX033230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9968,8 +9968,8 @@ class StockX033230(models.Model):
 
 
 class StockX033240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9982,8 +9982,8 @@ class StockX033240(models.Model):
 
 
 class StockX033250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -9996,8 +9996,8 @@ class StockX033250(models.Model):
 
 
 class StockX033270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10010,8 +10010,8 @@ class StockX033270(models.Model):
 
 
 class StockX033290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10024,8 +10024,8 @@ class StockX033290(models.Model):
 
 
 class StockX033310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10038,8 +10038,8 @@ class StockX033310(models.Model):
 
 
 class StockX033320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10052,8 +10052,8 @@ class StockX033320(models.Model):
 
 
 class StockX033340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10066,8 +10066,8 @@ class StockX033340(models.Model):
 
 
 class StockX033430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10080,8 +10080,8 @@ class StockX033430(models.Model):
 
 
 class StockX033500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10094,8 +10094,8 @@ class StockX033500(models.Model):
 
 
 class StockX033530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10108,8 +10108,8 @@ class StockX033530(models.Model):
 
 
 class StockX033540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10122,8 +10122,8 @@ class StockX033540(models.Model):
 
 
 class StockX033560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10136,8 +10136,8 @@ class StockX033560(models.Model):
 
 
 class StockX033600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10150,8 +10150,8 @@ class StockX033600(models.Model):
 
 
 class StockX033640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10164,8 +10164,8 @@ class StockX033640(models.Model):
 
 
 class StockX033660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10178,8 +10178,8 @@ class StockX033660(models.Model):
 
 
 class StockX033780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10192,8 +10192,8 @@ class StockX033780(models.Model):
 
 
 class StockX033790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10206,8 +10206,8 @@ class StockX033790(models.Model):
 
 
 class StockX033830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10220,8 +10220,8 @@ class StockX033830(models.Model):
 
 
 class StockX033920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10234,8 +10234,8 @@ class StockX033920(models.Model):
 
 
 class StockX034020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10248,8 +10248,8 @@ class StockX034020(models.Model):
 
 
 class StockX034120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10262,8 +10262,8 @@ class StockX034120(models.Model):
 
 
 class StockX034220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10276,8 +10276,8 @@ class StockX034220(models.Model):
 
 
 class StockX034230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10290,8 +10290,8 @@ class StockX034230(models.Model):
 
 
 class StockX034300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10304,8 +10304,8 @@ class StockX034300(models.Model):
 
 
 class StockX034310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10318,8 +10318,8 @@ class StockX034310(models.Model):
 
 
 class StockX034590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10332,8 +10332,8 @@ class StockX034590(models.Model):
 
 
 class StockX034730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10346,8 +10346,8 @@ class StockX034730(models.Model):
 
 
 class StockX034810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10360,8 +10360,8 @@ class StockX034810(models.Model):
 
 
 class StockX034830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10374,8 +10374,8 @@ class StockX034830(models.Model):
 
 
 class StockX034940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10388,8 +10388,8 @@ class StockX034940(models.Model):
 
 
 class StockX034950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10402,8 +10402,8 @@ class StockX034950(models.Model):
 
 
 class StockX035000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10416,8 +10416,8 @@ class StockX035000(models.Model):
 
 
 class StockX035080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10430,8 +10430,8 @@ class StockX035080(models.Model):
 
 
 class StockX035150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10444,8 +10444,8 @@ class StockX035150(models.Model):
 
 
 class StockX035200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10458,8 +10458,8 @@ class StockX035200(models.Model):
 
 
 class StockX035250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10472,8 +10472,8 @@ class StockX035250(models.Model):
 
 
 class StockX035290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10486,8 +10486,8 @@ class StockX035290(models.Model):
 
 
 class StockX035420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10500,8 +10500,8 @@ class StockX035420(models.Model):
 
 
 class StockX035460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10514,8 +10514,8 @@ class StockX035460(models.Model):
 
 
 class StockX035510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10528,8 +10528,8 @@ class StockX035510(models.Model):
 
 
 class StockX035600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10542,8 +10542,8 @@ class StockX035600(models.Model):
 
 
 class StockX035610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10556,8 +10556,8 @@ class StockX035610(models.Model):
 
 
 class StockX035620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10570,8 +10570,8 @@ class StockX035620(models.Model):
 
 
 class StockX035720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10584,8 +10584,8 @@ class StockX035720(models.Model):
 
 
 class StockX035760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10598,8 +10598,8 @@ class StockX035760(models.Model):
 
 
 class StockX035810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10612,8 +10612,8 @@ class StockX035810(models.Model):
 
 
 class StockX035890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10626,8 +10626,8 @@ class StockX035890(models.Model):
 
 
 class StockX035900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10640,8 +10640,8 @@ class StockX035900(models.Model):
 
 
 class StockX036000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10654,8 +10654,8 @@ class StockX036000(models.Model):
 
 
 class StockX036010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10668,8 +10668,8 @@ class StockX036010(models.Model):
 
 
 class StockX036030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10682,8 +10682,8 @@ class StockX036030(models.Model):
 
 
 class StockX036090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10696,8 +10696,8 @@ class StockX036090(models.Model):
 
 
 class StockX036120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10710,8 +10710,8 @@ class StockX036120(models.Model):
 
 
 class StockX036170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10724,8 +10724,8 @@ class StockX036170(models.Model):
 
 
 class StockX036180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10738,8 +10738,8 @@ class StockX036180(models.Model):
 
 
 class StockX036190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10752,8 +10752,8 @@ class StockX036190(models.Model):
 
 
 class StockX036200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10766,8 +10766,8 @@ class StockX036200(models.Model):
 
 
 class StockX036420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10780,8 +10780,8 @@ class StockX036420(models.Model):
 
 
 class StockX036460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10794,8 +10794,8 @@ class StockX036460(models.Model):
 
 
 class StockX036480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10808,8 +10808,8 @@ class StockX036480(models.Model):
 
 
 class StockX036490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10822,8 +10822,8 @@ class StockX036490(models.Model):
 
 
 class StockX036530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10836,8 +10836,8 @@ class StockX036530(models.Model):
 
 
 class StockX036540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10850,8 +10850,8 @@ class StockX036540(models.Model):
 
 
 class StockX036560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10864,8 +10864,8 @@ class StockX036560(models.Model):
 
 
 class StockX036570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10878,8 +10878,8 @@ class StockX036570(models.Model):
 
 
 class StockX036580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10892,8 +10892,8 @@ class StockX036580(models.Model):
 
 
 class StockX036620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10906,8 +10906,8 @@ class StockX036620(models.Model):
 
 
 class StockX036630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10920,8 +10920,8 @@ class StockX036630(models.Model):
 
 
 class StockX036640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10934,8 +10934,8 @@ class StockX036640(models.Model):
 
 
 class StockX036670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10948,8 +10948,8 @@ class StockX036670(models.Model):
 
 
 class StockX036690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10962,8 +10962,8 @@ class StockX036690(models.Model):
 
 
 class StockX036710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10976,8 +10976,8 @@ class StockX036710(models.Model):
 
 
 class StockX036800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -10990,8 +10990,8 @@ class StockX036800(models.Model):
 
 
 class StockX036810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11004,8 +11004,8 @@ class StockX036810(models.Model):
 
 
 class StockX036830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11018,8 +11018,8 @@ class StockX036830(models.Model):
 
 
 class StockX036890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11032,8 +11032,8 @@ class StockX036890(models.Model):
 
 
 class StockX036930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11046,8 +11046,8 @@ class StockX036930(models.Model):
 
 
 class StockX037030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11060,8 +11060,8 @@ class StockX037030(models.Model):
 
 
 class StockX037070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11074,8 +11074,8 @@ class StockX037070(models.Model):
 
 
 class StockX037230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11088,8 +11088,8 @@ class StockX037230(models.Model):
 
 
 class StockX037270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11102,8 +11102,8 @@ class StockX037270(models.Model):
 
 
 class StockX037330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11116,8 +11116,8 @@ class StockX037330(models.Model):
 
 
 class StockX037350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11130,8 +11130,8 @@ class StockX037350(models.Model):
 
 
 class StockX037370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11144,8 +11144,8 @@ class StockX037370(models.Model):
 
 
 class StockX037400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11158,8 +11158,8 @@ class StockX037400(models.Model):
 
 
 class StockX037440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11172,8 +11172,8 @@ class StockX037440(models.Model):
 
 
 class StockX037460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11186,8 +11186,8 @@ class StockX037460(models.Model):
 
 
 class StockX037560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11200,8 +11200,8 @@ class StockX037560(models.Model):
 
 
 class StockX037710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11214,8 +11214,8 @@ class StockX037710(models.Model):
 
 
 class StockX037760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11228,8 +11228,8 @@ class StockX037760(models.Model):
 
 
 class StockX037950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11242,8 +11242,8 @@ class StockX037950(models.Model):
 
 
 class StockX038010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11256,8 +11256,8 @@ class StockX038010(models.Model):
 
 
 class StockX038060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11270,8 +11270,8 @@ class StockX038060(models.Model):
 
 
 class StockX038070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11284,8 +11284,8 @@ class StockX038070(models.Model):
 
 
 class StockX038110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11298,8 +11298,8 @@ class StockX038110(models.Model):
 
 
 class StockX038160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11312,8 +11312,8 @@ class StockX038160(models.Model):
 
 
 class StockX038290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11326,8 +11326,8 @@ class StockX038290(models.Model):
 
 
 class StockX038340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11340,8 +11340,8 @@ class StockX038340(models.Model):
 
 
 class StockX038390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11354,8 +11354,8 @@ class StockX038390(models.Model):
 
 
 class StockX038460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11368,8 +11368,8 @@ class StockX038460(models.Model):
 
 
 class StockX038500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11382,8 +11382,8 @@ class StockX038500(models.Model):
 
 
 class StockX038530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11396,8 +11396,8 @@ class StockX038530(models.Model):
 
 
 class StockX038540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11410,8 +11410,8 @@ class StockX038540(models.Model):
 
 
 class StockX038620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11424,8 +11424,8 @@ class StockX038620(models.Model):
 
 
 class StockX038680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11438,8 +11438,8 @@ class StockX038680(models.Model):
 
 
 class StockX038870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11452,8 +11452,8 @@ class StockX038870(models.Model):
 
 
 class StockX038880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11466,8 +11466,8 @@ class StockX038880(models.Model):
 
 
 class StockX038950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11480,8 +11480,8 @@ class StockX038950(models.Model):
 
 
 class StockX039010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11494,8 +11494,8 @@ class StockX039010(models.Model):
 
 
 class StockX039020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11508,8 +11508,8 @@ class StockX039020(models.Model):
 
 
 class StockX039030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11522,8 +11522,8 @@ class StockX039030(models.Model):
 
 
 class StockX039130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11536,8 +11536,8 @@ class StockX039130(models.Model):
 
 
 class StockX039200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11550,8 +11550,8 @@ class StockX039200(models.Model):
 
 
 class StockX039230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11564,8 +11564,8 @@ class StockX039230(models.Model):
 
 
 class StockX039240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11578,8 +11578,8 @@ class StockX039240(models.Model):
 
 
 class StockX039290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11592,8 +11592,8 @@ class StockX039290(models.Model):
 
 
 class StockX039310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11606,8 +11606,8 @@ class StockX039310(models.Model):
 
 
 class StockX039340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11620,8 +11620,8 @@ class StockX039340(models.Model):
 
 
 class StockX039420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11634,8 +11634,8 @@ class StockX039420(models.Model):
 
 
 class StockX039440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11648,8 +11648,8 @@ class StockX039440(models.Model):
 
 
 class StockX039490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11662,8 +11662,8 @@ class StockX039490(models.Model):
 
 
 class StockX039560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11676,8 +11676,8 @@ class StockX039560(models.Model):
 
 
 class StockX039570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11690,8 +11690,8 @@ class StockX039570(models.Model):
 
 
 class StockX039610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11704,8 +11704,8 @@ class StockX039610(models.Model):
 
 
 class StockX039670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11718,8 +11718,8 @@ class StockX039670(models.Model):
 
 
 class StockX039740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11732,8 +11732,8 @@ class StockX039740(models.Model):
 
 
 class StockX039830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11746,8 +11746,8 @@ class StockX039830(models.Model):
 
 
 class StockX039840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11760,8 +11760,8 @@ class StockX039840(models.Model):
 
 
 class StockX039860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11774,8 +11774,8 @@ class StockX039860(models.Model):
 
 
 class StockX039980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11788,8 +11788,8 @@ class StockX039980(models.Model):
 
 
 class StockX040160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11802,8 +11802,8 @@ class StockX040160(models.Model):
 
 
 class StockX040300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11816,8 +11816,8 @@ class StockX040300(models.Model):
 
 
 class StockX040350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11830,8 +11830,8 @@ class StockX040350(models.Model):
 
 
 class StockX040420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11844,8 +11844,8 @@ class StockX040420(models.Model):
 
 
 class StockX040610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11858,8 +11858,8 @@ class StockX040610(models.Model):
 
 
 class StockX040910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11872,8 +11872,8 @@ class StockX040910(models.Model):
 
 
 class StockX041020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11886,8 +11886,8 @@ class StockX041020(models.Model):
 
 
 class StockX041140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11900,8 +11900,8 @@ class StockX041140(models.Model):
 
 
 class StockX041190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11914,8 +11914,8 @@ class StockX041190(models.Model):
 
 
 class StockX041440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11928,8 +11928,8 @@ class StockX041440(models.Model):
 
 
 class StockX041460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11942,8 +11942,8 @@ class StockX041460(models.Model):
 
 
 class StockX041510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11956,8 +11956,8 @@ class StockX041510(models.Model):
 
 
 class StockX041520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11970,8 +11970,8 @@ class StockX041520(models.Model):
 
 
 class StockX041590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11984,8 +11984,8 @@ class StockX041590(models.Model):
 
 
 class StockX041650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -11998,8 +11998,8 @@ class StockX041650(models.Model):
 
 
 class StockX041830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12012,8 +12012,8 @@ class StockX041830(models.Model):
 
 
 class StockX041910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12026,8 +12026,8 @@ class StockX041910(models.Model):
 
 
 class StockX041920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12040,8 +12040,8 @@ class StockX041920(models.Model):
 
 
 class StockX041930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12054,8 +12054,8 @@ class StockX041930(models.Model):
 
 
 class StockX041960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12068,8 +12068,8 @@ class StockX041960(models.Model):
 
 
 class StockX042000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12082,8 +12082,8 @@ class StockX042000(models.Model):
 
 
 class StockX042040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12096,8 +12096,8 @@ class StockX042040(models.Model):
 
 
 class StockX042110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12110,8 +12110,8 @@ class StockX042110(models.Model):
 
 
 class StockX042370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12124,8 +12124,8 @@ class StockX042370(models.Model):
 
 
 class StockX042420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12138,8 +12138,8 @@ class StockX042420(models.Model):
 
 
 class StockX042500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12152,8 +12152,8 @@ class StockX042500(models.Model):
 
 
 class StockX042510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12166,8 +12166,8 @@ class StockX042510(models.Model):
 
 
 class StockX042520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12180,8 +12180,8 @@ class StockX042520(models.Model):
 
 
 class StockX042600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12194,8 +12194,8 @@ class StockX042600(models.Model):
 
 
 class StockX042660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12208,8 +12208,8 @@ class StockX042660(models.Model):
 
 
 class StockX042670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12222,8 +12222,8 @@ class StockX042670(models.Model):
 
 
 class StockX042700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12236,8 +12236,8 @@ class StockX042700(models.Model):
 
 
 class StockX042940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12250,8 +12250,8 @@ class StockX042940(models.Model):
 
 
 class StockX043090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12264,8 +12264,8 @@ class StockX043090(models.Model):
 
 
 class StockX043100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12278,8 +12278,8 @@ class StockX043100(models.Model):
 
 
 class StockX043150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12292,8 +12292,8 @@ class StockX043150(models.Model):
 
 
 class StockX043200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12306,8 +12306,8 @@ class StockX043200(models.Model):
 
 
 class StockX043220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12320,8 +12320,8 @@ class StockX043220(models.Model):
 
 
 class StockX043260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12334,8 +12334,8 @@ class StockX043260(models.Model):
 
 
 class StockX043290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12348,8 +12348,8 @@ class StockX043290(models.Model):
 
 
 class StockX043340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12362,8 +12362,8 @@ class StockX043340(models.Model):
 
 
 class StockX043360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12376,8 +12376,8 @@ class StockX043360(models.Model):
 
 
 class StockX043370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12390,8 +12390,8 @@ class StockX043370(models.Model):
 
 
 class StockX043590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12404,8 +12404,8 @@ class StockX043590(models.Model):
 
 
 class StockX043610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12418,8 +12418,8 @@ class StockX043610(models.Model):
 
 
 class StockX043650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12432,8 +12432,8 @@ class StockX043650(models.Model):
 
 
 class StockX043710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12446,8 +12446,8 @@ class StockX043710(models.Model):
 
 
 class StockX043910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12460,8 +12460,8 @@ class StockX043910(models.Model):
 
 
 class StockX044060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12474,8 +12474,8 @@ class StockX044060(models.Model):
 
 
 class StockX044180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12488,8 +12488,8 @@ class StockX044180(models.Model):
 
 
 class StockX044340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12502,8 +12502,8 @@ class StockX044340(models.Model):
 
 
 class StockX044380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12516,8 +12516,8 @@ class StockX044380(models.Model):
 
 
 class StockX044450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12530,8 +12530,8 @@ class StockX044450(models.Model):
 
 
 class StockX044480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12544,8 +12544,8 @@ class StockX044480(models.Model):
 
 
 class StockX044490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12558,8 +12558,8 @@ class StockX044490(models.Model):
 
 
 class StockX044780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12572,8 +12572,8 @@ class StockX044780(models.Model):
 
 
 class StockX044820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12586,8 +12586,8 @@ class StockX044820(models.Model):
 
 
 class StockX044960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12600,8 +12600,8 @@ class StockX044960(models.Model):
 
 
 class StockX045060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12614,8 +12614,8 @@ class StockX045060(models.Model):
 
 
 class StockX045100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12628,8 +12628,8 @@ class StockX045100(models.Model):
 
 
 class StockX045300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12642,8 +12642,8 @@ class StockX045300(models.Model):
 
 
 class StockX045340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12656,8 +12656,8 @@ class StockX045340(models.Model):
 
 
 class StockX045390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12670,8 +12670,8 @@ class StockX045390(models.Model):
 
 
 class StockX045510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12684,8 +12684,8 @@ class StockX045510(models.Model):
 
 
 class StockX045520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12698,8 +12698,8 @@ class StockX045520(models.Model):
 
 
 class StockX045660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12712,8 +12712,8 @@ class StockX045660(models.Model):
 
 
 class StockX045890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12726,8 +12726,8 @@ class StockX045890(models.Model):
 
 
 class StockX045970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12740,8 +12740,8 @@ class StockX045970(models.Model):
 
 
 class StockX046070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12754,8 +12754,8 @@ class StockX046070(models.Model):
 
 
 class StockX046110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12768,8 +12768,8 @@ class StockX046110(models.Model):
 
 
 class StockX046120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12782,8 +12782,8 @@ class StockX046120(models.Model):
 
 
 class StockX046140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12796,8 +12796,8 @@ class StockX046140(models.Model):
 
 
 class StockX046210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12810,8 +12810,8 @@ class StockX046210(models.Model):
 
 
 class StockX046310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12824,8 +12824,8 @@ class StockX046310(models.Model):
 
 
 class StockX046390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12838,8 +12838,8 @@ class StockX046390(models.Model):
 
 
 class StockX046440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12852,8 +12852,8 @@ class StockX046440(models.Model):
 
 
 class StockX046890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12866,8 +12866,8 @@ class StockX046890(models.Model):
 
 
 class StockX046940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12880,8 +12880,8 @@ class StockX046940(models.Model):
 
 
 class StockX046970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12894,8 +12894,8 @@ class StockX046970(models.Model):
 
 
 class StockX047040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12908,8 +12908,8 @@ class StockX047040(models.Model):
 
 
 class StockX047050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12922,8 +12922,8 @@ class StockX047050(models.Model):
 
 
 class StockX047080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12936,8 +12936,8 @@ class StockX047080(models.Model):
 
 
 class StockX047310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12950,8 +12950,8 @@ class StockX047310(models.Model):
 
 
 class StockX047400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12964,8 +12964,8 @@ class StockX047400(models.Model):
 
 
 class StockX047560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12978,8 +12978,8 @@ class StockX047560(models.Model):
 
 
 class StockX047770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -12992,8 +12992,8 @@ class StockX047770(models.Model):
 
 
 class StockX047810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13006,8 +13006,8 @@ class StockX047810(models.Model):
 
 
 class StockX047820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13020,8 +13020,8 @@ class StockX047820(models.Model):
 
 
 class StockX047920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13034,8 +13034,8 @@ class StockX047920(models.Model):
 
 
 class StockX048260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13048,8 +13048,8 @@ class StockX048260(models.Model):
 
 
 class StockX048410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13062,8 +13062,8 @@ class StockX048410(models.Model):
 
 
 class StockX048430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13076,8 +13076,8 @@ class StockX048430(models.Model):
 
 
 class StockX048470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13090,8 +13090,8 @@ class StockX048470(models.Model):
 
 
 class StockX048530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13104,8 +13104,8 @@ class StockX048530(models.Model):
 
 
 class StockX048550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13118,8 +13118,8 @@ class StockX048550(models.Model):
 
 
 class StockX048770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13132,8 +13132,8 @@ class StockX048770(models.Model):
 
 
 class StockX048830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13146,8 +13146,8 @@ class StockX048830(models.Model):
 
 
 class StockX048870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13160,8 +13160,8 @@ class StockX048870(models.Model):
 
 
 class StockX048910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13174,8 +13174,8 @@ class StockX048910(models.Model):
 
 
 class StockX049070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13188,8 +13188,8 @@ class StockX049070(models.Model):
 
 
 class StockX049080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13202,8 +13202,8 @@ class StockX049080(models.Model):
 
 
 class StockX049120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13216,8 +13216,8 @@ class StockX049120(models.Model):
 
 
 class StockX049180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13230,8 +13230,8 @@ class StockX049180(models.Model):
 
 
 class StockX049430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13244,8 +13244,8 @@ class StockX049430(models.Model):
 
 
 class StockX049470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13258,8 +13258,8 @@ class StockX049470(models.Model):
 
 
 class StockX049480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13272,8 +13272,8 @@ class StockX049480(models.Model):
 
 
 class StockX049520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13286,8 +13286,8 @@ class StockX049520(models.Model):
 
 
 class StockX049550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13300,8 +13300,8 @@ class StockX049550(models.Model):
 
 
 class StockX049630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13314,8 +13314,8 @@ class StockX049630(models.Model):
 
 
 class StockX049720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13328,8 +13328,8 @@ class StockX049720(models.Model):
 
 
 class StockX049770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13342,8 +13342,8 @@ class StockX049770(models.Model):
 
 
 class StockX049800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13356,8 +13356,8 @@ class StockX049800(models.Model):
 
 
 class StockX049830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13370,8 +13370,8 @@ class StockX049830(models.Model):
 
 
 class StockX049950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13384,8 +13384,8 @@ class StockX049950(models.Model):
 
 
 class StockX049960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13398,8 +13398,8 @@ class StockX049960(models.Model):
 
 
 class StockX050090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13412,8 +13412,8 @@ class StockX050090(models.Model):
 
 
 class StockX050110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13426,8 +13426,8 @@ class StockX050110(models.Model):
 
 
 class StockX050120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13440,8 +13440,8 @@ class StockX050120(models.Model):
 
 
 class StockX050320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13454,8 +13454,8 @@ class StockX050320(models.Model):
 
 
 class StockX050540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13468,8 +13468,8 @@ class StockX050540(models.Model):
 
 
 class StockX050760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13482,8 +13482,8 @@ class StockX050760(models.Model):
 
 
 class StockX050860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13496,8 +13496,8 @@ class StockX050860(models.Model):
 
 
 class StockX050890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13510,8 +13510,8 @@ class StockX050890(models.Model):
 
 
 class StockX050960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13524,8 +13524,8 @@ class StockX050960(models.Model):
 
 
 class StockX051160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13538,8 +13538,8 @@ class StockX051160(models.Model):
 
 
 class StockX051360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13552,8 +13552,8 @@ class StockX051360(models.Model):
 
 
 class StockX051370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13566,8 +13566,8 @@ class StockX051370(models.Model):
 
 
 class StockX051380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13580,8 +13580,8 @@ class StockX051380(models.Model):
 
 
 class StockX051390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13594,8 +13594,8 @@ class StockX051390(models.Model):
 
 
 class StockX051490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13608,8 +13608,8 @@ class StockX051490(models.Model):
 
 
 class StockX051500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13622,8 +13622,8 @@ class StockX051500(models.Model):
 
 
 class StockX051600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13636,8 +13636,8 @@ class StockX051600(models.Model):
 
 
 class StockX051630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13650,8 +13650,8 @@ class StockX051630(models.Model):
 
 
 class StockX051780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13664,8 +13664,8 @@ class StockX051780(models.Model):
 
 
 class StockX051900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13678,8 +13678,8 @@ class StockX051900(models.Model):
 
 
 class StockX051910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13692,8 +13692,8 @@ class StockX051910(models.Model):
 
 
 class StockX051980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13706,8 +13706,8 @@ class StockX051980(models.Model):
 
 
 class StockX052020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13720,8 +13720,8 @@ class StockX052020(models.Model):
 
 
 class StockX052190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13734,8 +13734,8 @@ class StockX052190(models.Model):
 
 
 class StockX052220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13748,8 +13748,8 @@ class StockX052220(models.Model):
 
 
 class StockX052260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13762,8 +13762,8 @@ class StockX052260(models.Model):
 
 
 class StockX052300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13776,8 +13776,8 @@ class StockX052300(models.Model):
 
 
 class StockX052330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13790,8 +13790,8 @@ class StockX052330(models.Model):
 
 
 class StockX052400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13804,8 +13804,8 @@ class StockX052400(models.Model):
 
 
 class StockX052420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13818,8 +13818,8 @@ class StockX052420(models.Model):
 
 
 class StockX052460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13832,8 +13832,8 @@ class StockX052460(models.Model):
 
 
 class StockX052600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13846,8 +13846,8 @@ class StockX052600(models.Model):
 
 
 class StockX052670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13860,8 +13860,8 @@ class StockX052670(models.Model):
 
 
 class StockX052690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13874,8 +13874,8 @@ class StockX052690(models.Model):
 
 
 class StockX052710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13888,8 +13888,8 @@ class StockX052710(models.Model):
 
 
 class StockX052770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13902,8 +13902,8 @@ class StockX052770(models.Model):
 
 
 class StockX052790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13916,8 +13916,8 @@ class StockX052790(models.Model):
 
 
 class StockX052860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13930,8 +13930,8 @@ class StockX052860(models.Model):
 
 
 class StockX052900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13944,8 +13944,8 @@ class StockX052900(models.Model):
 
 
 class StockX053030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13958,8 +13958,8 @@ class StockX053030(models.Model):
 
 
 class StockX053050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13972,8 +13972,8 @@ class StockX053050(models.Model):
 
 
 class StockX053060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -13986,8 +13986,8 @@ class StockX053060(models.Model):
 
 
 class StockX053080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14000,8 +14000,8 @@ class StockX053080(models.Model):
 
 
 class StockX053110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14014,8 +14014,8 @@ class StockX053110(models.Model):
 
 
 class StockX053160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14028,8 +14028,8 @@ class StockX053160(models.Model):
 
 
 class StockX053210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14042,8 +14042,8 @@ class StockX053210(models.Model):
 
 
 class StockX053260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14056,8 +14056,8 @@ class StockX053260(models.Model):
 
 
 class StockX053270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14070,8 +14070,8 @@ class StockX053270(models.Model):
 
 
 class StockX053280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14084,8 +14084,8 @@ class StockX053280(models.Model):
 
 
 class StockX053290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14098,8 +14098,8 @@ class StockX053290(models.Model):
 
 
 class StockX053300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14112,8 +14112,8 @@ class StockX053300(models.Model):
 
 
 class StockX053350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14126,8 +14126,8 @@ class StockX053350(models.Model):
 
 
 class StockX053450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14140,8 +14140,8 @@ class StockX053450(models.Model):
 
 
 class StockX053580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14154,8 +14154,8 @@ class StockX053580(models.Model):
 
 
 class StockX053590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14168,8 +14168,8 @@ class StockX053590(models.Model):
 
 
 class StockX053610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14182,8 +14182,8 @@ class StockX053610(models.Model):
 
 
 class StockX053620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14196,8 +14196,8 @@ class StockX053620(models.Model):
 
 
 class StockX053660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14210,8 +14210,8 @@ class StockX053660(models.Model):
 
 
 class StockX053690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14224,8 +14224,8 @@ class StockX053690(models.Model):
 
 
 class StockX053700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14238,8 +14238,8 @@ class StockX053700(models.Model):
 
 
 class StockX053800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14252,8 +14252,8 @@ class StockX053800(models.Model):
 
 
 class StockX053950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14266,8 +14266,8 @@ class StockX053950(models.Model):
 
 
 class StockX053980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14280,8 +14280,8 @@ class StockX053980(models.Model):
 
 
 class StockX054040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14294,8 +14294,8 @@ class StockX054040(models.Model):
 
 
 class StockX054050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14308,8 +14308,8 @@ class StockX054050(models.Model):
 
 
 class StockX054090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14322,8 +14322,8 @@ class StockX054090(models.Model):
 
 
 class StockX054180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14336,8 +14336,8 @@ class StockX054180(models.Model):
 
 
 class StockX054210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14350,8 +14350,8 @@ class StockX054210(models.Model):
 
 
 class StockX054220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14364,8 +14364,8 @@ class StockX054220(models.Model):
 
 
 class StockX054300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14378,8 +14378,8 @@ class StockX054300(models.Model):
 
 
 class StockX054410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14392,8 +14392,8 @@ class StockX054410(models.Model):
 
 
 class StockX054450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14406,8 +14406,8 @@ class StockX054450(models.Model):
 
 
 class StockX054540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14420,8 +14420,8 @@ class StockX054540(models.Model):
 
 
 class StockX054620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14434,8 +14434,8 @@ class StockX054620(models.Model):
 
 
 class StockX054630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14448,8 +14448,8 @@ class StockX054630(models.Model):
 
 
 class StockX054670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14462,8 +14462,8 @@ class StockX054670(models.Model):
 
 
 class StockX054780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14476,8 +14476,8 @@ class StockX054780(models.Model):
 
 
 class StockX054800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14490,8 +14490,8 @@ class StockX054800(models.Model):
 
 
 class StockX054920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14504,8 +14504,8 @@ class StockX054920(models.Model):
 
 
 class StockX054930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14518,8 +14518,8 @@ class StockX054930(models.Model):
 
 
 class StockX054940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14532,8 +14532,8 @@ class StockX054940(models.Model):
 
 
 class StockX054950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14546,8 +14546,8 @@ class StockX054950(models.Model):
 
 
 class StockX055490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14560,8 +14560,8 @@ class StockX055490(models.Model):
 
 
 class StockX055550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14574,8 +14574,8 @@ class StockX055550(models.Model):
 
 
 class StockX056000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14588,8 +14588,8 @@ class StockX056000(models.Model):
 
 
 class StockX056080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14602,8 +14602,8 @@ class StockX056080(models.Model):
 
 
 class StockX056090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14616,8 +14616,8 @@ class StockX056090(models.Model):
 
 
 class StockX056190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14630,8 +14630,8 @@ class StockX056190(models.Model):
 
 
 class StockX056360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14644,8 +14644,8 @@ class StockX056360(models.Model):
 
 
 class StockX056700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14658,8 +14658,8 @@ class StockX056700(models.Model):
 
 
 class StockX056730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14672,8 +14672,8 @@ class StockX056730(models.Model):
 
 
 class StockX057030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14686,8 +14686,8 @@ class StockX057030(models.Model):
 
 
 class StockX057050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14700,8 +14700,8 @@ class StockX057050(models.Model):
 
 
 class StockX057540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14714,8 +14714,8 @@ class StockX057540(models.Model):
 
 
 class StockX057680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14728,8 +14728,8 @@ class StockX057680(models.Model):
 
 
 class StockX057880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14742,8 +14742,8 @@ class StockX057880(models.Model):
 
 
 class StockX058110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14756,8 +14756,8 @@ class StockX058110(models.Model):
 
 
 class StockX058220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14770,8 +14770,8 @@ class StockX058220(models.Model):
 
 
 class StockX058400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14784,8 +14784,8 @@ class StockX058400(models.Model):
 
 
 class StockX058420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14798,8 +14798,8 @@ class StockX058420(models.Model):
 
 
 class StockX058430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14812,8 +14812,8 @@ class StockX058430(models.Model):
 
 
 class StockX058450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14826,8 +14826,8 @@ class StockX058450(models.Model):
 
 
 class StockX058470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14840,8 +14840,8 @@ class StockX058470(models.Model):
 
 
 class StockX058530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14854,8 +14854,8 @@ class StockX058530(models.Model):
 
 
 class StockX058610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14868,8 +14868,8 @@ class StockX058610(models.Model):
 
 
 class StockX058630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14882,8 +14882,8 @@ class StockX058630(models.Model):
 
 
 class StockX058650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14896,8 +14896,8 @@ class StockX058650(models.Model):
 
 
 class StockX058730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14910,8 +14910,8 @@ class StockX058730(models.Model):
 
 
 class StockX058820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14924,8 +14924,8 @@ class StockX058820(models.Model):
 
 
 class StockX058850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14938,8 +14938,8 @@ class StockX058850(models.Model):
 
 
 class StockX058860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14952,8 +14952,8 @@ class StockX058860(models.Model):
 
 
 class StockX059090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14966,8 +14966,8 @@ class StockX059090(models.Model):
 
 
 class StockX059100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14980,8 +14980,8 @@ class StockX059100(models.Model):
 
 
 class StockX059120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -14994,8 +14994,8 @@ class StockX059120(models.Model):
 
 
 class StockX059210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15008,8 +15008,8 @@ class StockX059210(models.Model):
 
 
 class StockX059270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15022,8 +15022,8 @@ class StockX059270(models.Model):
 
 
 class StockX060150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15036,8 +15036,8 @@ class StockX060150(models.Model):
 
 
 class StockX060230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15050,8 +15050,8 @@ class StockX060230(models.Model):
 
 
 class StockX060240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15064,8 +15064,8 @@ class StockX060240(models.Model):
 
 
 class StockX060250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15078,8 +15078,8 @@ class StockX060250(models.Model):
 
 
 class StockX060260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15092,8 +15092,8 @@ class StockX060260(models.Model):
 
 
 class StockX060280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15106,8 +15106,8 @@ class StockX060280(models.Model):
 
 
 class StockX060300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15120,8 +15120,8 @@ class StockX060300(models.Model):
 
 
 class StockX060310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15134,8 +15134,8 @@ class StockX060310(models.Model):
 
 
 class StockX060370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15148,8 +15148,8 @@ class StockX060370(models.Model):
 
 
 class StockX060380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15162,8 +15162,8 @@ class StockX060380(models.Model):
 
 
 class StockX060480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15176,8 +15176,8 @@ class StockX060480(models.Model):
 
 
 class StockX060540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15190,8 +15190,8 @@ class StockX060540(models.Model):
 
 
 class StockX060560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15204,8 +15204,8 @@ class StockX060560(models.Model):
 
 
 class StockX060570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15218,8 +15218,8 @@ class StockX060570(models.Model):
 
 
 class StockX060590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15232,8 +15232,8 @@ class StockX060590(models.Model):
 
 
 class StockX060720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15246,8 +15246,8 @@ class StockX060720(models.Model):
 
 
 class StockX060850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15260,8 +15260,8 @@ class StockX060850(models.Model):
 
 
 class StockX060900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15274,8 +15274,8 @@ class StockX060900(models.Model):
 
 
 class StockX060980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15288,8 +15288,8 @@ class StockX060980(models.Model):
 
 
 class StockX061040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15302,8 +15302,8 @@ class StockX061040(models.Model):
 
 
 class StockX061250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15316,8 +15316,8 @@ class StockX061250(models.Model):
 
 
 class StockX061970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15330,8 +15330,8 @@ class StockX061970(models.Model):
 
 
 class StockX062860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15344,8 +15344,8 @@ class StockX062860(models.Model):
 
 
 class StockX062970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15358,8 +15358,8 @@ class StockX062970(models.Model):
 
 
 class StockX063080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15372,8 +15372,8 @@ class StockX063080(models.Model):
 
 
 class StockX063160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15386,8 +15386,8 @@ class StockX063160(models.Model):
 
 
 class StockX063170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15400,8 +15400,8 @@ class StockX063170(models.Model):
 
 
 class StockX063440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15414,8 +15414,8 @@ class StockX063440(models.Model):
 
 
 class StockX063570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15428,8 +15428,8 @@ class StockX063570(models.Model):
 
 
 class StockX063760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15442,8 +15442,8 @@ class StockX063760(models.Model):
 
 
 class StockX064090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15456,8 +15456,8 @@ class StockX064090(models.Model):
 
 
 class StockX064240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15470,8 +15470,8 @@ class StockX064240(models.Model):
 
 
 class StockX064260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15484,8 +15484,8 @@ class StockX064260(models.Model):
 
 
 class StockX064290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15498,8 +15498,8 @@ class StockX064290(models.Model):
 
 
 class StockX064350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15512,8 +15512,8 @@ class StockX064350(models.Model):
 
 
 class StockX064480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15526,8 +15526,8 @@ class StockX064480(models.Model):
 
 
 class StockX064510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15540,8 +15540,8 @@ class StockX064510(models.Model):
 
 
 class StockX064520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15554,8 +15554,8 @@ class StockX064520(models.Model):
 
 
 class StockX064550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15568,8 +15568,8 @@ class StockX064550(models.Model):
 
 
 class StockX064760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15582,8 +15582,8 @@ class StockX064760(models.Model):
 
 
 class StockX064800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15596,8 +15596,8 @@ class StockX064800(models.Model):
 
 
 class StockX064820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15610,8 +15610,8 @@ class StockX064820(models.Model):
 
 
 class StockX064850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15624,8 +15624,8 @@ class StockX064850(models.Model):
 
 
 class StockX064960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15638,8 +15638,8 @@ class StockX064960(models.Model):
 
 
 class StockX065060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15652,8 +15652,8 @@ class StockX065060(models.Model):
 
 
 class StockX065130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15666,8 +15666,8 @@ class StockX065130(models.Model):
 
 
 class StockX065150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15680,8 +15680,8 @@ class StockX065150(models.Model):
 
 
 class StockX065170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15694,8 +15694,8 @@ class StockX065170(models.Model):
 
 
 class StockX065350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15708,8 +15708,8 @@ class StockX065350(models.Model):
 
 
 class StockX065370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15722,8 +15722,8 @@ class StockX065370(models.Model):
 
 
 class StockX065420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15736,8 +15736,8 @@ class StockX065420(models.Model):
 
 
 class StockX065440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15750,8 +15750,8 @@ class StockX065440(models.Model):
 
 
 class StockX065450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15764,8 +15764,8 @@ class StockX065450(models.Model):
 
 
 class StockX065500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15778,8 +15778,8 @@ class StockX065500(models.Model):
 
 
 class StockX065510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15792,8 +15792,8 @@ class StockX065510(models.Model):
 
 
 class StockX065530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15806,8 +15806,8 @@ class StockX065530(models.Model):
 
 
 class StockX065560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15820,8 +15820,8 @@ class StockX065560(models.Model):
 
 
 class StockX065570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15834,8 +15834,8 @@ class StockX065570(models.Model):
 
 
 class StockX065620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15848,8 +15848,8 @@ class StockX065620(models.Model):
 
 
 class StockX065650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15862,8 +15862,8 @@ class StockX065650(models.Model):
 
 
 class StockX065660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15876,8 +15876,8 @@ class StockX065660(models.Model):
 
 
 class StockX065680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15890,8 +15890,8 @@ class StockX065680(models.Model):
 
 
 class StockX065690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15904,8 +15904,8 @@ class StockX065690(models.Model):
 
 
 class StockX065710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15918,8 +15918,8 @@ class StockX065710(models.Model):
 
 
 class StockX065770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15932,8 +15932,8 @@ class StockX065770(models.Model):
 
 
 class StockX065950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15946,8 +15946,8 @@ class StockX065950(models.Model):
 
 
 class StockX066110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15960,8 +15960,8 @@ class StockX066110(models.Model):
 
 
 class StockX066130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15974,8 +15974,8 @@ class StockX066130(models.Model):
 
 
 class StockX066310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -15988,8 +15988,8 @@ class StockX066310(models.Model):
 
 
 class StockX066360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16002,8 +16002,8 @@ class StockX066360(models.Model):
 
 
 class StockX066410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16016,8 +16016,8 @@ class StockX066410(models.Model):
 
 
 class StockX066430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16030,8 +16030,8 @@ class StockX066430(models.Model):
 
 
 class StockX066570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16044,8 +16044,8 @@ class StockX066570(models.Model):
 
 
 class StockX066590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16058,8 +16058,8 @@ class StockX066590(models.Model):
 
 
 class StockX066620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16072,8 +16072,8 @@ class StockX066620(models.Model):
 
 
 class StockX066670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16086,8 +16086,8 @@ class StockX066670(models.Model):
 
 
 class StockX066700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16100,8 +16100,8 @@ class StockX066700(models.Model):
 
 
 class StockX066790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16114,8 +16114,8 @@ class StockX066790(models.Model):
 
 
 class StockX066900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16128,8 +16128,8 @@ class StockX066900(models.Model):
 
 
 class StockX066910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16142,8 +16142,8 @@ class StockX066910(models.Model):
 
 
 class StockX066970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16156,8 +16156,8 @@ class StockX066970(models.Model):
 
 
 class StockX066980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16170,8 +16170,8 @@ class StockX066980(models.Model):
 
 
 class StockX067000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16184,8 +16184,8 @@ class StockX067000(models.Model):
 
 
 class StockX067010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16198,8 +16198,8 @@ class StockX067010(models.Model):
 
 
 class StockX067080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16212,8 +16212,8 @@ class StockX067080(models.Model):
 
 
 class StockX067160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16226,8 +16226,8 @@ class StockX067160(models.Model):
 
 
 class StockX067170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16240,8 +16240,8 @@ class StockX067170(models.Model):
 
 
 class StockX067280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16254,8 +16254,8 @@ class StockX067280(models.Model):
 
 
 class StockX067290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16268,8 +16268,8 @@ class StockX067290(models.Model):
 
 
 class StockX067310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16282,8 +16282,8 @@ class StockX067310(models.Model):
 
 
 class StockX067390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16296,8 +16296,8 @@ class StockX067390(models.Model):
 
 
 class StockX067570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16310,8 +16310,8 @@ class StockX067570(models.Model):
 
 
 class StockX067630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16324,8 +16324,8 @@ class StockX067630(models.Model):
 
 
 class StockX067730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16338,8 +16338,8 @@ class StockX067730(models.Model):
 
 
 class StockX067770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16352,8 +16352,8 @@ class StockX067770(models.Model):
 
 
 class StockX067830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16366,8 +16366,8 @@ class StockX067830(models.Model):
 
 
 class StockX067900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16380,8 +16380,8 @@ class StockX067900(models.Model):
 
 
 class StockX067920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16394,8 +16394,8 @@ class StockX067920(models.Model):
 
 
 class StockX067990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16408,8 +16408,8 @@ class StockX067990(models.Model):
 
 
 class StockX068050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16422,8 +16422,8 @@ class StockX068050(models.Model):
 
 
 class StockX068240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16436,8 +16436,8 @@ class StockX068240(models.Model):
 
 
 class StockX068270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16450,8 +16450,8 @@ class StockX068270(models.Model):
 
 
 class StockX068290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16464,8 +16464,8 @@ class StockX068290(models.Model):
 
 
 class StockX068330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16478,8 +16478,8 @@ class StockX068330(models.Model):
 
 
 class StockX068400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16492,8 +16492,8 @@ class StockX068400(models.Model):
 
 
 class StockX068760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16506,8 +16506,8 @@ class StockX068760(models.Model):
 
 
 class StockX068790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16520,8 +16520,8 @@ class StockX068790(models.Model):
 
 
 class StockX068930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16534,8 +16534,8 @@ class StockX068930(models.Model):
 
 
 class StockX068940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16548,8 +16548,8 @@ class StockX068940(models.Model):
 
 
 class StockX069080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16562,8 +16562,8 @@ class StockX069080(models.Model):
 
 
 class StockX069110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16576,8 +16576,8 @@ class StockX069110(models.Model):
 
 
 class StockX069140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16590,8 +16590,8 @@ class StockX069140(models.Model):
 
 
 class StockX069260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16604,8 +16604,8 @@ class StockX069260(models.Model):
 
 
 class StockX069330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16618,8 +16618,8 @@ class StockX069330(models.Model):
 
 
 class StockX069410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16632,8 +16632,8 @@ class StockX069410(models.Model):
 
 
 class StockX069460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16646,8 +16646,8 @@ class StockX069460(models.Model):
 
 
 class StockX069510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16660,8 +16660,8 @@ class StockX069510(models.Model):
 
 
 class StockX069540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16674,8 +16674,8 @@ class StockX069540(models.Model):
 
 
 class StockX069620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16688,8 +16688,8 @@ class StockX069620(models.Model):
 
 
 class StockX069640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16702,8 +16702,8 @@ class StockX069640(models.Model):
 
 
 class StockX069730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16716,8 +16716,8 @@ class StockX069730(models.Model):
 
 
 class StockX069920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16730,8 +16730,8 @@ class StockX069920(models.Model):
 
 
 class StockX069960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16744,8 +16744,8 @@ class StockX069960(models.Model):
 
 
 class StockX070300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16758,8 +16758,8 @@ class StockX070300(models.Model):
 
 
 class StockX070590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16772,8 +16772,8 @@ class StockX070590(models.Model):
 
 
 class StockX070960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16786,8 +16786,8 @@ class StockX070960(models.Model):
 
 
 class StockX071050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16800,8 +16800,8 @@ class StockX071050(models.Model):
 
 
 class StockX071090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16814,8 +16814,8 @@ class StockX071090(models.Model):
 
 
 class StockX071200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16828,8 +16828,8 @@ class StockX071200(models.Model):
 
 
 class StockX071280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16842,8 +16842,8 @@ class StockX071280(models.Model):
 
 
 class StockX071320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16856,8 +16856,8 @@ class StockX071320(models.Model):
 
 
 class StockX071460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16870,8 +16870,8 @@ class StockX071460(models.Model):
 
 
 class StockX071670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16884,8 +16884,8 @@ class StockX071670(models.Model):
 
 
 class StockX071840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16898,8 +16898,8 @@ class StockX071840(models.Model):
 
 
 class StockX071850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16912,8 +16912,8 @@ class StockX071850(models.Model):
 
 
 class StockX071950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16926,8 +16926,8 @@ class StockX071950(models.Model):
 
 
 class StockX071970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16940,8 +16940,8 @@ class StockX071970(models.Model):
 
 
 class StockX072020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16954,8 +16954,8 @@ class StockX072020(models.Model):
 
 
 class StockX072130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16968,8 +16968,8 @@ class StockX072130(models.Model):
 
 
 class StockX072470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16982,8 +16982,8 @@ class StockX072470(models.Model):
 
 
 class StockX072520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -16996,8 +16996,8 @@ class StockX072520(models.Model):
 
 
 class StockX072710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17010,8 +17010,8 @@ class StockX072710(models.Model):
 
 
 class StockX072770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17024,8 +17024,8 @@ class StockX072770(models.Model):
 
 
 class StockX072870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17038,8 +17038,8 @@ class StockX072870(models.Model):
 
 
 class StockX072950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17052,8 +17052,8 @@ class StockX072950(models.Model):
 
 
 class StockX072990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17066,8 +17066,8 @@ class StockX072990(models.Model):
 
 
 class StockX073010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17080,8 +17080,8 @@ class StockX073010(models.Model):
 
 
 class StockX073070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17094,8 +17094,8 @@ class StockX073070(models.Model):
 
 
 class StockX073110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17108,8 +17108,8 @@ class StockX073110(models.Model):
 
 
 class StockX073190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17122,8 +17122,8 @@ class StockX073190(models.Model):
 
 
 class StockX073240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17136,8 +17136,8 @@ class StockX073240(models.Model):
 
 
 class StockX073490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17150,8 +17150,8 @@ class StockX073490(models.Model):
 
 
 class StockX073540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17164,8 +17164,8 @@ class StockX073540(models.Model):
 
 
 class StockX073560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17178,8 +17178,8 @@ class StockX073560(models.Model):
 
 
 class StockX073570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17192,8 +17192,8 @@ class StockX073570(models.Model):
 
 
 class StockX073640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17206,8 +17206,8 @@ class StockX073640(models.Model):
 
 
 class StockX074430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17220,8 +17220,8 @@ class StockX074430(models.Model):
 
 
 class StockX074600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17234,8 +17234,8 @@ class StockX074600(models.Model):
 
 
 class StockX074610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17248,8 +17248,8 @@ class StockX074610(models.Model):
 
 
 class StockX075130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17262,8 +17262,8 @@ class StockX075130(models.Model):
 
 
 class StockX075180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17276,8 +17276,8 @@ class StockX075180(models.Model):
 
 
 class StockX075580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17290,8 +17290,8 @@ class StockX075580(models.Model):
 
 
 class StockX075970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17304,8 +17304,8 @@ class StockX075970(models.Model):
 
 
 class StockX076080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17318,8 +17318,8 @@ class StockX076080(models.Model):
 
 
 class StockX076610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17332,8 +17332,8 @@ class StockX076610(models.Model):
 
 
 class StockX077360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17346,8 +17346,8 @@ class StockX077360(models.Model):
 
 
 class StockX077500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17360,8 +17360,8 @@ class StockX077500(models.Model):
 
 
 class StockX077970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17374,8 +17374,8 @@ class StockX077970(models.Model):
 
 
 class StockX078000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17388,8 +17388,8 @@ class StockX078000(models.Model):
 
 
 class StockX078020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17402,8 +17402,8 @@ class StockX078020(models.Model):
 
 
 class StockX078070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17416,8 +17416,8 @@ class StockX078070(models.Model):
 
 
 class StockX078130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17430,8 +17430,8 @@ class StockX078130(models.Model):
 
 
 class StockX078140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17444,8 +17444,8 @@ class StockX078140(models.Model):
 
 
 class StockX078150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17458,8 +17458,8 @@ class StockX078150(models.Model):
 
 
 class StockX078160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17472,8 +17472,8 @@ class StockX078160(models.Model):
 
 
 class StockX078340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17486,8 +17486,8 @@ class StockX078340(models.Model):
 
 
 class StockX078350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17500,8 +17500,8 @@ class StockX078350(models.Model):
 
 
 class StockX078520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17514,8 +17514,8 @@ class StockX078520(models.Model):
 
 
 class StockX078590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17528,8 +17528,8 @@ class StockX078590(models.Model):
 
 
 class StockX078600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17542,8 +17542,8 @@ class StockX078600(models.Model):
 
 
 class StockX078650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17556,8 +17556,8 @@ class StockX078650(models.Model):
 
 
 class StockX078860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17570,8 +17570,8 @@ class StockX078860(models.Model):
 
 
 class StockX078890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17584,8 +17584,8 @@ class StockX078890(models.Model):
 
 
 class StockX078930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17598,8 +17598,8 @@ class StockX078930(models.Model):
 
 
 class StockX078940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17612,8 +17612,8 @@ class StockX078940(models.Model):
 
 
 class StockX079000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17626,8 +17626,8 @@ class StockX079000(models.Model):
 
 
 class StockX079160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17640,8 +17640,8 @@ class StockX079160(models.Model):
 
 
 class StockX079170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17654,8 +17654,8 @@ class StockX079170(models.Model):
 
 
 class StockX079190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17668,8 +17668,8 @@ class StockX079190(models.Model):
 
 
 class StockX079370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17682,8 +17682,8 @@ class StockX079370(models.Model):
 
 
 class StockX079430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17696,8 +17696,8 @@ class StockX079430(models.Model):
 
 
 class StockX079550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17710,8 +17710,8 @@ class StockX079550(models.Model):
 
 
 class StockX079650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17724,8 +17724,8 @@ class StockX079650(models.Model):
 
 
 class StockX079810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17738,8 +17738,8 @@ class StockX079810(models.Model):
 
 
 class StockX079940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17752,8 +17752,8 @@ class StockX079940(models.Model):
 
 
 class StockX079950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17766,8 +17766,8 @@ class StockX079950(models.Model):
 
 
 class StockX079960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17780,8 +17780,8 @@ class StockX079960(models.Model):
 
 
 class StockX079970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17794,8 +17794,8 @@ class StockX079970(models.Model):
 
 
 class StockX079980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17808,8 +17808,8 @@ class StockX079980(models.Model):
 
 
 class StockX080000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17822,8 +17822,8 @@ class StockX080000(models.Model):
 
 
 class StockX080010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17836,8 +17836,8 @@ class StockX080010(models.Model):
 
 
 class StockX080160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17850,8 +17850,8 @@ class StockX080160(models.Model):
 
 
 class StockX080220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17864,8 +17864,8 @@ class StockX080220(models.Model):
 
 
 class StockX080420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17878,8 +17878,8 @@ class StockX080420(models.Model):
 
 
 class StockX080440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17892,8 +17892,8 @@ class StockX080440(models.Model):
 
 
 class StockX080470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17906,8 +17906,8 @@ class StockX080470(models.Model):
 
 
 class StockX080520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17920,8 +17920,8 @@ class StockX080520(models.Model):
 
 
 class StockX080530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17934,8 +17934,8 @@ class StockX080530(models.Model):
 
 
 class StockX080580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17948,8 +17948,8 @@ class StockX080580(models.Model):
 
 
 class StockX080720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17962,8 +17962,8 @@ class StockX080720(models.Model):
 
 
 class StockX081000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17976,8 +17976,8 @@ class StockX081000(models.Model):
 
 
 class StockX081150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -17990,8 +17990,8 @@ class StockX081150(models.Model):
 
 
 class StockX081580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18004,8 +18004,8 @@ class StockX081580(models.Model):
 
 
 class StockX081660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18018,8 +18018,8 @@ class StockX081660(models.Model):
 
 
 class StockX082210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18032,8 +18032,8 @@ class StockX082210(models.Model):
 
 
 class StockX082270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18046,8 +18046,8 @@ class StockX082270(models.Model):
 
 
 class StockX082640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18060,8 +18060,8 @@ class StockX082640(models.Model):
 
 
 class StockX082660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18074,8 +18074,8 @@ class StockX082660(models.Model):
 
 
 class StockX082740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18088,8 +18088,8 @@ class StockX082740(models.Model):
 
 
 class StockX082800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18102,8 +18102,8 @@ class StockX082800(models.Model):
 
 
 class StockX082850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18116,8 +18116,8 @@ class StockX082850(models.Model):
 
 
 class StockX082920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18130,8 +18130,8 @@ class StockX082920(models.Model):
 
 
 class StockX083310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18144,8 +18144,8 @@ class StockX083310(models.Model):
 
 
 class StockX083420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18158,8 +18158,8 @@ class StockX083420(models.Model):
 
 
 class StockX083450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18172,8 +18172,8 @@ class StockX083450(models.Model):
 
 
 class StockX083470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18186,8 +18186,8 @@ class StockX083470(models.Model):
 
 
 class StockX083500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18200,8 +18200,8 @@ class StockX083500(models.Model):
 
 
 class StockX083550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18214,8 +18214,8 @@ class StockX083550(models.Model):
 
 
 class StockX083640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18228,8 +18228,8 @@ class StockX083640(models.Model):
 
 
 class StockX083650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18242,8 +18242,8 @@ class StockX083650(models.Model):
 
 
 class StockX083660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18256,8 +18256,8 @@ class StockX083660(models.Model):
 
 
 class StockX083790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18270,8 +18270,8 @@ class StockX083790(models.Model):
 
 
 class StockX083930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18284,8 +18284,8 @@ class StockX083930(models.Model):
 
 
 class StockX084010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18298,8 +18298,8 @@ class StockX084010(models.Model):
 
 
 class StockX084110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18312,8 +18312,8 @@ class StockX084110(models.Model):
 
 
 class StockX084180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18326,8 +18326,8 @@ class StockX084180(models.Model):
 
 
 class StockX084370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18340,8 +18340,8 @@ class StockX084370(models.Model):
 
 
 class StockX084650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18354,8 +18354,8 @@ class StockX084650(models.Model):
 
 
 class StockX084670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18368,8 +18368,8 @@ class StockX084670(models.Model):
 
 
 class StockX084680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18382,8 +18382,8 @@ class StockX084680(models.Model):
 
 
 class StockX084690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18396,8 +18396,8 @@ class StockX084690(models.Model):
 
 
 class StockX084730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18410,8 +18410,8 @@ class StockX084730(models.Model):
 
 
 class StockX084850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18424,8 +18424,8 @@ class StockX084850(models.Model):
 
 
 class StockX084870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18438,8 +18438,8 @@ class StockX084870(models.Model):
 
 
 class StockX084990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18452,8 +18452,8 @@ class StockX084990(models.Model):
 
 
 class StockX085310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18466,8 +18466,8 @@ class StockX085310(models.Model):
 
 
 class StockX085370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18480,8 +18480,8 @@ class StockX085370(models.Model):
 
 
 class StockX085620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18494,8 +18494,8 @@ class StockX085620(models.Model):
 
 
 class StockX085660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18508,8 +18508,8 @@ class StockX085660(models.Model):
 
 
 class StockX085670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18522,8 +18522,8 @@ class StockX085670(models.Model):
 
 
 class StockX085810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18536,8 +18536,8 @@ class StockX085810(models.Model):
 
 
 class StockX085910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18550,8 +18550,8 @@ class StockX085910(models.Model):
 
 
 class StockX086040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18564,8 +18564,8 @@ class StockX086040(models.Model):
 
 
 class StockX086060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18578,8 +18578,8 @@ class StockX086060(models.Model):
 
 
 class StockX086250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18592,8 +18592,8 @@ class StockX086250(models.Model):
 
 
 class StockX086280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18606,8 +18606,8 @@ class StockX086280(models.Model):
 
 
 class StockX086390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18620,8 +18620,8 @@ class StockX086390(models.Model):
 
 
 class StockX086450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18634,8 +18634,8 @@ class StockX086450(models.Model):
 
 
 class StockX086520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18648,8 +18648,8 @@ class StockX086520(models.Model):
 
 
 class StockX086670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18662,8 +18662,8 @@ class StockX086670(models.Model):
 
 
 class StockX086710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18676,8 +18676,8 @@ class StockX086710(models.Model):
 
 
 class StockX086790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18690,8 +18690,8 @@ class StockX086790(models.Model):
 
 
 class StockX086820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18704,8 +18704,8 @@ class StockX086820(models.Model):
 
 
 class StockX086890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18718,8 +18718,8 @@ class StockX086890(models.Model):
 
 
 class StockX086900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18732,8 +18732,8 @@ class StockX086900(models.Model):
 
 
 class StockX086960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18746,8 +18746,8 @@ class StockX086960(models.Model):
 
 
 class StockX086980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18760,8 +18760,8 @@ class StockX086980(models.Model):
 
 
 class StockX087010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18774,8 +18774,8 @@ class StockX087010(models.Model):
 
 
 class StockX087260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18788,8 +18788,8 @@ class StockX087260(models.Model):
 
 
 class StockX087600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18802,8 +18802,8 @@ class StockX087600(models.Model):
 
 
 class StockX087730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18816,8 +18816,8 @@ class StockX087730(models.Model):
 
 
 class StockX088130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18830,8 +18830,8 @@ class StockX088130(models.Model):
 
 
 class StockX088290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18844,8 +18844,8 @@ class StockX088290(models.Model):
 
 
 class StockX088350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18858,8 +18858,8 @@ class StockX088350(models.Model):
 
 
 class StockX088390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18872,8 +18872,8 @@ class StockX088390(models.Model):
 
 
 class StockX088790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18886,8 +18886,8 @@ class StockX088790(models.Model):
 
 
 class StockX088800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18900,8 +18900,8 @@ class StockX088800(models.Model):
 
 
 class StockX088910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18914,8 +18914,8 @@ class StockX088910(models.Model):
 
 
 class StockX089010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18928,8 +18928,8 @@ class StockX089010(models.Model):
 
 
 class StockX089030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18942,8 +18942,8 @@ class StockX089030(models.Model):
 
 
 class StockX089140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18956,8 +18956,8 @@ class StockX089140(models.Model):
 
 
 class StockX089150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18970,8 +18970,8 @@ class StockX089150(models.Model):
 
 
 class StockX089230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18984,8 +18984,8 @@ class StockX089230(models.Model):
 
 
 class StockX089470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -18998,8 +18998,8 @@ class StockX089470(models.Model):
 
 
 class StockX089530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19012,8 +19012,8 @@ class StockX089530(models.Model):
 
 
 class StockX089590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19026,8 +19026,8 @@ class StockX089590(models.Model):
 
 
 class StockX089600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19040,8 +19040,8 @@ class StockX089600(models.Model):
 
 
 class StockX089790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19054,8 +19054,8 @@ class StockX089790(models.Model):
 
 
 class StockX089850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19068,8 +19068,8 @@ class StockX089850(models.Model):
 
 
 class StockX089890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19082,8 +19082,8 @@ class StockX089890(models.Model):
 
 
 class StockX089970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19096,8 +19096,8 @@ class StockX089970(models.Model):
 
 
 class StockX089980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19110,8 +19110,8 @@ class StockX089980(models.Model):
 
 
 class StockX090080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19124,8 +19124,8 @@ class StockX090080(models.Model):
 
 
 class StockX090150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19138,8 +19138,8 @@ class StockX090150(models.Model):
 
 
 class StockX090350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19152,8 +19152,8 @@ class StockX090350(models.Model):
 
 
 class StockX090360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19166,8 +19166,8 @@ class StockX090360(models.Model):
 
 
 class StockX090370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19180,8 +19180,8 @@ class StockX090370(models.Model):
 
 
 class StockX090410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19194,8 +19194,8 @@ class StockX090410(models.Model):
 
 
 class StockX090430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19208,8 +19208,8 @@ class StockX090430(models.Model):
 
 
 class StockX090460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19222,8 +19222,8 @@ class StockX090460(models.Model):
 
 
 class StockX090470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19236,8 +19236,8 @@ class StockX090470(models.Model):
 
 
 class StockX090710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19250,8 +19250,8 @@ class StockX090710(models.Model):
 
 
 class StockX090740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19264,8 +19264,8 @@ class StockX090740(models.Model):
 
 
 class StockX090850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19278,8 +19278,8 @@ class StockX090850(models.Model):
 
 
 class StockX091090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19292,8 +19292,8 @@ class StockX091090(models.Model):
 
 
 class StockX091120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19306,8 +19306,8 @@ class StockX091120(models.Model):
 
 
 class StockX091340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19320,8 +19320,8 @@ class StockX091340(models.Model):
 
 
 class StockX091440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19334,8 +19334,8 @@ class StockX091440(models.Model):
 
 
 class StockX091580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19348,8 +19348,8 @@ class StockX091580(models.Model):
 
 
 class StockX091590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19362,8 +19362,8 @@ class StockX091590(models.Model):
 
 
 class StockX091700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19376,8 +19376,8 @@ class StockX091700(models.Model):
 
 
 class StockX091810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19390,8 +19390,8 @@ class StockX091810(models.Model):
 
 
 class StockX091970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19404,8 +19404,8 @@ class StockX091970(models.Model):
 
 
 class StockX091990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19418,8 +19418,8 @@ class StockX091990(models.Model):
 
 
 class StockX092040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19432,8 +19432,8 @@ class StockX092040(models.Model):
 
 
 class StockX092070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19446,8 +19446,8 @@ class StockX092070(models.Model):
 
 
 class StockX092130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19460,8 +19460,8 @@ class StockX092130(models.Model):
 
 
 class StockX092190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19474,8 +19474,8 @@ class StockX092190(models.Model):
 
 
 class StockX092200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19488,8 +19488,8 @@ class StockX092200(models.Model):
 
 
 class StockX092220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19502,8 +19502,8 @@ class StockX092220(models.Model):
 
 
 class StockX092230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19516,8 +19516,8 @@ class StockX092230(models.Model):
 
 
 class StockX092300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19530,8 +19530,8 @@ class StockX092300(models.Model):
 
 
 class StockX092440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19544,8 +19544,8 @@ class StockX092440(models.Model):
 
 
 class StockX092460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19558,8 +19558,8 @@ class StockX092460(models.Model):
 
 
 class StockX092600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19572,8 +19572,8 @@ class StockX092600(models.Model):
 
 
 class StockX092730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19586,8 +19586,8 @@ class StockX092730(models.Model):
 
 
 class StockX092780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19600,8 +19600,8 @@ class StockX092780(models.Model):
 
 
 class StockX092870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19614,8 +19614,8 @@ class StockX092870(models.Model):
 
 
 class StockX093050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19628,8 +19628,8 @@ class StockX093050(models.Model):
 
 
 class StockX093190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19642,8 +19642,8 @@ class StockX093190(models.Model):
 
 
 class StockX093230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19656,8 +19656,8 @@ class StockX093230(models.Model):
 
 
 class StockX093240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19670,8 +19670,8 @@ class StockX093240(models.Model):
 
 
 class StockX093320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19684,8 +19684,8 @@ class StockX093320(models.Model):
 
 
 class StockX093370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19698,8 +19698,8 @@ class StockX093370(models.Model):
 
 
 class StockX093380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19712,8 +19712,8 @@ class StockX093380(models.Model):
 
 
 class StockX093520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19726,8 +19726,8 @@ class StockX093520(models.Model):
 
 
 class StockX093640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19740,8 +19740,8 @@ class StockX093640(models.Model):
 
 
 class StockX093920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19754,8 +19754,8 @@ class StockX093920(models.Model):
 
 
 class StockX094170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19768,8 +19768,8 @@ class StockX094170(models.Model):
 
 
 class StockX094280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19782,8 +19782,8 @@ class StockX094280(models.Model):
 
 
 class StockX094360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19796,8 +19796,8 @@ class StockX094360(models.Model):
 
 
 class StockX094480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19810,8 +19810,8 @@ class StockX094480(models.Model):
 
 
 class StockX094820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19824,8 +19824,8 @@ class StockX094820(models.Model):
 
 
 class StockX094840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19838,8 +19838,8 @@ class StockX094840(models.Model):
 
 
 class StockX094850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19852,8 +19852,8 @@ class StockX094850(models.Model):
 
 
 class StockX094860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19866,8 +19866,8 @@ class StockX094860(models.Model):
 
 
 class StockX094940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19880,8 +19880,8 @@ class StockX094940(models.Model):
 
 
 class StockX094970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19894,8 +19894,8 @@ class StockX094970(models.Model):
 
 
 class StockX095190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19908,8 +19908,8 @@ class StockX095190(models.Model):
 
 
 class StockX095270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19922,8 +19922,8 @@ class StockX095270(models.Model):
 
 
 class StockX095340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19936,8 +19936,8 @@ class StockX095340(models.Model):
 
 
 class StockX095500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19950,8 +19950,8 @@ class StockX095500(models.Model):
 
 
 class StockX095570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19964,8 +19964,8 @@ class StockX095570(models.Model):
 
 
 class StockX095610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19978,8 +19978,8 @@ class StockX095610(models.Model):
 
 
 class StockX095660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -19992,8 +19992,8 @@ class StockX095660(models.Model):
 
 
 class StockX095700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20006,8 +20006,8 @@ class StockX095700(models.Model):
 
 
 class StockX095720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20020,8 +20020,8 @@ class StockX095720(models.Model):
 
 
 class StockX095910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20034,8 +20034,8 @@ class StockX095910(models.Model):
 
 
 class StockX096040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20048,8 +20048,8 @@ class StockX096040(models.Model):
 
 
 class StockX096240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20062,8 +20062,8 @@ class StockX096240(models.Model):
 
 
 class StockX096350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20076,8 +20076,8 @@ class StockX096350(models.Model):
 
 
 class StockX096530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20090,8 +20090,8 @@ class StockX096530(models.Model):
 
 
 class StockX096610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20104,8 +20104,8 @@ class StockX096610(models.Model):
 
 
 class StockX096630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20118,8 +20118,8 @@ class StockX096630(models.Model):
 
 
 class StockX096640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20132,8 +20132,8 @@ class StockX096640(models.Model):
 
 
 class StockX096690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20146,8 +20146,8 @@ class StockX096690(models.Model):
 
 
 class StockX096760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20160,8 +20160,8 @@ class StockX096760(models.Model):
 
 
 class StockX096770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20174,8 +20174,8 @@ class StockX096770(models.Model):
 
 
 class StockX096870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20188,8 +20188,8 @@ class StockX096870(models.Model):
 
 
 class StockX097230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20202,8 +20202,8 @@ class StockX097230(models.Model):
 
 
 class StockX097520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20216,8 +20216,8 @@ class StockX097520(models.Model):
 
 
 class StockX097780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20230,8 +20230,8 @@ class StockX097780(models.Model):
 
 
 class StockX097800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20244,8 +20244,8 @@ class StockX097800(models.Model):
 
 
 class StockX097870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20258,8 +20258,8 @@ class StockX097870(models.Model):
 
 
 class StockX097950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20272,8 +20272,8 @@ class StockX097950(models.Model):
 
 
 class StockX098120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20286,8 +20286,8 @@ class StockX098120(models.Model):
 
 
 class StockX098460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20300,8 +20300,8 @@ class StockX098460(models.Model):
 
 
 class StockX098660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20314,8 +20314,8 @@ class StockX098660(models.Model):
 
 
 class StockX099190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20328,8 +20328,8 @@ class StockX099190(models.Model):
 
 
 class StockX099220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20342,8 +20342,8 @@ class StockX099220(models.Model):
 
 
 class StockX099320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20356,8 +20356,8 @@ class StockX099320(models.Model):
 
 
 class StockX099410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20370,8 +20370,8 @@ class StockX099410(models.Model):
 
 
 class StockX099440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20384,8 +20384,8 @@ class StockX099440(models.Model):
 
 
 class StockX099520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20398,8 +20398,8 @@ class StockX099520(models.Model):
 
 
 class StockX099750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20412,8 +20412,8 @@ class StockX099750(models.Model):
 
 
 class StockX100030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20426,8 +20426,8 @@ class StockX100030(models.Model):
 
 
 class StockX100090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20440,8 +20440,8 @@ class StockX100090(models.Model):
 
 
 class StockX100120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20454,8 +20454,8 @@ class StockX100120(models.Model):
 
 
 class StockX100130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20468,8 +20468,8 @@ class StockX100130(models.Model):
 
 
 class StockX100220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20482,8 +20482,8 @@ class StockX100220(models.Model):
 
 
 class StockX100250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20496,8 +20496,8 @@ class StockX100250(models.Model):
 
 
 class StockX100590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20510,8 +20510,8 @@ class StockX100590(models.Model):
 
 
 class StockX100660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20524,8 +20524,8 @@ class StockX100660(models.Model):
 
 
 class StockX100700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20538,8 +20538,8 @@ class StockX100700(models.Model):
 
 
 class StockX100790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20552,8 +20552,8 @@ class StockX100790(models.Model):
 
 
 class StockX100840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20566,8 +20566,8 @@ class StockX100840(models.Model):
 
 
 class StockX101000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20580,8 +20580,8 @@ class StockX101000(models.Model):
 
 
 class StockX101060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20594,8 +20594,8 @@ class StockX101060(models.Model):
 
 
 class StockX101140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20608,8 +20608,8 @@ class StockX101140(models.Model):
 
 
 class StockX101160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20622,8 +20622,8 @@ class StockX101160(models.Model):
 
 
 class StockX101170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20636,8 +20636,8 @@ class StockX101170(models.Model):
 
 
 class StockX101240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20650,8 +20650,8 @@ class StockX101240(models.Model):
 
 
 class StockX101330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20664,8 +20664,8 @@ class StockX101330(models.Model):
 
 
 class StockX101360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20678,8 +20678,8 @@ class StockX101360(models.Model):
 
 
 class StockX101390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20692,8 +20692,8 @@ class StockX101390(models.Model):
 
 
 class StockX101400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20706,8 +20706,8 @@ class StockX101400(models.Model):
 
 
 class StockX101490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20720,8 +20720,8 @@ class StockX101490(models.Model):
 
 
 class StockX101530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20734,8 +20734,8 @@ class StockX101530(models.Model):
 
 
 class StockX101670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20748,8 +20748,8 @@ class StockX101670(models.Model):
 
 
 class StockX101680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20762,8 +20762,8 @@ class StockX101680(models.Model):
 
 
 class StockX101730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20776,8 +20776,8 @@ class StockX101730(models.Model):
 
 
 class StockX101930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20790,8 +20790,8 @@ class StockX101930(models.Model):
 
 
 class StockX102120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20804,8 +20804,8 @@ class StockX102120(models.Model):
 
 
 class StockX102260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20818,8 +20818,8 @@ class StockX102260(models.Model):
 
 
 class StockX102280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20832,8 +20832,8 @@ class StockX102280(models.Model):
 
 
 class StockX102460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20846,8 +20846,8 @@ class StockX102460(models.Model):
 
 
 class StockX102710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20860,8 +20860,8 @@ class StockX102710(models.Model):
 
 
 class StockX102940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20874,8 +20874,8 @@ class StockX102940(models.Model):
 
 
 class StockX103140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20888,8 +20888,8 @@ class StockX103140(models.Model):
 
 
 class StockX103230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20902,8 +20902,8 @@ class StockX103230(models.Model):
 
 
 class StockX103590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20916,8 +20916,8 @@ class StockX103590(models.Model):
 
 
 class StockX103840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20930,8 +20930,8 @@ class StockX103840(models.Model):
 
 
 class StockX104040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20944,8 +20944,8 @@ class StockX104040(models.Model):
 
 
 class StockX104200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20958,8 +20958,8 @@ class StockX104200(models.Model):
 
 
 class StockX104460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20972,8 +20972,8 @@ class StockX104460(models.Model):
 
 
 class StockX104480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -20986,8 +20986,8 @@ class StockX104480(models.Model):
 
 
 class StockX104540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21000,8 +21000,8 @@ class StockX104540(models.Model):
 
 
 class StockX104620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21014,8 +21014,8 @@ class StockX104620(models.Model):
 
 
 class StockX104700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21028,8 +21028,8 @@ class StockX104700(models.Model):
 
 
 class StockX104830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21042,8 +21042,8 @@ class StockX104830(models.Model):
 
 
 class StockX105330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21056,8 +21056,8 @@ class StockX105330(models.Model):
 
 
 class StockX105550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21070,8 +21070,8 @@ class StockX105550(models.Model):
 
 
 class StockX105560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21084,8 +21084,8 @@ class StockX105560(models.Model):
 
 
 class StockX105630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21098,8 +21098,8 @@ class StockX105630(models.Model):
 
 
 class StockX105740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21112,8 +21112,8 @@ class StockX105740(models.Model):
 
 
 class StockX105840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21126,8 +21126,8 @@ class StockX105840(models.Model):
 
 
 class StockX106080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21140,8 +21140,8 @@ class StockX106080(models.Model):
 
 
 class StockX106190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21154,8 +21154,8 @@ class StockX106190(models.Model):
 
 
 class StockX106240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21168,8 +21168,8 @@ class StockX106240(models.Model):
 
 
 class StockX106520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21182,8 +21182,8 @@ class StockX106520(models.Model):
 
 
 class StockX107590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21196,8 +21196,8 @@ class StockX107590(models.Model):
 
 
 class StockX108230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21210,8 +21210,8 @@ class StockX108230(models.Model):
 
 
 class StockX108320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21224,8 +21224,8 @@ class StockX108320(models.Model):
 
 
 class StockX108380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21238,8 +21238,8 @@ class StockX108380(models.Model):
 
 
 class StockX108490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21252,8 +21252,8 @@ class StockX108490(models.Model):
 
 
 class StockX108670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21266,8 +21266,8 @@ class StockX108670(models.Model):
 
 
 class StockX108860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21280,8 +21280,8 @@ class StockX108860(models.Model):
 
 
 class StockX109070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21294,8 +21294,8 @@ class StockX109070(models.Model):
 
 
 class StockX109080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21308,8 +21308,8 @@ class StockX109080(models.Model):
 
 
 class StockX109610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21322,8 +21322,8 @@ class StockX109610(models.Model):
 
 
 class StockX109740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21336,8 +21336,8 @@ class StockX109740(models.Model):
 
 
 class StockX109820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21350,8 +21350,8 @@ class StockX109820(models.Model):
 
 
 class StockX109860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21364,8 +21364,8 @@ class StockX109860(models.Model):
 
 
 class StockX109960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21378,8 +21378,8 @@ class StockX109960(models.Model):
 
 
 class StockX110020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21392,8 +21392,8 @@ class StockX110020(models.Model):
 
 
 class StockX110790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21406,8 +21406,8 @@ class StockX110790(models.Model):
 
 
 class StockX110990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21420,8 +21420,8 @@ class StockX110990(models.Model):
 
 
 class StockX111110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21434,8 +21434,8 @@ class StockX111110(models.Model):
 
 
 class StockX111710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21448,8 +21448,8 @@ class StockX111710(models.Model):
 
 
 class StockX111770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21462,8 +21462,8 @@ class StockX111770(models.Model):
 
 
 class StockX111820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21476,8 +21476,8 @@ class StockX111820(models.Model):
 
 
 class StockX111870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21490,8 +21490,8 @@ class StockX111870(models.Model):
 
 
 class StockX112040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21504,8 +21504,8 @@ class StockX112040(models.Model):
 
 
 class StockX112610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21518,8 +21518,8 @@ class StockX112610(models.Model):
 
 
 class StockX113810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21532,8 +21532,8 @@ class StockX113810(models.Model):
 
 
 class StockX114090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21546,8 +21546,8 @@ class StockX114090(models.Model):
 
 
 class StockX114120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21560,8 +21560,8 @@ class StockX114120(models.Model):
 
 
 class StockX114190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21574,8 +21574,8 @@ class StockX114190(models.Model):
 
 
 class StockX114450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21588,8 +21588,8 @@ class StockX114450(models.Model):
 
 
 class StockX114570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21602,8 +21602,8 @@ class StockX114570(models.Model):
 
 
 class StockX114630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21616,8 +21616,8 @@ class StockX114630(models.Model):
 
 
 class StockX114810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21630,8 +21630,8 @@ class StockX114810(models.Model):
 
 
 class StockX115160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21644,8 +21644,8 @@ class StockX115160(models.Model):
 
 
 class StockX115180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21658,8 +21658,8 @@ class StockX115180(models.Model):
 
 
 class StockX115310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21672,8 +21672,8 @@ class StockX115310(models.Model):
 
 
 class StockX115390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21686,8 +21686,8 @@ class StockX115390(models.Model):
 
 
 class StockX115440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21700,8 +21700,8 @@ class StockX115440(models.Model):
 
 
 class StockX115450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21714,8 +21714,8 @@ class StockX115450(models.Model):
 
 
 class StockX115480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21728,8 +21728,8 @@ class StockX115480(models.Model):
 
 
 class StockX115500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21742,8 +21742,8 @@ class StockX115500(models.Model):
 
 
 class StockX115530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21756,8 +21756,8 @@ class StockX115530(models.Model):
 
 
 class StockX115570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21770,8 +21770,8 @@ class StockX115570(models.Model):
 
 
 class StockX115610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21784,8 +21784,8 @@ class StockX115610(models.Model):
 
 
 class StockX115960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21798,8 +21798,8 @@ class StockX115960(models.Model):
 
 
 class StockX117580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21812,8 +21812,8 @@ class StockX117580(models.Model):
 
 
 class StockX117670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21826,8 +21826,8 @@ class StockX117670(models.Model):
 
 
 class StockX117730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21840,8 +21840,8 @@ class StockX117730(models.Model):
 
 
 class StockX118000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21854,8 +21854,8 @@ class StockX118000(models.Model):
 
 
 class StockX118990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21868,8 +21868,8 @@ class StockX118990(models.Model):
 
 
 class StockX119500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21882,8 +21882,8 @@ class StockX119500(models.Model):
 
 
 class StockX119610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21896,8 +21896,8 @@ class StockX119610(models.Model):
 
 
 class StockX119650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21910,8 +21910,8 @@ class StockX119650(models.Model):
 
 
 class StockX119830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21924,8 +21924,8 @@ class StockX119830(models.Model):
 
 
 class StockX119850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21938,8 +21938,8 @@ class StockX119850(models.Model):
 
 
 class StockX119860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21952,8 +21952,8 @@ class StockX119860(models.Model):
 
 
 class StockX120030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21966,8 +21966,8 @@ class StockX120030(models.Model):
 
 
 class StockX120110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21980,8 +21980,8 @@ class StockX120110(models.Model):
 
 
 class StockX120240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -21994,8 +21994,8 @@ class StockX120240(models.Model):
 
 
 class StockX121440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22008,8 +22008,8 @@ class StockX121440(models.Model):
 
 
 class StockX121600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22022,8 +22022,8 @@ class StockX121600(models.Model):
 
 
 class StockX121800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22036,8 +22036,8 @@ class StockX121800(models.Model):
 
 
 class StockX121850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22050,8 +22050,8 @@ class StockX121850(models.Model):
 
 
 class StockX121890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22064,8 +22064,8 @@ class StockX121890(models.Model):
 
 
 class StockX122310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22078,8 +22078,8 @@ class StockX122310(models.Model):
 
 
 class StockX122350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22092,8 +22092,8 @@ class StockX122350(models.Model):
 
 
 class StockX122450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22106,8 +22106,8 @@ class StockX122450(models.Model):
 
 
 class StockX122640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22120,8 +22120,8 @@ class StockX122640(models.Model):
 
 
 class StockX122690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22134,8 +22134,8 @@ class StockX122690(models.Model):
 
 
 class StockX122870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22148,8 +22148,8 @@ class StockX122870(models.Model):
 
 
 class StockX122900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22162,8 +22162,8 @@ class StockX122900(models.Model):
 
 
 class StockX122990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22176,8 +22176,8 @@ class StockX122990(models.Model):
 
 
 class StockX123010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22190,8 +22190,8 @@ class StockX123010(models.Model):
 
 
 class StockX123040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22204,8 +22204,8 @@ class StockX123040(models.Model):
 
 
 class StockX123330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22218,8 +22218,8 @@ class StockX123330(models.Model):
 
 
 class StockX123410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22232,8 +22232,8 @@ class StockX123410(models.Model):
 
 
 class StockX123420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22246,8 +22246,8 @@ class StockX123420(models.Model):
 
 
 class StockX123570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22260,8 +22260,8 @@ class StockX123570(models.Model):
 
 
 class StockX123690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22274,8 +22274,8 @@ class StockX123690(models.Model):
 
 
 class StockX123700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22288,8 +22288,8 @@ class StockX123700(models.Model):
 
 
 class StockX123750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22302,8 +22302,8 @@ class StockX123750(models.Model):
 
 
 class StockX123840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22316,8 +22316,8 @@ class StockX123840(models.Model):
 
 
 class StockX123860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22330,8 +22330,8 @@ class StockX123860(models.Model):
 
 
 class StockX123890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22344,8 +22344,8 @@ class StockX123890(models.Model):
 
 
 class StockX124500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22358,8 +22358,8 @@ class StockX124500(models.Model):
 
 
 class StockX124560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22372,8 +22372,8 @@ class StockX124560(models.Model):
 
 
 class StockX125210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22386,8 +22386,8 @@ class StockX125210(models.Model):
 
 
 class StockX126340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22400,8 +22400,8 @@ class StockX126340(models.Model):
 
 
 class StockX126560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22414,8 +22414,8 @@ class StockX126560(models.Model):
 
 
 class StockX126600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22428,8 +22428,8 @@ class StockX126600(models.Model):
 
 
 class StockX126640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22442,8 +22442,8 @@ class StockX126640(models.Model):
 
 
 class StockX126700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22456,8 +22456,8 @@ class StockX126700(models.Model):
 
 
 class StockX126870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22470,8 +22470,8 @@ class StockX126870(models.Model):
 
 
 class StockX126880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22484,8 +22484,8 @@ class StockX126880(models.Model):
 
 
 class StockX127120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22498,8 +22498,8 @@ class StockX127120(models.Model):
 
 
 class StockX127160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22512,8 +22512,8 @@ class StockX127160(models.Model):
 
 
 class StockX127710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22526,8 +22526,8 @@ class StockX127710(models.Model):
 
 
 class StockX128540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22540,8 +22540,8 @@ class StockX128540(models.Model):
 
 
 class StockX128660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22554,8 +22554,8 @@ class StockX128660(models.Model):
 
 
 class StockX128820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22568,8 +22568,8 @@ class StockX128820(models.Model):
 
 
 class StockX128940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22582,8 +22582,8 @@ class StockX128940(models.Model):
 
 
 class StockX129260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22596,8 +22596,8 @@ class StockX129260(models.Model):
 
 
 class StockX129890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22610,8 +22610,8 @@ class StockX129890(models.Model):
 
 
 class StockX130500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22624,8 +22624,8 @@ class StockX130500(models.Model):
 
 
 class StockX130580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22638,8 +22638,8 @@ class StockX130580(models.Model):
 
 
 class StockX130660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22652,8 +22652,8 @@ class StockX130660(models.Model):
 
 
 class StockX130740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22666,8 +22666,8 @@ class StockX130740(models.Model):
 
 
 class StockX131030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22680,8 +22680,8 @@ class StockX131030(models.Model):
 
 
 class StockX131090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22694,8 +22694,8 @@ class StockX131090(models.Model):
 
 
 class StockX131100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22708,8 +22708,8 @@ class StockX131100(models.Model):
 
 
 class StockX131180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22722,8 +22722,8 @@ class StockX131180(models.Model):
 
 
 class StockX131220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22736,8 +22736,8 @@ class StockX131220(models.Model):
 
 
 class StockX131290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22750,8 +22750,8 @@ class StockX131290(models.Model):
 
 
 class StockX131370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22764,8 +22764,8 @@ class StockX131370(models.Model):
 
 
 class StockX131390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22778,8 +22778,8 @@ class StockX131390(models.Model):
 
 
 class StockX131400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22792,8 +22792,8 @@ class StockX131400(models.Model):
 
 
 class StockX131760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22806,8 +22806,8 @@ class StockX131760(models.Model):
 
 
 class StockX131970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22820,8 +22820,8 @@ class StockX131970(models.Model):
 
 
 class StockX133750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22834,8 +22834,8 @@ class StockX133750(models.Model):
 
 
 class StockX133820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22848,8 +22848,8 @@ class StockX133820(models.Model):
 
 
 class StockX134060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22862,8 +22862,8 @@ class StockX134060(models.Model):
 
 
 class StockX134380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22876,8 +22876,8 @@ class StockX134380(models.Model):
 
 
 class StockX134580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22890,8 +22890,8 @@ class StockX134580(models.Model):
 
 
 class StockX134790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22904,8 +22904,8 @@ class StockX134790(models.Model):
 
 
 class StockX136480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22918,8 +22918,8 @@ class StockX136480(models.Model):
 
 
 class StockX136490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22932,8 +22932,8 @@ class StockX136490(models.Model):
 
 
 class StockX136510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22946,8 +22946,8 @@ class StockX136510(models.Model):
 
 
 class StockX136540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22960,8 +22960,8 @@ class StockX136540(models.Model):
 
 
 class StockX137400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22974,8 +22974,8 @@ class StockX137400(models.Model):
 
 
 class StockX137940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -22988,8 +22988,8 @@ class StockX137940(models.Model):
 
 
 class StockX137950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23002,8 +23002,8 @@ class StockX137950(models.Model):
 
 
 class StockX138040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23016,8 +23016,8 @@ class StockX138040(models.Model):
 
 
 class StockX138070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23030,8 +23030,8 @@ class StockX138070(models.Model):
 
 
 class StockX138080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23044,8 +23044,8 @@ class StockX138080(models.Model):
 
 
 class StockX138250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23058,8 +23058,8 @@ class StockX138250(models.Model):
 
 
 class StockX138360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23072,8 +23072,8 @@ class StockX138360(models.Model):
 
 
 class StockX138490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23086,8 +23086,8 @@ class StockX138490(models.Model):
 
 
 class StockX138580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23100,8 +23100,8 @@ class StockX138580(models.Model):
 
 
 class StockX138610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23114,8 +23114,8 @@ class StockX138610(models.Model):
 
 
 class StockX138690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23128,8 +23128,8 @@ class StockX138690(models.Model):
 
 
 class StockX138930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23142,8 +23142,8 @@ class StockX138930(models.Model):
 
 
 class StockX139050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23156,8 +23156,8 @@ class StockX139050(models.Model):
 
 
 class StockX139130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23170,8 +23170,8 @@ class StockX139130(models.Model):
 
 
 class StockX139480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23184,8 +23184,8 @@ class StockX139480(models.Model):
 
 
 class StockX139670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23198,8 +23198,8 @@ class StockX139670(models.Model):
 
 
 class StockX140070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23212,8 +23212,8 @@ class StockX140070(models.Model):
 
 
 class StockX140410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23226,8 +23226,8 @@ class StockX140410(models.Model):
 
 
 class StockX140520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23240,8 +23240,8 @@ class StockX140520(models.Model):
 
 
 class StockX140670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23254,8 +23254,8 @@ class StockX140670(models.Model):
 
 
 class StockX140860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23268,8 +23268,8 @@ class StockX140860(models.Model):
 
 
 class StockX141000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23282,8 +23282,8 @@ class StockX141000(models.Model):
 
 
 class StockX141020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23296,8 +23296,8 @@ class StockX141020(models.Model):
 
 
 class StockX141070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23310,8 +23310,8 @@ class StockX141070(models.Model):
 
 
 class StockX141080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23324,8 +23324,8 @@ class StockX141080(models.Model):
 
 
 class StockX142210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23338,8 +23338,8 @@ class StockX142210(models.Model):
 
 
 class StockX142280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23352,8 +23352,8 @@ class StockX142280(models.Model):
 
 
 class StockX142760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23366,8 +23366,8 @@ class StockX142760(models.Model):
 
 
 class StockX143160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23380,8 +23380,8 @@ class StockX143160(models.Model):
 
 
 class StockX143210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23394,8 +23394,8 @@ class StockX143210(models.Model):
 
 
 class StockX143240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23408,8 +23408,8 @@ class StockX143240(models.Model):
 
 
 class StockX143540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23422,8 +23422,8 @@ class StockX143540(models.Model):
 
 
 class StockX144510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23436,8 +23436,8 @@ class StockX144510(models.Model):
 
 
 class StockX144620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23450,8 +23450,8 @@ class StockX144620(models.Model):
 
 
 class StockX144960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23464,8 +23464,8 @@ class StockX144960(models.Model):
 
 
 class StockX145020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23478,8 +23478,8 @@ class StockX145020(models.Model):
 
 
 class StockX145210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23492,8 +23492,8 @@ class StockX145210(models.Model):
 
 
 class StockX145720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23506,8 +23506,8 @@ class StockX145720(models.Model):
 
 
 class StockX145990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23520,8 +23520,8 @@ class StockX145990(models.Model):
 
 
 class StockX147760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23534,8 +23534,8 @@ class StockX147760(models.Model):
 
 
 class StockX147830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23548,8 +23548,8 @@ class StockX147830(models.Model):
 
 
 class StockX148140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23562,8 +23562,8 @@ class StockX148140(models.Model):
 
 
 class StockX148150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23576,8 +23576,8 @@ class StockX148150(models.Model):
 
 
 class StockX148250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23590,8 +23590,8 @@ class StockX148250(models.Model):
 
 
 class StockX149950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23604,8 +23604,8 @@ class StockX149950(models.Model):
 
 
 class StockX149980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23618,8 +23618,8 @@ class StockX149980(models.Model):
 
 
 class StockX150840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23632,8 +23632,8 @@ class StockX150840(models.Model):
 
 
 class StockX150900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23646,8 +23646,8 @@ class StockX150900(models.Model):
 
 
 class StockX151860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23660,8 +23660,8 @@ class StockX151860(models.Model):
 
 
 class StockX151910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23674,8 +23674,8 @@ class StockX151910(models.Model):
 
 
 class StockX153460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23688,8 +23688,8 @@ class StockX153460(models.Model):
 
 
 class StockX153490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23702,8 +23702,8 @@ class StockX153490(models.Model):
 
 
 class StockX153710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23716,8 +23716,8 @@ class StockX153710(models.Model):
 
 
 class StockX154030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23730,8 +23730,8 @@ class StockX154030(models.Model):
 
 
 class StockX154040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23744,8 +23744,8 @@ class StockX154040(models.Model):
 
 
 class StockX155650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23758,8 +23758,8 @@ class StockX155650(models.Model):
 
 
 class StockX155660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23772,8 +23772,8 @@ class StockX155660(models.Model):
 
 
 class StockX156100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23786,8 +23786,8 @@ class StockX156100(models.Model):
 
 
 class StockX158310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23800,8 +23800,8 @@ class StockX158310(models.Model):
 
 
 class StockX158430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23814,8 +23814,8 @@ class StockX158430(models.Model):
 
 
 class StockX159580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23828,8 +23828,8 @@ class StockX159580(models.Model):
 
 
 class StockX159910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23842,8 +23842,8 @@ class StockX159910(models.Model):
 
 
 class StockX160550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23856,8 +23856,8 @@ class StockX160550(models.Model):
 
 
 class StockX160600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23870,8 +23870,8 @@ class StockX160600(models.Model):
 
 
 class StockX160980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23884,8 +23884,8 @@ class StockX160980(models.Model):
 
 
 class StockX161000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23898,8 +23898,8 @@ class StockX161000(models.Model):
 
 
 class StockX161390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23912,8 +23912,8 @@ class StockX161390(models.Model):
 
 
 class StockX161570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23926,8 +23926,8 @@ class StockX161570(models.Model):
 
 
 class StockX161580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23940,8 +23940,8 @@ class StockX161580(models.Model):
 
 
 class StockX161890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23954,8 +23954,8 @@ class StockX161890(models.Model):
 
 
 class StockX163560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23968,8 +23968,8 @@ class StockX163560(models.Model):
 
 
 class StockX163730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23982,8 +23982,8 @@ class StockX163730(models.Model):
 
 
 class StockX164060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -23996,8 +23996,8 @@ class StockX164060(models.Model):
 
 
 class StockX166090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24010,8 +24010,8 @@ class StockX166090(models.Model):
 
 
 class StockX166480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24024,8 +24024,8 @@ class StockX166480(models.Model):
 
 
 class StockX168330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24038,8 +24038,8 @@ class StockX168330(models.Model):
 
 
 class StockX169330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24052,8 +24052,8 @@ class StockX169330(models.Model):
 
 
 class StockX170030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24066,8 +24066,8 @@ class StockX170030(models.Model):
 
 
 class StockX170790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24080,8 +24080,8 @@ class StockX170790(models.Model):
 
 
 class StockX170900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24094,8 +24094,8 @@ class StockX170900(models.Model):
 
 
 class StockX170920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24108,8 +24108,8 @@ class StockX170920(models.Model):
 
 
 class StockX171010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24122,8 +24122,8 @@ class StockX171010(models.Model):
 
 
 class StockX171090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24136,8 +24136,8 @@ class StockX171090(models.Model):
 
 
 class StockX171120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24150,8 +24150,8 @@ class StockX171120(models.Model):
 
 
 class StockX173130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24164,8 +24164,8 @@ class StockX173130(models.Model):
 
 
 class StockX173940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24178,8 +24178,8 @@ class StockX173940(models.Model):
 
 
 class StockX174880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24192,8 +24192,8 @@ class StockX174880(models.Model):
 
 
 class StockX174900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24206,8 +24206,8 @@ class StockX174900(models.Model):
 
 
 class StockX175140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24220,8 +24220,8 @@ class StockX175140(models.Model):
 
 
 class StockX175250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24234,8 +24234,8 @@ class StockX175250(models.Model):
 
 
 class StockX175330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24248,8 +24248,8 @@ class StockX175330(models.Model):
 
 
 class StockX176440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24262,8 +24262,8 @@ class StockX176440(models.Model):
 
 
 class StockX177350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24276,8 +24276,8 @@ class StockX177350(models.Model):
 
 
 class StockX177830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24290,8 +24290,8 @@ class StockX177830(models.Model):
 
 
 class StockX178320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24304,8 +24304,8 @@ class StockX178320(models.Model):
 
 
 class StockX178780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24318,8 +24318,8 @@ class StockX178780(models.Model):
 
 
 class StockX178920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24332,8 +24332,8 @@ class StockX178920(models.Model):
 
 
 class StockX179290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24346,8 +24346,8 @@ class StockX179290(models.Model):
 
 
 class StockX179900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24360,8 +24360,8 @@ class StockX179900(models.Model):
 
 
 class StockX180400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24374,8 +24374,8 @@ class StockX180400(models.Model):
 
 
 class StockX180640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24388,8 +24388,8 @@ class StockX180640(models.Model):
 
 
 class StockX181340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24402,8 +24402,8 @@ class StockX181340(models.Model):
 
 
 class StockX181710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24416,8 +24416,8 @@ class StockX181710(models.Model):
 
 
 class StockX182360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24430,8 +24430,8 @@ class StockX182360(models.Model):
 
 
 class StockX182400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24444,8 +24444,8 @@ class StockX182400(models.Model):
 
 
 class StockX182690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24458,8 +24458,8 @@ class StockX182690(models.Model):
 
 
 class StockX183190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24472,8 +24472,8 @@ class StockX183190(models.Model):
 
 
 class StockX183300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24486,8 +24486,8 @@ class StockX183300(models.Model):
 
 
 class StockX183490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24500,8 +24500,8 @@ class StockX183490(models.Model):
 
 
 class StockX184230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24514,8 +24514,8 @@ class StockX184230(models.Model):
 
 
 class StockX185490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24528,8 +24528,8 @@ class StockX185490(models.Model):
 
 
 class StockX185750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24542,8 +24542,8 @@ class StockX185750(models.Model):
 
 
 class StockX186230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24556,8 +24556,8 @@ class StockX186230(models.Model):
 
 
 class StockX187220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24570,8 +24570,8 @@ class StockX187220(models.Model):
 
 
 class StockX187270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24584,8 +24584,8 @@ class StockX187270(models.Model):
 
 
 class StockX187420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24598,8 +24598,8 @@ class StockX187420(models.Model):
 
 
 class StockX187790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24612,8 +24612,8 @@ class StockX187790(models.Model):
 
 
 class StockX187870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24626,8 +24626,8 @@ class StockX187870(models.Model):
 
 
 class StockX189300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24640,8 +24640,8 @@ class StockX189300(models.Model):
 
 
 class StockX189330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24654,8 +24654,8 @@ class StockX189330(models.Model):
 
 
 class StockX189690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24668,8 +24668,8 @@ class StockX189690(models.Model):
 
 
 class StockX189860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24682,8 +24682,8 @@ class StockX189860(models.Model):
 
 
 class StockX189980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24696,8 +24696,8 @@ class StockX189980(models.Model):
 
 
 class StockX190510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24710,8 +24710,8 @@ class StockX190510(models.Model):
 
 
 class StockX190650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24724,8 +24724,8 @@ class StockX190650(models.Model):
 
 
 class StockX191410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24738,8 +24738,8 @@ class StockX191410(models.Model):
 
 
 class StockX191420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24752,8 +24752,8 @@ class StockX191420(models.Model):
 
 
 class StockX192080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24766,8 +24766,8 @@ class StockX192080(models.Model):
 
 
 class StockX192250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24780,8 +24780,8 @@ class StockX192250(models.Model):
 
 
 class StockX192390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24794,8 +24794,8 @@ class StockX192390(models.Model):
 
 
 class StockX192400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24808,8 +24808,8 @@ class StockX192400(models.Model):
 
 
 class StockX192410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24822,8 +24822,8 @@ class StockX192410(models.Model):
 
 
 class StockX192440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24836,8 +24836,8 @@ class StockX192440(models.Model):
 
 
 class StockX192650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24850,8 +24850,8 @@ class StockX192650(models.Model):
 
 
 class StockX192820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24864,8 +24864,8 @@ class StockX192820(models.Model):
 
 
 class StockX193250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24878,8 +24878,8 @@ class StockX193250(models.Model):
 
 
 class StockX194370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24892,8 +24892,8 @@ class StockX194370(models.Model):
 
 
 class StockX194480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24906,8 +24906,8 @@ class StockX194480(models.Model):
 
 
 class StockX194700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24920,8 +24920,8 @@ class StockX194700(models.Model):
 
 
 class StockX195440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24934,8 +24934,8 @@ class StockX195440(models.Model):
 
 
 class StockX195500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24948,8 +24948,8 @@ class StockX195500(models.Model):
 
 
 class StockX195870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24962,8 +24962,8 @@ class StockX195870(models.Model):
 
 
 class StockX195990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24976,8 +24976,8 @@ class StockX195990(models.Model):
 
 
 class StockX196170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -24990,8 +24990,8 @@ class StockX196170(models.Model):
 
 
 class StockX196300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25004,8 +25004,8 @@ class StockX196300(models.Model):
 
 
 class StockX196450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25018,8 +25018,8 @@ class StockX196450(models.Model):
 
 
 class StockX196490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25032,8 +25032,8 @@ class StockX196490(models.Model):
 
 
 class StockX196700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25046,8 +25046,8 @@ class StockX196700(models.Model):
 
 
 class StockX197140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25060,8 +25060,8 @@ class StockX197140(models.Model):
 
 
 class StockX198080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25074,8 +25074,8 @@ class StockX198080(models.Model):
 
 
 class StockX198440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25088,8 +25088,8 @@ class StockX198440(models.Model):
 
 
 class StockX199820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25102,8 +25102,8 @@ class StockX199820(models.Model):
 
 
 class StockX200130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25116,8 +25116,8 @@ class StockX200130(models.Model):
 
 
 class StockX200230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25130,8 +25130,8 @@ class StockX200230(models.Model):
 
 
 class StockX200470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25144,8 +25144,8 @@ class StockX200470(models.Model):
 
 
 class StockX200670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25158,8 +25158,8 @@ class StockX200670(models.Model):
 
 
 class StockX200710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25172,8 +25172,8 @@ class StockX200710(models.Model):
 
 
 class StockX200780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25186,8 +25186,8 @@ class StockX200780(models.Model):
 
 
 class StockX200880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25200,8 +25200,8 @@ class StockX200880(models.Model):
 
 
 class StockX201490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25214,8 +25214,8 @@ class StockX201490(models.Model):
 
 
 class StockX203450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25228,8 +25228,8 @@ class StockX203450(models.Model):
 
 
 class StockX203650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25242,8 +25242,8 @@ class StockX203650(models.Model):
 
 
 class StockX203690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25256,8 +25256,8 @@ class StockX203690(models.Model):
 
 
 class StockX204020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25270,8 +25270,8 @@ class StockX204020(models.Model):
 
 
 class StockX204270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25284,8 +25284,8 @@ class StockX204270(models.Model):
 
 
 class StockX204320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25298,8 +25298,8 @@ class StockX204320(models.Model):
 
 
 class StockX204620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25312,8 +25312,8 @@ class StockX204620(models.Model):
 
 
 class StockX204630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25326,8 +25326,8 @@ class StockX204630(models.Model):
 
 
 class StockX204840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25340,8 +25340,8 @@ class StockX204840(models.Model):
 
 
 class StockX205100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25354,8 +25354,8 @@ class StockX205100(models.Model):
 
 
 class StockX205470(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25368,8 +25368,8 @@ class StockX205470(models.Model):
 
 
 class StockX205500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25382,8 +25382,8 @@ class StockX205500(models.Model):
 
 
 class StockX206400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25396,8 +25396,8 @@ class StockX206400(models.Model):
 
 
 class StockX206560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25410,8 +25410,8 @@ class StockX206560(models.Model):
 
 
 class StockX206640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25424,8 +25424,8 @@ class StockX206640(models.Model):
 
 
 class StockX206650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25438,8 +25438,8 @@ class StockX206650(models.Model):
 
 
 class StockX207760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25452,8 +25452,8 @@ class StockX207760(models.Model):
 
 
 class StockX207940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25466,8 +25466,8 @@ class StockX207940(models.Model):
 
 
 class StockX208140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25480,8 +25480,8 @@ class StockX208140(models.Model):
 
 
 class StockX208340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25494,8 +25494,8 @@ class StockX208340(models.Model):
 
 
 class StockX208350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25508,8 +25508,8 @@ class StockX208350(models.Model):
 
 
 class StockX208370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25522,8 +25522,8 @@ class StockX208370(models.Model):
 
 
 class StockX208640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25536,8 +25536,8 @@ class StockX208640(models.Model):
 
 
 class StockX208710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25550,8 +25550,8 @@ class StockX208710(models.Model):
 
 
 class StockX208860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25564,8 +25564,8 @@ class StockX208860(models.Model):
 
 
 class StockX210540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25578,8 +25578,8 @@ class StockX210540(models.Model):
 
 
 class StockX210980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25592,8 +25592,8 @@ class StockX210980(models.Model):
 
 
 class StockX211270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25606,8 +25606,8 @@ class StockX211270(models.Model):
 
 
 class StockX212560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25620,8 +25620,8 @@ class StockX212560(models.Model):
 
 
 class StockX213090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25634,8 +25634,8 @@ class StockX213090(models.Model):
 
 
 class StockX213420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25648,8 +25648,8 @@ class StockX213420(models.Model):
 
 
 class StockX213500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25662,8 +25662,8 @@ class StockX213500(models.Model):
 
 
 class StockX214150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25676,8 +25676,8 @@ class StockX214150(models.Model):
 
 
 class StockX214180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25690,8 +25690,8 @@ class StockX214180(models.Model):
 
 
 class StockX214260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25704,8 +25704,8 @@ class StockX214260(models.Model):
 
 
 class StockX214270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25718,8 +25718,8 @@ class StockX214270(models.Model):
 
 
 class StockX214310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25732,8 +25732,8 @@ class StockX214310(models.Model):
 
 
 class StockX214320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25746,8 +25746,8 @@ class StockX214320(models.Model):
 
 
 class StockX214330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25760,8 +25760,8 @@ class StockX214330(models.Model):
 
 
 class StockX214370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25774,8 +25774,8 @@ class StockX214370(models.Model):
 
 
 class StockX214390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25788,8 +25788,8 @@ class StockX214390(models.Model):
 
 
 class StockX214420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25802,8 +25802,8 @@ class StockX214420(models.Model):
 
 
 class StockX214430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25816,8 +25816,8 @@ class StockX214430(models.Model):
 
 
 class StockX214450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25830,8 +25830,8 @@ class StockX214450(models.Model):
 
 
 class StockX214610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25844,8 +25844,8 @@ class StockX214610(models.Model):
 
 
 class StockX214680(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25858,8 +25858,8 @@ class StockX214680(models.Model):
 
 
 class StockX214870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25872,8 +25872,8 @@ class StockX214870(models.Model):
 
 
 class StockX215000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25886,8 +25886,8 @@ class StockX215000(models.Model):
 
 
 class StockX215090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25900,8 +25900,8 @@ class StockX215090(models.Model):
 
 
 class StockX215100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25914,8 +25914,8 @@ class StockX215100(models.Model):
 
 
 class StockX215200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25928,8 +25928,8 @@ class StockX215200(models.Model):
 
 
 class StockX215360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25942,8 +25942,8 @@ class StockX215360(models.Model):
 
 
 class StockX215380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25956,8 +25956,8 @@ class StockX215380(models.Model):
 
 
 class StockX215480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25970,8 +25970,8 @@ class StockX215480(models.Model):
 
 
 class StockX215600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25984,8 +25984,8 @@ class StockX215600(models.Model):
 
 
 class StockX215790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -25998,8 +25998,8 @@ class StockX215790(models.Model):
 
 
 class StockX216050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26012,8 +26012,8 @@ class StockX216050(models.Model):
 
 
 class StockX216080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26026,8 +26026,8 @@ class StockX216080(models.Model):
 
 
 class StockX217190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26040,8 +26040,8 @@ class StockX217190(models.Model):
 
 
 class StockX217270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26054,8 +26054,8 @@ class StockX217270(models.Model):
 
 
 class StockX217330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26068,8 +26068,8 @@ class StockX217330(models.Model):
 
 
 class StockX217480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26082,8 +26082,8 @@ class StockX217480(models.Model):
 
 
 class StockX217500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26096,8 +26096,8 @@ class StockX217500(models.Model):
 
 
 class StockX217600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26110,8 +26110,8 @@ class StockX217600(models.Model):
 
 
 class StockX217620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26124,8 +26124,8 @@ class StockX217620(models.Model):
 
 
 class StockX217730(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26138,8 +26138,8 @@ class StockX217730(models.Model):
 
 
 class StockX217820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26152,8 +26152,8 @@ class StockX217820(models.Model):
 
 
 class StockX218150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26166,8 +26166,8 @@ class StockX218150(models.Model):
 
 
 class StockX218410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26180,8 +26180,8 @@ class StockX218410(models.Model):
 
 
 class StockX219130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26194,8 +26194,8 @@ class StockX219130(models.Model):
 
 
 class StockX219420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26208,8 +26208,8 @@ class StockX219420(models.Model):
 
 
 class StockX219550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26222,8 +26222,8 @@ class StockX219550(models.Model):
 
 
 class StockX219750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26236,8 +26236,8 @@ class StockX219750(models.Model):
 
 
 class StockX220100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26250,8 +26250,8 @@ class StockX220100(models.Model):
 
 
 class StockX220180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26264,8 +26264,8 @@ class StockX220180(models.Model):
 
 
 class StockX220260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26278,8 +26278,8 @@ class StockX220260(models.Model):
 
 
 class StockX220630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26292,8 +26292,8 @@ class StockX220630(models.Model):
 
 
 class StockX221610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26306,8 +26306,8 @@ class StockX221610(models.Model):
 
 
 class StockX221840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26320,8 +26320,8 @@ class StockX221840(models.Model):
 
 
 class StockX221980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26334,8 +26334,8 @@ class StockX221980(models.Model):
 
 
 class StockX222040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26348,8 +26348,8 @@ class StockX222040(models.Model):
 
 
 class StockX222080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26362,8 +26362,8 @@ class StockX222080(models.Model):
 
 
 class StockX222110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26376,8 +26376,8 @@ class StockX222110(models.Model):
 
 
 class StockX222420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26390,8 +26390,8 @@ class StockX222420(models.Model):
 
 
 class StockX222800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26404,8 +26404,8 @@ class StockX222800(models.Model):
 
 
 class StockX222810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26418,8 +26418,8 @@ class StockX222810(models.Model):
 
 
 class StockX222980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26432,8 +26432,8 @@ class StockX222980(models.Model):
 
 
 class StockX223250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26446,8 +26446,8 @@ class StockX223250(models.Model):
 
 
 class StockX223310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26460,8 +26460,8 @@ class StockX223310(models.Model):
 
 
 class StockX224060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26474,8 +26474,8 @@ class StockX224060(models.Model):
 
 
 class StockX224110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26488,8 +26488,8 @@ class StockX224110(models.Model):
 
 
 class StockX225190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26502,8 +26502,8 @@ class StockX225190(models.Model):
 
 
 class StockX225220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26516,8 +26516,8 @@ class StockX225220(models.Model):
 
 
 class StockX225330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26530,8 +26530,8 @@ class StockX225330(models.Model):
 
 
 class StockX225430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26544,8 +26544,8 @@ class StockX225430(models.Model):
 
 
 class StockX225530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26558,8 +26558,8 @@ class StockX225530(models.Model):
 
 
 class StockX225570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26572,8 +26572,8 @@ class StockX225570(models.Model):
 
 
 class StockX225590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26586,8 +26586,8 @@ class StockX225590(models.Model):
 
 
 class StockX226320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26600,8 +26600,8 @@ class StockX226320(models.Model):
 
 
 class StockX226330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26614,8 +26614,8 @@ class StockX226330(models.Model):
 
 
 class StockX226340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26628,8 +26628,8 @@ class StockX226340(models.Model):
 
 
 class StockX226350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26642,8 +26642,8 @@ class StockX226350(models.Model):
 
 
 class StockX226360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26656,8 +26656,8 @@ class StockX226360(models.Model):
 
 
 class StockX226400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26670,8 +26670,8 @@ class StockX226400(models.Model):
 
 
 class StockX226440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26684,8 +26684,8 @@ class StockX226440(models.Model):
 
 
 class StockX226950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26698,8 +26698,8 @@ class StockX226950(models.Model):
 
 
 class StockX227100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26712,8 +26712,8 @@ class StockX227100(models.Model):
 
 
 class StockX227610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26726,8 +26726,8 @@ class StockX227610(models.Model):
 
 
 class StockX227840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26740,8 +26740,8 @@ class StockX227840(models.Model):
 
 
 class StockX227950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26754,8 +26754,8 @@ class StockX227950(models.Model):
 
 
 class StockX228340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26768,8 +26768,8 @@ class StockX228340(models.Model):
 
 
 class StockX228670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26782,8 +26782,8 @@ class StockX228670(models.Model):
 
 
 class StockX228760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26796,8 +26796,8 @@ class StockX228760(models.Model):
 
 
 class StockX228850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26810,8 +26810,8 @@ class StockX228850(models.Model):
 
 
 class StockX229000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26824,8 +26824,8 @@ class StockX229000(models.Model):
 
 
 class StockX229640(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26838,8 +26838,8 @@ class StockX229640(models.Model):
 
 
 class StockX230240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26852,8 +26852,8 @@ class StockX230240(models.Model):
 
 
 class StockX230360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26866,8 +26866,8 @@ class StockX230360(models.Model):
 
 
 class StockX230980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26880,8 +26880,8 @@ class StockX230980(models.Model):
 
 
 class StockX232140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26894,8 +26894,8 @@ class StockX232140(models.Model):
 
 
 class StockX234080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26908,8 +26908,8 @@ class StockX234080(models.Model):
 
 
 class StockX234100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26922,8 +26922,8 @@ class StockX234100(models.Model):
 
 
 class StockX234300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26936,8 +26936,8 @@ class StockX234300(models.Model):
 
 
 class StockX234340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26950,8 +26950,8 @@ class StockX234340(models.Model):
 
 
 class StockX234690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26964,8 +26964,8 @@ class StockX234690(models.Model):
 
 
 class StockX234920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26978,8 +26978,8 @@ class StockX234920(models.Model):
 
 
 class StockX235980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -26992,8 +26992,8 @@ class StockX235980(models.Model):
 
 
 class StockX236200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27006,8 +27006,8 @@ class StockX236200(models.Model):
 
 
 class StockX236810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27020,8 +27020,8 @@ class StockX236810(models.Model):
 
 
 class StockX237690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27034,8 +27034,8 @@ class StockX237690(models.Model):
 
 
 class StockX237750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27048,8 +27048,8 @@ class StockX237750(models.Model):
 
 
 class StockX237820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27062,8 +27062,8 @@ class StockX237820(models.Model):
 
 
 class StockX237880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27076,8 +27076,8 @@ class StockX237880(models.Model):
 
 
 class StockX238090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27090,8 +27090,8 @@ class StockX238090(models.Model):
 
 
 class StockX238120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27104,8 +27104,8 @@ class StockX238120(models.Model):
 
 
 class StockX238200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27118,8 +27118,8 @@ class StockX238200(models.Model):
 
 
 class StockX238490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27132,8 +27132,8 @@ class StockX238490(models.Model):
 
 
 class StockX239340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27146,8 +27146,8 @@ class StockX239340(models.Model):
 
 
 class StockX239610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27160,8 +27160,8 @@ class StockX239610(models.Model):
 
 
 class StockX239890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27174,8 +27174,8 @@ class StockX239890(models.Model):
 
 
 class StockX240810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27188,8 +27188,8 @@ class StockX240810(models.Model):
 
 
 class StockX241520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27202,8 +27202,8 @@ class StockX241520(models.Model):
 
 
 class StockX241560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27216,8 +27216,8 @@ class StockX241560(models.Model):
 
 
 class StockX241590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27230,8 +27230,8 @@ class StockX241590(models.Model):
 
 
 class StockX241690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27244,8 +27244,8 @@ class StockX241690(models.Model):
 
 
 class StockX241710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27258,8 +27258,8 @@ class StockX241710(models.Model):
 
 
 class StockX241770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27272,8 +27272,8 @@ class StockX241770(models.Model):
 
 
 class StockX241790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27286,8 +27286,8 @@ class StockX241790(models.Model):
 
 
 class StockX241820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27300,8 +27300,8 @@ class StockX241820(models.Model):
 
 
 class StockX241840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27314,8 +27314,8 @@ class StockX241840(models.Model):
 
 
 class StockX242040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27328,8 +27328,8 @@ class StockX242040(models.Model):
 
 
 class StockX243070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27342,8 +27342,8 @@ class StockX243070(models.Model):
 
 
 class StockX243840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27356,8 +27356,8 @@ class StockX243840(models.Model):
 
 
 class StockX244460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27370,8 +27370,8 @@ class StockX244460(models.Model):
 
 
 class StockX244920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27384,8 +27384,8 @@ class StockX244920(models.Model):
 
 
 class StockX245620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27398,8 +27398,8 @@ class StockX245620(models.Model):
 
 
 class StockX246690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27412,8 +27412,8 @@ class StockX246690(models.Model):
 
 
 class StockX246710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27426,8 +27426,8 @@ class StockX246710(models.Model):
 
 
 class StockX246720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27440,8 +27440,8 @@ class StockX246720(models.Model):
 
 
 class StockX246960(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27454,8 +27454,8 @@ class StockX246960(models.Model):
 
 
 class StockX247540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27468,8 +27468,8 @@ class StockX247540(models.Model):
 
 
 class StockX247660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27482,8 +27482,8 @@ class StockX247660(models.Model):
 
 
 class StockX248070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27496,8 +27496,8 @@ class StockX248070(models.Model):
 
 
 class StockX248170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27510,8 +27510,8 @@ class StockX248170(models.Model):
 
 
 class StockX249420(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27524,8 +27524,8 @@ class StockX249420(models.Model):
 
 
 class StockX250000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27538,8 +27538,8 @@ class StockX250000(models.Model):
 
 
 class StockX250060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27552,8 +27552,8 @@ class StockX250060(models.Model):
 
 
 class StockX250930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27566,8 +27566,8 @@ class StockX250930(models.Model):
 
 
 class StockX251270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27580,8 +27580,8 @@ class StockX251270(models.Model):
 
 
 class StockX251370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27594,8 +27594,8 @@ class StockX251370(models.Model):
 
 
 class StockX251630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27608,8 +27608,8 @@ class StockX251630(models.Model):
 
 
 class StockX251970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27622,8 +27622,8 @@ class StockX251970(models.Model):
 
 
 class StockX252500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27636,8 +27636,8 @@ class StockX252500(models.Model):
 
 
 class StockX252990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27650,8 +27650,8 @@ class StockX252990(models.Model):
 
 
 class StockX253450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27664,8 +27664,8 @@ class StockX253450(models.Model):
 
 
 class StockX253590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27678,8 +27678,8 @@ class StockX253590(models.Model):
 
 
 class StockX253840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27692,8 +27692,8 @@ class StockX253840(models.Model):
 
 
 class StockX254120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27706,8 +27706,8 @@ class StockX254120(models.Model):
 
 
 class StockX255220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27720,8 +27720,8 @@ class StockX255220(models.Model):
 
 
 class StockX255440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27734,8 +27734,8 @@ class StockX255440(models.Model):
 
 
 class StockX256150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27748,8 +27748,8 @@ class StockX256150(models.Model):
 
 
 class StockX256630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27762,8 +27762,8 @@ class StockX256630(models.Model):
 
 
 class StockX256840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27776,8 +27776,8 @@ class StockX256840(models.Model):
 
 
 class StockX256940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27790,8 +27790,8 @@ class StockX256940(models.Model):
 
 
 class StockX257370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27804,8 +27804,8 @@ class StockX257370(models.Model):
 
 
 class StockX258610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27818,8 +27818,8 @@ class StockX258610(models.Model):
 
 
 class StockX258790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27832,8 +27832,8 @@ class StockX258790(models.Model):
 
 
 class StockX258830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27846,8 +27846,8 @@ class StockX258830(models.Model):
 
 
 class StockX259630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27860,8 +27860,8 @@ class StockX259630(models.Model):
 
 
 class StockX260660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27874,8 +27874,8 @@ class StockX260660(models.Model):
 
 
 class StockX260930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27888,8 +27888,8 @@ class StockX260930(models.Model):
 
 
 class StockX261200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27902,8 +27902,8 @@ class StockX261200(models.Model):
 
 
 class StockX262260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27916,8 +27916,8 @@ class StockX262260(models.Model):
 
 
 class StockX262840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27930,8 +27930,8 @@ class StockX262840(models.Model):
 
 
 class StockX263020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27944,8 +27944,8 @@ class StockX263020(models.Model):
 
 
 class StockX263050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27958,8 +27958,8 @@ class StockX263050(models.Model):
 
 
 class StockX263540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27972,8 +27972,8 @@ class StockX263540(models.Model):
 
 
 class StockX263600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -27986,8 +27986,8 @@ class StockX263600(models.Model):
 
 
 class StockX263690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28000,8 +28000,8 @@ class StockX263690(models.Model):
 
 
 class StockX263700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28014,8 +28014,8 @@ class StockX263700(models.Model):
 
 
 class StockX263720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28028,8 +28028,8 @@ class StockX263720(models.Model):
 
 
 class StockX263750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28042,8 +28042,8 @@ class StockX263750(models.Model):
 
 
 class StockX263770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28056,8 +28056,8 @@ class StockX263770(models.Model):
 
 
 class StockX263800(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28070,8 +28070,8 @@ class StockX263800(models.Model):
 
 
 class StockX263810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28084,8 +28084,8 @@ class StockX263810(models.Model):
 
 
 class StockX263860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28098,8 +28098,8 @@ class StockX263860(models.Model):
 
 
 class StockX263920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28112,8 +28112,8 @@ class StockX263920(models.Model):
 
 
 class StockX264450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28126,8 +28126,8 @@ class StockX264450(models.Model):
 
 
 class StockX264660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28140,8 +28140,8 @@ class StockX264660(models.Model):
 
 
 class StockX264850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28154,8 +28154,8 @@ class StockX264850(models.Model):
 
 
 class StockX264900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28168,8 +28168,8 @@ class StockX264900(models.Model):
 
 
 class StockX265520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28182,8 +28182,8 @@ class StockX265520(models.Model):
 
 
 class StockX265560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28196,8 +28196,8 @@ class StockX265560(models.Model):
 
 
 class StockX265740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28210,8 +28210,8 @@ class StockX265740(models.Model):
 
 
 class StockX267250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28224,8 +28224,8 @@ class StockX267250(models.Model):
 
 
 class StockX267260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28238,8 +28238,8 @@ class StockX267260(models.Model):
 
 
 class StockX267270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28252,8 +28252,8 @@ class StockX267270(models.Model):
 
 
 class StockX267290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28266,8 +28266,8 @@ class StockX267290(models.Model):
 
 
 class StockX267320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28280,8 +28280,8 @@ class StockX267320(models.Model):
 
 
 class StockX267790(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28294,8 +28294,8 @@ class StockX267790(models.Model):
 
 
 class StockX267850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28308,8 +28308,8 @@ class StockX267850(models.Model):
 
 
 class StockX267980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28322,8 +28322,8 @@ class StockX267980(models.Model):
 
 
 class StockX268280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28336,8 +28336,8 @@ class StockX268280(models.Model):
 
 
 class StockX268600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28350,8 +28350,8 @@ class StockX268600(models.Model):
 
 
 class StockX269620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28364,8 +28364,8 @@ class StockX269620(models.Model):
 
 
 class StockX270520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28378,8 +28378,8 @@ class StockX270520(models.Model):
 
 
 class StockX270870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28392,8 +28392,8 @@ class StockX270870(models.Model):
 
 
 class StockX271560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28406,8 +28406,8 @@ class StockX271560(models.Model):
 
 
 class StockX271980(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28420,8 +28420,8 @@ class StockX271980(models.Model):
 
 
 class StockX272110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28434,8 +28434,8 @@ class StockX272110(models.Model):
 
 
 class StockX272210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28448,8 +28448,8 @@ class StockX272210(models.Model):
 
 
 class StockX272290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28462,8 +28462,8 @@ class StockX272290(models.Model):
 
 
 class StockX272450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28476,8 +28476,8 @@ class StockX272450(models.Model):
 
 
 class StockX272550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28490,8 +28490,8 @@ class StockX272550(models.Model):
 
 
 class StockX273060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28504,8 +28504,8 @@ class StockX273060(models.Model):
 
 
 class StockX274090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28518,8 +28518,8 @@ class StockX274090(models.Model):
 
 
 class StockX275630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28532,8 +28532,8 @@ class StockX275630(models.Model):
 
 
 class StockX277070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28546,8 +28546,8 @@ class StockX277070(models.Model):
 
 
 class StockX277410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28560,8 +28560,8 @@ class StockX277410(models.Model):
 
 
 class StockX277810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28574,8 +28574,8 @@ class StockX277810(models.Model):
 
 
 class StockX277880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28588,8 +28588,8 @@ class StockX277880(models.Model):
 
 
 class StockX278280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28602,8 +28602,8 @@ class StockX278280(models.Model):
 
 
 class StockX278650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28616,8 +28616,8 @@ class StockX278650(models.Model):
 
 
 class StockX279600(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28630,8 +28630,8 @@ class StockX279600(models.Model):
 
 
 class StockX280360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28644,8 +28644,8 @@ class StockX280360(models.Model):
 
 
 class StockX281740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28658,8 +28658,8 @@ class StockX281740(models.Model):
 
 
 class StockX281820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28672,8 +28672,8 @@ class StockX281820(models.Model):
 
 
 class StockX282330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28686,8 +28686,8 @@ class StockX282330(models.Model):
 
 
 class StockX282690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28700,8 +28700,8 @@ class StockX282690(models.Model):
 
 
 class StockX282880(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28714,8 +28714,8 @@ class StockX282880(models.Model):
 
 
 class StockX284620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28728,8 +28728,8 @@ class StockX284620(models.Model):
 
 
 class StockX284740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28742,8 +28742,8 @@ class StockX284740(models.Model):
 
 
 class StockX285130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28756,8 +28756,8 @@ class StockX285130(models.Model):
 
 
 class StockX285490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28770,8 +28770,8 @@ class StockX285490(models.Model):
 
 
 class StockX286750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28784,8 +28784,8 @@ class StockX286750(models.Model):
 
 
 class StockX286940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28798,8 +28798,8 @@ class StockX286940(models.Model):
 
 
 class StockX287410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28812,8 +28812,8 @@ class StockX287410(models.Model):
 
 
 class StockX288330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28826,8 +28826,8 @@ class StockX288330(models.Model):
 
 
 class StockX288620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28840,8 +28840,8 @@ class StockX288620(models.Model):
 
 
 class StockX289010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28854,8 +28854,8 @@ class StockX289010(models.Model):
 
 
 class StockX289080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28868,8 +28868,8 @@ class StockX289080(models.Model):
 
 
 class StockX289220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28882,8 +28882,8 @@ class StockX289220(models.Model):
 
 
 class StockX290120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28896,8 +28896,8 @@ class StockX290120(models.Model):
 
 
 class StockX290270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28910,8 +28910,8 @@ class StockX290270(models.Model):
 
 
 class StockX290380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28924,8 +28924,8 @@ class StockX290380(models.Model):
 
 
 class StockX290510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28938,8 +28938,8 @@ class StockX290510(models.Model):
 
 
 class StockX290520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28952,8 +28952,8 @@ class StockX290520(models.Model):
 
 
 class StockX290550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28966,8 +28966,8 @@ class StockX290550(models.Model):
 
 
 class StockX290650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28980,8 +28980,8 @@ class StockX290650(models.Model):
 
 
 class StockX290660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -28994,8 +28994,8 @@ class StockX290660(models.Model):
 
 
 class StockX290670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29008,8 +29008,8 @@ class StockX290670(models.Model):
 
 
 class StockX290690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29022,8 +29022,8 @@ class StockX290690(models.Model):
 
 
 class StockX290720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29036,8 +29036,8 @@ class StockX290720(models.Model):
 
 
 class StockX290740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29050,8 +29050,8 @@ class StockX290740(models.Model):
 
 
 class StockX291230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29064,8 +29064,8 @@ class StockX291230(models.Model):
 
 
 class StockX291650(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29078,8 +29078,8 @@ class StockX291650(models.Model):
 
 
 class StockX293480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29092,8 +29092,8 @@ class StockX293480(models.Model):
 
 
 class StockX293490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29106,8 +29106,8 @@ class StockX293490(models.Model):
 
 
 class StockX293580(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29120,8 +29120,8 @@ class StockX293580(models.Model):
 
 
 class StockX293780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29134,8 +29134,8 @@ class StockX293780(models.Model):
 
 
 class StockX294090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29148,8 +29148,8 @@ class StockX294090(models.Model):
 
 
 class StockX294140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29162,8 +29162,8 @@ class StockX294140(models.Model):
 
 
 class StockX294570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29176,8 +29176,8 @@ class StockX294570(models.Model):
 
 
 class StockX294630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29190,8 +29190,8 @@ class StockX294630(models.Model):
 
 
 class StockX294870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29204,8 +29204,8 @@ class StockX294870(models.Model):
 
 
 class StockX297090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29218,8 +29218,8 @@ class StockX297090(models.Model):
 
 
 class StockX297570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29232,8 +29232,8 @@ class StockX297570(models.Model):
 
 
 class StockX297890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29246,8 +29246,8 @@ class StockX297890(models.Model):
 
 
 class StockX298000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29260,8 +29260,8 @@ class StockX298000(models.Model):
 
 
 class StockX298020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29274,8 +29274,8 @@ class StockX298020(models.Model):
 
 
 class StockX298040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29288,8 +29288,8 @@ class StockX298040(models.Model):
 
 
 class StockX298050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29302,8 +29302,8 @@ class StockX298050(models.Model):
 
 
 class StockX298060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29316,8 +29316,8 @@ class StockX298060(models.Model):
 
 
 class StockX298380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29330,8 +29330,8 @@ class StockX298380(models.Model):
 
 
 class StockX298540(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29344,8 +29344,8 @@ class StockX298540(models.Model):
 
 
 class StockX298690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29358,8 +29358,8 @@ class StockX298690(models.Model):
 
 
 class StockX299030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29372,8 +29372,8 @@ class StockX299030(models.Model):
 
 
 class StockX299170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29386,8 +29386,8 @@ class StockX299170(models.Model):
 
 
 class StockX299660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29400,8 +29400,8 @@ class StockX299660(models.Model):
 
 
 class StockX299900(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29414,8 +29414,8 @@ class StockX299900(models.Model):
 
 
 class StockX299910(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29428,8 +29428,8 @@ class StockX299910(models.Model):
 
 
 class StockX300080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29442,8 +29442,8 @@ class StockX300080(models.Model):
 
 
 class StockX300120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29456,8 +29456,8 @@ class StockX300120(models.Model):
 
 
 class StockX300720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29470,8 +29470,8 @@ class StockX300720(models.Model):
 
 
 class StockX301300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29484,8 +29484,8 @@ class StockX301300(models.Model):
 
 
 class StockX302430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29498,8 +29498,8 @@ class StockX302430(models.Model):
 
 
 class StockX302440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29512,8 +29512,8 @@ class StockX302440(models.Model):
 
 
 class StockX302550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29526,8 +29526,8 @@ class StockX302550(models.Model):
 
 
 class StockX303030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29540,8 +29540,8 @@ class StockX303030(models.Model):
 
 
 class StockX304100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29554,8 +29554,8 @@ class StockX304100(models.Model):
 
 
 class StockX304840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29568,8 +29568,8 @@ class StockX304840(models.Model):
 
 
 class StockX305090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29582,8 +29582,8 @@ class StockX305090(models.Model):
 
 
 class StockX306040(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29596,8 +29596,8 @@ class StockX306040(models.Model):
 
 
 class StockX306200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29610,8 +29610,8 @@ class StockX306200(models.Model):
 
 
 class StockX306620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29624,8 +29624,8 @@ class StockX306620(models.Model):
 
 
 class StockX307070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29638,8 +29638,8 @@ class StockX307070(models.Model):
 
 
 class StockX307160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29652,8 +29652,8 @@ class StockX307160(models.Model):
 
 
 class StockX307180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29666,8 +29666,8 @@ class StockX307180(models.Model):
 
 
 class StockX307280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29680,8 +29680,8 @@ class StockX307280(models.Model):
 
 
 class StockX307750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29694,8 +29694,8 @@ class StockX307750(models.Model):
 
 
 class StockX307870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29708,8 +29708,8 @@ class StockX307870(models.Model):
 
 
 class StockX307930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29722,8 +29722,8 @@ class StockX307930(models.Model):
 
 
 class StockX307950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29736,8 +29736,8 @@ class StockX307950(models.Model):
 
 
 class StockX308100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29750,8 +29750,8 @@ class StockX308100(models.Model):
 
 
 class StockX308170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29764,8 +29764,8 @@ class StockX308170(models.Model):
 
 
 class StockX309930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29778,8 +29778,8 @@ class StockX309930(models.Model):
 
 
 class StockX310200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29792,8 +29792,8 @@ class StockX310200(models.Model):
 
 
 class StockX310840(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29806,8 +29806,8 @@ class StockX310840(models.Model):
 
 
 class StockX310870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29820,8 +29820,8 @@ class StockX310870(models.Model):
 
 
 class StockX311270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29834,8 +29834,8 @@ class StockX311270(models.Model):
 
 
 class StockX311390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29848,8 +29848,8 @@ class StockX311390(models.Model):
 
 
 class StockX311690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29862,8 +29862,8 @@ class StockX311690(models.Model):
 
 
 class StockX312610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29876,8 +29876,8 @@ class StockX312610(models.Model):
 
 
 class StockX313750(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29890,8 +29890,8 @@ class StockX313750(models.Model):
 
 
 class StockX313760(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29904,8 +29904,8 @@ class StockX313760(models.Model):
 
 
 class StockX314130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29918,8 +29918,8 @@ class StockX314130(models.Model):
 
 
 class StockX314930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29932,8 +29932,8 @@ class StockX314930(models.Model):
 
 
 class StockX316140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29946,8 +29946,8 @@ class StockX316140(models.Model):
 
 
 class StockX317030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29960,8 +29960,8 @@ class StockX317030(models.Model):
 
 
 class StockX317120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29974,8 +29974,8 @@ class StockX317120(models.Model):
 
 
 class StockX317240(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -29988,8 +29988,8 @@ class StockX317240(models.Model):
 
 
 class StockX317320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30002,8 +30002,8 @@ class StockX317320(models.Model):
 
 
 class StockX317330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30016,8 +30016,8 @@ class StockX317330(models.Model):
 
 
 class StockX317400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30030,8 +30030,8 @@ class StockX317400(models.Model):
 
 
 class StockX317530(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30044,8 +30044,8 @@ class StockX317530(models.Model):
 
 
 class StockX317690(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30058,8 +30058,8 @@ class StockX317690(models.Model):
 
 
 class StockX317770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30072,8 +30072,8 @@ class StockX317770(models.Model):
 
 
 class StockX317830(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30086,8 +30086,8 @@ class StockX317830(models.Model):
 
 
 class StockX317850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30100,8 +30100,8 @@ class StockX317850(models.Model):
 
 
 class StockX317870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30114,8 +30114,8 @@ class StockX317870(models.Model):
 
 
 class StockX318000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30128,8 +30128,8 @@ class StockX318000(models.Model):
 
 
 class StockX318010(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30142,8 +30142,8 @@ class StockX318010(models.Model):
 
 
 class StockX318020(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30156,8 +30156,8 @@ class StockX318020(models.Model):
 
 
 class StockX318410(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30170,8 +30170,8 @@ class StockX318410(models.Model):
 
 
 class StockX319400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30184,8 +30184,8 @@ class StockX319400(models.Model):
 
 
 class StockX319660(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30198,8 +30198,8 @@ class StockX319660(models.Model):
 
 
 class StockX320000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30212,8 +30212,8 @@ class StockX320000(models.Model):
 
 
 class StockX321260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30226,8 +30226,8 @@ class StockX321260(models.Model):
 
 
 class StockX321550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30240,8 +30240,8 @@ class StockX321550(models.Model):
 
 
 class StockX321820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30254,8 +30254,8 @@ class StockX321820(models.Model):
 
 
 class StockX322000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30268,8 +30268,8 @@ class StockX322000(models.Model):
 
 
 class StockX322180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30282,8 +30282,8 @@ class StockX322180(models.Model):
 
 
 class StockX322310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30296,8 +30296,8 @@ class StockX322310(models.Model):
 
 
 class StockX322510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30310,8 +30310,8 @@ class StockX322510(models.Model):
 
 
 class StockX322780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30324,8 +30324,8 @@ class StockX322780(models.Model):
 
 
 class StockX323210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30338,8 +30338,8 @@ class StockX323210(models.Model):
 
 
 class StockX323230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30352,8 +30352,8 @@ class StockX323230(models.Model):
 
 
 class StockX323280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30366,8 +30366,8 @@ class StockX323280(models.Model):
 
 
 class StockX323940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30380,8 +30380,8 @@ class StockX323940(models.Model):
 
 
 class StockX323990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30394,8 +30394,8 @@ class StockX323990(models.Model):
 
 
 class StockX326030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30408,8 +30408,8 @@ class StockX326030(models.Model):
 
 
 class StockX327260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30422,8 +30422,8 @@ class StockX327260(models.Model):
 
 
 class StockX328380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30436,8 +30436,8 @@ class StockX328380(models.Model):
 
 
 class StockX329560(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30450,8 +30450,8 @@ class StockX329560(models.Model):
 
 
 class StockX330350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30464,8 +30464,8 @@ class StockX330350(models.Model):
 
 
 class StockX330860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30478,8 +30478,8 @@ class StockX330860(models.Model):
 
 
 class StockX330990(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30492,8 +30492,8 @@ class StockX330990(models.Model):
 
 
 class StockX331380(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30506,8 +30506,8 @@ class StockX331380(models.Model):
 
 
 class StockX331520(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30520,8 +30520,8 @@ class StockX331520(models.Model):
 
 
 class StockX331920(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30534,8 +30534,8 @@ class StockX331920(models.Model):
 
 
 class StockX332290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30548,8 +30548,8 @@ class StockX332290(models.Model):
 
 
 class StockX332370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30562,8 +30562,8 @@ class StockX332370(models.Model):
 
 
 class StockX332570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30576,8 +30576,8 @@ class StockX332570(models.Model):
 
 
 class StockX332710(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30590,8 +30590,8 @@ class StockX332710(models.Model):
 
 
 class StockX333050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30604,8 +30604,8 @@ class StockX333050(models.Model):
 
 
 class StockX333430(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30618,8 +30618,8 @@ class StockX333430(models.Model):
 
 
 class StockX333620(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30632,8 +30632,8 @@ class StockX333620(models.Model):
 
 
 class StockX334970(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30646,8 +30646,8 @@ class StockX334970(models.Model):
 
 
 class StockX335810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30660,8 +30660,8 @@ class StockX335810(models.Model):
 
 
 class StockX335870(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30674,8 +30674,8 @@ class StockX335870(models.Model):
 
 
 class StockX335890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30688,8 +30688,8 @@ class StockX335890(models.Model):
 
 
 class StockX336060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30702,8 +30702,8 @@ class StockX336060(models.Model):
 
 
 class StockX336260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30716,8 +30716,8 @@ class StockX336260(models.Model):
 
 
 class StockX336370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30730,8 +30730,8 @@ class StockX336370(models.Model):
 
 
 class StockX336570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30744,8 +30744,8 @@ class StockX336570(models.Model):
 
 
 class StockX337450(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30758,8 +30758,8 @@ class StockX337450(models.Model):
 
 
 class StockX337930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30772,8 +30772,8 @@ class StockX337930(models.Model):
 
 
 class StockX338220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30786,8 +30786,8 @@ class StockX338220(models.Model):
 
 
 class StockX339770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30800,8 +30800,8 @@ class StockX339770(models.Model):
 
 
 class StockX339950(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30814,8 +30814,8 @@ class StockX339950(models.Model):
 
 
 class StockX340120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30828,8 +30828,8 @@ class StockX340120(models.Model):
 
 
 class StockX340350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30842,8 +30842,8 @@ class StockX340350(models.Model):
 
 
 class StockX340360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30856,8 +30856,8 @@ class StockX340360(models.Model):
 
 
 class StockX340440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30870,8 +30870,8 @@ class StockX340440(models.Model):
 
 
 class StockX340570(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30884,8 +30884,8 @@ class StockX340570(models.Model):
 
 
 class StockX340930(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30898,8 +30898,8 @@ class StockX340930(models.Model):
 
 
 class StockX341160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30912,8 +30912,8 @@ class StockX341160(models.Model):
 
 
 class StockX342550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30926,8 +30926,8 @@ class StockX342550(models.Model):
 
 
 class StockX343510(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30940,8 +30940,8 @@ class StockX343510(models.Model):
 
 
 class StockX344050(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30954,8 +30954,8 @@ class StockX344050(models.Model):
 
 
 class StockX344820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30968,8 +30968,8 @@ class StockX344820(models.Model):
 
 
 class StockX347000(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30982,8 +30982,8 @@ class StockX347000(models.Model):
 
 
 class StockX347140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -30996,8 +30996,8 @@ class StockX347140(models.Model):
 
 
 class StockX347700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31010,8 +31010,8 @@ class StockX347700(models.Model):
 
 
 class StockX347740(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31024,8 +31024,8 @@ class StockX347740(models.Model):
 
 
 class StockX347770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31038,8 +31038,8 @@ class StockX347770(models.Model):
 
 
 class StockX347860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31052,8 +31052,8 @@ class StockX347860(models.Model):
 
 
 class StockX347890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31066,8 +31066,8 @@ class StockX347890(models.Model):
 
 
 class StockX348030(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31080,8 +31080,8 @@ class StockX348030(models.Model):
 
 
 class StockX348150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31094,8 +31094,8 @@ class StockX348150(models.Model):
 
 
 class StockX348210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31108,8 +31108,8 @@ class StockX348210(models.Model):
 
 
 class StockX348350(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31122,8 +31122,8 @@ class StockX348350(models.Model):
 
 
 class StockX349720(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31136,8 +31136,8 @@ class StockX349720(models.Model):
 
 
 class StockX351320(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31150,8 +31150,8 @@ class StockX351320(models.Model):
 
 
 class StockX351330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31164,8 +31164,8 @@ class StockX351330(models.Model):
 
 
 class StockX351340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31178,8 +31178,8 @@ class StockX351340(models.Model):
 
 
 class StockX352480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31192,8 +31192,8 @@ class StockX352480(models.Model):
 
 
 class StockX352700(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31206,8 +31206,8 @@ class StockX352700(models.Model):
 
 
 class StockX352770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31220,8 +31220,8 @@ class StockX352770(models.Model):
 
 
 class StockX352820(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31234,8 +31234,8 @@ class StockX352820(models.Model):
 
 
 class StockX352940(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31248,8 +31248,8 @@ class StockX352940(models.Model):
 
 
 class StockX353060(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31262,8 +31262,8 @@ class StockX353060(models.Model):
 
 
 class StockX353070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31276,8 +31276,8 @@ class StockX353070(models.Model):
 
 
 class StockX353190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31290,8 +31290,8 @@ class StockX353190(models.Model):
 
 
 class StockX353200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31304,8 +31304,8 @@ class StockX353200(models.Model):
 
 
 class StockX353490(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31318,8 +31318,8 @@ class StockX353490(models.Model):
 
 
 class StockX353810(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31332,8 +31332,8 @@ class StockX353810(models.Model):
 
 
 class StockX354200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31346,8 +31346,8 @@ class StockX354200(models.Model):
 
 
 class StockX355150(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31360,8 +31360,8 @@ class StockX355150(models.Model):
 
 
 class StockX356860(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31374,8 +31374,8 @@ class StockX356860(models.Model):
 
 
 class StockX356890(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31388,8 +31388,8 @@ class StockX356890(models.Model):
 
 
 class StockX357230(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31402,8 +31402,8 @@ class StockX357230(models.Model):
 
 
 class StockX357550(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31416,8 +31416,8 @@ class StockX357550(models.Model):
 
 
 class StockX357780(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31430,8 +31430,8 @@ class StockX357780(models.Model):
 
 
 class StockX359090(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31444,8 +31444,8 @@ class StockX359090(models.Model):
 
 
 class StockX361390(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31458,8 +31458,8 @@ class StockX361390(models.Model):
 
 
 class StockX361610(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31472,8 +31472,8 @@ class StockX361610(models.Model):
 
 
 class StockX361670(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31486,8 +31486,8 @@ class StockX361670(models.Model):
 
 
 class StockX363260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31500,8 +31500,8 @@ class StockX363260(models.Model):
 
 
 class StockX363280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31514,8 +31514,8 @@ class StockX363280(models.Model):
 
 
 class StockX365590(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31528,8 +31528,8 @@ class StockX365590(models.Model):
 
 
 class StockX366330(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31542,8 +31542,8 @@ class StockX366330(models.Model):
 
 
 class StockX367340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31556,8 +31556,8 @@ class StockX367340(models.Model):
 
 
 class StockX367360(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31570,8 +31570,8 @@ class StockX367360(models.Model):
 
 
 class StockX367460(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31584,8 +31584,8 @@ class StockX367460(models.Model):
 
 
 class StockX367480(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31598,8 +31598,8 @@ class StockX367480(models.Model):
 
 
 class StockX368770(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31612,8 +31612,8 @@ class StockX368770(models.Model):
 
 
 class StockX369370(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31626,8 +31626,8 @@ class StockX369370(models.Model):
 
 
 class StockX372290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31640,8 +31640,8 @@ class StockX372290(models.Model):
 
 
 class StockX373200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31654,8 +31654,8 @@ class StockX373200(models.Model):
 
 
 class StockX373340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31668,8 +31668,8 @@ class StockX373340(models.Model):
 
 
 class StockX375500(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31682,8 +31682,8 @@ class StockX375500(models.Model):
 
 
 class StockX377400(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31696,8 +31696,8 @@ class StockX377400(models.Model):
 
 
 class StockX377630(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31710,8 +31710,8 @@ class StockX377630(models.Model):
 
 
 class StockX378850(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31724,8 +31724,8 @@ class StockX378850(models.Model):
 
 
 class StockX380440(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31738,8 +31738,8 @@ class StockX380440(models.Model):
 
 
 class StockX383220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31752,8 +31752,8 @@ class StockX383220(models.Model):
 
 
 class StockX900070(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31766,8 +31766,8 @@ class StockX900070(models.Model):
 
 
 class StockX900080(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31780,8 +31780,8 @@ class StockX900080(models.Model):
 
 
 class StockX900100(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31794,8 +31794,8 @@ class StockX900100(models.Model):
 
 
 class StockX900110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31808,8 +31808,8 @@ class StockX900110(models.Model):
 
 
 class StockX900120(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31822,8 +31822,8 @@ class StockX900120(models.Model):
 
 
 class StockX900140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31836,8 +31836,8 @@ class StockX900140(models.Model):
 
 
 class StockX900250(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31850,8 +31850,8 @@ class StockX900250(models.Model):
 
 
 class StockX900260(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31864,8 +31864,8 @@ class StockX900260(models.Model):
 
 
 class StockX900270(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31878,8 +31878,8 @@ class StockX900270(models.Model):
 
 
 class StockX900280(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31892,8 +31892,8 @@ class StockX900280(models.Model):
 
 
 class StockX900290(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31906,8 +31906,8 @@ class StockX900290(models.Model):
 
 
 class StockX900300(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31920,8 +31920,8 @@ class StockX900300(models.Model):
 
 
 class StockX900310(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31934,8 +31934,8 @@ class StockX900310(models.Model):
 
 
 class StockX900340(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31948,8 +31948,8 @@ class StockX900340(models.Model):
 
 
 class StockX950110(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31962,8 +31962,8 @@ class StockX950110(models.Model):
 
 
 class StockX950130(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31976,8 +31976,8 @@ class StockX950130(models.Model):
 
 
 class StockX950140(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -31990,8 +31990,8 @@ class StockX950140(models.Model):
 
 
 class StockX950160(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -32004,8 +32004,8 @@ class StockX950160(models.Model):
 
 
 class StockX950170(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -32018,8 +32018,8 @@ class StockX950170(models.Model):
 
 
 class StockX950180(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -32032,8 +32032,8 @@ class StockX950180(models.Model):
 
 
 class StockX950190(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -32046,8 +32046,8 @@ class StockX950190(models.Model):
 
 
 class StockX950200(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -32060,8 +32060,8 @@ class StockX950200(models.Model):
 
 
 class StockX950210(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)
@@ -32074,8 +32074,8 @@ class StockX950210(models.Model):
 
 
 class StockX950220(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField(blank=True, null=True)
+    
+    date = models.DateField(blank=True, primary_key = True)
     open = models.FloatField(blank=True, null=True)
     high = models.FloatField(blank=True, null=True)
     low = models.FloatField(blank=True, null=True)

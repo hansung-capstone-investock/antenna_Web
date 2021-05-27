@@ -2,6 +2,7 @@ from django.http.response import Http404
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.utils import timezone
+from rest_framework.views import APIView
 from .models import *
 import pandas as pd
 import datetime as dt
@@ -13,13 +14,78 @@ from rest_framework.parsers import JSONParser
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from datetime import datetime, tzinfo
+from datetime import datetime, timedelta, tzinfo
 from bs4 import BeautifulSoup
 import requests
 from threading import Timer
 from pykrx import stock as st
 from stock import stockScraping
 from stock.serializers import *
+import pandas as pd
+
+@api_view(['GET'])
+def kospiYearList(request):
+    if request.method == 'GET':
+        today = datetime.today()
+        startdate = today + timedelta(days=-365)
+        kospiList = Kospi.objects.using("stockDB").filter(date__range = [startdate, today])
+        kospiList_serializer = KospiSerializer(kospiList,many = True)
+        return Response(kospiList_serializer.data)
+
+@api_view(['GET'])
+def kosdaqYearList(request):
+    if request.method == 'GET':
+        today = datetime.today()
+        startdate = today + timedelta(days=-365)
+        kosdaqList = Kosdaq.objects.using("stockDB").filter(date__range = [startdate, today])
+        kosdaqList_serializer = KosdaqSerializer(kosdaqList,many = True)
+        return Response(kosdaqList_serializer.data)
+    
+@api_view(['GET'])
+def kospi200YearList(request):
+    if request.method == 'GET':
+        today = datetime.today()
+        startdate = today + timedelta(days=-365)
+        kospi200List = Kospi200.objects.using("stockDB").filter(date__range = [startdate, today])
+        kospi200List_serializer = Kospi200Serializer(kospi200List,many = True)
+        return Response(kospi200List_serializer.data)
+
+def insertPrice(request):
+    df = pd.read_csv("./final_stock.csv", converters={'code': str},thousands = ',')
+
+    stockList_df = df['code']
+    dup_df = stockList_df.drop_duplicates()
+    dup_df = dup_df.reset_index(drop=True)
+    cur = "005930"
+    strClass = 'StockX'+cur
+    instance = eval(strClass)
+    for r in df.itertuples():
+        if r.code != cur:
+            cur = r.code
+            strClass = 'StockX'+cur
+            instance = eval(strClass)
+            
+        stockinfo = instance(
+            date = r.date,
+            open = r.open,
+            high = r.high,
+            low = r.low,
+            close = r.close,
+            volume =r.vol,
+        )
+        stockinfo.save(using='stockDB')
+    return HttpResponse("insert Done")
+
+@api_view(['GET'])
+def marketList(request):
+    if request.method == 'GET':
+        marketList = MarketList.objects.using("stockDB").all()
+        marketList_serializer = MarketListSerializer(marketList,many = True)
+        return Response(marketList_serializer.data)
+
+# class StockDetail(APIView):
+#     def get(self,request, format=None):
+        
 
 def initApp(request):
     stockScraping.initSet()
@@ -173,3 +239,4 @@ def tensorflow_api(request):
         # 이미지 파일로 받아서
 
         return HttpResponse(result, content="image/png")
+
