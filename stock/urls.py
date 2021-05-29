@@ -12,6 +12,4 @@ urlpatterns = [
     path('marketlist/',views.marketList),
     path('kospiyear/',views.kospiYearList),
     path('ip/',views.insertPrice),
-    path('rm/',views.readMarket),
-
 ]

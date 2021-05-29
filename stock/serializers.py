@@ -39,34 +39,23 @@ class StockListSerializer(serializers.ModelSerializer):
                 )
 
 class KospiSerializer(serializers.ModelSerializer):
+    
     class Meta:
         model = Kospi
         fields = ('date',
-                'high',
-                'low',
                 'close',
-                'tradingVolume',
-                'tradingPrice',
                 )
 
 class KosdaqSerializer(serializers.ModelSerializer):
     class Meta:
         model = Kosdaq
         fields = ('date',
-                'high',
-                'low',
                 'close',
-                'tradingVolume',
-                'tradingPrice',
                 )
         
 class Kospi200Serializer(serializers.ModelSerializer):
     class Meta:
         model = Kospi200
         fields = ('date',
-                'high',
-                'low',
                 'close',
-                'tradingVolume',
-                'tradingPrice',
                 )

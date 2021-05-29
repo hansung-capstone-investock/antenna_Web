@@ -30,6 +30,7 @@ def kospiYearList(request):
         startdate = today + timedelta(days=-365)
         kospiList = Kospi.objects.using("stockDB").filter(date__range = [startdate, today])
         kospiList_serializer = KospiSerializer(kospiList,many = True)
+        
         return Response(kospiList_serializer.data)
 
 @api_view(['GET'])
@@ -49,6 +50,7 @@ def kospi200YearList(request):
         kospi200List = Kospi200.objects.using("stockDB").filter(date__range = [startdate, today])
         kospi200List_serializer = Kospi200Serializer(kospi200List,many = True)
         return Response(kospi200List_serializer.data)
+
 
 def insertPrice(request):
     df = pd.read_csv("./final_stock.csv", converters={'code': str},thousands = ',')
