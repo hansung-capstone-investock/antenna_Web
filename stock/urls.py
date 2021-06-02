@@ -11,5 +11,10 @@ urlpatterns = [
     path('setmarket/',views.setMarket),
     path('marketlist/',views.marketList),
     path('kospiyear/',views.kospiYearList),
+    path('kosdaqyear/',views.kosdaqYearList),
+    path('kospi200year/',views.kospi200YearList),
     path('ip/',views.insertPrice),
+    path('bt/',views.backtestapi),
+    path('mu/',views.mu),
+    
 ]

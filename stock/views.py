@@ -22,6 +22,20 @@ from pykrx import stock as st
 from stock import stockScraping
 from stock.serializers import *
 import pandas as pd
+from stock import backtest
+from stock import marketUpdate
+
+def mu(request):
+    marketUpdate.readMarket()
+    return HttpResponse("market Update")
+
+@api_view(['POST'])
+def backtestapi(request):
+    if request.method == 'POST':
+        backT = backtest.Backtest(request.data)
+        backT.targetStock()
+        backT.backTesting()
+        return HttpResponse(backT.haveStock)
 
 @api_view(['GET'])
 def kospiYearList(request):
@@ -50,6 +64,8 @@ def kospi200YearList(request):
         kospi200List = Kospi200.objects.using("stockDB").filter(date__range = [startdate, today])
         kospi200List_serializer = Kospi200Serializer(kospi200List,many = True)
         return Response(kospi200List_serializer.data)
+
+
 
 
 def insertPrice(request):
@@ -85,9 +101,7 @@ def marketList(request):
         marketList_serializer = MarketListSerializer(marketList,many = True)
         return Response(marketList_serializer.data)
 
-# class StockDetail(APIView):
-#     def get(self,request, format=None):
-        
+
 
 def initApp(request):
     stockScraping.initSet()
