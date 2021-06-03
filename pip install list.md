@@ -29,3 +29,5 @@
 12. pykrx
 
 13. django-crontab
+
+14. drf_yasg

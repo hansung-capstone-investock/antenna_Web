@@ -50,10 +50,13 @@ def login(request):
 @api_view(['POST'])
 def signup(request):
     if request.method == 'POST':
+        print(request.data)
         account_serializer = AccountSerializer(data=request.data)
-
         if account_serializer.is_valid():
             account_serializer.save()
+            interestedstockData(
+                name = request.data['id']
+            ).save()
             return JsonResponse({"code": "0000", "msg": "회원가입 성공하셨습니다."}, status=200)
         else:
             return JsonResponse({"code": "1001", "msg": "회원가입 실패하셨습니다."}, status=200)
@@ -62,17 +65,20 @@ def signup(request):
 def interestedstock_Update(request):
     if request.method == 'POST':
         interested_serializer = InterestedstockSerializer(data=request.data)
-        
+
         if interested_serializer.is_valid():
-            interested_serializer.save()
+            if interestedstockData.objects.filter(name = request.data['name'], group = request.data['group']) is not None:
+                interested_serializer.update(request.data['name'])
+            else:
+                interested_serializer.save()
             return JsonResponse({"code": "0000", "msg": "관심종목이 추가되었습니다."}, status=200)
         else:
             return JsonResponse({"code": "1002", "msg": "관심종목 추가가 실패하였습니다."}, status=200)
 
-@api_view(['GET'])
+@api_view(['POST'])
 def interestedgroup_list(request):
-    if request.method == 'GET':
-        intersted = interestedstockData.objects.all()
+    if request.method == 'POST':
+        intersted = interestedstockData.objects.filter(name = request.data['name'])
         intersted_serializer = InterestedstockSerializer(intersted, many=True)
         
-        return JsonResponse(intersted_serializer.data)
+        return JsonResponse(intersted_serializer.data, safe=False)
