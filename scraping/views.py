@@ -197,7 +197,7 @@ def livenews_list(request):
 @api_view(['GET'])
 def dc_list(request):
     if request.method == 'GET':
-        dc = dcData.objects.all()
+        dc = dcData.objects.all().order_by('-count')
         dc_serializer = DcSerializer(dc, many=True)
         return Response(dc_serializer.data)
 
@@ -205,6 +205,6 @@ def dc_list(request):
 @api_view(['GET'])
 def fmkor_list(request):
     if request.method == 'GET':
-        fmkor = fmkorData.objects.all()
+        fmkor = fmkorData.objects.all().order_by('-count')
         fmkor_serializer = FmkorSerializer(fmkor, many=True)
         return Response(fmkor_serializer.data)

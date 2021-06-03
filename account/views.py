@@ -50,10 +50,15 @@ def login(request):
 @api_view(['POST'])
 def signup(request):
     if request.method == 'POST':
-        print(request.data)
         account_serializer = AccountSerializer(data=request.data)
         if account_serializer.is_valid():
             account_serializer.save()
+            interestedstockData(
+                name = request.data['id']
+            ).save()
+            interestedstockData(
+                name = request.data['id']
+            ).save()
             interestedstockData(
                 name = request.data['id']
             ).save()
