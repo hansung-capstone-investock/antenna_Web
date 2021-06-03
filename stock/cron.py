@@ -7,9 +7,9 @@ from pykrx import stock as st
 from datetime import date
 
 def is_weekend():
-    year = datetime.datetime.today().year
-    month = datetime.datetime.today().month
-    day = datetime.datetime.today().day
+    year = datetime.today().year
+    month = datetime.today().month
+    day = datetime.today().day
     d = date(year,month,day)
     return d.weekday() > 4
 

@@ -54,7 +54,8 @@ class Backtest:
             instance = eval(strClass)
             dateInfo = instance.objects.using("stockDB").get(date==self.targetDate)
             df = df.append(dateInfo,ignore_index=True)
-        
+            df.to_csv("testdf.csv")
+            break
         df.sort_values(self.sorts,ascending=True)
         
                 
@@ -67,3 +68,4 @@ class Backtest:
             self.dailyTesting(targetList)
             
             self.targetDate += timedelta(days=1)
+            break

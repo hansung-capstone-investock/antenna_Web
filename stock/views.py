@@ -140,6 +140,37 @@ def setMarket(request):
             continue
     return HttpResponse("done")
 
+
+def insert_per(request):
+    stocklist_df = pd.read_excel("C:/Users/Junyong/Desktop/capstone_stockData/stockList.xlsx",dtype=str)
+    stocklist = list()
+    stocklist = stocklist_df['종목코드']
+    # for stock in stocklist:
+    #     df=pd.read_csv(f"C:/Users/Junyong/Desktop/capstone_stockData/perdata/{stock}per.csv",dtype=str)
+    #     try:
+    #         strClass = 'Xstock'+stock
+    #         instance = eval(strClass)
+    #         for 
+    #     except:
+    #         continue        
+    stocka = stocklist[54:]
+    for stockcode in stocka:
+        try:
+            df=pd.read_csv(f"C:/Users/Junyong/Desktop/capstone_stockData/preper/{stockcode}per.csv",dtype=str)
+            strClass = 'StockX'+stockcode
+            instance = eval(strClass)
+            for r in df.itertuples():
+                stockinfo = instance(
+                    date = r.date,
+                    per = r.PER,
+                    pbr = r.PBR
+                    )
+                stockinfo.save(using='stockDB')
+        except:
+            continue
+        
+    return HttpResponse("per,pbr done")
+    
 def read_naver(request):
     pages_to_fetch =100
     codes = dict()
