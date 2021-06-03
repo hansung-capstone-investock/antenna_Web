@@ -1,0 +1,7 @@
+.collapse .collapse-panel {
+  margin-bottom: 24px;
+  overflow: hidden;
+  background: pink;
+  border: 0px;
+  border-radius: 2px;
+}

@@ -1,0 +1,9 @@
+export { default as Main } from "./Main";
+export { default as News } from "./News";
+export { default as Login } from "./Login";
+export { default as Word } from "./Word";
+export { default as Antenna } from "./Antenna";
+export { default as SignUp } from "./SignUp";
+export { default as InfoThresh } from "./Info";
+export { default as MyPage } from "./MyPage";
+export { default as Backtest } from "./Backtest";

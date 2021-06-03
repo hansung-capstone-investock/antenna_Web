@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "extends": ["react-app", "prettier", "plugin:prettier/recommended","plugin:react-hooks/recommended"],
+  "plugins": ["prettier"],
+  "env": {
+    "es2020": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": ["warn", {
+      "endOfLine":"auto"
+    }]
+  }
+}
