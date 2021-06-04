@@ -262,5 +262,3 @@ def backtesting_api(request):
         # 수익률을 각 종목마다 딕셔너리 형태로 저장
 
         return JsonResponse(주가데이터_serializer)
-
-

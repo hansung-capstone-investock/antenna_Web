@@ -19,9 +19,10 @@ from .Indicator import volatiliy as vola
 from .Indicator import volume as vol
 from .Indicator import momentum as mom
 from .Indicator import diff as diff
+from stock.serializers import *
 
 @api_view(['POST'])
-def tensorflow_api(request):
+def antenna_api(request):
     if request.method == 'POST':
         # 종목
         companyName = request.data['종목']
@@ -31,34 +32,39 @@ def tensorflow_api(request):
         indicator = request.data['보조지표']
 
         stockData = StockList.objects.using("stockDB").get(company = companyName)
-        종목데이터_serializer = 주가Serializer(stockData, many=True)
-        code = 종목데이터_serializer.data[0]['code']
+        stock_serializer = StockSeirializer(stockData, many=True)
+        code = stock_serializer.data['code']
 
         result = antenna_tensor(code, indicator, predictDate)
 
         return HttpResponse(result, content="image/png")
 
-def antenna_tensor(code, indicator, predictDate):
-
-    # Open, High, Low, Volume, Close
-    # xy = pd.read_csv('C:/Users/hansung/Capstone/tensorflow/LG_chemical28.csv')
+def get_stockdata(code):
     code = int(code)
     code = '{0:06d}'.format(code)
-
     nowDate = (datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
-    exeStr = 'StockX{0}.objects.filter(date__range=["2018-01-01", "{1}"]'.format(code, nowDate)
-    xy = exec(exeStr)
-    xy = xy.to_numpy()
-    df = pd.DataFrame(xy, columns=['open','high', 'low','volume','close'])
+    exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["2018-01-01", "{1}"])'.format(code, nowDate)
+    stockData = eval(exeStr)        
+    stockData_serializer = StockSeirializer(stockData, many=True)
+    return Response(stockData_serializer.data)
 
-    tf.random.set_seed(777)
-
+def antenna_tensor(code, indicator, predictDate):
     # train Parameters
     seqLength = 7 # window size 
     days_to_predict = predictDate
     batchsize = 16 
     iterations = 150
     indicator_count = len(indicator)
+
+    xy_json = get_stockdata(code)
+    # xy_json = json.load(xy_json)
+
+    xy = pd.DataFrame(xy_json)
+    del xy['date']
+    df = xy.dropna()
+    df['close'] = df['close'].shift(-days_to_predict)
+
+    tf.random.set_seed(777)
 
     # 보조지표
     # 전일비, 등락률
@@ -190,8 +196,8 @@ def antenna_tensor(code, indicator, predictDate):
     sum = predict[0] - actual[0]
     
     # 예측 결과, 실제 값
-    predict = predict - sum + bolinger_y[-days_to_predict:]
-    actual = actual + bolinger_y[-days_to_predict:]
+    predict = predict - sum + bolinger_y[seqLength:]
+    actual = actual + bolinger_y[seqLength:]
 
     predict_list = predict.tolist()
     actual_list = actual.tolist()
