@@ -264,26 +264,3 @@ def backtesting_api(request):
         return JsonResponse(주가데이터_serializer)
 
 
-@api_view(['POST'])
-def tensorflow_api(request):
-    if request.method == 'POST':
-        # 입력조건
-        종목 = request.data['종목']
-        예측날짜 = request.data['예측날짜']
-        # 7일, 15일, 30일
-
-        request.data['모델']
-        # RNN, LSTM, GRU
-
-        request.data['지표 체크박스']
-        
-        종목데이터 = stockList.objects.get(종목명 = 종목)
-
-        종목데이터_serializer = 주가Serializer(종목데이터, many=True)
-        code = 종목데이터_serializer.data[0]['code']
-
-        result = tensorflow(code, 예측날짜)
-        # 이미지 파일로 받아서
-
-        return HttpResponse(result, content="image/png")
-

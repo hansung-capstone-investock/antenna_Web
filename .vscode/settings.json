@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "c:\\Users\\hansung\\Capstone\\myvenv\\Scripts\\python.exe"
+    "python.pythonPath": "c:\\Users\\hansung\\Capstone\\myvenv\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
 }
