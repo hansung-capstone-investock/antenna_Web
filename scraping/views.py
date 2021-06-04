@@ -14,6 +14,7 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from scraping.serializers import *
+from django.db.models import Count
 
 
 # dcinside 주식갤러리 크롤링
@@ -36,6 +37,7 @@ def parse_dc(request):
     temp = {}
     data = {}
     wordCounts = {}
+    res = {}
     i = 0
     for nouns in df['제목']:
         noun = kiwi.analyze(nouns)
@@ -47,7 +49,9 @@ def parse_dc(request):
                     if data not in wordCounts:
                         wordCounts[data] = 0
                     wordCounts[data] += 1
-                    dcData(title=data, count=wordCounts[data]).save()
+                    res[data] = wordCounts[data]
+    for i, j in zip(res.keys(), res.values()):
+        dcData(title=i, count=j).save()
     return HttpResponse("dc 크롤링 성공")
 
 # 에펨코리아 주식게시판 크롤링
@@ -64,11 +68,14 @@ def parse_fmkor(request):
     df = df.dropna()
     df = df.drop_duplicates()
 
+    fmkorData.truncate()
+
     kiwi = Kiwi()
     kiwi.prepare()
     temp = {}
     data = {}
     wordCounts = {}
+    res = {}
     i = 0
     for nouns in df['제목']:
         noun = kiwi.analyze(nouns)
@@ -80,8 +87,9 @@ def parse_fmkor(request):
                     if data not in wordCounts:
                         wordCounts[data] = 0
                     wordCounts[data] += 1
-                    fmkorData(title=data, count=wordCounts[data]).save()
-
+                    res[data] = wordCounts[data]
+    for i, j in zip(res.keys(), res.values()):
+        fmkorData(title=i, count=j).save()
     return HttpResponse("fmkor 크롤링 성공")
 
 # KRX로부터 상장기업 목록 파일을 읽어옴
@@ -205,6 +213,7 @@ def dc_list(request):
 @api_view(['GET'])
 def fmkor_list(request):
     if request.method == 'GET':
-        fmkor = fmkorData.objects.all().order_by('-count')
+        fmkor = fmkorData.objects.order_by('-count').all().annotate(Count('title'))
+        # fmkor = fmkorData.objects.order_by('-count').values('count').annotate(Count('count'))
         fmkor_serializer = FmkorSerializer(fmkor, many=True)
         return Response(fmkor_serializer.data)
