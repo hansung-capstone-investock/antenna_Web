@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
     "python.pythonPath": "C:\\capstone\\capenv\\Scripts\\python.exe"
+=======
+    "python.pythonPath": "c:\\Users\\hansung\\Capstone\\myvenv\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true
+>>>>>>> 67693b781e5d45d98af2ffcc450b5f386a1170ab
 }

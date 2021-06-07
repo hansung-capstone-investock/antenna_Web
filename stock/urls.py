@@ -16,4 +16,6 @@ urlpatterns = [
     path('ip/',views.insertPrice),
     path('bt/',views.backtestapi),
     path('mu/',views.mu),
+    path('per/',views.insert_per),
+    path('stocksearch/', views.stockSearchData),
 ]

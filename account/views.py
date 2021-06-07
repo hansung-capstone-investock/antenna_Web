@@ -50,10 +50,15 @@ def login(request):
 @api_view(['POST'])
 def signup(request):
     if request.method == 'POST':
-        print(request.data)
         account_serializer = AccountSerializer(data=request.data)
         if account_serializer.is_valid():
             account_serializer.save()
+            interestedstockData(
+                name = request.data['id']
+            ).save()
+            interestedstockData(
+                name = request.data['id']
+            ).save()
             interestedstockData(
                 name = request.data['id']
             ).save()
@@ -78,7 +83,14 @@ def interestedstock_Update(request):
 @api_view(['POST'])
 def interestedgroup_list(request):
     if request.method == 'POST':
-        intersted = interestedstockData.objects.filter(name = request.data['name'])
-        intersted_serializer = InterestedstockSerializer(intersted, many=True)
-        
-        return JsonResponse(intersted_serializer.data, safe=False)
+        interested = interestedstockData.objects.filter(name = request.data['name'])
+        interested_serializer = InterestedstockSerializer(interested, many=True)
+        for i in range(0, 3):
+            dict_temp = {}
+            for j in range(1,11):
+                dict_temp['company{0}'.format(j)] = interested_serializer.data[i]['company{0}'.format(j)]
+            interested_serializer.data[i]['companies'] = dict_temp
+        for i in range(0,3):
+            for j in range(1,11):
+                del interested_serializer.data[i]['company{0}'.format(j)]
+        return JsonResponse(interested_serializer.data, safe=False)
