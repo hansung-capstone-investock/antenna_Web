@@ -29,8 +29,8 @@ class DcSerializer(serializers.ModelSerializer):
 #         fields = ('title',
 #                 'count')
 
-class CompanySerializer(serializers.ModelSerializer):
-    class Meta:
-        model = companyData
-        fields = ('name',
-                'code')
+# class CompanySerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = companyData
+#         fields = ('name',
+#                 'code')

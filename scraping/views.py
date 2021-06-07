@@ -201,10 +201,10 @@ def dc_list(request):
         return Response(dc_serializer.data)
 
 
-@api_view(['GET'])
-def fmkor_list(request):
-    if request.method == 'GET':
-        fmkor = fmkorData.objects.order_by('-count').all().annotate(Count('title'))
-        # fmkor = fmkorData.objects.order_by('-count').values('count').annotate(Count('count'))
-        fmkor_serializer = FmkorSerializer(fmkor, many=True)
-        return Response(fmkor_serializer.data)
+# @api_view(['GET'])
+# def fmkor_list(request):
+#     if request.method == 'GET':
+#         fmkor = fmkorData.objects.order_by('-count').all().annotate(Count('title'))
+#         # fmkor = fmkorData.objects.order_by('-count').values('count').annotate(Count('count'))
+#         fmkor_serializer = FmkorSerializer(fmkor, many=True)
+#         return Response(fmkor_serializer.data)

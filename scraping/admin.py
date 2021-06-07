@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import dcData, companyData, MainNews
+from .models import dcData, MainNews
 
 
 # class MainNewsAdmin(admin.ModelAdmin):
@@ -7,6 +7,6 @@ from .models import dcData, companyData, MainNews
     
 
 admin.site.register(dcData)
-admin.site.register(companyData)
+# admin.site.register(companyData)
 # admin.site.register(MainNews,MainNewsAdmin)
 admin.site.register(MainNews)
