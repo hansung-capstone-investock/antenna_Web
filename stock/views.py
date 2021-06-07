@@ -33,9 +33,9 @@ def mu(request):
 def backtestapi(request):
     if request.method == 'POST':
         backT = backtest.Backtest(request.data)
-        backT.targetStock()
-        backT.backTesting()
-        return HttpResponse(backT.haveStock)
+        a = backT.backTesting()
+
+        return HttpResponse(a)
 
 @api_view(['GET'])
 def kospiYearList(request):
@@ -44,7 +44,6 @@ def kospiYearList(request):
         startdate = today + timedelta(days=-365)
         kospiList = Kospi.objects.using("stockDB").filter(date__range = [startdate, today])
         kospiList_serializer = KospiSerializer(kospiList,many = True)
-        
         return Response(kospiList_serializer.data)
 
 @api_view(['GET'])
@@ -140,37 +139,6 @@ def setMarket(request):
             continue
     return HttpResponse("done")
 
-
-def insert_per(request):
-    stocklist_df = pd.read_excel("C:/Users/Junyong/Desktop/capstone_stockData/stockList.xlsx",dtype=str)
-    stocklist = list()
-    stocklist = stocklist_df['종목코드']
-    # for stock in stocklist:
-    #     df=pd.read_csv(f"C:/Users/Junyong/Desktop/capstone_stockData/perdata/{stock}per.csv",dtype=str)
-    #     try:
-    #         strClass = 'Xstock'+stock
-    #         instance = eval(strClass)
-    #         for 
-    #     except:
-    #         continue        
-    stocka = stocklist[54:]
-    for stockcode in stocka:
-        try:
-            df=pd.read_csv(f"C:/Users/Junyong/Desktop/capstone_stockData/preper/{stockcode}per.csv",dtype=str)
-            strClass = 'StockX'+stockcode
-            instance = eval(strClass)
-            for r in df.itertuples():
-                stockinfo = instance(
-                    date = r.date,
-                    per = r.PER,
-                    pbr = r.PBR
-                    )
-                stockinfo.save(using='stockDB')
-        except:
-            continue
-        
-    return HttpResponse("per,pbr done")
-    
 def read_naver(request):
     pages_to_fetch =100
     codes = dict()

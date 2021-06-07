@@ -1,14 +1,34 @@
 from rest_framework import serializers
 from .models import *
 
-class StockSeirializer(serializers.Serializer):
+class BackTestSerializer(serializers.Serializer):
     date= serializers.DateField()
     open = serializers.FloatField()
     high = serializers.FloatField()
     low = serializers.FloatField()
     close = serializers.FloatField()
+    per = serializers.FloatField()
+    pbr = serializers.FloatField()
+    psr = serializers.FloatField()
+    roe = serializers.FloatField()
+    roa = serializers.FloatField()
     volume = serializers.FloatField()
     
+class StockSerializer(serializers.Serializer):
+    date= serializers.DateField()
+    open = serializers.FloatField()
+    high = serializers.FloatField()
+    low = serializers.FloatField()
+    close = serializers.FloatField()
+    per = serializers.FloatField()
+    pbr = serializers.FloatField()
+    psr = serializers.FloatField()
+    roe = serializers.FloatField()
+    roa = serializers.FloatField()
+    volume = serializers.FloatField()
+    cap = serializers.FloatField()
+    trading_value = serializers.FloatField()
+
 class MarketListSerializer(serializers.ModelSerializer):
     class Meta:
         model = MarketList
