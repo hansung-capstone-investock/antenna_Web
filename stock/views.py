@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.utils import timezone
 from rest_framework.views import APIView
+from datetime import datetime, timedelta
 from .models import *
 from scraping.models import *
 import pandas as pd
@@ -234,7 +235,8 @@ def read_naver(request):
 def stockSearchData(request):
     if request.method == 'POST':
         companyCode = request.data['companyCode']
-        exeStr = 'StockX{0}.objects.using("stockDB").all()'.format(companyCode)
+        nowDate = (datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
+        exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["2020-01-01", "{1}"])'.format(companyCode, nowDate)
         stockData = eval(exeStr)
         stockData_serializer = StockSeirializer(stockData, many=True)
 
