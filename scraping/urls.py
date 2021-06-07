@@ -15,5 +15,5 @@ urlpatterns = [
     path('api/livenews/', views.livenews_list),
     path('api/dcList/', views.dc_list),
     path('api/companyList/', views.company_list),
-    path('api/fmkorList/', views.fmkor_list),
+    # path('api/fmkorList/', views.fmkor_list),
 ]

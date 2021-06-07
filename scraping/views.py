@@ -56,56 +56,46 @@ def parse_dc(request):
 
 # 에펨코리아 주식게시판 크롤링
 # 테스트 자주하면 사이트에서 막음
-def parse_fmkor(request):
-    url = 'https://www.fmkorea.com/index.php?mid=stock'
-    # &page=1
-    # 전체 페이지 읽어오기
-    df = pd.DataFrame()
-    for page in range(1, int(50)+1):
-        page_url = '{}&page={}'.format(url, page)
-        response_page = requests.get(page_url, headers={'User-agent': 'Mozilla/5.0'}).text
-        df = df.append(pd.read_html(response_page)[0])
-    df = df.dropna()
-    df = df.drop_duplicates()
+# def parse_fmkor(request):
+#     url = 'https://www.fmkorea.com/index.php?mid=stock'
+#     # &page=1
+#     # 전체 페이지 읽어오기
+#     df = pd.DataFrame()
+#     for page in range(1, int(50)+1):
+#         page_url = '{}&page={}'.format(url, page)
+#         response_page = requests.get(page_url, headers={'User-agent': 'Mozilla/5.0'}).text
+#         df = df.append(pd.read_html(response_page)[0])
+#     df = df.dropna()
+#     df = df.drop_duplicates()
 
-    fmkorData.truncate()
+#     fmkorData.truncate()
 
-    kiwi = Kiwi()
-    kiwi.prepare()
-    temp = {}
-    data = {}
-    wordCounts = {}
-    res = {}
-    i = 0
-    for nouns in df['제목']:
-        noun = kiwi.analyze(nouns)
-        temp = noun
-        # 명사만 저장
-        if (temp[0][0][0][1] == "NNG") or (temp[0][0][0][1] == "NNP") or (temp[0][0][0][1] == "NNB") or (temp[0][0][0][1] == "NR") or (temp[0][0][0][1] == "NP"):
-                if len(temp[0][0][0][0]) != 1:  # 한글자 단어 제거
-                    data = temp[0][0][0][0]
-                    if data not in wordCounts:
-                        wordCounts[data] = 0
-                    wordCounts[data] += 1
-                    res[data] = wordCounts[data]
-    for i, j in zip(res.keys(), res.values()):
-        fmkorData(title=i, count=j).save()
-    return HttpResponse("fmkor 크롤링 성공")
-
-# KRX로부터 상장기업 목록 파일을 읽어옴
-def company_list(request):
-    url = 'http://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13'
-    krx = pd.read_html(url, header=0)[0]
-    krx = krx[['종목코드', '회사명']]
-    krx = krx.rename(columns={'종목코드': 'code', '회사명': 'company'})
-    krx.code = krx.code.map('{:06d}'.format)
-
-    for i, j in zip(krx['code'], krx['company']):
-        companyData(code=i, name=j).save()
-    return HttpResponse('krx')
+#     kiwi = Kiwi()
+#     kiwi.prepare()
+#     temp = {}
+#     data = {}
+#     wordCounts = {}
+#     res = {}
+#     i = 0
+#     for nouns in df['제목']:
+#         noun = kiwi.analyze(nouns)
+#         temp = noun
+#         # 명사만 저장
+#         if (temp[0][0][0][1] == "NNG") or (temp[0][0][0][1] == "NNP") or (temp[0][0][0][1] == "NNB") or (temp[0][0][0][1] == "NR") or (temp[0][0][0][1] == "NP"):
+#                 if len(temp[0][0][0][0]) != 1:  # 한글자 단어 제거
+#                     data = temp[0][0][0][0]
+#                     if data not in wordCounts:
+#                         wordCounts[data] = 0
+#                     wordCounts[data] += 1
+#                     res[data] = wordCounts[data]
+#     for i, j in zip(res.keys(), res.values()):
+#         fmkorData(title=i, count=j).save()
+#     return HttpResponse("fmkor 크롤링 성공")
 
 #네이버 증권 주요 뉴스 스크래핑
 def crawlerNews(request):
+    MainNews.truncate()
+
     BASE_URL = 'https://finance.naver.com/'
     
     now = dt.datetime.now()
@@ -143,6 +133,7 @@ def crawlerNews(request):
     return HttpResponse("메인뉴스 크롤링")
 
 def liveNews(request):
+    LiveNews.truncate()
     url = 'https://finance.naver.com/news/news_list.nhn?&page='
 
     for i in range(1, 5):

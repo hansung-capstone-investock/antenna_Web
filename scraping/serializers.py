@@ -23,11 +23,11 @@ class DcSerializer(serializers.ModelSerializer):
         fields = ('title',
                 'count')
 
-class FmkorSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = fmkorData
-        fields = ('title',
-                'count')
+# class FmkorSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = fmkorData
+#         fields = ('title',
+#                 'count')
 
 class CompanySerializer(serializers.ModelSerializer):
     class Meta:

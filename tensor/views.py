@@ -26,18 +26,19 @@ def antenna_api(request):
     if request.method == 'POST':
         # 종목
         companyName = request.data['종목']
+        companyCode = request.data['종목코드']
         # 7, 14, 21, 28일
         predictDate = request.data['예측날짜']
         # 보조지표
         indicator = request.data['보조지표']
 
-        stockData = StockList.objects.using("stockDB").get(company = companyName)
-        stock_serializer = StockSeirializer(stockData, many=True)
-        code = stock_serializer.data['code']
+        # stockData = StockList.objects.using("stockDB").get(company = companyName)
+        # stock_serializer = StockSeirializer(stockData, many=True)
+        # code = stock_serializer.data['code']
 
-        result = antenna_tensor(code, indicator, predictDate)
+        result = antenna_tensor(companyCode, indicator, predictDate)
 
-        return HttpResponse(result, content="image/png")
+        return JsonResponse(result)
 
 def get_stockdata(code):
     code = int(code)

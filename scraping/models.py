@@ -50,6 +50,13 @@ class MainNews(models.Model):
     class Meta:
         # db_table = 'breakingnews'
         ordering= ('title',)
+    
+    @classmethod
+    def truncate(cls):
+        with connection.cursor() as cursor:
+            cursor.execute(
+                f'TRUNCATE TABLE {cls._meta.db_table}'
+            )
 
 class LiveNews(models.Model):
     title = models.CharField(max_length=1000,default='')
@@ -59,4 +66,10 @@ class LiveNews(models.Model):
 
     class Meta:
         ordering= ('publishDate',)
-
+    
+    @classmethod
+    def truncate(cls):
+        with connection.cursor() as cursor:
+            cursor.execute(
+                f'TRUNCATE TABLE {cls._meta.db_table}'
+            )
