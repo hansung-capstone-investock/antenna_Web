@@ -38,7 +38,7 @@ def mu(request):
 @api_view(['POST'])
 def backtestapi(request):
     if request.method == 'POST':
-        backT = backtestdf.Backtest(request.data)
+        backT = backtest.Backtest(request.data)
         a = backT.backTesting()
         
         return HttpResponse(a)
