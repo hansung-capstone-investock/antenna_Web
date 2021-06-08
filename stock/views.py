@@ -26,7 +26,10 @@ from stock.serializers import *
 from scraping.serializers import *
 import pandas as pd
 from stock import backtest
+from stock import backtestdf
 from stock import marketUpdate
+
+import time
 
 def mu(request):
     marketUpdate.readMarket()
@@ -35,10 +38,11 @@ def mu(request):
 @api_view(['POST'])
 def backtestapi(request):
     if request.method == 'POST':
-        backT = backtest.Backtest(request.data)
+        start = time.time()
+        backT = backtestdf.Backtest1(request.data)
         a = backT.backTesting()
-
-        return HttpResponse(a)
+        t = time.time() - start
+        return HttpResponse(t)
 
 @api_view(['GET'])
 def kospiYearList(request):

@@ -3,16 +3,15 @@ from .models import *
 
 class BackTestSerializer(serializers.Serializer):
     date= serializers.DateField()
-    open = serializers.FloatField()
-    high = serializers.FloatField()
-    low = serializers.FloatField()
+    # open = serializers.FloatField()
+    # high = serializers.FloatField()
+    # low = serializers.FloatField()
     close = serializers.FloatField()
     per = serializers.FloatField()
     pbr = serializers.FloatField()
     psr = serializers.FloatField()
     roe = serializers.FloatField()
     roa = serializers.FloatField()
-    volume = serializers.FloatField()
     
 class StockSerializer(serializers.Serializer):
     date= serializers.DateField()

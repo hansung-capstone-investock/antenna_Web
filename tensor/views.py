@@ -46,7 +46,7 @@ def get_stockdata(code):
     nowDate = (datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
     exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["2018-01-01", "{1}"])'.format(code, nowDate)
     stockData = eval(exeStr)        
-    stockData_serializer = StockSeirializer(stockData, many=True)
+    stockData_serializer = StockSerializer(stockData, many=True)
     return Response(stockData_serializer.data)
 
 def antenna_tensor(code, indicator, predictDate):
