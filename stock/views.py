@@ -38,11 +38,10 @@ def mu(request):
 @api_view(['POST'])
 def backtestapi(request):
     if request.method == 'POST':
-        start = time.time()
-        backT = backtestdf.Backtest1(request.data)
+        backT = backtestdf.Backtest(request.data)
         a = backT.backTesting()
-        t = time.time() - start
-        return HttpResponse(t)
+        
+        return HttpResponse(a)
 
 @api_view(['GET'])
 def kospiYearList(request):

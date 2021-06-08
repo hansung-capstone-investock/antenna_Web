@@ -172,5 +172,5 @@ class Backtest:
             
             self.targetDate += timedelta(days=1)
         
-        print(self.gapDict)
+        return self.gapDict
         # self.backTestLog_df.to_csv("backtestLog.csv")
