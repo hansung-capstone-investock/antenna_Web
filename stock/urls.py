@@ -11,7 +11,6 @@ urlpatterns = [
     path('kospiyear/',views.kospiYearList),
     path('kosdaqyear/',views.kosdaqYearList),
     path('kospi200year/',views.kospi200YearList),
-    path('ip/',views.insertPrice),
     path('bt/',views.backtestapi),
     path('stocksearch/', views.stockSearchData),
     path('compare3/',views.before3M),
