@@ -27,7 +27,7 @@ def antenna_api(request):
         # 종목
         # companyName = request.data['종목']
         companyCode = request.data['companyCode']
-        # companyCode = int(companyCode)
+        companyCode = int(companyCode)
         companyCode = '{0:06d}'.format(companyCode)
         # 7, 14, 21, 28일
         predictDate = request.data['predictDate']
