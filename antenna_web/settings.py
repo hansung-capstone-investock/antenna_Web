@@ -168,9 +168,12 @@ STATIC_URL = '/static/'
 
 # CRONJOBS = [
 #     ('* * */1 * *', 'scraping.views.parse_dc'),
-#     ('*/5 9-16 * * 1-5', 'stock.cron.getDailyMarketIndex','>> /tmp/log/getDaily_cron.log'),      #5분마다 주식시장 수치 가져오기
-#     ('30 8 * * *', 'stock.cron.clearDailyMarket','>> /tmp/log/marketclear_cron.log'),      #dailymarket 테이블 초기화
-#     ('00 16 * * 1-5', 'stock.cron.readMarket','>> /tmp/log/readmarket_cron.log'),      #매일 주식시장 종가 정보 받기
+#     ('*/5 9-16 * * 1-5', 'stock.cron.getDailyMarketIndex'),
+#     ('30 8 * * *', 'stock.cron.clearDailyMarket'),
+#     ('00 16 * * 1-5', 'stock.cron.readMarket'),
+#     ('40 15 * * 1-5', 'stock.cron.insertPrice'),
+#     ('00 17 * * 1-5', 'stock.cron.insertPerPbr),
+#     ('00 18 * * 1-5', 'stock.cron.insertCap),
 # ]
 
 

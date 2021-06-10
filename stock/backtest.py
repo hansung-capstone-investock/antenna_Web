@@ -59,6 +59,7 @@ class Backtest:
             # 조건에 맞으면 판매
             if self.sellConditionLow < gapPercent <self.sellConditionHigh:
                 continue
+            
             sellInfo = {
                 'ticker':key,
                 'buy_date':value[0],
@@ -71,7 +72,7 @@ class Backtest:
             delStock.append(key)
             sellingNum +=1
             self.gapDict[self.strTarget]+=gapPercent
-            
+            print(self.gapDict[self.strTarget])
         for l in delStock:
             del self.haveStock[l]
         
@@ -161,6 +162,7 @@ class Backtest:
 
         while self.targetDate != self.end:
             self.strTarget = self.targetDate.strftime("%Y-%m-%d")
+            
             if self.is_weekend(self.targetDate) == True:
                 self.targetDate += timedelta(days=1)
                 continue
@@ -172,5 +174,5 @@ class Backtest:
             
             self.targetDate += timedelta(days=1)
         
-        return self.gapDict
+        return self.gapDict['total']
         # self.backTestLog_df.to_csv("backtestLog.csv")

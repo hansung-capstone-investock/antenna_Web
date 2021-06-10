@@ -25,23 +25,24 @@ from stock import stockScraping
 from stock.serializers import *
 from scraping.serializers import *
 import pandas as pd
+from django.db.models import Max, F
 from stock import backtest
 from stock import backtestdf
-from stock import marketUpdate
-
+from stock import cmpM
+import json
 import time
 
-def mu(request):
-    marketUpdate.readMarket()
-    return HttpResponse("market Update")
+def initApp(request):
+    stockScraping.initSet()
+    return HttpResponse("App initial table setting")
 
 @api_view(['POST'])
 def backtestapi(request):
     if request.method == 'POST':
         backT = backtest.Backtest(request.data)
         a = backT.backTesting()
-        
         return HttpResponse(a)
+
 
 @api_view(['GET'])
 def kospiYearList(request):
@@ -72,32 +73,59 @@ def kospi200YearList(request):
 
 
 
-
 def insertPrice(request):
-    df = pd.read_csv("./final_stock.csv", converters={'code': str},thousands = ',')
-
-    stockList_df = df['code']
-    dup_df = stockList_df.drop_duplicates()
-    dup_df = dup_df.reset_index(drop=True)
-    cur = "005930"
-    strClass = 'StockX'+cur
-    instance = eval(strClass)
-    for r in df.itertuples():
-        if r.code != cur:
-            cur = r.code
-            strClass = 'StockX'+cur
+    stocklist_df = pd.read_csv("C:/Users/Junyong/Desktop/capstone_stockData/stocklist.csv",dtype=str)
+    codelist = list()
+    for c in stocklist_df.itertuples():
+        codelist.append(c.code)
+    
+    for code in codelist:
+        time.sleep(0.5)
+        try:
+            per_df = st.get_market_fundamental_by_date("20210608", "20210609", f"{code}")
+        except:
+            continue
+        stock_df = pd.DataFrame(index = per_df.index,columns=['date','per','pbr'])    
+        stock_df['date'] = stock_df.index
+        
+        try:
+            stock_df['per'] = per_df['PER']
+        except:
+            pass
+        try:
+            stock_df['pbr'] = per_df['PBR']
+        except:
+            pass
+        strClass = 'StockX'+code
+        try:
             instance = eval(strClass)
+        except:
+            continue
             
-        stockinfo = instance(
-            date = r.date,
-            open = r.open,
-            high = r.high,
-            low = r.low,
-            close = r.close,
-            volume =r.vol,
-        )
-        stockinfo.save(using='stockDB')
+        for r in stock_df.itertuples():
+            d = r.date
+            try:
+                stockF = instance.objects.using("stockDB").get(date =d)
+            except:
+                break
+            stockF.per = r.per
+            stockF.pbr = r.pbr
+            
+            try:
+                stockF.save(using='stockDB')
+            except:
+                pass
+            
     return HttpResponse("insert Done")
+
+@api_view(['GET'])
+def before3M(request):
+    if request.method == 'GET':
+        
+        compareList=CompareMonth.objects.annotate(max_date=Max('date'))
+        compareList1=compareList.values().filter(date__gte=F('max_date'))
+        compare_serializer = CompareSerializer(compareList1, many=True)
+        return Response(compare_serializer.data)
 
 @api_view(['GET'])
 def marketList(request):
@@ -107,101 +135,6 @@ def marketList(request):
         return Response(marketList_serializer.data)
 
 
-
-def initApp(request):
-    stockScraping.initSet()
-    return HttpResponse("App initial table setting")
-
-def setMarket(request):
-    kospiTickers = st.get_market_ticker_list("20210523", market="KOSPI")
-    kosdaqTickers = st.get_market_ticker_list("20210523", market="KOSDAQ")
-    konexTickers = st.get_market_ticker_list("20210523", market="KONEX")
-
-    for ticker in kospiTickers:
-        try:
-            company = StockList.objects.using("stockDB").get(code = ticker)
-            marketFK = MarketList.objects.using("stockDB").get(market="kospi")
-            company.market = marketFK
-            company.save(using='stockDB')
-        except:
-            continue
-        
-    for ticker in kosdaqTickers:
-        try:
-            company = StockList.objects.using("stockDB").get(code = ticker)
-            marketFK = MarketList.objects.using("stockDB").get(market="kosdaq")
-            company.market = marketFK
-            company.save(using='stockDB')
-        except:
-            continue
-
-    for ticker in konexTickers:
-        try:
-            company = StockList.objects.using("stockDB").get(code = ticker)
-            marketFK = MarketList.objects.using("stockDB").get(market="konex")
-            company.market = marketFK
-            company.save(using='stockDB')
-        except:
-            continue
-    return HttpResponse("done")
-
-def read_naver(request):
-    pages_to_fetch =100
-    codes = dict()
-    codes = StockList.objects.values('code','company')
-    
-    stockList_df = pd.DataFrame(codes)
-    # update_daily_price
-    for code in stockList_df.code:
-        url = f"http://finance.naver.com/item/sise_day.nhn?code={code}"
-        
-        html = BeautifulSoup(requests.get(url, headers={'User-agent': 'Mozilla/5.0'}).text, "lxml")
-        pgrr = html.find("td", class_="pgRR")
-        lastpage =1
-        if pgrr is None:
-            lastpage = 1
-        else:
-            s = str(pgrr.a["href"]).split('=')
-            lastpage = s[-1]
-        df = pd.DataFrame()
-        pages = min(int(lastpage), pages_to_fetch)
-        for page in range(1, pages + 1):
-            pg_url = '{}&page={}'.format(url, page)
-            df = df.append(pd.read_html(requests.get(pg_url,
-                                                    headers={'User-agent': 'Mozilla/5.0'}).text)[0])
-            tmnow = datetime.now().strftime('%Y-%m-%d %H:%M')
-        df = df.rename(columns={'날짜': 'date', '종가': 'close', 
-                                '전일비': 'diff', '시가': 'open', '고가': 'high', 
-                                '저가': 'low', '거래량': 'volume'})
-        df['date'] = df['date'].replace('.', '-')
-        
-        df = df.dropna()
-        df[['close', 'diff', 'open', 'high', 'low', 'volume']] = df[['close',
-                                                                'diff', 'open', 'high', 'low',
-                                                                'volume']].astype(int)
-        df = df[['date', 'open', 'high', 'low', 'close', 'diff', 'volume']]
-
-        codeFK = StockList.objects.get(code=code)
-        for r in df.itertuples():
-            strDate = r.date[:4]+'-'+r.date[5:7]+'-'+r.date[8:]
-            ## 주식 모델 변경( 이름 코드 확인)
-            strClass = 'Xstock'+code
-            instance = eval(strClass)
-            stockinfo = instance(
-                code = codeFK,
-                date = strDate,
-                open = r.open,
-                high = r.high,
-                low = r.low,
-                close = r.close,
-                diff = r.diff,
-                volume =r.volume,
-            )
-
-            stockinfo.save(using='stockDB')
-    return HttpResponse('finish')
-
-
 @api_view(['POST'])
 def stockSearchData(request):
     if request.method == 'POST':
@@ -209,7 +142,7 @@ def stockSearchData(request):
         nowDate = (datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
         exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["2020-01-01", "{1}"])'.format(companyCode, nowDate)
         stockData = eval(exeStr)
-        stockData_serializer = StockSeirializer(stockData, many=True)
+        stockData_serializer = StockSerializer(stockData, many=True)
 
         stockName = StockList.objects.using("stockDB").filter(code = companyCode)
         stockName_serializer = StockListSerializer(stockName, many=True)

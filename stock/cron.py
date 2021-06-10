@@ -5,6 +5,8 @@ from datetime import datetime
 from django.utils import timezone
 from pykrx import stock as st
 from datetime import date
+import pandas as pd
+import time
 
 def is_weekend():
     year = datetime.today().year
@@ -78,3 +80,127 @@ def readMarket():
                 tradingPrice = r.tradingPrice
             )
             marketinfo.save(using='stockDB')
+            
+
+def insertPrice():
+    stocklist = StockList.objects.using('stockDB').all()
+    
+    codelist = list()
+    for c in stocklist:
+        codelist.append(c.code)
+    today = datetime.today().strftime('%Y%m%d')
+    for code in codelist:
+        time.sleep(0.5)
+        price_df = st.get_market_ohlcv_by_date(today, today, f"{code}")
+        stock_df = pd.DataFrame(index = price_df.index,columns=['date','open','high','low','close','volume'])    
+        stock_df['date'] = stock_df.index
+        stock_df['open'] = price_df['시가']
+        stock_df['high'] = price_df['고가']
+        stock_df['low'] = price_df['저가']
+        stock_df['close'] = price_df['종가']
+        stock_df['volume'] = price_df['거래량']
+        strClass = 'StockX'+code
+        try:
+            instance = eval(strClass)
+        except:
+            continue
+        
+        for r in stock_df.itertuples():    
+            d = r.date
+            stockinfo = instance(
+                date = d,
+                open = r.open,
+                high = r.high,
+                low = r.low,
+                close = r.close,
+                volume =r.volume,
+            )
+            try:
+                stockinfo.save(using='stockDB')
+            except:
+                continue
+            
+
+def insertPerPbr(request):
+    stocklist = StockList.objects.using('stockDB').all()
+    
+    codelist = list()
+    for c in stocklist:
+        codelist.append(c.code)
+
+    today = datetime.today().strftime('%Y%m%d')
+
+    for code in codelist:
+        time.sleep(1)
+
+        per_df = st.get_market_fundamental_by_date(today, today, f"{code}")
+        stock_df = pd.DataFrame(index = per_df.index,columns=['date','per','pbr'])    
+        stock_df['date'] = stock_df.index
+        
+        try:
+            stock_df['per'] = per_df['PER']
+        except:
+            pass
+        try:
+            stock_df['pbr'] = per_df['PBR']
+        except:
+            pass
+        strClass = 'StockX'+code
+        try:
+            instance = eval(strClass)
+        except:
+            continue
+        for r in stock_df.itertuples():    
+            d = r.date
+            try:
+                stockF = instance.objects.using("stockDB").get(date =d)
+            except:
+                continue
+            stockF.per = r.per
+            stockF.pbr = r.pbr
+            try:
+                stockF.save(using='stockDB')
+            except:
+                continue
+            
+
+
+def insertCap(request):
+    stocklist = StockList.objects.using('stockDB').all()
+    
+    codelist = list()
+    for c in stocklist:
+        codelist.append(c.code)
+    today = datetime.today().strftime('%Y%m%d')
+
+    for code in codelist:
+        time.sleep(1)
+
+        cap_df = st.get_market_cap_by_date(today, today, f"{code}")
+        stock_df = pd.DataFrame(index = cap_df.index,columns=['date','cap'])    
+        stock_df['date'] = stock_df.index
+
+        try:
+            stock_df['cap'] = cap_df['시가총액']
+        except:
+            continue
+        strClass = 'StockX'+code
+        try:
+            instance = eval(strClass)
+        except:
+            break
+            
+        for r in stock_df.itertuples():
+            
+            d = r.date
+            
+            try:
+                stockF = instance.objects.using("stockDB").get(date =d)
+            except:
+                continue
+            stockF.cap = r.cap
+            try:
+                stockF.save(using='stockDB')
+            except:
+                continue
+            
