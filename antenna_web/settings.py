@@ -175,6 +175,7 @@ STATIC_URL = '/static/'
 #     ('40 15 * * 1-5', 'stock.cron.insertPrice'),
 #     ('00 17 * * 1-5', 'stock.cron.insertPerPbr),
 #     ('00 18 * * 1-5', 'stock.cron.insertCap),
+#     ('00 1 * * 2-6',stock.cmpM.b3m),
 # ]
 
 

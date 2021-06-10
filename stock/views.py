@@ -71,58 +71,10 @@ def kospi200YearList(request):
         kospi200List_serializer = Kospi200Serializer(kospi200List,many = True)
         return Response(kospi200List_serializer.data)
 
-
-
-def insertPrice(request):
-    stocklist_df = pd.read_csv("C:/Users/Junyong/Desktop/capstone_stockData/stocklist.csv",dtype=str)
-    codelist = list()
-    for c in stocklist_df.itertuples():
-        codelist.append(c.code)
-    
-    for code in codelist:
-        time.sleep(0.5)
-        try:
-            per_df = st.get_market_fundamental_by_date("20210608", "20210609", f"{code}")
-        except:
-            continue
-        stock_df = pd.DataFrame(index = per_df.index,columns=['date','per','pbr'])    
-        stock_df['date'] = stock_df.index
-        
-        try:
-            stock_df['per'] = per_df['PER']
-        except:
-            pass
-        try:
-            stock_df['pbr'] = per_df['PBR']
-        except:
-            pass
-        strClass = 'StockX'+code
-        try:
-            instance = eval(strClass)
-        except:
-            continue
-            
-        for r in stock_df.itertuples():
-            d = r.date
-            try:
-                stockF = instance.objects.using("stockDB").get(date =d)
-            except:
-                break
-            stockF.per = r.per
-            stockF.pbr = r.pbr
-            
-            try:
-                stockF.save(using='stockDB')
-            except:
-                pass
-            
-    return HttpResponse("insert Done")
-
 @api_view(['GET'])
 def before3M(request):
     if request.method == 'GET':
-        
-        compareList=CompareMonth.objects.annotate(max_date=Max('date'))
+        compareList=CompareMonth.objects.using("stockDB").annotate(max_date=Max('date'))
         compareList1=compareList.values().filter(date__gte=F('max_date'))
         compare_serializer = CompareSerializer(compareList1, many=True)
         return Response(compare_serializer.data)
