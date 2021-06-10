@@ -1,12 +1,5 @@
 import pandas as pd
 import ta.momentum as mom
-import matplotlib.pyplot as plt 
-
-# Open, High, Low, Volume, Close
-xy = pd.read_csv('C:/Users/hansung/Capstone/tensorflow/LG_chemical.csv')
-xy = xy.to_numpy()
-
-df = pd.DataFrame(xy, columns=['open','high', 'low','volume','close'])
 
 # Stochastic RSI
 def get_srsi(df):
