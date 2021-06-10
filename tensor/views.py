@@ -25,31 +25,32 @@ from stock.serializers import *
 def antenna_api(request):
     if request.method == 'POST':
         # 종목
-        companyName = request.data['종목']
-        companyCode = request.data['종목코드']
+        # companyName = request.data['종목']
+        companyCode = request.data['companyCode']
+        companyCode = int(companyCode)
+        companyCode = '{0:06d}'.format(companyCode)
         # 7, 14, 21, 28일
-        predictDate = request.data['예측날짜']
+        predictDate = request.data['predictDate']
         # 보조지표
-        indicator = request.data['보조지표']
+        indicator = request.data['indicator']
 
         # stockData = StockList.objects.using("stockDB").get(company = companyName)
-        # stock_serializer = StockSeirializer(stockData, many=True)
+        # stock_serializer = StockSerializer(stockData, many=True)
         # code = stock_serializer.data['code']
 
         result = antenna_tensor(companyCode, indicator, predictDate)
 
-        return JsonResponse(result)
+        return HttpResponse(result, content_type="text/javascript")
 
-def get_stockdata(code):
-    code = int(code)
-    code = '{0:06d}'.format(code)
+def get_stockdata(companyCode):
     nowDate = (datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
-    exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["2018-01-01", "{1}"])'.format(code, nowDate)
-    stockData = eval(exeStr)        
-    stockData_serializer = StockSerializer(stockData, many=True)
+    exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["2018-01-01", "{1}"])'.format(companyCode, nowDate)
+    stockData = eval(exeStr)
+    stockData_serializer = TensorSerializer(stockData, many=True)
+
     return Response(stockData_serializer.data)
 
-def antenna_tensor(code, indicator, predictDate):
+def antenna_tensor(companyCode, indicator, predictDate):
     # train Parameters
     seqLength = 7 # window size 
     days_to_predict = predictDate
@@ -57,11 +58,15 @@ def antenna_tensor(code, indicator, predictDate):
     iterations = 150
     indicator_count = len(indicator)
 
-    xy_json = get_stockdata(code)
-    # xy_json = json.load(xy_json)
+    xy_dict = dict()
+    xy_data = dict()
+    xy_json = get_stockdata(companyCode)
+    for i in range(len(xy_json.data)):
+        for key, value in xy_json.data[i].items():
+            xy_data[key] = value
+        xy_dict[i] = xy_data
 
-    xy = pd.DataFrame(xy_json)
-    del xy['date']
+    xy = pd.DataFrame(xy_dict).transpose()
     df = xy.dropna()
     df['close'] = df['close'].shift(-days_to_predict)
 
@@ -102,11 +107,17 @@ def antenna_tensor(code, indicator, predictDate):
     df_wma = trend.get_wma(df)      # 비정상성    굿
     df_ema = trend.get_ema(df)      # 비정상성    굿
 
-    df_input = pd.concat([indicator], axis=1)
+    indicators = list()
+    for i in indicator:
+        j = "df_"+i.lower()
+        indicators.append(j)
+
+    indicator_exe = "pd.concat({0}, axis=1)".format(indicators)
+    indicator_exe = indicator_exe.replace("'","")
+    df_input = eval(indicator_exe)
 
     # 볼린저밴드
     df_bolinger = vola.get_bolinger(df)
-    # df_bolinger = bolinger.get_bolinger(df)
     df_output = pd.DataFrame()
     # 정상성 데이터 = 종가 - 이동평균선
     # 비정상성 데이터의 정상성 데이터화

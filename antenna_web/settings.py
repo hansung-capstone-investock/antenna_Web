@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'scraping.apps.ScrapingConfig',
     'account.apps.AccountConfig',
     'stock.apps.StockConfig',
+    'tensor.apps.TensorConfig',
     'rest_framework',
     'drf_yasg',
     # ONLY AWS EC2 

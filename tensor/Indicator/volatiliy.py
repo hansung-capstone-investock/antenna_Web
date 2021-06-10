@@ -1,12 +1,5 @@
 import pandas as pd
 import ta.volatility as vola
-import matplotlib.pyplot as plt 
-
-# Open, High, Low, Volume, Close
-xy = pd.read_csv('C:/Users/hansung/Capstone/tensorflow/LG_chemical.csv')
-xy = xy.to_numpy()
-
-df = pd.DataFrame(xy, columns=['open','high', 'low','volume','close'])
 
 # Average True Range
 def get_atr(df):
