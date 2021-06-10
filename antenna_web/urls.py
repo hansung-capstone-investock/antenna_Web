@@ -4,7 +4,6 @@ from rest_framework import routers
 from scraping import views
 from account import views
 from django.conf.urls import url, include
-
 from django.urls import path, re_path
 from django.conf import settings
 from rest_framework import permissions
@@ -16,6 +15,7 @@ urlpatterns = [
     url(r'^views/', include('scraping.urls')),
     url(r'^account/', include('account.urls')),
     url(r'^stock/',include('stock.urls')),
+    url(r'^tensor/',include('tensor.urls')),
 ]
 
 

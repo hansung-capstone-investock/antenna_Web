@@ -26,7 +26,13 @@ class StockSerializer(serializers.Serializer):
     roa = serializers.FloatField()
     volume = serializers.FloatField()
     cap = serializers.FloatField()
-    trading_value = serializers.FloatField()
+
+class TensorSerializer(serializers.Serializer):
+    open = serializers.FloatField()
+    high = serializers.FloatField()
+    low = serializers.FloatField()
+    close = serializers.FloatField()
+    volume = serializers.FloatField()
 
 class MarketListSerializer(serializers.ModelSerializer):
     class Meta:
