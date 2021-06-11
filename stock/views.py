@@ -3,11 +3,9 @@ from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.utils import timezone
 from rest_framework.views import APIView
-from datetime import datetime, timedelta
 from .models import *
 from scraping.models import *
 import pandas as pd
-import datetime as dt
 import urllib.request as req
 from urllib import parse
 import requests
@@ -16,7 +14,8 @@ from rest_framework.parsers import JSONParser
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from datetime import datetime, timedelta, tzinfo
+import datetime
+from datetime import timedelta
 from bs4 import BeautifulSoup
 import requests
 from threading import Timer
@@ -47,7 +46,7 @@ def backtestapi(request):
 @api_view(['GET'])
 def kospiYearList(request):
     if request.method == 'GET':
-        today = datetime.today()
+        today = datetime.datetime.today()
         startdate = today + timedelta(days=-365)
         kospiList = Kospi.objects.using("stockDB").filter(date__range = [startdate, today])
         kospiList_serializer = KospiSerializer(kospiList,many = True)
@@ -56,7 +55,7 @@ def kospiYearList(request):
 @api_view(['GET'])
 def kosdaqYearList(request):
     if request.method == 'GET':
-        today = datetime.today()
+        today = datetime.datetime.today()
         startdate = today + timedelta(days=-365)
         kosdaqList = Kosdaq.objects.using("stockDB").filter(date__range = [startdate, today])
         kosdaqList_serializer = KosdaqSerializer(kosdaqList,many = True)
@@ -65,7 +64,7 @@ def kosdaqYearList(request):
 @api_view(['GET'])
 def kospi200YearList(request):
     if request.method == 'GET':
-        today = datetime.today()
+        today = datetime.datetime.today()
         startdate = today + timedelta(days=-365)
         kospi200List = Kospi200.objects.using("stockDB").filter(date__range = [startdate, today])
         kospi200List_serializer = Kospi200Serializer(kospi200List,many = True)
@@ -91,7 +90,7 @@ def marketList(request):
 def stockSearchData(request):
     if request.method == 'POST':
         companyCode = request.data['companyCode']
-        nowDate = (datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
+        nowDate = (datetime.datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
         exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["2020-01-01", "{1}"])'.format(companyCode, nowDate)
         stockData = eval(exeStr)
         stockData_serializer = StockSerializer(stockData, many=True)
