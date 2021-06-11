@@ -18,7 +18,7 @@ from django.db.models import Count
 
 
 # dcinside 주식갤러리 크롤링
-def parse_dc(request):
+def parse_dc():
     url = 'https://gall.dcinside.com/board/lists/?id=neostock'
     # &page=1
     # 전체 페이지 읽어오기
@@ -52,7 +52,6 @@ def parse_dc(request):
                     res[data] = wordCounts[data]
     for i, j in zip(res.keys(), res.values()):
         dcData(title=i, count=j).save()
-    return HttpResponse("dc 크롤링 성공")
 
 #네이버 증권 주요 뉴스 스크래핑
 def crawlerNews(request):

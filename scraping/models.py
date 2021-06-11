@@ -1,6 +1,9 @@
 from django.db import models, connection
+from datetime import timezone
+import datetime
 
 class dcData(models.Model):
+    id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=200)
     count = models.IntegerField()
 
@@ -42,6 +45,7 @@ class dcData(models.Model):
 #         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
     
 class MainNews(models.Model):
+    id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=1000,default='')
     summary = models.TextField()
     publishDay = models.CharField(max_length=100)
@@ -59,6 +63,7 @@ class MainNews(models.Model):
             )
 
 class LiveNews(models.Model):
+    id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=1000,default='')
     summary = models.TextField()
     publishDate = models.CharField(max_length=100)
