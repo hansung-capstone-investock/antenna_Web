@@ -2,6 +2,7 @@ from django.http.response import Http404
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.utils import timezone
+from rest_framework.exceptions import MethodNotAllowed
 from rest_framework.views import APIView
 from .models import *
 from scraping.models import *
@@ -38,7 +39,7 @@ def initApp(request):
 @api_view(['POST'])
 def backtestapi(request):
     if request.method == 'POST':
-        backT = backtest.Backtest(request.data)
+        backT = backtestdf.Backtest1(request.data)
         a = backT.backTesting()
         return HttpResponse(a)
 
@@ -73,7 +74,7 @@ def kospi200YearList(request):
 @api_view(['GET'])
 def before3M(request):
     if request.method == 'GET':
-        compareList=CompareMonth.objects.using("stockDB").annotate(max_date=Max('date'))
+        compareList=Compare3Month.objects.using("stockDB").annotate(max_date=Max('date'))
         compareList1=compareList.values().filter(date__gte=F('max_date'))
         compare_serializer = CompareSerializer(compareList1, many=True)
         return Response(compare_serializer.data)

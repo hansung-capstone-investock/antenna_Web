@@ -61,29 +61,13 @@ class BackTestInfo(models.Model):
     date = models.DateTimeField(blank=True)
     serial = models.CharField(max_length=30,blank=True)
 
-class CompareMonth(models.Model):
-    date = models.DateField(primary_key=True)
-    stockcode1 = models.CharField(max_length=10)
-    gap1 = models.FloatField()
-    stockcode2 = models.CharField(max_length=10)
-    gap2 = models.FloatField()
-    stockcode3 = models.CharField(max_length=10)
-    gap3 = models.FloatField()
-    stockcode4 = models.CharField(max_length=10)
-    gap4 = models.FloatField()
-    stockcode5 = models.CharField(max_length=10)
-    gap5 = models.FloatField()
-    stockcode6 = models.CharField(max_length=10)
-    gap6 = models.FloatField()
-    stockcode7 = models.CharField(max_length=10)
-    gap7 = models.FloatField()
-    stockcode8 = models.CharField(max_length=10)
-    gap8 = models.FloatField()
-    stockcode9 = models.CharField(max_length=10)
-    gap9 = models.FloatField()
-    stockcode10 = models.CharField(max_length=10)
-    gap10 = models.FloatField()
-
+class Compare3Month(models.Model):
+    id = models.AutoField(primary_key=True)
+    date = models.DateField()
+    stockcode = models.CharField(max_length=10)
+    company = models.CharField(max_length=50)
+    gap = models.FloatField()
+    rank  = models.IntegerField()
 
 class StockX000020(models.Model): 
     

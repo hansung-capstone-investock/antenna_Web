@@ -1,5 +1,6 @@
 from datetime import datetime, time, timedelta, date
 from django.http.response import HttpResponse
+from pandas.core.frame import DataFrame
 from .models import *
 import pandas as pd
 from django.db.models import Q
@@ -20,12 +21,6 @@ class Backtest1:
         self.sorts = list()
         self.condition = dict()
         
-        self.test= backTestInfo['conditions']
-        for i in self.test:
-            for key,value in i.items():
-                self.condition[key] = [value[0],value[1]]
-                self.sorts.insert(value[2],key)
-        
         self.sellConditionHigh = backTestInfo['sellCondition'][1]
         self.sellConditionLow = backTestInfo['sellCondition'][0]
         
@@ -39,19 +34,24 @@ class Backtest1:
     def getData(self,targetList):
         for ticker in targetList:
             strClass = 'StockX'+ticker.code
-            print(strClass)
             instance = eval(strClass)
-            stockInfo = instance.objects.using("stockDB").filter(
-                date__range=[f"{self.start}", f"{self.end}"]
+            dateInfo = instance.objects.using("stockDB").filter(
+                date__range=[self.start, self.end]
             )
-            stockInfo_serializer = BackTestSerializer(stockInfo)
-            print(stockInfo_serializer)
-            return
+            exec("%s=%s", ticker +'_df', pd.DataFrame(columns=['date','close','per','pbr','psr','roe','roa']))
+            print('f{ticker_df}')
+            print(type(dateInfo))
+            print(len(dateInfo))
+            print(dateInfo[0].date)
+            print(dateInfo[1].date)
+            dateInfo_serializer = StockSerializer(dateInfo,many=True)
+            return  
+    
     def backTesting(self):
         targetList = StockList.objects.using("stockDB").filter(
             market__in = self.marketList,
             sectorcode__in = self.sectorList
         )
         self.getData(targetList)
-            
+        return 11
         
