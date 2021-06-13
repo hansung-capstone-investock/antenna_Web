@@ -58,7 +58,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     # ONLY AWS EC2 
-    # 'django_crontab',
+    'django_crontab',
 ]
 
 MIDDLEWARE = [
