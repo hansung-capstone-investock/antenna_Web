@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
+from ta.utils import dropna
 from .models import *
 import pandas as pd
 import urllib.request as req
@@ -56,7 +57,7 @@ def antenna_tensor(companyCode, indicator, predictDate):
     seqLength = 7 # window size 
     days_to_predict = predictDate
     batchsize = 16 
-    iterations = 150
+    iterations = 1
     indicator_count = len(indicator)
 
     df = pd.DataFrame()
@@ -209,7 +210,7 @@ def antenna_tensor(companyCode, indicator, predictDate):
     # 예측 결과, 실제 값
     predict = predict - sum + bolinger_y[seqLength:]
     actual = actual + bolinger_y[seqLength:]
-
+    actual = actual[:-days_to_predict]
 
     predict_dict = dict(enumerate(predict.flatten(), 1))
     actual_dict = dict(enumerate(actual.flatten(), 1))
