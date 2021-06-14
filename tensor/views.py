@@ -20,6 +20,7 @@ from .Indicator import volume as vol
 from .Indicator import momentum as mom
 from .Indicator import diff as diff
 from stock.serializers import *
+import pprint
 
 @api_view(['POST'])
 def antenna_api(request):
@@ -58,16 +59,14 @@ def antenna_tensor(companyCode, indicator, predictDate):
     iterations = 150
     indicator_count = len(indicator)
 
+    df = pd.DataFrame()
     xy_dict = dict()
-    xy_data = dict()
     xy_json = get_stockdata(companyCode)
     for i in range(len(xy_json.data)):
         for key, value in xy_json.data[i].items():
-            xy_data[key] = value
-        xy_dict[i] = xy_data
+            xy_dict[key] = value
+        df = df.append(xy_dict, ignore_index=True)
 
-    xy = pd.DataFrame(xy_dict).transpose()
-    df = xy.dropna()
     df['close'] = df['close'].shift(-days_to_predict)
 
     tf.random.set_seed(777)

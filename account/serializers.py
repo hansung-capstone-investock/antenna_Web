@@ -10,7 +10,8 @@ class AccountSerializer(serializers.ModelSerializer):
 class InterestedstockSerializer(serializers.ModelSerializer):
     class Meta:
         model = interestedstockData
-        fields = ('name',
+        fields = ('id',
+                'name',
                 'group',
                 'company1',
                 'company2',
