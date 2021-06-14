@@ -41,7 +41,7 @@ def antenna_api(request):
 
         result = antenna_tensor(companyCode, indicator, predictDate)
 
-        return HttpResponse(result, content_type="text/javascript")
+        return HttpResponse(result, content_type="application/json")
 
 def get_stockdata(companyCode):
     nowDate = (datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
@@ -210,17 +210,15 @@ def antenna_tensor(companyCode, indicator, predictDate):
     predict = predict - sum + bolinger_y[seqLength:]
     actual = actual + bolinger_y[seqLength:]
 
-    predict_list = predict.tolist()
-    actual_list = actual.tolist()
-    predict_dict = dict(zip(range(len(predict_list)), predict_list))
-    actual_dict = dict(zip(range(len(actual_list)), actual_list))
+
+    predict_dict = dict(enumerate(predict.flatten(), 1))
+    actual_dict = dict(enumerate(actual.flatten(), 1))
 
     res_dict = {}
 
     res_dict['predict'] = predict_dict
     res_dict['actual'] = actual_dict
 
-    # print(res_dict)
     predict_json = json.dumps(res_dict)
 
     return predict_json
