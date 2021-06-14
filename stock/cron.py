@@ -1,7 +1,7 @@
 from .models import *
 from bs4 import BeautifulSoup
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 from django.utils import timezone
 from pykrx import stock as st
 from datetime import date
@@ -60,6 +60,7 @@ def readMarket():
         return
     markets = {'Kospi':'1001','Kosdaq':'2001','Kospi200':'1028'} # 코스피, 코스닥, 코스피200
     today = datetime.today().strftime('%Y%m%d')
+    
     for key in markets:
         df = st.get_index_ohlcv_by_date(today, today, f'{markets[key]}')
         df['날짜'] = df.index
@@ -91,7 +92,8 @@ def insertPrice():
     today = datetime.today().strftime('%Y%m%d')
     for code in codelist:
         time.sleep(0.5)
-        price_df = st.get_market_ohlcv_by_date(today, today, f"{code}")
+        # price_df = st.get_market_ohlcv_by_date(today, today, f"{code}")
+        price_df = st.get_market_ohlcv_by_date("20210611", "20210611", f"{code}")
         stock_df = pd.DataFrame(index = price_df.index,columns=['date','open','high','low','close','volume'])    
         stock_df['date'] = stock_df.index
         stock_df['open'] = price_df['시가']
@@ -162,19 +164,17 @@ def insertPerPbr(request):
                 stockF.save(using='stockDB')
             except:
                 continue
-            
 
 
-def insertCap(request):
+def insertCap():
     stocklist = StockList.objects.using('stockDB').all()
     
     codelist = list()
     for c in stocklist:
         codelist.append(c.code)
-    today = datetime.today().strftime('%Y%m%d')
-
+    today = (datetime.today()-timedelta(days=4)).strftime('%Y%m%d')
     for code in codelist:
-        time.sleep(1)
+        time.sleep(0.5)
 
         cap_df = st.get_market_cap_by_date(today, today, f"{code}")
         stock_df = pd.DataFrame(index = cap_df.index,columns=['date','cap'])    

@@ -58,7 +58,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     # ONLY AWS EC2 
-    'django_crontab',
+    # 'django_crontab',
 ]
 
 MIDDLEWARE = [
@@ -167,16 +167,16 @@ STATIC_URL = '/static/'
 # ONLY AWS EC2 #
 ################
 
-CRONJOBS = [
+# CRONJOBS = [
     # ('* * */1 * *', 'scraping.views.parse_dc'),
-    ('*/5 9-16 * * 1-5', 'stock.cron.getDailyMarketIndex'),
-    ('30 8 * * *', 'stock.cron.clearDailyMarket'),
-    ('00 16 * * 1-5', 'stock.cron.readMarket'),
-    ('40 15 * * 1-5', 'stock.cron.insertPrice'),
-    ('00 17 * * 1-5', 'stock.cron.insertPerPbr'),
-    ('00 18 * * 1-5', 'stock.cron.insertCap'),
-    ('00 1 * * 2-6', 'stock.cmpM.b3m'),
-]
+    # ('*/5 9-16 * * 1-5', 'stock.cron.getDailyMarketIndex'),
+    # ('30 8 * * *', 'stock.cron.clearDailyMarket'),
+    # ('00 16 * * 1-5', 'stock.cron.readMarket'),
+    # ('40 15 * * 1-5', 'stock.cron.insertPrice'),
+    # ('00 17 * * 1-5', 'stock.cron.insertPerPbr'),
+    # ('00 18 * * 1-5', 'stock.cron.insertCap'),
+    # ('00 1 * * 2-6', 'stock.cmpM.b3m'),
+# ]
 
 
 # on aws ec2
