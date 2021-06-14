@@ -10,5 +10,6 @@ urlpatterns = [
     path('api/login/', views.login),
     path('api/signup/', views.signup),
     path('api/intereststock/', views.interestedgroup_list),
+    path('api/intereststockWeb/', views.interestedgroup_list_web),
     path('api/interestUpdate/', views.interestedstock_Update),
 ]

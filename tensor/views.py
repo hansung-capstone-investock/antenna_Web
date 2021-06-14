@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
+from ta.utils import dropna
 from .models import *
 import pandas as pd
 import urllib.request as req
@@ -20,6 +21,7 @@ from .Indicator import volume as vol
 from .Indicator import momentum as mom
 from .Indicator import diff as diff
 from stock.serializers import *
+import pprint
 
 @api_view(['POST'])
 def antenna_api(request):
@@ -40,7 +42,7 @@ def antenna_api(request):
 
         result = antenna_tensor(companyCode, indicator, predictDate)
 
-        return HttpResponse(result, content_type="text/javascript")
+        return HttpResponse(result, content_type="application/json")
 
 def get_stockdata(companyCode):
     nowDate = (datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
@@ -55,19 +57,17 @@ def antenna_tensor(companyCode, indicator, predictDate):
     seqLength = 7 # window size 
     days_to_predict = predictDate
     batchsize = 16 
-    iterations = 150
+    iterations = 1
     indicator_count = len(indicator)
 
+    df = pd.DataFrame()
     xy_dict = dict()
-    xy_data = dict()
     xy_json = get_stockdata(companyCode)
     for i in range(len(xy_json.data)):
         for key, value in xy_json.data[i].items():
-            xy_data[key] = value
-        xy_dict[i] = xy_data
+            xy_dict[key] = value
+        df = df.append(xy_dict, ignore_index=True)
 
-    xy = pd.DataFrame(xy_dict).transpose()
-    df = xy.dropna()
     df['close'] = df['close'].shift(-days_to_predict)
 
     tf.random.set_seed(777)
@@ -210,18 +210,16 @@ def antenna_tensor(companyCode, indicator, predictDate):
     # 예측 결과, 실제 값
     predict = predict - sum + bolinger_y[seqLength:]
     actual = actual + bolinger_y[seqLength:]
+    actual = actual[:-days_to_predict]
 
-    predict_list = predict.tolist()
-    actual_list = actual.tolist()
-    predict_dict = dict(zip(range(len(predict_list)), predict_list))
-    actual_dict = dict(zip(range(len(actual_list)), actual_list))
+    predict_dict = dict(enumerate(predict.flatten(), 1))
+    actual_dict = dict(enumerate(actual.flatten(), 1))
 
     res_dict = {}
 
     res_dict['predict'] = predict_dict
     res_dict['actual'] = actual_dict
 
-    # print(res_dict)
     predict_json = json.dumps(res_dict)
 
     return predict_json
