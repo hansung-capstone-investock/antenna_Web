@@ -212,6 +212,9 @@ def antenna_tensor(companyCode, indicator, predictDate):
     actual = actual + bolinger_y[seqLength:]
     actual = actual[:-days_to_predict]
 
+    predict = predict[:-150]
+    actual = actual[:-150]
+
     predict_dict = dict(enumerate(predict.flatten(), 1))
     actual_dict = dict(enumerate(actual.flatten(), 1))
 
