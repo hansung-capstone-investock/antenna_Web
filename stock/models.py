@@ -30,7 +30,6 @@ class StockList(models.Model):
     themacode = models.ForeignKey(ThemaList, to_field='themacode', on_delete=models.CASCADE)
     last_update = models.DateField()
 
-
 class Kospi(models.Model):
     date = models.DateTimeField(primary_key=True)
     high = models.FloatField()
@@ -55,7 +54,6 @@ class Kospi200(models.Model):
     tradingVolume = models.FloatField()
     tradingPrice = models.FloatField()
 
-
 class dailyMarketIndex(models.Model):
     id = models.AutoField(primary_key=True)
     market = models.ForeignKey(MarketList,to_field='id', on_delete=models.CASCADE)
@@ -64,11 +62,19 @@ class dailyMarketIndex(models.Model):
     changeNum = models.CharField(max_length=30)
     changePer = models.CharField(max_length=30)
 
-class BackTestInfo(models.Model):
-    id = models.AutoField(primary_key=True)
-    user = models.ForeignKey(accountData,to_field='id', on_delete=models.CASCADE)
-    date = models.DateTimeField(blank=True)
-    serial = models.CharField(max_length=30,blank=True)
+# class BackTestInfo(models.Model):
+#     id = models.AutoField(primary_key=True)
+#     user = models.ForeignKey(accountData,to_field='id', on_delete=models.CASCADE)
+#     date = models.DateTimeField(blank=True)
+#     filename = models.CharField(max_length=30,blank=True)
+#     start = models.DateTimeField(blank=True)
+#     end = models.DateTimeField(blank=True)
+#     # sort = models.CharField(max_length=100,blank=True)
+#     condition = models.CharField(max_length=100,blank=True)
+#     # sellConditionHigh = models.FloatField()
+#     # sellConditionLow = models.FloatField()
+#     marketList = models.CharField(max_length=100,blank=True)
+#     sectorList = models.CharField(max_length=100,blank=True)
 
 class Compare3Month(models.Model):
     id = models.AutoField(primary_key=True)

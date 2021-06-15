@@ -40,9 +40,11 @@ def initSet():
             continue
         sectorName = st.get_index_ticker_name(ticker)
         themes[ticker] = st.get_index_portfolio_deposit_file(ticker)
+        
         sectorlist = SectorList(
             sectorcode = ticker,
             sector = sectorName
+        
         )
         sectorlist.save(using='stockDB')
 

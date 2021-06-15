@@ -38,12 +38,11 @@ def initApp(request):
 @api_view(['POST'])
 def backtestapi(request):
     if request.method == 'POST':
-        start = time.time()
         backT = backtest.Backtest1(request.data)
         if backT.backTesting() is None:
-            return Response("no content stock")
+            return Response("no stock this condition")
         else:
-            print("time :", time.time() - start)
+            # backT.saveBack()
             return JsonResponse(backT.gapDict)
 
 

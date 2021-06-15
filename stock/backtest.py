@@ -12,6 +12,7 @@ class Backtest1:
     gapDict = dict()
     
     def __init__(self, backTestInfo):
+        self.tester = backTestInfo['id']
         self.gapDict['total'] = 0
         self.companyNum = 10
         self.start = date(int(backTestInfo['start'].split('-')[0]),int(backTestInfo['start'].split('-')[1]),int(backTestInfo['start'].split('-')[2]))
@@ -34,6 +35,10 @@ class Backtest1:
         
         self.marketList = backTestInfo['market']
         self.sectorList = backTestInfo['sector']
+        a = [1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015]
+        if 1027 in self.sectorList:
+            for b in a:
+                self.sectorList.append(b)
         
         stockInfo = StockX000020.objects.using("stockDB").filter(
                 date__range=[self.start, self.end]
@@ -220,11 +225,10 @@ class Backtest1:
 
         
     def backTesting(self):
-        print(len(self.targetList))
         if len(self.targetList) == 0:
             return 
         self.getData()
-        
+        self.close_df.to_csv("clsoea.csv")
         while self.targetDate != self.end:
             if self.targetDate not in self.datelist:
                 self.targetDate += timedelta(days=1)
@@ -249,4 +253,7 @@ class Backtest1:
         self.sellingStockAll()
         self.gapDict['total']+=self.gapDict[self.strTarget]
         self.backTestLog_df.to_csv("backtestLog.csv")
+        return 100
+    
+    # def saveBack():
         
