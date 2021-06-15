@@ -94,7 +94,7 @@ def stockSearchData(request):
     if request.method == 'POST':
         companyCode = request.data['companyCode']
         nowDate = (datetime.datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
-        exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["2020-01-01", "{1}"])'.format(companyCode, nowDate)
+        exeStr = 'StockX{0}.objects.using("stockDB").order_by("-date").filter(date__range=["2020-01-01", "{1}"])'.format(companyCode, nowDate)
         stockData = eval(exeStr)
         stockData_serializer = StockSerializer(stockData, many=True)
 
