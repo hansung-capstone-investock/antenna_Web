@@ -38,10 +38,10 @@ def initApp(request):
 @api_view(['POST'])
 def backtestapi(request):
     if request.method == 'POST':
-        # start = time.time()
+        start = time.time()
         backT = backtest.Backtest1(request.data)
         a = backT.backTesting()
-        # print("time :", time.time() - start)
+        print("time :", time.time() - start)
         
         return  JsonResponse(backT.gapDict)
 

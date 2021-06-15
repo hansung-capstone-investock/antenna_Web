@@ -59,7 +59,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     # ONLY AWS EC2 
     # 'django_crontab',
-    'corsheaders',
+    # 'corsheaders',
 ]
 
 MIDDLEWARE = [
