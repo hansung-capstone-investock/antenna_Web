@@ -27,11 +27,11 @@ class Backtest1:
         
         for i in backTestInfo['conditions']:
             for key,value in i.items():
-                self.condition[key] = [value[0],value[1]]
+                self.condition[key] = [float(value[0]),float(value[1])]
                 self.sorts.insert(value[2],key)
         
-        self.sellConditionHigh = backTestInfo['sellCondition'][1]
-        self.sellConditionLow = backTestInfo['sellCondition'][0]
+        self.sellConditionHigh = float(backTestInfo['sellCondition'][1])
+        self.sellConditionLow = float(backTestInfo['sellCondition'][0])
         
         self.marketList = backTestInfo['market']
         self.sectorList = backTestInfo['sector']
@@ -228,7 +228,7 @@ class Backtest1:
         if len(self.targetList) == 0:
             return 
         self.getData()
-        self.close_df.to_csv("clsoea.csv")
+        
         while self.targetDate != self.end:
             if self.targetDate not in self.datelist:
                 self.targetDate += timedelta(days=1)
@@ -252,6 +252,6 @@ class Backtest1:
 
         self.sellingStockAll()
         self.gapDict['total']+=self.gapDict[self.strTarget]
-        self.backTestLog_df.to_csv("backtestLog.csv")
+        # self.backTestLog_df.to_csv("backtestLog.csv")
         return 100
     
