@@ -126,7 +126,7 @@ def interestedgroup_list_web(request):
             for j in range(1,11):
                 company_name = interested_serializer.data[i]['company{0}'.format(j)]
                 # dict_temp['company{0}'.format(j)]
-                if (company_name == 'null') or (company_name is None):
+                if (company_name == 'null') or (company_name is None) or (company_name == ""):
                     continue
                 else:
                     code = StockList.objects.using("stockDB").filter(company = company_name)
