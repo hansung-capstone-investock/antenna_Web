@@ -215,8 +215,19 @@ def antenna_tensor(companyCode, indicator, predictDate):
     predict = predict[:-150]
     actual = actual[:-150]
 
-    predict_dict = dict(enumerate(predict.flatten(), 1))
-    actual_dict = dict(enumerate(actual.flatten(), 1))
+    predict = predict.flatten()
+    actual = actual.flatten()
+    
+    i = 0
+    predict_dict = dict()
+    actual_dict = dict()
+    for pred, actu in zip(predict, actual):
+        i += 1
+        predict_dict["day{0}".format(i)] = pred
+        actual_dict["day{0}".format(i)] = actu
+
+    # predict_dict = dict(enumerate(predict.flatten(), 1))
+    # actual_dict = dict(enumerate(actual.flatten(), 1))
 
     res_dict = {}
 
