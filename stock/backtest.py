@@ -70,7 +70,10 @@ class Backtest1:
         idx =0
         for ticker in self.targetList:
             strClass = 'StockX'+ticker.code
-            instance = eval(strClass)
+            try:
+                instance = eval(strClass)
+            except:
+                continue
             stockInfo = instance.objects.using("stockDB").filter(
                 date__range=[self.start, self.end]
             )

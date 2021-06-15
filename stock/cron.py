@@ -60,10 +60,10 @@ def readMarket():
     if is_weekend() is True:
         return
     markets = {'Kospi':'1001','Kosdaq':'2001','Kospi200':'1028'} # 코스피, 코스닥, 코스피200
-    # today = datetime.today().strftime('%Y%m%d')
+    today = datetime.today().strftime('%Y%m%d')
     
     for key in markets:
-        df = st.get_index_ohlcv_by_date("20210614", "20210614", f'{markets[key]}')
+        df = st.get_index_ohlcv_by_date(today, today, f'{markets[key]}')
         df['날짜'] = df.index
         df = df.rename(columns={'날짜': 'date', '고가': 'high', '저가': 'low',
                                 '종가': 'close',  '거래량': 'tradingVolume',
@@ -93,8 +93,7 @@ def insertPrice():
     today = datetime.today().strftime('%Y%m%d')
     for code in codelist:
         time.sleep(0.5)
-        # price_df = st.get_market_ohlcv_by_date(today, today, f"{code}")
-        price_df = st.get_market_ohlcv_by_date("20210614", "20210614", f"{code}")
+        price_df = st.get_market_ohlcv_by_date(today, today, f"{code}")
         stock_df = pd.DataFrame(index = price_df.index,columns=['date','open','high','low','close','volume'])    
         stock_df['date'] = stock_df.index
         stock_df['open'] = price_df['시가']
