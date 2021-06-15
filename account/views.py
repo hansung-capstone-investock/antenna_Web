@@ -1,4 +1,5 @@
 from os import name
+from textwrap import indent
 from stock.serializers import StockSerializer
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
@@ -19,6 +20,7 @@ from account.serializers import *
 from stock.serializers import *
 import datetime
 from datetime import timedelta
+import pprint
 
 # Create your views here.
 @api_view(['GET', 'POST'])
@@ -138,9 +140,10 @@ def interestedgroup_list_web(request):
                     exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["{1}", "{2}"])'.format(company_code, weeks_ago, today)
                     stockData = eval(exeStr)
                     stockData_serializer = StockSerializer(stockData, many=True)
-                    
-                    yesterday_close = stockData_serializer.data[0]['close']
-                    today_close = stockData_serializer.data[1]['close']
+                    stock_length = len(stockData_serializer.data) - 1
+
+                    yesterday_close = stockData_serializer.data[stock_length-1]['close']
+                    today_close = stockData_serializer.data[stock_length]['close']
 
                     # 전일비, 등락률
                     diff = today_close - yesterday_close

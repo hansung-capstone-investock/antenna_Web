@@ -62,6 +62,40 @@ INSTALLED_APPS = [
     # 'corsheaders',
 ]
 
+if os.name == "nt":             # only Windows
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'scraping.apps.ScrapingConfig',
+        'account.apps.AccountConfig',
+        'stock.apps.StockConfig',
+        'tensor.apps.TensorConfig',
+        'rest_framework',
+        'drf_yasg',
+        'corsheaders',
+    ]
+elif os.name == "posix":        # only AWS EC2
+    INSTALLED_APPS = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'scraping.apps.ScrapingConfig',
+        'account.apps.AccountConfig',
+        'stock.apps.StockConfig',
+        'tensor.apps.TensorConfig',
+        'rest_framework',
+        'drf_yasg',
+        'django_crontab',
+        'corsheaders',
+    ]
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
@@ -170,17 +204,17 @@ STATIC_URL = '/static/'
 ################
 # ONLY AWS EC2 #
 ################
-
-# CRONJOBS = [
-    # ('* * */1 * *', 'scraping.views.parse_dc'),
-    # ('*/5 9-16 * * 1-5', 'stock.cron.getDailyMarketIndex'),
-    # ('30 8 * * *', 'stock.cron.clearDailyMarket'),
-    # ('00 16 * * 1-5', 'stock.cron.readMarket'),
-    # ('40 15 * * 1-5', 'stock.cron.insertPrice'),
-    # ('00 17 * * 1-5', 'stock.cron.insertPerPbr'),
-    # ('00 18 * * 1-5', 'stock.cron.insertCap'),
-    # ('00 1 * * 2-6', 'stock.cmpM.b3m'),
-# ]
+if os.name == "posix":
+    CRONJOBS = [
+        # ('* * */1 * *', 'scraping.views.parse_dc'),
+        ('*/5 9-16 * * 1-5', 'stock.cron.getDailyMarketIndex'),
+        ('30 8 * * *', 'stock.cron.clearDailyMarket'),
+        ('00 16 * * 1-5', 'stock.cron.readMarket'),
+        ('40 15 * * 1-5', 'stock.cron.insertPrice'),
+        ('00 17 * * 1-5', 'stock.cron.insertPerPbr'),
+        ('00 18 * * 1-5', 'stock.cron.insertCap'),
+        ('00 1 * * 2-6', 'stock.cmpM.b3m'),
+    ]
 
 
 # on aws ec2
