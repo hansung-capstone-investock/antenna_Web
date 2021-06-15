@@ -27,10 +27,9 @@ from scraping.serializers import *
 import pandas as pd
 from django.db.models import Max, F
 from stock import backtest
-from stock import backtestdf
-from stock import cmpM
 import json
 import time
+from rest_framework.renderers import JSONRenderer
 
 def initApp(request):
     stockScraping.initSet()
@@ -39,9 +38,12 @@ def initApp(request):
 @api_view(['POST'])
 def backtestapi(request):
     if request.method == 'POST':
-        backT = backtestdf.Backtest1(request.data)
+        # start = time.time()
+        backT = backtest.Backtest1(request.data)
         a = backT.backTesting()
-        return HttpResponse(a)
+        # print("time :", time.time() - start)
+        
+        return  JsonResponse(backT.gapDict)
 
 
 @api_view(['GET'])

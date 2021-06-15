@@ -11,8 +11,6 @@ def b3m():
     elif today.weekday() ==6:
         today -= today-datetime.timedelta(days=2)
     
-    today -= datetime.timedelta(days=2)
-    
     before3m = today-datetime.timedelta(weeks=12)
     
     stocklist = StockList.objects.using('stockDB').filter(
