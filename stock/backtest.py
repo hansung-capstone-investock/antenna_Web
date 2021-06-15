@@ -255,5 +255,3 @@ class Backtest1:
         self.backTestLog_df.to_csv("backtestLog.csv")
         return 100
     
-    # def saveBack():
-        
