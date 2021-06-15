@@ -39,7 +39,6 @@ class Backtest1:
                 date__range=[self.start, self.end]
             )
         self.datelist =list()
-        print(self.datelist)
         for st in stockInfo:
             self.datelist.append(st.date)
         self.stock_df = pd.DataFrame(index= self.datelist)
@@ -221,7 +220,9 @@ class Backtest1:
 
         
     def backTesting(self):
-        
+        print(len(self.targetList))
+        if len(self.targetList) == 0:
+            return 
         self.getData()
         
         while self.targetDate != self.end:
@@ -248,3 +249,4 @@ class Backtest1:
         self.sellingStockAll()
         self.gapDict['total']+=self.gapDict[self.strTarget]
         self.backTestLog_df.to_csv("backtestLog.csv")
+        
