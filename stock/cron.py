@@ -7,6 +7,7 @@ from pykrx import stock as st
 from datetime import date
 import pandas as pd
 import time
+from django.db.models import Q
 
 def is_weekend():
     year = datetime.today().year
@@ -59,10 +60,10 @@ def readMarket():
     if is_weekend() is True:
         return
     markets = {'Kospi':'1001','Kosdaq':'2001','Kospi200':'1028'} # 코스피, 코스닥, 코스피200
-    today = datetime.today().strftime('%Y%m%d')
+    # today = datetime.today().strftime('%Y%m%d')
     
     for key in markets:
-        df = st.get_index_ohlcv_by_date(today, today, f'{markets[key]}')
+        df = st.get_index_ohlcv_by_date("20210614", "20210614", f'{markets[key]}')
         df['날짜'] = df.index
         df = df.rename(columns={'날짜': 'date', '고가': 'high', '저가': 'low',
                                 '종가': 'close',  '거래량': 'tradingVolume',
@@ -93,7 +94,7 @@ def insertPrice():
     for code in codelist:
         time.sleep(0.5)
         # price_df = st.get_market_ohlcv_by_date(today, today, f"{code}")
-        price_df = st.get_market_ohlcv_by_date("20210611", "20210611", f"{code}")
+        price_df = st.get_market_ohlcv_by_date("20210614", "20210614", f"{code}")
         stock_df = pd.DataFrame(index = price_df.index,columns=['date','open','high','low','close','volume'])    
         stock_df['date'] = stock_df.index
         stock_df['open'] = price_df['시가']
@@ -204,3 +205,44 @@ def insertCap():
             except:
                 continue
             
+
+def topHighStock():
+    today = date.today() - timedelta(days=1)
+
+    if today.weekday() == 5:
+        today -= datetime.timedelta(days=1)
+    elif today.weekday() ==6:
+        today -= today-datetime.timedelta(days=2)
+    
+    if today.weekday() == 0:
+        yesterday = today-timedelta(days=3)
+    else:
+        yesterday = today-timedelta(days=1)
+    
+    stocklist = StockList.objects.using('stockDB').all()
+    
+    gapdict = dict()
+    codelist = dict()
+    for c in stocklist:
+        codelist[c.code] = c.company
+
+    for key in codelist:
+        strClass = 'StockX'+key
+        try:
+            instance = eval(strClass)
+        except:
+            continue
+        
+        try:
+            todayInfo = instance.objects.using("stockDB").filter(
+                Q(date=today) | Q(date=yesterday))
+            gapPrice = todayInfo[0].close-todayInfo[1].close
+            gapPercent = (gapPrice/todayInfo[0].close)
+            gapdict[key] = round(gapPercent*100,2)
+        except:
+            continue
+    
+    gapdict = sorted(gapdict.items(), key=lambda x: x[1], reverse=True)
+    print(gapdict)
+    
+    

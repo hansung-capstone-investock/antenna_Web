@@ -43,6 +43,25 @@ ALLOWED_HOSTS = ['*']
 
 
 # Application definition
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'scraping.apps.ScrapingConfig',
+    'account.apps.AccountConfig',
+    'stock.apps.StockConfig',
+    'tensor.apps.TensorConfig',
+    'rest_framework',
+    'drf_yasg',
+    # ONLY AWS EC2 
+    # 'django_crontab',
+    # 'corsheaders',
+]
+
 if os.name == "nt":             # only Windows
     INSTALLED_APPS = [
         'django.contrib.admin',

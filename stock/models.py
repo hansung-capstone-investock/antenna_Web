@@ -1,6 +1,15 @@
 from django.db import models
 from account.models import *
 
+class TopStockHigh(models.Model):
+    id = models.AutoField(primary_key=True)
+    date = models.DateField()
+    stockcode = models.CharField(max_length=10)
+    company = models.CharField(max_length=50)    
+    high = models.FloatField(blank=True, null=True)
+    gap = models.FloatField()
+    rank  = models.IntegerField()
+    
 class SectorList(models.Model):
     sectorcode= models.CharField(max_length=10,primary_key=True)
     sector = models.CharField(max_length=100)

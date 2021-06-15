@@ -11,7 +11,6 @@ class Backtest1:
     backTestLog_df = pd.DataFrame(columns=['ticker','buy_date','buy_price','sell_date','sell_price','profit'])
     gapDict = dict()
     
-    
     def __init__(self, backTestInfo):
         self.gapDict['total'] = 0
         self.companyNum = 10
@@ -19,7 +18,6 @@ class Backtest1:
         self.end = date(int(backTestInfo['end'].split('-')[0]),int(backTestInfo['end'].split('-')[1]),int(backTestInfo['end'].split('-')[2]))
         self.targetDate = self.start
         self.strTarget = self.targetDate.strftime("%Y-%m-%d")
-        # 우선순위
         #['per','pbr']
         self.sorts = list()
         
@@ -37,21 +35,18 @@ class Backtest1:
         self.marketList = backTestInfo['market']
         self.sectorList = backTestInfo['sector']
         
-        
-        
         stockInfo = StockX000020.objects.using("stockDB").filter(
                 date__range=[self.start, self.end]
             )
         self.datelist =list()
-        
         for st in stockInfo:
             self.datelist.append(st.date)
         self.stock_df = pd.DataFrame(index= self.datelist)
         
         
         self.targetList = StockList.objects.using("stockDB").filter(
-            market__in = self.marketList,
-            sectorcode__in = self.sectorList
+            Q(market__in = self.marketList) &
+            Q(sectorcode__in = self.sectorList)
         )
         
         
@@ -225,7 +220,9 @@ class Backtest1:
 
         
     def backTesting(self):
-        
+        print(len(self.targetList))
+        if len(self.targetList) == 0:
+            return 
         self.getData()
         
         while self.targetDate != self.end:
@@ -246,10 +243,10 @@ class Backtest1:
             self.gapDict['total']+=self.gapDict[self.strTarget]
             self.targetDate += timedelta(days=1)
 
-        
         while self.targetDate not in self.datelist:
             self.targetDate -= timedelta(days=1)
 
         self.sellingStockAll()
         self.gapDict['total']+=self.gapDict[self.strTarget]
         self.backTestLog_df.to_csv("backtestLog.csv")
+        
