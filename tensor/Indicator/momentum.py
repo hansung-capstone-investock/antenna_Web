@@ -48,8 +48,8 @@ def get_sr(df):
     indicator_sr = mom.StochasticOscillator(high=df['high'], low=df['low'],
     close=df['close'])
 
-    df_sr['sr_signal'] = indicator_sr.stoch_signal()
-    df_sr['sr_stoch'] = indicator_sr.stoch()
+    df_sr['sr_signal'] = indicator_sr.stoch_signal().fillna(0)
+    df_sr['sr_stoch'] = indicator_sr.stoch().fillna(0)
 
     return df_sr
 

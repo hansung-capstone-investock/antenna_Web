@@ -21,7 +21,7 @@ from .Indicator import volume as vol
 from .Indicator import momentum as mom
 from .Indicator import diff as diff
 from stock.serializers import *
-import pprint
+from matplotlib import pyplot as plt
 
 @api_view(['POST'])
 def antenna_api(request):
@@ -57,7 +57,7 @@ def antenna_tensor(companyCode, indicator, predictDate):
     seqLength = 7 # window size 
     days_to_predict = predictDate
     batchsize = 16 
-    iterations = 1
+    iterations = 150
     indicator_count = len(indicator)
 
     df = pd.DataFrame()
@@ -67,7 +67,6 @@ def antenna_tensor(companyCode, indicator, predictDate):
         for key, value in xy_json.data[i].items():
             xy_dict[key] = value
         df = df.append(xy_dict, ignore_index=True)
-
     df['close'] = df['close'].shift(-days_to_predict)
 
     tf.random.set_seed(777)
@@ -106,12 +105,11 @@ def antenna_tensor(companyCode, indicator, predictDate):
     df_macd = trend.get_macd(df)     # 정상성    
     df_wma = trend.get_wma(df)      # 비정상성    굿
     df_ema = trend.get_ema(df)      # 비정상성    굿
-
+    
     indicators = list()
     for i in indicator:
         j = "df_"+i.lower()
         indicators.append(j)
-
     indicator_exe = "pd.concat({0}, axis=1)".format(indicators)
     indicator_exe = indicator_exe.replace("'","")
     df_input = eval(indicator_exe)
@@ -127,7 +125,6 @@ def antenna_tensor(companyCode, indicator, predictDate):
     input_data = df_input.to_numpy()
     # 출력변수
     output_data = df_output.to_numpy()            # 종가 - 볼린저밴드
-
 
     # train, test 크기 설정
     trainSize = int(len(input_data)*0.7)
@@ -205,15 +202,15 @@ def antenna_tensor(companyCode, indicator, predictDate):
 
     # 보정
     bolinger_y[-days_to_predict:] = bolinger_y[-days_to_predict-1]
-    sum = predict[0] - actual[0]
+    sum = predict[-30] - actual[-30]
     
     # 예측 결과, 실제 값
     predict = predict - sum + bolinger_y[seqLength:]
     actual = actual + bolinger_y[seqLength:]
     actual = actual[:-days_to_predict]
 
-    predict = predict[:-150]
-    actual = actual[:-150]
+    predict = predict[150:]
+    actual = actual[150:]
 
     predict = predict.flatten()
     actual = actual.flatten()

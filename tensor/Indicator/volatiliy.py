@@ -8,7 +8,7 @@ def get_atr(df):
     indicator_atr = vola.average_true_range(high=df['high'], low=df['low'],
     close=df['close'])
 
-    df_atr['atr'] = indicator_atr
+    df_atr['atr'] = indicator_atr.fillna(0)
 
     return df_atr
 
@@ -32,7 +32,7 @@ def get_kc(df):
     indicator_kc = vola.KeltnerChannel(high=df['high'], low=df['low'],
     close=df['close'])
 
-    df_kc['kc_lb'] = indicator_kc.keltner_channel_lband()
+    df_kc['kc_lb'] = indicator_kc.keltner_channel_lband().fillna(0)
 
     return df_kc
 
