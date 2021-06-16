@@ -10,7 +10,8 @@ class Backtest1:
     haveStock = dict()
     backTestLog_df = pd.DataFrame(columns=['ticker','buy_date','buy_price','sell_date','sell_price','profit'])
     gapDict = dict()
-    
+    errormsg={'error':'조건에 맞는 주식이 없습니다.'}
+    isValidFlag = False
     def __init__(self, backTestInfo):
         self.tester = backTestInfo['id']
         self.gapDict['total'] = 0
@@ -157,6 +158,7 @@ class Backtest1:
             }
             self.haveStock[new_data["ticker"]] = [self.targetDate, new_data['buy_price']]
             buyflag +=1
+            self.isValidFlag =True
         
     def sellingStock(self):
         
@@ -259,6 +261,5 @@ class Backtest1:
         temp = self.gapDict['total']
         del self.gapDict['total']
         self.gapDict['total'] = temp
-        
         return 100
     

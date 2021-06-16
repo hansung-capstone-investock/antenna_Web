@@ -37,19 +37,21 @@ def initApp(request):
 
 @api_view(['POST'])
 def backtestapi(request):
+    
     if request.method == 'POST':
+        
         backT = backtest.Backtest1(request.data)
         if backT.backTesting() is None:
-            return Response("no stock this condition")
+            return JsonResponse(backT.errormsg)
         else:
+            if backT.isValidFlag ==False:
+                return JsonResponse(backT.errormsg)
             # backT.saveBack()
             return JsonResponse(backT.gapDict)
 
 @api_view(['POST'])
 def backAppapi(request):
     condict = request.data
-    print(type(condict))
-    print(condict)
     conditions = list()
     conlist = ['per','pbr','psr','roe','roa']
     for con in conlist:
