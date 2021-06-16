@@ -1,0 +1,1017 @@
+Watching for file changes with StatReloader
+[15/Jun/2021 21:54:35] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 21:54:35] "POST /stock/stocksearch/ HTTP/1.1" 200 73617
+[15/Jun/2021 21:58:43] "POST /stock/stocksearch/ HTTP/1.1" 200 73617
+[15/Jun/2021 22:01:16] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:01:16] "POST /stock/stocksearch/ HTTP/1.1" 200 73617
+[15/Jun/2021 22:01:21] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:01:21] "POST /stock/stocksearch/ HTTP/1.1" 200 73617
+[15/Jun/2021 22:01:29] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:03:50] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[15/Jun/2021 22:03:50] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11340
+[15/Jun/2021 22:03:50] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:03:58] "POST /account/api/intereststockWeb/ HTTP/1.1" 200 1148
+[15/Jun/2021 22:03:58] "POST /account/api/intereststockWeb/ HTTP/1.1" 200 1148
+[15/Jun/2021 22:03:58] "POST /account/api/intereststockWeb/ HTTP/1.1" 200 1148
+[15/Jun/2021 22:03:59] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:03:59] "POST /stock/stocksearch/ HTTP/1.1" 200 73567
+Internal Server Error: /stock/bt/
+Traceback (most recent call last):
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/root/antenna_web/stock/views.py", line 41, in backtestapi
+    backT = backtest.Backtest1(request.data)
+  File "/root/antenna_web/stock/backtest.py", line 15, in __init__
+    self.tester = backTestInfo['id']
+KeyError: 'id'
+[15/Jun/2021 22:04:55] "POST /stock/bt/ HTTP/1.1" 500 95016
+[15/Jun/2021 22:06:19] "POST /stock/stocksearch/ HTTP/1.1" 200 73567
+[15/Jun/2021 22:06:21] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:06:21] "POST /stock/stocksearch/ HTTP/1.1" 200 73567
+[15/Jun/2021 22:06:33] "POST /stock/stocksearch/ HTTP/1.1" 200 73567
+[15/Jun/2021 22:06:39] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[15/Jun/2021 22:06:39] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:06:39] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11340
+[15/Jun/2021 22:06:44] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:06:44] "GET /views/api/news/ HTTP/1.1" 200 2682
+[15/Jun/2021 22:06:44] "GET /views/api/livenews/ HTTP/1.1" 200 30619
+[15/Jun/2021 22:06:44] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[15/Jun/2021 22:06:44] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+Internal Server Error: /stock/bt/
+Traceback (most recent call last):
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/root/antenna_web/stock/views.py", line 41, in backtestapi
+    backT = backtest.Backtest1(request.data)
+  File "/root/antenna_web/stock/backtest.py", line 15, in __init__
+    self.tester = backTestInfo['id']
+KeyError: 'id'
+[15/Jun/2021 22:07:07] "POST /stock/bt/ HTTP/1.1" 500 95007
+[15/Jun/2021 22:07:23] "POST /account/api/intereststockWeb/ HTTP/1.1" 200 1148
+[15/Jun/2021 22:07:23] "POST /account/api/intereststockWeb/ HTTP/1.1" 200 1148
+[15/Jun/2021 22:07:23] "POST /account/api/intereststockWeb/ HTTP/1.1" 200 1148
+[15/Jun/2021 22:07:23] "POST /stock/stocksearch/ HTTP/1.1" 200 70287
+[15/Jun/2021 22:08:42] "POST /stock/stocksearch/ HTTP/1.1" 200 70287
+[15/Jun/2021 22:11:34] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[15/Jun/2021 22:11:34] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:11:34] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11340
+[15/Jun/2021 22:11:36] "GET /stock/compare3/ HTTP/1.1" 200 893
+[15/Jun/2021 22:11:49] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[15/Jun/2021 22:11:49] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:11:49] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11340
+Internal Server Error: /stock/bt/
+Traceback (most recent call last):
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/root/antenna_web/stock/views.py", line 41, in backtestapi
+    backT = backtest.Backtest1(request.data)
+  File "/root/antenna_web/stock/backtest.py", line 15, in __init__
+    self.tester = backTestInfo['id']
+KeyError: 'id'
+[15/Jun/2021 22:12:28] "POST /stock/bt/ HTTP/1.1" 500 95006
+[15/Jun/2021 22:13:24] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[15/Jun/2021 22:13:24] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:13:24] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11340
+Internal Server Error: /stock/bt/
+Traceback (most recent call last):
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/root/antenna_web/stock/views.py", line 41, in backtestapi
+    backT = backtest.Backtest1(request.data)
+  File "/root/antenna_web/stock/backtest.py", line 15, in __init__
+    self.tester = backTestInfo['id']
+KeyError: 'id'
+[15/Jun/2021 22:13:47] "POST /stock/bt/ HTTP/1.1" 500 95006
+[15/Jun/2021 22:14:23] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[15/Jun/2021 22:14:23] "GET /stock/kospiyear/ HTTP/1.1" 200 11582
+[15/Jun/2021 22:14:23] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11340
+[15/Jun/2021 22:14:39] "GET /stock/compare3/ HTTP/1.1" 200 893
+Internal Server Error: /stock/bt/
+Traceback (most recent call last):
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/root/antenna_web/stock/views.py", line 41, in backtestapi
+    backT = backtest.Backtest1(request.data)
+  File "/root/antenna_web/stock/backtest.py", line 15, in __init__
+    self.tester = backTestInfo['id']
+KeyError: 'id'
+[15/Jun/2021 22:15:21] "POST /stock/bt/ HTTP/1.1" 500 95007
+Not Found: /robots.txt
+[16/Jun/2021 00:18:08] "GET /robots.txt HTTP/1.1" 404 2891
+Not Found: /
+[16/Jun/2021 00:18:17] "GET / HTTP/1.1" 404 2843
+2021-06-16 00:21:20.317623: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-06-16 00:21:20.609517: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-06-16 00:21:20.614942: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2299995000 Hz
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 15, 2021 - 21:54:11
+Django version 3.2, using settings 'antenna_web.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 59s - loss: 0.1296 - mae: 0.316213/37 [=========>....................] - ETA: 0s - loss: 0.0621 - mae: 0.2213 25/37 [===================>..........] - ETA: 0s - loss: 0.0564 - mae: 0.207136/37 [============================>.] - ETA: 0s - loss: 0.0493 - mae: 0.188937/37 [==============================] - 2s 4ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 00:21:22] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm_1 (LSTM)                (None, 10)                520       
+_________________________________________________________________
+dense_1 (Dense)              (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.0755 - mae: 0.263721/37 [================>.............] - ETA: 0s - loss: 0.0707 - mae: 0.2401 37/37 [==============================] - 1s 3ms/step - loss: 0.0622 - mae: 0.2227
+[16/Jun/2021 00:21:49] "POST /tensor/antenna/ HTTP/1.1" 200 4359
+Model: "sequential_2"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm_2 (LSTM)                (None, 10)                520       
+_________________________________________________________________
+dense_2 (Dense)              (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 43s - loss: 0.0596 - mae: 0.236721/37 [================>.............] - ETA: 0s - loss: 0.0633 - mae: 0.2342 37/37 [==============================] - 1s 3ms/step - loss: 0.0619 - mae: 0.2232
+[16/Jun/2021 00:22:08] "POST /tensor/antenna/ HTTP/1.1" 200 4266
+[16/Jun/2021 00:25:28] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 00:25:28] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 00:25:28] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 00:25:30] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 00:25:38] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 00:26:02] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 00:26:03] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 00:26:03] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 00:26:11] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 43s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 00:26:18] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 00:34:19] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 00:34:19] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 00:34:19] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 00:34:19] "GET /stock/compare3/ HTTP/1.1" 200 893
+[16/Jun/2021 00:34:31] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 00:34:31] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 00:34:31] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 00:34:32] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 44s - loss: 0.1296 - mae: 0.316220/37 [===============>..............] - ETA: 0s - loss: 0.0583 - mae: 0.2125 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 00:34:44] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 00:47:28] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 00:49:31] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 00:49:32] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 00:49:32] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 00:49:52] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 59s - loss: 0.1287 - mae: 0.314821/37 [================>.............] - ETA: 0s - loss: 0.0575 - mae: 0.2117 37/37 [==============================] - 2s 3ms/step - loss: 0.0491 - mae: 0.1888
+[16/Jun/2021 00:50:02] "POST /tensor/antenna/ HTTP/1.1" 200 4688
+[16/Jun/2021 00:57:12] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 00:57:12] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 00:57:12] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 01:00:08] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 01:00:08] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 01:00:08] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 01:00:11] "GET /stock/compare3/ HTTP/1.1" 200 893
+Watching for file changes with StatReloader
+Not Found: /
+[16/Jun/2021 01:05:19] "GET / HTTP/1.1" 404 2848
+Not Found: /favicon.ico
+[16/Jun/2021 01:05:19] "GET /favicon.ico HTTP/1.1" 404 2899
+[16/Jun/2021 01:05:21] "GET /swagger/ HTTP/1.1" 200 2225
+[16/Jun/2021 01:05:21] "GET /swagger/?format=openapi HTTP/1.1" 200 3999
+[16/Jun/2021 01:05:22] "GET /swagger/?format=openapi HTTP/1.1" 200 3999
+[16/Jun/2021 01:06:29] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 01:06:29] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 01:06:29] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 01:06:33] "GET /stock/compare3/ HTTP/1.1" 200 893
+2021-06-16 01:06:40.072876: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-06-16 01:06:40.521967: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-06-16 01:06:40.533476: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2299995000 Hz
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 16, 2021 - 01:05:18
+Django version 3.2, using settings 'antenna_web.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 58s - loss: 0.1296 - mae: 0.316212/37 [========>.....................] - ETA: 0s - loss: 0.0638 - mae: 0.2244 24/37 [==================>...........] - ETA: 0s - loss: 0.0577 - mae: 0.209635/37 [===========================>..] - ETA: 0s - loss: 0.0504 - mae: 0.191737/37 [==============================] - 2s 5ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 01:06:42] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 01:20:28] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 01:20:28] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 01:20:28] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 01:20:32] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316213/37 [=========>....................] - ETA: 0s - loss: 0.0621 - mae: 0.2213 26/37 [====================>.........] - ETA: 0s - loss: 0.0554 - mae: 0.205137/37 [==============================] - 1s 4ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 01:20:40] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 01:22:48] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 01:22:48] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 01:22:48] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 01:23:13] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 01:23:21] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 01:24:21] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 01:24:21] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 01:24:21] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 01:24:24] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 01:24:33] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 01:25:54] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 01:25:54] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 01:25:54] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 01:25:57] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316220/37 [===============>..............] - ETA: 0s - loss: 0.0583 - mae: 0.2125 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 01:26:05] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 07:46:55] code 400, message Bad request version ('F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[16/Jun/2021 07:46:55] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 46s - loss: 0.1296 - mae: 0.316218/37 [=============>................] - ETA: 0s - loss: 0.0591 - mae: 0.2140 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 08:56:52] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:06:03] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:06:03] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:06:03] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:06:05] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 45s - loss: 0.1296 - mae: 0.316220/37 [===============>..............] - ETA: 0s - loss: 0.0583 - mae: 0.2125 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:06:13] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:06:51] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:06:51] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:06:51] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:06:52] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:07:00] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:08:49] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:08:49] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:08:49] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:09:03] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:09:04] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:09:04] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:09:05] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 1:03 - loss: 0.1296 - mae: 0.316219/37 [==============>...............] - ETA: 0s - loss: 0.0593 - mae: 0.2142  37/37 [==============================] - 2s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:09:14] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+Watching for file changes with StatReloader
+[16/Jun/2021 09:27:02] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:27:02] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:27:02] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:27:07] "GET /stock/compare3/ HTTP/1.1" 200 893
+2021-06-16 09:27:27.499027: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-06-16 09:27:27.726657: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-06-16 09:27:27.732641: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2299995000 Hz
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 16, 2021 - 09:26:53
+Django version 3.2, using settings 'antenna_web.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 1:01 - loss: 0.1296 - mae: 0.316217/37 [============>.................] - ETA: 0s - loss: 0.0589 - mae: 0.2146  29/37 [======================>.......] - ETA: 0s - loss: 0.0547 - mae: 0.201537/37 [==============================] - 2s 4ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:27:30] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:30:29] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:30:29] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:30:29] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:30:39] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 55s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 2s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:30:48] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:31:39] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:31:39] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:31:39] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:31:41] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 41s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:31:48] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:33:10] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:33:10] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:33:10] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:33:17] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316212/37 [========>.....................] - ETA: 0s - loss: 0.0638 - mae: 0.2244 25/37 [===================>..........] - ETA: 0s - loss: 0.0564 - mae: 0.207137/37 [==============================] - 1s 4ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:33:24] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:34:05] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:34:05] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:34:05] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:34:07] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:34:16] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:34:35] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:34:35] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:34:35] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:34:46] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:34:53] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:35:33] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:35:33] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:35:33] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:35:35] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 48s - loss: 0.1296 - mae: 0.316219/37 [==============>...............] - ETA: 0s - loss: 0.0593 - mae: 0.2142 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:35:42] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:36:49] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:36:49] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:36:49] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:36:50] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 43s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:36:58] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:37:15] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:37:15] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:37:15] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:37:16] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 47s - loss: 0.1296 - mae: 0.316220/37 [===============>..............] - ETA: 0s - loss: 0.0583 - mae: 0.2125 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:37:23] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:38:32] "GET /swagger/ HTTP/1.1" 200 2225
+[16/Jun/2021 09:38:33] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+[16/Jun/2021 09:38:33] "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+[16/Jun/2021 09:38:33] "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+[16/Jun/2021 09:38:33] "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+[16/Jun/2021 09:38:33] "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+[16/Jun/2021 09:38:33] "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 304 0
+[16/Jun/2021 09:38:33] "GET /swagger/?format=openapi HTTP/1.1" 200 3999
+[16/Jun/2021 09:38:33] "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[16/Jun/2021 09:38:34] "GET /swagger/?format=openapi HTTP/1.1" 200 3999
+[16/Jun/2021 09:39:40] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:39:40] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:39:40] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:40:02] "GET /stock/compare3/ HTTP/1.1" 200 893
+Watching for file changes with StatReloader
+[16/Jun/2021 09:44:09] "GET /swagger/ HTTP/1.1" 200 2225
+[16/Jun/2021 09:44:10] "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[16/Jun/2021 09:44:10] "GET /swagger/?format=openapi HTTP/1.1" 200 3999
+[16/Jun/2021 09:44:10] "GET /swagger/ HTTP/1.1" 200 2225
+[16/Jun/2021 09:44:10] "GET /swagger/?format=openapi HTTP/1.1" 200 3999
+[16/Jun/2021 09:44:10] "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[16/Jun/2021 09:44:10] "GET /swagger/?format=openapi HTTP/1.1" 200 3999
+[16/Jun/2021 09:44:19] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:44:19] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:44:19] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:44:21] "GET /stock/compare3/ HTTP/1.1" 200 893
+2021-06-16 09:44:27.119645: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-06-16 09:44:27.352269: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-06-16 09:44:27.360199: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2299995000 Hz
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 16, 2021 - 09:43:22
+Django version 3.2, using settings 'antenna_web.settings'
+Starting development server at http://00.0.0:8000/
+Quit the server with CONTROL-C.
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 1:05 - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106  36/37 [============================>.] - ETA: 0s - loss: 0.0493 - mae: 0.188937/37 [==============================] - 2s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:44:30] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:51:27] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:51:27] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:51:27] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:51:33] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 47s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:51:41] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:52:25] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:52:25] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:52:25] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:52:54] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:52:54] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:52:54] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:52:56] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 42s - loss: 0.1296 - mae: 0.316221/37 [================>.............] - ETA: 0s - loss: 0.0570 - mae: 0.2106 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:53:04] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 46s - loss: 0.1296 - mae: 0.316220/37 [===============>..............] - ETA: 0s - loss: 0.0583 - mae: 0.2125 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:53:47] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:57:08] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:57:08] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:57:08] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:57:10] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 48s - loss: 0.1296 - mae: 0.316219/37 [==============>...............] - ETA: 0s - loss: 0.0593 - mae: 0.2142 37/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:57:19] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:58:35] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:58:35] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:58:35] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 09:58:36] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 46s - loss: 0.1296 - mae: 0.316220/37 [===============>..............] - ETA: 0s - loss: 0.0583 - mae: 0.2125 36/37 [============================>.] - ETA: 0s - loss: 0.0493 - mae: 0.188937/37 [==============================] - 1s 3ms/step - loss: 0.0487 - mae: 0.1878
+[16/Jun/2021 09:58:43] "POST /tensor/antenna/ HTTP/1.1" 200 4686
+[16/Jun/2021 09:59:59] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 09:59:59] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 09:59:59] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 10:00:00] "GET /stock/compare3/ HTTP/1.1" 200 893
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm (LSTM)                  (None, 10)                520       
+_________________________________________________________________
+dense (Dense)                (None, 1)                 11        
+=================================================================
+Total params: 531
+Trainable params: 531
+Non-trainable params: 0
+_________________________________________________________________
+ 1/37 [..............................] - ETA: 1:34 - loss: 0.1287 - mae: 0.314812/37 [========>.....................] - ETA: 0s - loss: 0.0640 - mae: 0.2249  23/37 [=================>............] - ETA: 0s - loss: 0.0589 - mae: 0.212634/37 [==========================>...] - ETA: 0s - loss: 0.0516 - mae: 0.194537/37 [==============================] - 3s 5ms/step - loss: 0.0491 - mae: 0.1888
+[16/Jun/2021 10:00:12] "POST /tensor/antenna/ HTTP/1.1" 200 4688
+Watching for file changes with StatReloader
+[16/Jun/2021 10:26:35] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 10:26:35] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 10:26:35] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 10:26:42] "POST /account/api/login/ HTTP/1.1" 200 89
+[16/Jun/2021 10:26:42] "POST /account/api/intereststock/ HTTP/1.1" 200 873
+[16/Jun/2021 10:26:42] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 10:26:42] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 10:26:42] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+Internal Server Error: /stock/stocksearch/
+Traceback (most recent call last):
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/root/antenna_web/stock/views.py", line 98, in stockSearchData
+    stockData = eval(exeStr)
+  File "<string>", line 1, in <module>
+NameError: name 'StockXnull' is not defined
+[16/Jun/2021 10:26:57] "POST /stock/stocksearch/ HTTP/1.1" 500 95215
+[16/Jun/2021 10:26:58] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 10:26:58] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 10:26:58] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+Internal Server Error: /stock/stocksearch/
+Traceback (most recent call last):
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/myvenv/lib64/python3.7/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "/root/antenna_web/stock/views.py", line 98, in stockSearchData
+    stockData = eval(exeStr)
+  File "<string>", line 1, in <module>
+NameError: name 'StockXnull' is not defined
+[16/Jun/2021 10:27:00] "POST /stock/stocksearch/ HTTP/1.1" 500 95215
+[16/Jun/2021 10:27:56] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 10:27:57] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 10:27:57] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 10:28:36] "POST /account/api/interestUpdate/ HTTP/1.1" 200 301
+[16/Jun/2021 10:28:41] "POST /account/api/interestUpdate/ HTTP/1.1" 200 305
+[16/Jun/2021 10:28:47] "POST /account/api/interestUpdate/ HTTP/1.1" 200 309
+[16/Jun/2021 10:28:52] "POST /account/api/interestUpdate/ HTTP/1.1" 200 313
+[16/Jun/2021 10:28:53] "POST /stock/stocksearch/ HTTP/1.1" 200 73930
+[16/Jun/2021 10:28:56] "POST /account/api/interestUpdate/ HTTP/1.1" 200 317
+[16/Jun/2021 10:28:57] "POST /account/api/interestUpdate/ HTTP/1.1" 200 321
+[16/Jun/2021 10:28:58] "POST /account/api/interestUpdate/ HTTP/1.1" 200 325
+[16/Jun/2021 10:29:17] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 10:29:17] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 10:29:17] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 10:29:43] "POST /account/api/interestUpdate/ HTTP/1.1" 200 316
+[16/Jun/2021 10:29:58] "GET /views/api/news HTTP/1.1" 301 0
+[16/Jun/2021 10:29:58] "GET /views/api/news/ HTTP/1.1" 200 2682
+[16/Jun/2021 10:30:06] "GET /views/api/news HTTP/1.1" 301 0
+[16/Jun/2021 10:30:06] "GET /views/api/news/ HTTP/1.1" 200 2682
+[16/Jun/2021 10:42:27] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 10:42:27] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 10:42:27] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 10:44:28] "POST /account/api/interestUpdate/ HTTP/1.1" 200 294
+[16/Jun/2021 10:44:32] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 10:44:32] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 10:44:32] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 10:55:45] "POST /account/api/interestUpdate/ HTTP/1.1" 200 283
+[16/Jun/2021 10:56:31] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 10:56:31] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 10:56:31] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 10:56:54] "GET /stock/compare3/ HTTP/1.1" 200 893
+[16/Jun/2021 10:56:58] "POST /stock/stocksearch/ HTTP/1.1" 200 70808
+[16/Jun/2021 10:57:15] "POST /stock/stocksearch/ HTTP/1.1" 200 69843
+[16/Jun/2021 10:57:16] "POST /account/api/interestUpdate/ HTTP/1.1" 200 282
+[16/Jun/2021 10:57:36] "POST /account/api/interestUpdate/ HTTP/1.1" 200 282
+[16/Jun/2021 10:58:19] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 10:58:19] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 10:58:19] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 10:58:20] "POST /account/api/interestUpdate/ HTTP/1.1" 200 283
+[16/Jun/2021 11:03:40] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:03:40] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:03:40] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:04:37] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:04:38] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:04:38] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:04:41] "POST /account/api/interestUpdate/ HTTP/1.1" 200 283
+[16/Jun/2021 11:04:42] "POST /account/api/interestUpdate/ HTTP/1.1" 200 283
+[16/Jun/2021 11:04:43] "POST /account/api/interestUpdate/ HTTP/1.1" 200 283
+[16/Jun/2021 11:07:00] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:07:00] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:07:00] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:07:33] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:07:33] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:07:33] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:07:57] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:07:57] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:07:57] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:08:20] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:08:20] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:08:20] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:08:43] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:08:43] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:08:43] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:09:07] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:09:07] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:09:07] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:09:27] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:09:27] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:09:27] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:09:34] "POST /account/api/login/ HTTP/1.1" 200 89
+[16/Jun/2021 11:09:35] "POST /account/api/intereststock/ HTTP/1.1" 200 859
+[16/Jun/2021 11:09:35] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:09:35] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:09:35] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:10:27] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:10:27] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:10:27] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:11:50] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:11:50] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:11:50] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:12:25] "POST /account/api/interestUpdate/ HTTP/1.1" 200 242
+[16/Jun/2021 11:12:53] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:12:53] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:12:53] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:13:17] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:13:18] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:13:18] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:13:28] "POST /account/api/interestUpdate/ HTTP/1.1" 200 261
+[16/Jun/2021 11:13:31] "POST /stock/stocksearch/ HTTP/1.1" 200 70151
+[16/Jun/2021 11:13:32] "POST /account/api/interestUpdate/ HTTP/1.1" 200 260
+[16/Jun/2021 11:14:14] "GET /views/api/dcList/ HTTP/1.1" 200 16539
+[16/Jun/2021 11:14:14] "GET /stock/kospiyear/ HTTP/1.1" 200 11535
+[16/Jun/2021 11:14:14] "GET /stock/kosdaqyear/ HTTP/1.1" 200 11294
+[16/Jun/2021 11:14:32] "POST /account/api/interestUpdate/ HTTP/1.1" 200 261
+[16/Jun/2021 11:14:40] "GET /views/api/news HTTP/1.1" 301 0
+[16/Jun/2021 11:14:41] "GET /views/api/news/ HTTP/1.1" 200 2682
+[16/Jun/2021 11:14:45] "GET /views/api/news HTTP/1.1" 301 0
+[16/Jun/2021 11:14:45] "GET /views/api/news/ HTTP/1.1" 200 2682
+[16/Jun/2021 11:25:32] "GET /views/api/news HTTP/1.1" 301 0
+[16/Jun/2021 11:25:32] "GET /views/api/news/ HTTP/1.1" 200 2682
+Not Found: /
+[16/Jun/2021 11:27:21] "GET / HTTP/1.1" 404 2807
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 16, 2021 - 10:24:47
+Django version 3.2, using settings 'antenna_web.settings'
+Starting development server at http://00.0.0:8000/
+Quit the server with CONTROL-C.
