@@ -123,7 +123,7 @@ def insertPrice():
                 continue
             
 
-def insertPerPbr(request):
+def insertPerPbr():
     stocklist = StockList.objects.using('stockDB').all()
     
     codelist = list()
