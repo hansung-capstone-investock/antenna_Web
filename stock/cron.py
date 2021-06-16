@@ -93,7 +93,7 @@ def insertPrice():
     today = datetime.today().strftime('%Y%m%d')
     for code in codelist:
         time.sleep(0.5)
-        price_df = st.get_market_ohlcv_by_date(today, today, f"{code}")
+        price_df = st.get_market_ohlcv_by_date("20210614", "20210615", f"{code}")
         stock_df = pd.DataFrame(index = price_df.index,columns=['date','open','high','low','close','volume'])    
         stock_df['date'] = stock_df.index
         stock_df['open'] = price_df['시가']
@@ -170,13 +170,15 @@ def insertCap():
     stocklist = StockList.objects.using('stockDB').all()
     
     codelist = list()
-    for c in stocklist:
+    
+    for c in stocklist[1861:]:
         codelist.append(c.code)
     today = (datetime.today()-timedelta(days=4)).strftime('%Y%m%d')
     for code in codelist:
+        print(code)
         time.sleep(0.5)
 
-        cap_df = st.get_market_cap_by_date(today, today, f"{code}")
+        cap_df = st.get_market_cap_by_date("20210614", "20210614", f"{code}")
         stock_df = pd.DataFrame(index = cap_df.index,columns=['date','cap'])    
         stock_df['date'] = stock_df.index
 
@@ -188,7 +190,7 @@ def insertCap():
         try:
             instance = eval(strClass)
         except:
-            break
+            continue
             
         for r in stock_df.itertuples():
             

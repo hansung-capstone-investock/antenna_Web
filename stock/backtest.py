@@ -132,7 +132,7 @@ class Backtest1:
         df['psr'] = self.psr_df.loc[self.targetDate]
         df['roe'] = self.roe_df.loc[self.targetDate]
         df['roa'] = self.roa_df.loc[self.targetDate]
-        df.to_csv("dftest.csv")
+
         
         for con in self.sorts:
             con1 = df[con]> self.condition[con][0]
@@ -256,5 +256,9 @@ class Backtest1:
         self.sellingStockAll()
         self.gapDict['total']+=self.gapDict[self.strTarget]
         # self.backTestLog_df.to_csv("backtestLog.csv")
+        temp = self.gapDict['total']
+        del self.gapDict['total']
+        self.gapDict['total'] = temp
+        
         return 100
     

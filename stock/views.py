@@ -45,6 +45,36 @@ def backtestapi(request):
             # backT.saveBack()
             return JsonResponse(backT.gapDict)
 
+@api_view(['POST'])
+def backAppapi(request):
+    condict = request.data
+    print(type(condict))
+    print(condict)
+    conditions = list()
+    conlist = ['per','pbr','psr','roe','roa']
+    for con in conlist:
+        if condict[con][0]==-9999:
+            del condict[con]
+            continue
+        temp = {
+            con:
+            [
+            condict[con][0],
+            condict[con][1],
+            condict[con][2]
+            ]
+        }
+        conditions.append(temp)
+        del condict[con]
+    condict["conditions"] = conditions
+    if request.method == 'POST':
+        backT = backtest.Backtest1(request.data)
+        if backT.backTesting() is None:
+            return Response("no stock this condition")
+        else:
+            # backT.saveBack()
+            return JsonResponse(backT.gapDict)
+
 
 @api_view(['GET'])
 def kospiYearList(request):
