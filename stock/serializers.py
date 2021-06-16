@@ -10,7 +10,15 @@ class CompareSerializer(serializers.ModelSerializer):
                 'gap',
                 'rank'
                 )
-        
+
+class TopStockSerializer(serializers.Serializer):
+    date= serializers.DateField()
+    stockcode = models.CharField()
+    company = serializers.CharField()
+    close = serializers.FloatField()
+    todayPrice = models.FloatField()
+    gap = models.FloatField()
+
 class BackTestSerializer(serializers.Serializer):
     date= serializers.DateField()
     open = serializers.FloatField()

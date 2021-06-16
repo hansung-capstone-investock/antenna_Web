@@ -1,15 +1,33 @@
 from django.db import models
 from account.models import *
 
-class TopStockHigh(models.Model):
+class TopStockPrice(models.Model):
+    id = models.AutoField(primary_key=True)
+    date = models.DateField() 
+    rank  = models.IntegerField()
+    stockcode = models.CharField(max_length=10)
+    company = models.CharField(max_length=50)
+    todayPrice = models.FloatField()
+    gap = models.FloatField()
+    
+class TopStockCap(models.Model):
+    id = models.AutoField(primary_key=True)
+    date = models.DateField()
+    rank  = models.IntegerField()
+    stockcode = models.CharField(max_length=10)
+    company = models.CharField(max_length=50)    
+    todayPrice = models.FloatField()
+    gap = models.FloatField()
+    
+
+class Compare3Month(models.Model):
     id = models.AutoField(primary_key=True)
     date = models.DateField()
     stockcode = models.CharField(max_length=10)
-    company = models.CharField(max_length=50)    
-    high = models.FloatField(blank=True, null=True)
+    company = models.CharField(max_length=50)
     gap = models.FloatField()
     rank  = models.IntegerField()
-    
+
 class SectorList(models.Model):
     sectorcode= models.CharField(max_length=10,primary_key=True)
     sector = models.CharField(max_length=100)
@@ -76,13 +94,6 @@ class dailyMarketIndex(models.Model):
 #     marketList = models.CharField(max_length=100,blank=True)
 #     sectorList = models.CharField(max_length=100,blank=True)
 
-class Compare3Month(models.Model):
-    id = models.AutoField(primary_key=True)
-    date = models.DateField()
-    stockcode = models.CharField(max_length=10)
-    company = models.CharField(max_length=50)
-    gap = models.FloatField()
-    rank  = models.IntegerField()
 
 class StockX000020(models.Model): 
     

@@ -6,7 +6,6 @@ from rest_framework import routers
 
 
 urlpatterns = [
-    path('init/', views.initApp),
     path('marketlist/',views.marketList),
     path('kospiyear/',views.kospiYearList),
     path('kosdaqyear/',views.kosdaqYearList),
@@ -15,4 +14,5 @@ urlpatterns = [
     path('btApp/',views.backAppapi),
     path('stocksearch/', views.stockSearchData),
     path('compare3/',views.before3M),
+    path('topStock/',views.topStock),
 ]

@@ -1,39 +1,26 @@
 from django.http.response import Http404
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
-from django.utils import timezone
 from rest_framework.exceptions import MethodNotAllowed
 from rest_framework.views import APIView
 from .models import *
 from scraping.models import *
-import pandas as pd
 import urllib.request as req
-from urllib import parse
-import requests
-import json
 from rest_framework.parsers import JSONParser
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 import datetime
 from datetime import timedelta
-from bs4 import BeautifulSoup
 import requests
 from threading import Timer
 from pykrx import stock as st
-from stock import stockScraping
 from stock.serializers import *
 from scraping.serializers import *
 import pandas as pd
-from django.db.models import Max, F
 from stock import backtest
 import json
-import time
 from rest_framework.renderers import JSONRenderer
-
-def initApp(request):
-    stockScraping.initSet()
-    return HttpResponse("App initial table setting")
 
 @api_view(['POST'])
 def backtestapi(request):
@@ -109,11 +96,43 @@ def kospi200YearList(request):
 @api_view(['GET'])
 def before3M(request):
     if request.method == 'GET':
-        compareList=Compare3Month.objects.using("stockDB").annotate(max_date=Max('date'))
-        compareList1=compareList.values().filter(date__gte=F('max_date'))
-        compare_serializer = CompareSerializer(compareList1, many=True)
+        maxDate=Compare3Month.objects.using("stockDB").order_by("-date")[0].date
+        compareList=Compare3Month.objects.using("stockDB").filter(date=maxDate)        
+        compare_serializer = CompareSerializer(compareList, many=True)
         return Response(compare_serializer.data)
-
+    
+@api_view(['GET'])
+def topStock(request):
+    if request.method == 'GET':
+        maxDate = TopStockPrice.objects.using("stockDB").order_by("-date")[0].date
+        topPriceList = TopStockPrice.objects.using("stockDB").filter(date=maxDate)
+        
+        index = list()
+        index.append(maxDate)
+        index.append("Price")
+        for a in topPriceList:
+            temp=dict()
+            temp['rank']=a.rank
+            temp['stockcode'] = a.stockcode
+            temp['company'] = a.company
+            temp['todayPrice'] = a.todayPrice
+            temp['diff'] = a.gap
+            index.append(temp)
+        
+        maxDate = TopStockCap.objects.using("stockDB").order_by("-date")[0].date
+        topCapList = TopStockCap.objects.using("stockDB").filter(date=maxDate)
+        
+        index.append("Cap")
+        for a in topCapList:
+            temp=dict()
+            temp['rank']=a.rank
+            temp['stockcode'] = a.stockcode
+            temp['company'] = a.company
+            temp['todayPrice'] = a.todayPrice
+            temp['diff'] = a.gap
+            index.append(temp)
+        return Response(index)
+    
 @api_view(['GET'])
 def marketList(request):
     if request.method == 'GET':
