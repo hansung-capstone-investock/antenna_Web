@@ -71,8 +71,10 @@ def backAppapi(request):
     if request.method == 'POST':
         backT = backtest.Backtest1(request.data)
         if backT.backTesting() is None:
-            return Response("no stock this condition")
+            return JsonResponse(backT.errormsg)
         else:
+            if backT.isValidFlag ==False:
+                return JsonResponse(backT.errormsg)
             # backT.saveBack()
             return JsonResponse(backT.gapDict)
 
