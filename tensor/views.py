@@ -211,19 +211,8 @@ def antenna_tensor(companyCode, indicator, predictDate):
     actual = actual + bolinger_y[seqLength:]
     actual = actual[:-days_to_predict]
 
-    plt.figure()
-    plt.plot(predict, label = "predict1")
-    plt.plot(actual, label = "actual1")
-    plt.legend()
-
     predict = predict[150:]
     actual = actual[150:]
-
-    plt.figure()
-    plt.plot(predict, label = "predict2")
-    plt.plot(actual, label = "actual2")
-    plt.legend()
-    plt.show()
 
     predict = predict.flatten()
     actual = actual.flatten()
