@@ -39,7 +39,6 @@ def initApp(request):
 def backtestapi(request):
     
     if request.method == 'POST':
-        
         backT = backtest.Backtest1(request.data)
         if backT.backTesting() is None:
             return JsonResponse(backT.errormsg)

@@ -7,19 +7,22 @@ from django.db.models import Q
 from stock.serializers import *
 
 class Backtest1:
-    haveStock = dict()
-    backTestLog_df = pd.DataFrame(columns=['ticker','buy_date','buy_price','sell_date','sell_price','profit'])
-    gapDict = dict()
     errormsg={'error':'조건에 맞는 주식이 없습니다.'}
-    isValidFlag = False
+
     def __init__(self, backTestInfo):
+        self.isValidFlag = False
+        self.haveStock = dict()
+        self.gapDict = dict()
         self.tester = backTestInfo['id']
         self.gapDict['total'] = 0
         self.companyNum = 10
         self.start = date(int(backTestInfo['start'].split('-')[0]),int(backTestInfo['start'].split('-')[1]),int(backTestInfo['start'].split('-')[2]))
         self.end = date(int(backTestInfo['end'].split('-')[0]),int(backTestInfo['end'].split('-')[1]),int(backTestInfo['end'].split('-')[2]))
+        
+        
         self.targetDate = self.start
         self.strTarget = self.targetDate.strftime("%Y-%m-%d")
+        
         #['per','pbr']
         self.sorts = list()
         
@@ -36,19 +39,14 @@ class Backtest1:
         
         self.marketList = backTestInfo['market']
         self.sectorList = backTestInfo['sector']
-        a = [1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015]
+        addSector = [1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1015]
         if 1027 in self.sectorList:
-            for b in a:
-                self.sectorList.append(b)
+            for s in addSector:
+                if s in self.sectorList:
+                    continue
+                self.sectorList.append(s)
         
-        stockInfo = StockX000020.objects.using("stockDB").filter(
-                date__range=[self.start, self.end]
-            )
         self.datelist =list()
-        for st in stockInfo:
-            self.datelist.append(st.date)
-        self.stock_df = pd.DataFrame(index= self.datelist)
-        
         
         self.targetList = StockList.objects.using("stockDB").filter(
             Q(market__in = self.marketList) &
@@ -156,6 +154,7 @@ class Backtest1:
                 'buy_date' : self.targetDate,
                 'buy_price' : sort_daily_df.loc[idx]['close']
             }
+            
             self.haveStock[new_data["ticker"]] = [self.targetDate, new_data['buy_price']]
             buyflag +=1
             self.isValidFlag =True
@@ -184,17 +183,17 @@ class Backtest1:
                 'sell_price':todayPrice,
                 'profit':gapPercent
             }
-            self.backTestLog_df = self.backTestLog_df.append(sellInfo,ignore_index=True)
+            # self.backTestLog_df = self.backTestLog_df.append(sellInfo,ignore_index=True)
             delStock.append(key)
             sellingNum +=1
             self.gapDict[self.strTarget]+=gapPercent
             
         for l in delStock:
             del self.haveStock[l]
-        
         return sellingNum
     
     def sellingStockAll(self):
+        self.strTarget = self.targetDate.strftime("%Y-%m-%d")
         for key,value in self.haveStock.items():
             todayPrice = self.close_df.loc[self.targetDate][key]
             boughtPrice = value[1]
@@ -208,9 +207,10 @@ class Backtest1:
                 'sell_price':todayPrice,
                 'profit':gapPercent
             }
-            self.backTestLog_df = self.backTestLog_df.append(sellInfo,ignore_index=True)
-            self.gapDict[self.strTarget]+=gapPercent
-
+            # self.backTestLog_df = self.backTestLog_df.append(sellInfo,ignore_index=True)
+            
+            self.gapDict[self.strTarget]=gapPercent
+        
     def dailyTesting(self):
         
         buyStockNum = 10
@@ -230,15 +230,31 @@ class Backtest1:
 
         
     def backTesting(self):
+                
         if len(self.targetList) == 0:
             return 
+        
+        stockInfo = StockX000020.objects.using("stockDB").filter(
+                date__range=[self.start, self.end]
+            )
+        for st in stockInfo:
+            self.datelist.append(st.date)
+            
+        while True:
+            if self.start not in self.datelist:
+                self.start += timedelta(days=1)
+                continue
+            self.targetDate = self.start
+            break
+        
+        
         self.getData()
         
         while self.targetDate != self.end:
             if self.targetDate not in self.datelist:
                 self.targetDate += timedelta(days=1)
                 continue
-            
+
             self.strTarget = self.targetDate.strftime("%Y-%m-%d")
             
             if self.is_weekend(self.targetDate) == True:
@@ -254,7 +270,8 @@ class Backtest1:
 
         while self.targetDate not in self.datelist:
             self.targetDate -= timedelta(days=1)
-
+        
+            
         self.sellingStockAll()
         self.gapDict['total']+=self.gapDict[self.strTarget]
         # self.backTestLog_df.to_csv("backtestLog.csv")
