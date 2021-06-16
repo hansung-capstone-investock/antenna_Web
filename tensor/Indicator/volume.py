@@ -29,7 +29,7 @@ def get_adi(df):
     indicator_adi = vol.acc_dist_index(high=df['high'], low=df['low'],
     close=df['close'], volume=df['volume'])
 
-    df_adi['adi'] = indicator_adi
+    df_adi['adi'] = indicator_adi.fillna(0)
 
     return df_adi
 
@@ -39,7 +39,7 @@ def get_obv(df):
 
     indicator_obv = vol.on_balance_volume(close=df['close'], volume=df['volume'])
 
-    df_obv['obv'] = indicator_obv
+    df_obv['obv'] = indicator_obv.fillna(0)
 
     return df_obv
 
@@ -71,7 +71,7 @@ def get_vpt(df):
 
     indicator_vpt = vol.volume_price_trend(close=df['close'], volume=df['volume'])
 
-    df_vpt['vpt'] = indicator_vpt
+    df_vpt['vpt'] = indicator_vpt.fillna(0)
 
     return df_vpt
 
@@ -81,7 +81,7 @@ def get_nvi(df):
 
     indicator_nvi = vol.negative_volume_index(close=df['close'], volume=df['volume'])
 
-    df_nvi['nvi'] = indicator_nvi
+    df_nvi['nvi'] = indicator_nvi.fillna(0)
 
     return df_nvi
 

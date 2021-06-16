@@ -41,7 +41,7 @@ def get_adx(df):
     indicator_adx = trend.adx(high=df['high'], low=df['low'], 
     close=df['close'])
 
-    df_adx['adx'] = indicator_adx
+    df_adx['adx'] = indicator_adx.fillna(0)
 
     return df_adx
 

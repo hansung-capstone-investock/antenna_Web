@@ -67,7 +67,6 @@ def antenna_tensor(companyCode, indicator, predictDate):
         for key, value in xy_json.data[i].items():
             xy_dict[key] = value
         df = df.append(xy_dict, ignore_index=True)
-
     df['close'] = df['close'].shift(-days_to_predict)
 
     tf.random.set_seed(777)
@@ -106,12 +105,11 @@ def antenna_tensor(companyCode, indicator, predictDate):
     df_macd = trend.get_macd(df)     # 정상성    
     df_wma = trend.get_wma(df)      # 비정상성    굿
     df_ema = trend.get_ema(df)      # 비정상성    굿
-
+    
     indicators = list()
     for i in indicator:
         j = "df_"+i.lower()
         indicators.append(j)
-
     indicator_exe = "pd.concat({0}, axis=1)".format(indicators)
     indicator_exe = indicator_exe.replace("'","")
     df_input = eval(indicator_exe)
