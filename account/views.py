@@ -126,32 +126,34 @@ def interestedgroup_list_web(request):
             for j in range(1,11):
                 company_name = interested_serializer.data[i]['company{0}'.format(j)]
                 # dict_temp['company{0}'.format(j)]
+                
                 if (company_name == 'null') or (company_name is None) or (company_name == ""):
                     continue
                 else:
-                    code = StockList.objects.using("stockDB").filter(company = company_name)
-                    code_serializer = StockListSerializer(code, many=True)
+                    try:
+                        code = StockList.objects.using("stockDB").get(company = company_name)
+                        code_serializer = StockListSerializer(code)
+                        company_code = code_serializer.data['code']
 
-                    company_code = code_serializer.data[0]['code']
+                        today = (datetime.datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
+                        weeks_ago = (datetime.datetime.now()-timedelta(7)).strftime('%Y-%m-%d')
 
-                    today = (datetime.datetime.now()-timedelta(1)).strftime('%Y-%m-%d')
-                    weeks_ago = (datetime.datetime.now()-timedelta(7)).strftime('%Y-%m-%d')
+                        exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["{1}", "{2}"])'.format(company_code, weeks_ago, today)
+                        stockData = eval(exeStr)
+                        stockData_serializer = StockSerializer(stockData, many=True)
+                        stock_length = len(stockData_serializer.data) - 1
 
-                    exeStr = 'StockX{0}.objects.using("stockDB").filter(date__range=["{1}", "{2}"])'.format(company_code, weeks_ago, today)
-                    stockData = eval(exeStr)
-                    stockData_serializer = StockSerializer(stockData, many=True)
-                    stock_length = len(stockData_serializer.data) - 1
+                        yesterday_close = stockData_serializer.data[stock_length-1]['close']
+                        today_close = stockData_serializer.data[stock_length]['close']
 
-                    yesterday_close = stockData_serializer.data[stock_length-1]['close']
-                    today_close = stockData_serializer.data[stock_length]['close']
+                        # 전일비, 등락률
+                        diff = today_close - yesterday_close
+                        diffrate = diff / today_close * 100
 
-                    # 전일비, 등락률
-                    diff = today_close - yesterday_close
-                    diffrate = diff / today_close * 100
-
-                    dict_temp['company{0}'.format(j)] = {"company" : company_name, "code" : code_serializer.data[0]['code'],
-                                                            "close" : today_close, "diff" : diff, "diffrate": round(diffrate,2)}
-
+                        dict_temp['company{0}'.format(j)] = {"company" : company_name, "code" : company_code,
+                                                                "close" : today_close, "diff" : diff, "diffrate": round(diffrate,2)}
+                    except:
+                        continue
             interested_serializer.data[i]['companies'] = dict_temp
         for i in range(0,3):
             for j in range(1,11):
