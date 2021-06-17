@@ -1,0 +1,27 @@
+const indicatorList = [
+  "VPT",
+  "CMF",
+  "EoM",
+  "FI",
+  "ADI",
+  "VWAP",
+  "DC",
+  "KC",
+  "PPO",
+  "RSI",
+  "SRSI",
+  "TSI",
+  "UO",
+  "WR",
+  "KAMA",
+  "CCI",
+  "DPO",
+  "KST",
+  "STC",
+  "TRIX",
+  "MACD",
+  "WMA",
+  "EMA",
+];
+
+export default indicatorList;

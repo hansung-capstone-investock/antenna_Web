@@ -7,7 +7,6 @@ const Layout = styled.div`
   width: 100%;
   height: 100%;
   min-width: 960px;
-  background-color: ${(props) => props.theme.primaryColor};
 `;
 
 const ContentsWrapper = styled.div`
@@ -19,7 +18,7 @@ const MainLayout = (props) => {
   const { children } = props;
 
   return (
-    <Layout>
+    <Layout id="hi">
       <TopBar />
       <ContentsWrapper>{children}</ContentsWrapper>
     </Layout>

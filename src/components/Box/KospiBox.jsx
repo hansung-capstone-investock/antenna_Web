@@ -1,39 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import { ChartKospi } from "../../components";
+import { ChartKospi, KospiInfo } from "../../components";
+import { MainText } from "../../components";
+import { MText } from "../../components";
+import axios from "axios";
 
 const Box = styled.div`
-  position: absolute;
-  top: 180px;
-  left: 40%;
-  margin: 0 5%;
-  display: inline-block;
-  height: 180px;
-  width: 260px;
-  padding: 10px;
-  box-shadow: 5px 5px 5px 5px gray;
-
-  @media screen and (max-width: 1100px) {
-    position: inherit;
-    display: block;
-    height: 600px;
-    width: 100%;
-    margin: 0px;
-  }
-  @media screen and (max-height: 600px) {
-    position: inherit;
-    display: block;
-    height: 600px;
-    width: 100%;
-    margin: 0px;
-  }
+  height: 100%;
+  width: 100%;
+  padding: 12% 5px 80px 15%;
 `;
-
 const KospiBox = () => {
+  const [Kospi, setKospi] = useState([]);
+
   return (
     <Box>
-      <p>코스피</p>
-      <ChartKospi></ChartKospi>
+      <KospiInfo text={true}></KospiInfo>
     </Box>
   );
 };

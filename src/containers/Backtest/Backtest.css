@@ -1,7 +1,33 @@
 .collapse .collapse-panel {
   margin-bottom: 24px;
   overflow: hidden;
-  background: pink;
+  background: #188ffff1;
   border: 0px;
   border-radius: 2px;
+}
+
+.ant-collapse-header {
+  color: white;
+}
+
+#root > div > div.sc-bYwzuL.iowkBM > div > button {
+  background: #188ffff1;
+  font-weight: 600;
+}
+
+#root > div > div > div > div > div:nth-child(1) > div.ant-collapse-header {
+  font-weight: 600;
+  color: white;
+}
+#root > div > div > div > div > div:nth-child(2) > div.ant-collapse-header {
+  font-weight: 600;
+  color: white;
+}
+#root > div > div > div > div > div:nth-child(3) > div.ant-collapse-header {
+  font-weight: 600;
+  color: white;
+}
+#root > div > div > div > div > div:nth-child(4) > div.ant-collapse-header {
+  font-weight: 600;
+  color: white;
 }

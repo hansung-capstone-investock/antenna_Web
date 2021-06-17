@@ -4,13 +4,16 @@ import ReactDOM from "react-dom";
 import { MainNews } from "../News";
 import { LiveNews } from "../News";
 import { NewsData } from "../News";
+import { Divider } from "antd";
 import { NewsApp } from "../../components";
+
+//뉴스 탭 "/main/news"
 
 const Wrapper = styled.div`
   display: -ms-inline-grid;
-  width: 62%;
+  width: 95%;
+  padding: 10px 0px 0px 40px;
   display: inline-block;
-  vertical-align: middle;
 
   @media screen and (max-width: 1300px) {
     position: inherit;
@@ -23,13 +26,11 @@ const Wrapper = styled.div`
 
 const NewsWrapper = styled.div`
   width: calc(100%);
-  height: 235px;
-  margin: 0 10px 30px 30px;
-  border: 6px solid #7d7d7d;
-  padding-left: 10px;
-  padding-right: 10px;
+  height: 300px;
+  margin: 10px 10px 20px 0;
   background-color: white;
   overflow-y: scroll;
+  border: 5px solid #30475e;
 `;
 
 const NewsList = (props) => {
@@ -38,8 +39,9 @@ const NewsList = (props) => {
       <NewsWrapper>
         <NewsData setPreview={props.setPreview}></NewsData>
       </NewsWrapper>
+
       <NewsWrapper>
-        <LiveNews></LiveNews>
+        <LiveNews setPreview={props.setPreview}></LiveNews>
       </NewsWrapper>
     </Wrapper>
   );

@@ -4,8 +4,11 @@ import { Drawer } from "antd";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
+  width: 100%;
+  height: 100%;
   vertical-align: middle;
-  margin-top: 20px;
+  background-color: #f05454;
+  display: flex;
 `;
 
 const News = (props) => {

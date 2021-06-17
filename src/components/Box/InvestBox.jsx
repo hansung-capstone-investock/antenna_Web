@@ -11,6 +11,7 @@ const Box = styled.div`
   width: 260px;
   padding: 10px;
   box-shadow: 5px 5px 5px 5px gray;
+  background-color: white;
 
   @media screen and (max-width: 1100px) {
     position: inherit;

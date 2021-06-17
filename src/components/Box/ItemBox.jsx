@@ -1,36 +1,38 @@
 import React from "react";
 import styled from "styled-components";
+import { SwapRightOutlined } from "@ant-design/icons";
+import { Link, useHistory } from "react-router-dom";
 
+//메인의 관심종목 박스
 const Box = styled.div`
-  position: absolute;
-  top: 180px;
-  left: 67%;
-  margin: 0 5%;
-  display: inline-block;
-  height: 180px;
-  width: 260px;
-  padding: 10px;
-  box-shadow: 5px 5px 5px 5px gray;
-
-  @media screen and (max-width: 1100px) {
-    position: inherit;
-    display: block;
-    height: 600px;
-    width: 100%;
-    margin: 0px;
-  }
-
-  @media screen and (max-height: 600px) {
-    position: inherit;
-    display: block;
-    height: 600px;
-    width: 100%;
-    margin: 0px;
-  }
+  height: 100%;
+  width: 100%;
+  padding: 12% 5px 80px 15%;
 `;
-
+const GotoPage = styled(Link)`
+  text-decoration: none;
+  font-family: "nanumRoundB";
+  font-weight: 600;
+  color: #f14b4b;
+  font-size: 16px;
+`;
 const ItemBox = () => {
-  return <Box>관심종목</Box>;
+  const history = useHistory();
+  console.log("path", history.location.pathname);
+
+  const logged = window.sessionStorage.getItem("logged");
+
+  return (
+    <Box>
+      {logged ? (
+        <div>hi</div>
+      ) : (
+        <GotoPage to="/main/infoThresh">
+          로그인하고 관심종목 설정하기 <SwapRightOutlined />
+        </GotoPage>
+      )}
+    </Box>
+  );
 };
 
 export default ItemBox;

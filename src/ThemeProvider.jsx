@@ -28,6 +28,7 @@ const ThemeProvider = (props) => {
     }
   }, [theme]);
 
+  console.log("children?", children);
   return (
     <StyledThemeProvider theme={{ ...theme, changeTheme }}>
       {children}

@@ -4,62 +4,38 @@ import ReactDOM from "react-dom";
 import { MainText } from "../../components";
 import { MText } from "../../components";
 import { AntBox, FirstBox, SecondBox } from "../../components";
+import { Row, Col, Divider } from "antd";
+import { GoAntTest } from "../../components";
 
 const Wrapper = styled.div`
-  margin-left: 10px;
-  width: 75%;
-  height: 560px;
-  display: inline-block;
-  vertical-align: middle;
-
-  @media screen and (max-width: 1300px) {
-    position: inherit;
-    display: block;
-    width: 100%;
-    margin: 0 0 0 0;
-  }
-`;
-
-const BoxWrapper = styled.div`
-  height: 140px;
   width: 100%;
-  display: inline-block;
-  align-items: center;
+  height: 100%;
+  padding: 0 10px 10px 30px;
 `;
-
-const TextWrapper = styled.div`
+const GroupWrapper = styled.div`
   width: 100%;
-  margin: 0 0 10px 10px;
-  vertical-align: middle;
-  display: inline-block;
-
-  @media screen and (max-width: 1300px) {
-    display: block;
-    width: 100vw;
-    height: 600px;
-    margin: 0 0 0 10px;
-  }
+  height: 100%;
 `;
-
 const Ant = () => {
   return (
     <Wrapper>
-      <TextWrapper>
-        <MainText display="inline-block">Antenna</MainText>
-        <MText align="bottom" size="20px">
-          와 함께하세요
-        </MText>
-      </TextWrapper>
-      <AntBox></AntBox>
-      <MText
-        size="20px"
-        color="black"
-        float="right"
-        mright="60px"
-        mediaDisplay="none"
-      >
-        주식 초보를 위한 안테나! 사이트 곳곳의 Antenna를 찾아보세요!
-      </MText>
+      <Row justify="end">
+        <Col flex="500px">
+          <GroupWrapper>
+            <AntBox />
+          </GroupWrapper>
+        </Col>
+        <Col flex="auto">
+          <GroupWrapper>
+            <FirstBox />
+          </GroupWrapper>
+        </Col>
+        <Col flex="auto">
+          <GroupWrapper>
+            <SecondBox />
+          </GroupWrapper>
+        </Col>
+      </Row>
     </Wrapper>
   );
 };

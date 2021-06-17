@@ -10,8 +10,7 @@ function Signing(values) {
   console.log(values.user.id);
 
   axios({
-    url:
-      "http://ec2-13-125-236-101.ap-northeast-2.compute.amazonaws.com:8000/account/api/signup/",
+    url: "http://ec2-3-37-87-254.ap-northeast-2.compute.amazonaws.com:8000/account/api/signup/",
     method: "post",
     data: { id, password },
     headers: {

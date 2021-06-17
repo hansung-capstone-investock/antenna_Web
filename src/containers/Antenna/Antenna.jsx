@@ -1,22 +1,25 @@
 import React from "react";
 import { Word } from "../../containers";
 import styled from "styled-components";
-import { Ant, HotKeyWord, HotSearchWord } from "../../components";
+import { Ant, HotSearchWord } from "../../components";
 
 const Wrapper = styled.div`
   vertical-align: middle;
-  margin-top: 20px;
   align-items: center;
   display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding-left: 60px;
+  padding-top: 20px;
 `;
 const Wrapper2 = styled.div`
   display: -ms-inline-grid;
   width: 360px;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 10px;
+  padding-left: 30px;
   position: absolute;
-  right: 0px;
 
   @media screen and (max-width: 1300px) {
     display: none;

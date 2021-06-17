@@ -1,2 +1,2 @@
-import InfoThresh from "./InfoThresh";
-export default InfoThresh;
+import InfoStock from "./InfoStock";
+export default InfoStock;

@@ -9,7 +9,7 @@ function Logining(values) {
   const password = values.pw;
   axios
     .post(
-      "http://ec2-13-125-236-101.ap-northeast-2.compute.amazonaws.com:8000/account/api/login/",
+      "http://ec2-3-37-87-254.ap-northeast-2.compute.amazonaws.com:8000/account/api/login/",
       {
         id: id,
         password: password,

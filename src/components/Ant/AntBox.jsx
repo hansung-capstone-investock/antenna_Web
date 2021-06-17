@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { FirstBox, SecondBox, ThirdBox } from "../../components";
 import { MText } from "../../components";
+import { Link } from "react-router-dom";
 
 const AntBox = () => {
   const Wrapper = styled.div`
@@ -10,43 +11,100 @@ const AntBox = () => {
     display: inline-block;
     align-items: center;
     vertical-align: top;
-
-    @media screen and (max-width: 1300px) {
-      display: block;
-      width: 100vw;
-      height: calc(100vh-80px);
-      margin: 0 0 0 0;
+    /*base code*/
+    .animated {
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+    .animated.infinite {
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+    .animated.hinge {
+      -webkit-animation-duration: 3s;
+      animation-duration: 3s;
+    }
+    /*the animation definition*/
+    @-webkit-keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    .fadeIn {
+      -webkit-animation-name: fadeIn;
+      animation-name: fadeIn;
     }
   `;
 
   const Box = styled.div`
-    background-color: ${(props) => props.color || "#e9e9e9"};
-    width: 260px;
-    height: 340px;
+    width: 100%;
+    height: 500px;
     display: inline-block;
     align-items: center;
-    vertical-align: ${(props) => props.valign || "top"};
-    margin: 2vw;
-    padding: 10px;
-
-    @media screen and (max-width: 1300px) {
-      display: block;
-      width: 100vw;
-      height: 600px;
-      margin: 0 0 0 0;
-    }
+    padding: 140px 10px 10px 40px;
   `;
-
+  const AntLink = styled(Link)`
+    text-decoration: none;
+    color: #f14b4b;
+    padding: 7px;
+    background-color: #dddddd75;
+  `;
+  const text = "<< 백테스팅으로 전략 분석 <<";
   return (
     <Wrapper>
       <Box>
-        <FirstBox></FirstBox>
-      </Box>
-      <Box color="#e6e6e6">
-        <SecondBox></SecondBox>
-      </Box>
-      <Box color="#dadada" valign="middle">
-        <ThirdBox></ThirdBox>
+        <MText
+          className="fadeInDown animated"
+          font="a고딕15"
+          size="30px"
+          display="inline-flex"
+          padBot="0"
+          color="#f14b4b"
+        >
+          안테나
+          <MText
+            font="a고딕13"
+            size="28px"
+            display="inline-flex"
+            color="#222831"
+            padBot="0"
+          >
+            와 함께하는
+          </MText>
+        </MText>
+        <MText
+          font="a고딕13"
+          size="28px"
+          color="#222831"
+          className="fadeInDown animated"
+        >
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;당신의 투자 전략
+        </MText>
+        <MText
+          className="fadeInDown animated"
+          font="a고딕15"
+          size="28px"
+          display="inline-flex"
+          padBot="0"
+          color="#30475E"
+        >
+          <AntLink to="/main/backtest" className="fadeIn animated">
+            {text}
+          </AntLink>
+        </MText>
       </Box>
     </Wrapper>
   );

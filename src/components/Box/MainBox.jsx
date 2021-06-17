@@ -3,6 +3,7 @@ import styled, { css, ThemeContext } from "styled-components";
 import { Link, useHistory } from "react-router-dom";
 import { MainText } from "../../components";
 import { MText } from "../../components";
+import "./MainBox.css";
 
 const withPathName = (Component) => (props) => {
   const history = useHistory();
@@ -10,10 +11,11 @@ const withPathName = (Component) => (props) => {
 };
 
 const MenuItem = withPathName(styled(Link)`
-  font-size: 16px;
+  font-family: "Mfont";
+  font-size: 24px;
   font-weight: 600;
-  margin-top: 60px;
-  float: right;
+  margin-top: 200px;
+  margin-right: 10px;
   padding: 0px 10px;
   text-decoration: none;
   text-align: right;
@@ -23,69 +25,57 @@ const MenuItem = withPathName(styled(Link)`
   position: relative;
   ::after {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: 0px;
-    height: 3px;
+    height: 5px;
     width: 0px;
-    background-color: red;
+    background-color: #30475e;
     content: "";
-    transition: 0.3s;
+    transition: 0.2s;
   }
   &:hover {
     ::after {
+      text-decoration: wavy;
       width: 100%;
     }
   }
-  ${(props) => {
-    if (props.path === props.to) {
-      return css`
-        ::after {
-          width: 100%;
-        }
-      `;
-    }
-  }}
 `);
-const imgsrc = "/AntImg.gif";
+const imgsrc = "/AntennaGif.gif";
 
 const Wrapper = styled.div``;
 
 const Box = styled.div`
-  margin: 100px 60px 0 60px;
-  padding: 60px;
+  padding: 80px 60px;
   display: inline-block;
-  height: 400px;
-  width: 400px;
-  box-shadow: 5px 5px 5px 5px gray;
-
+  height: 500px;
+  width: 100%;
   background-image: url(${imgsrc});
   background-size: cover;
   background-position: center;
-
-  @media screen and (max-width: 1100px) {
-    position: inherit;
-    display: block;
-    height: 600px;
-    width: 100%;
-    margin: 0 0 0 0;
-  }
-  @media screen and (max-height: 600px) {
-    position: inherit;
-    display: block;
-    height: 600px;
-    width: 100%;
-    margin: 0 0 0 0;
-  }
+`;
+const Tdiv = styled.div`
+  text-shadow: ${(props) => props.shadow || ""};
+  color: ${(props) => props.color || ""};
 `;
 
 const MainBox = () => {
   return (
     <div>
       <Box>
-        <MainText>Antenna</MainText>
-        <MText>개미들을 위한 로보 어드바이저</MText>
+        <MainText
+          font="a아시아헤드2"
+          color="#f14b4b"
+          className="fadeIn animated"
+        >
+          <Tdiv>ANTENNA</Tdiv>
+        </MainText>
+        <MText color="#30475e" size="18px" className="fadeIn animated">
+          개미들을 위한 로보 어드바이저
+        </MText>
         <br />
-        <MenuItem to="/main/antenna">자세히보기</MenuItem>
+        <MenuItem to="/main/antenna">
+          <Tdiv color="#30475e">C l i c k ! > ></Tdiv>
+        </MenuItem>
       </Box>
     </div>
   );

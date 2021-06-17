@@ -5,7 +5,9 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   width: 100%;
   min-height: 100%;
-  display: flex;
+  display: inline-flex;
+  padding: 10px;
+  background-color: ${(props) => (props.color ? "white" : "#f05454")};
   @media screen and (max-width: 1300px) {
     flex-direction: column;
     min-height: 0px;
@@ -17,7 +19,8 @@ const PageContentsWrap = styled.div`
 `;
 
 const WordWrap = styled.div`
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
   @media screen and (max-width: 1300px) {
     ${(props) => props.smallDelete && "display: none"};
   }
@@ -25,7 +28,7 @@ const WordWrap = styled.div`
 
 const withLivePanel = (Comp, smallDelete) => (props) => {
   return (
-    <Wrapper>
+    <Wrapper color={smallDelete}>
       <PageContentsWrap>
         <Comp {...props} wordComp></Comp>
       </PageContentsWrap>

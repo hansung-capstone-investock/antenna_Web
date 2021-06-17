@@ -1,4 +1,3 @@
-import { KospiData } from "../../components";
 import axios from "axios";
 
 class Chart {
@@ -43,10 +42,7 @@ class Chart {
     window.requestAnimationFrame(this.drawAll);
   };
 
-  addData = () => {
-    const KospiDatas = KospiData();
-    console.log("KospiData호출 in Chart", KospiDatas);
-  };
+  addData = () => {};
 }
 
 export default Chart;
