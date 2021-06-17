@@ -93,7 +93,7 @@ def insertPrice():
     today = datetime.today().strftime('%Y%m%d')
     for code in codelist:
         time.sleep(0.2)
-        price_df = st.get_market_ohlcv_by_date("20210616", "20210616", f"{code}")
+        price_df = st.get_market_ohlcv_by_date("20210616", "20210617", f"{code}")
         stock_df = pd.DataFrame(index = price_df.index,columns=['date','open','high','low','close','volume'])    
         stock_df['date'] = stock_df.index
         stock_df['open'] = price_df['시가']
@@ -133,9 +133,9 @@ def insertPerPbr():
     today = datetime.today().strftime('%Y%m%d')
 
     for code in codelist:
-        time.sleep(1)
+        time.sleep(0.2)
 
-        per_df = st.get_market_fundamental_by_date("20210610", "20210610", f"{code}")
+        per_df = st.get_market_fundamental_by_date(today, today, f"{code}")
         stock_df = pd.DataFrame(index = per_df.index,columns=['date','per','pbr'])    
         stock_df['date'] = stock_df.index
         

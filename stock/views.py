@@ -19,12 +19,12 @@ from stock.serializers import *
 from scraping.serializers import *
 import pandas as pd
 from stock import backtest
+from stock import backtestLog
 import json
 from rest_framework.renderers import JSONRenderer
 
 @api_view(['POST'])
 def backtestapi(request):
-    
     if request.method == 'POST':
         backT = backtest.Backtest1(request.data)
         if backT.backTesting() is None:
@@ -32,7 +32,8 @@ def backtestapi(request):
         else:
             if backT.isValidFlag ==False:
                 return JsonResponse(backT.errormsg)
-            # backT.saveBack()
+            
+            backT.saveBack()
             return JsonResponse(backT.gapDict)
 
 @api_view(['POST'])
@@ -65,7 +66,14 @@ def backAppapi(request):
             # backT.saveBack()
             return JsonResponse(backT.gapDict)
 
+@api_view(['POST'])
+def backtestLogData(request):
+    if request.method == 'POST':
+        user = request.data['id']
+        logData = backtestLog.getBacklog(user)
 
+        return JsonResponse(logData)
+    
 @api_view(['GET'])
 def kospiYearList(request):
     if request.method == 'GET':

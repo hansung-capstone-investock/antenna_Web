@@ -1,10 +1,11 @@
-from datetime import datetime, time, timedelta, date
+from datetime import datetime, timedelta, date
 from django.http.response import HttpResponse
 from pandas.core.frame import DataFrame
 from .models import *
 import pandas as pd
 from django.db.models import Q
 from stock.serializers import *
+import json
 
 class Backtest1:
     errormsg={'error':'조건에 맞는 주식이 없습니다.'}
@@ -18,8 +19,6 @@ class Backtest1:
         self.companyNum = 10
         self.start = date(int(backTestInfo['start'].split('-')[0]),int(backTestInfo['start'].split('-')[1]),int(backTestInfo['start'].split('-')[2]))
         self.end = date(int(backTestInfo['end'].split('-')[0]),int(backTestInfo['end'].split('-')[1]),int(backTestInfo['end'].split('-')[2]))
-        
-        
         self.targetDate = self.start
         self.strTarget = self.targetDate.strftime("%Y-%m-%d")
         
@@ -47,13 +46,40 @@ class Backtest1:
                 self.sectorList.append(s)
         
         self.datelist =list()
-        
         self.targetList = StockList.objects.using("stockDB").filter(
             Q(market__in = self.marketList) &
-            Q(sectorcode__in = self.sectorList)
+            Q(sectorcode__in = self.sectorList))
+    
+    def saveBack(self):
+        num = BackTestInfo.objects.using("stockDB").filter(user = self.tester)
+        userTestNum = len(num)+1
+        file_name = self.tester+"_"+str(userTestNum)
+        con = dict()
+        con['start'] = self.start
+        con['end'] =self.end
+        con['sorts'] = self.sorts
+        con['condition'] = self.condition
+        con['sellcondition'] = [self.sellConditionHigh,self.sellConditionLow]
+        con['marketList'] = self.marketList
+        con['sectorList'] = self.sectorList
+        dictData = {**con,**self.gapDict}
+        # json_val = json.dumps(dictData)
+        with open(f'../backfile/{file_name}.csv','w') as f:
+            json.dump(dictData,f)
+        
+        # with open(f'../backfile/{file_name}.csv','w',newline="") as f:
+        #     writer = csv.writer(f)
+        #     for key, value in dictData.items():
+        #         writer.writerow([key,value])
+        
+        backlog = BackTestInfo.objects.using("stockDB").create(
+            user = self.tester,
+            date = date.today(),
+            filename = file_name
         )
-        
-        
+        backlog.save()
+        return
+
     def is_weekend(self,d):
         isWeek = date(d.year,d.month,d.day)
         return isWeek.weekday() > 4
@@ -132,7 +158,6 @@ class Backtest1:
         df['roe'] = self.roe_df.loc[self.targetDate]
         df['roa'] = self.roa_df.loc[self.targetDate]
 
-        
         for con in self.sorts:
             con1 = df[con]> self.condition[con][0]
             con2 = df[con]< self.condition[con][1]
@@ -175,15 +200,18 @@ class Backtest1:
             
             if self.sellConditionLow < gapPercent <self.sellConditionHigh:
                 continue
-            sellInfo = {
-                'ticker':key,
-                'buy_date':value[0],
-                'buy_price':value[1],
-                'sell_date':self.targetDate,
-                'sell_price':todayPrice,
-                'profit':gapPercent
-            }
+            
+            # 백테스팅 거래한 주식 정보 저장
+            # sellInfo = {
+            #     'ticker':key,
+            #     'buy_date':value[0],
+            #     'buy_price':value[1],
+            #     'sell_date':self.targetDate,
+            #     'sell_price':todayPrice,
+            #     'profit':gapPercent
+            # }
             # self.backTestLog_df = self.backTestLog_df.append(sellInfo,ignore_index=True)
+            
             delStock.append(key)
             sellingNum +=1
             self.gapDict[self.strTarget]+=gapPercent
@@ -192,6 +220,7 @@ class Backtest1:
             del self.haveStock[l]
         return sellingNum
     
+    # 마지막날 모든 주식 판매
     def sellingStockAll(self):
         self.strTarget = self.targetDate.strftime("%Y-%m-%d")
         for key,value in self.haveStock.items():
@@ -199,18 +228,20 @@ class Backtest1:
             boughtPrice = value[1]
             gap = todayPrice - boughtPrice
             gapPercent = gap/boughtPrice*100
-            sellInfo = {
-                'ticker':key,
-                'buy_date':value[0],
-                'buy_price':value[1],
-                'sell_date':self.targetDate,
-                'sell_price':todayPrice,
-                'profit':gapPercent
-            }
+            
+            # sellInfo = {
+            #     'ticker':key,
+            #     'buy_date':value[0],
+            #     'buy_price':value[1],
+            #     'sell_date':self.targetDate,
+            #     'sell_price':todayPrice,
+            #     'profit':gapPercent
+            # }
             # self.backTestLog_df = self.backTestLog_df.append(sellInfo,ignore_index=True)
             
             self.gapDict[self.strTarget]=gapPercent
-        
+    
+    #일일 테스팅
     def dailyTesting(self):
         
         buyStockNum = 10
@@ -222,18 +253,13 @@ class Backtest1:
         if buyStockNum == 0:
             return
 
-        
         #조건에 맞는 주식 구매
         self.buyingStock(buyStockNum)
-        
         return True
-
         
     def backTesting(self):
-                
         if len(self.targetList) == 0:
             return 
-        
         stockInfo = StockX000020.objects.using("stockDB").filter(
                 date__range=[self.start, self.end]
             )
@@ -246,8 +272,6 @@ class Backtest1:
                 continue
             self.targetDate = self.start
             break
-        
-        
         self.getData()
         
         while self.targetDate != self.end:
@@ -270,8 +294,7 @@ class Backtest1:
 
         while self.targetDate not in self.datelist:
             self.targetDate -= timedelta(days=1)
-        
-            
+
         self.sellingStockAll()
         self.gapDict['total']+=self.gapDict[self.strTarget]
         # self.backTestLog_df.to_csv("backtestLog.csv")

@@ -15,4 +15,5 @@ urlpatterns = [
     path('stocksearch/', views.stockSearchData),
     path('compare3/',views.before3M),
     path('topstock/',views.topStock),
+    path('backtestlog/',views.backtestLogData),
 ]

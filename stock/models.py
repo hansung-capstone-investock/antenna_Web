@@ -1,5 +1,4 @@
 from django.db import models
-from account.models import *
 
 class TopStockPrice(models.Model):
     id = models.AutoField(primary_key=True)
@@ -18,7 +17,6 @@ class TopStockCap(models.Model):
     company = models.CharField(max_length=50)    
     todayPrice = models.FloatField()
     gap = models.FloatField()
-    
 
 class Compare3Month(models.Model):
     id = models.AutoField(primary_key=True)
@@ -80,20 +78,11 @@ class dailyMarketIndex(models.Model):
     changeNum = models.CharField(max_length=30)
     changePer = models.CharField(max_length=30)
 
-# class BackTestInfo(models.Model):
-#     id = models.AutoField(primary_key=True)
-#     user = models.ForeignKey(accountData,to_field='id', on_delete=models.CASCADE)
-#     date = models.DateTimeField(blank=True)
-#     filename = models.CharField(max_length=30,blank=True)
-#     start = models.DateTimeField(blank=True)
-#     end = models.DateTimeField(blank=True)
-#     # sort = models.CharField(max_length=100,blank=True)
-#     condition = models.CharField(max_length=100,blank=True)
-#     # sellConditionHigh = models.FloatField()
-#     # sellConditionLow = models.FloatField()
-#     marketList = models.CharField(max_length=100,blank=True)
-#     sectorList = models.CharField(max_length=100,blank=True)
-
+class BackTestInfo(models.Model):
+    id = models.AutoField(primary_key=True)
+    user = models.CharField(max_length=100)
+    date = models.DateField()
+    filename = models.CharField(max_length=30,blank=True)
 
 class StockX000020(models.Model): 
     
