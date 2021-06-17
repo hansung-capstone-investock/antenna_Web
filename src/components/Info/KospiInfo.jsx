@@ -18,10 +18,17 @@ const Wrapper = styled.div`
   .ant-tabs-nav {
     margin-bottom: 8px;
   }
+  div.ant-tabs-nav > div.ant-tabs-nav-wrap {
+    padding-left: 30px;
+  }
+  .ant-tabs-ink-bar .ant-tabs-ink-bar-animated {
+    background-color: black;
+  }
 `;
 const ChartWrapper = styled.div`
-  width: 450px;
-  height: 200px;
+  width: ${(props) => props.chartW || "450px"};
+  height: ${(props) => props.chartH || "200px"};
+
   //오늘의 증시 보러가기 텍스트 때문에 margin
   margin-bottom: 60px;
 `;
@@ -111,7 +118,7 @@ const KospiInfo = (text) => {
           }
           key="1"
         >
-          <ChartWrapper>
+          <ChartWrapper chartH={text.chartH} chartW={text.chartW}>
             <ChartKospi></ChartKospi>
           </ChartWrapper>
           {text.text == true ? (
@@ -140,7 +147,7 @@ const KospiInfo = (text) => {
           }
           key="2"
         >
-          <ChartWrapper>
+          <ChartWrapper chartH={text.chartH} chartW={text.chartW}>
             <ChartKosdaq></ChartKosdaq>
           </ChartWrapper>
           {text.text == true ? (
@@ -173,7 +180,7 @@ const KospiInfo = (text) => {
           }
           key="3"
         >
-          <ChartWrapper>
+          <ChartWrapper chartH={text.chartH} chartW={text.chartW}>
             <ChartKospi200></ChartKospi200>
           </ChartWrapper>
           {text.text == true ? (

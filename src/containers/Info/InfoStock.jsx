@@ -49,7 +49,7 @@ const InfoStock = () => {
     <div>
       <Wrapper>
         <BoxWrapper>
-          <KospiInfo text={false} />
+          <KospiInfo text={false} chartH="400px" chartW="600px" />
         </BoxWrapper>
         <BoxWrapper>
           <InfoTops></InfoTops>
