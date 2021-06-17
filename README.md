@@ -23,9 +23,9 @@
 - 프로젝트 소스 링크
 
   - [프로젝트 그룹 링크]([hansung-capstone-investock (github.com)](https://github.com/hansung-capstone-investock))
-  - [웹 서버 링크]([hansung-capstone-investock/antenna_Server (github.com)](https://github.com/hansung-capstone-investock/antenna_Server))
-  - [웹 프론트엔드 링크]([hansung-capstone-investock/antenna_Web (github.com)](https://github.com/hansung-capstone-investock/antenna_Web))
-  - [안드로이드 앱 링크]([hansung-capstone-investock/antenna_App (github.com)](https://github.com/hansung-capstone-investock/antenna_App))
+  - [웹 서버 소스 링크]([hansung-capstone-investock/antenna_Server (github.com)](https://github.com/hansung-capstone-investock/antenna_Server))
+  - [웹 프론트엔드 소스 링크]([hansung-capstone-investock/antenna_Web (github.com)](https://github.com/hansung-capstone-investock/antenna_Web))
+  - [안드로이드 앱 소스 코드 링크]([hansung-capstone-investock/antenna_App (github.com)](https://github.com/hansung-capstone-investock/antenna_App))
   - [Youtube live](https://youtu.be/2hexRQMiLVE) (06-18 13:00~16:00)
   - 발표 자료 링크(Youtube)
 
