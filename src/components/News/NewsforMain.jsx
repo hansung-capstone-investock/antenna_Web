@@ -66,31 +66,6 @@ const NewsforMain = () => {
             <LiveNews />
           </NewsWrapper>
         </TabPane>
-        <TabPane
-          tab={
-            <MText display="inline-flex" alitem="flex-start" padBot="0px">
-              관심뉴스
-            </MText>
-          }
-          key="3"
-        >
-          <NewsWrapper>
-            {logged === "true" ? (
-              <GotoPage
-                to="/main/interest"
-                font="nanumRoundB"
-                color="#f14b4b"
-                alitem="flex-start"
-                padBot="0px"
-              >
-                관심종목 설정하고 뉴스 골라 보기
-                <SwapRightOutlined />
-              </GotoPage>
-            ) : (
-              <div>로그인하셈</div>
-            )}
-          </NewsWrapper>
-        </TabPane>
       </Tabs>
     </Wrapper>
   );

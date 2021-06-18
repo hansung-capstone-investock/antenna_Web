@@ -33,7 +33,6 @@ const MyPage = () => {
 
   return (
     <div>
-      <div>MyPage</div>
       <Popconfirm
         title="로그아웃하시겠습니까?"
         onConfirm={confirm}

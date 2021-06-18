@@ -78,8 +78,14 @@ const MenuItem = withPathName(styled(Link)`
     }
   }}
 
-  @media screen and (max-width:1100px) {
-    display: none;
+  @media screen and (max-width:1200px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 1100px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 990px) {
+    font-size: 12px;
   }
 `);
 
@@ -118,6 +124,15 @@ const LoginItem = withPathName(styled(Link)`
       `;
     }
   }}
+  @media screen and (max-width:1200px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 1100px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 990px) {
+    font-size: 12px;
+  }
 `);
 const ThemeButton = styled.div`
   height: 30px;

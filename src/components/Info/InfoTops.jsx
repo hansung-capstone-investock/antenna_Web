@@ -10,7 +10,9 @@ import {
   MinusCircleOutlined,
   LineOutlined,
   PlusCircleOutlined,
+  GroupOutlined,
 } from "@ant-design/icons";
+import { Menu, Dropdown } from "antd";
 
 const { TabPane } = Tabs;
 
@@ -25,6 +27,10 @@ const Wrapper = styled.div`
     font-family: "a고딕13";
     color: #808080;
   }
+  .ant-tabs-tab-btn {
+    font-family: "a고딕13";
+    color: black;
+  }
 `;
 
 const InfoTops = () => {
@@ -35,6 +41,49 @@ const InfoTops = () => {
   const [Cap, setCap] = useState();
   const [CapTable, setCapTable] = useState();
 
+  //관심종목 관련 데이터
+  const [Int, setInt] = useState([]);
+  const [Group, setGroup] = useState({});
+  const [disable, setDisable] = useState([false, false, false]);
+
+  async function GetInt() {
+    await axios
+      .post(
+        "http://ec2-3-37-87-254.ap-northeast-2.compute.amazonaws.com:8000/account/api/intereststockWeb/",
+        {
+          name: window.sessionStorage.getItem("id"),
+        }
+      )
+      .catch(function (error) {
+        console.log(error);
+      })
+      .then((response) => {
+        if (response) {
+          console.log("관심종목==> ", response.data);
+          setGroup(response.data);
+          response.data.map((r, idx) => {
+            if (r.group == "") {
+              r.group = "그룹" + idx;
+            }
+            var i = 0;
+            for (var key in response.data[idx].companies) {
+              if (response.data[idx].companies.key == "") {
+                i++;
+              }
+            }
+            if (i == 0) {
+              if (idx == 0) {
+                setDisable(true, disable[1], disable[2]);
+              } else if (idx == 1) {
+                setDisable(disable[0], true, disable[2]);
+              } else {
+                setDisable(disable[0], disable[1], true);
+              }
+            }
+          });
+        }
+      });
+  }
   async function GetInfoTops(code) {
     const response = await axios.get(
       "http://ec2-3-37-87-254.ap-northeast-2.compute.amazonaws.com:8000/stock/topstock/"
@@ -47,42 +96,106 @@ const InfoTops = () => {
       setData(response.data);
     }
   }
+  const [menu, setMenu] = useState(<Menu></Menu>);
+  //추가할 종목 이름 저장 State
+  const [StockName, setStockName] = useState("");
+  const [GroupKey, setGroupKey] = useState();
   useEffect(() => {
+    GetInt();
     GetInfoTops();
   }, []);
 
-  //관심종목 관련 데이터
-  const [Int, setInt] = useState([]);
+  useEffect(
+    (props) => {
+      if (Group.length > 0) {
+        console.log("group", Group);
+        setMenu(
+          <Menu onClick={({ key }) => setGroupKey(key)}>
+            <Menu.ItemGroup title="나의 그룹">
+              <Menu.Item key="0" disabled={disable[0]}>
+                {Group[0].group}
+              </Menu.Item>
+              <Menu.Item key="1" disabled={disable[1]}>
+                {Group[1].group}
+              </Menu.Item>
+              <Menu.Item key="2" disabled={disable[2]}>
+                {Group[2].group}
+              </Menu.Item>
+            </Menu.ItemGroup>
+          </Menu>
+        );
+      }
+    },
+    [Group]
+  );
+  useEffect(() => {
+    console.log("stockname groupkey변경됨", StockName, GroupKey);
+    if (StockName && GroupKey) {
+      AddInt(StockName, GroupKey);
+    }
+  }, [StockName, GroupKey]);
+  //관심종목 추가 버튼 클릭 시
+  const AddInt = (stname, props) => {
+    console.log("props", stname, props);
+    console.log("Group", Group);
+    console.log("StockName", StockName);
+    if (Group && StockName.length > 0) {
+      const arr = ["", "", "", "", "", "", "", "", "", ""];
+      var i = 0;
+      for (var key in Group[props].companies) {
+        if (Group[props].companies[key] != "") {
+          arr[i] = Group[props].companies[key].company;
+          i++;
+        }
+      }
+      arr[i] = StockName;
+      const PostData = {
+        id: Group[props].id,
+        name: window.sessionStorage.getItem("id"),
+        group: Group[props].group,
+        company1: arr[0],
+        company2: arr[1],
+        company3: arr[2],
+        company4: arr[3],
+        company5: arr[4],
+        company6: arr[5],
+        company7: arr[6],
+        company8: arr[7],
+        company9: arr[8],
+        company10: arr[9],
+      };
+      console.log("postData?", PostData);
 
-  const table = (data) => {
-    const MyLink = styled(Link)`
-      text-decoration: none;
-      color: black;
-    `;
-    //관심종목 추가 버튼 클릭 시
-    const AddInt = (props) => {
       axios
         .post(
-          "http://ec2-3-37-87-254.ap-northeast-2.compute.amazonaws.com:8000/account/api/intereststockWeb/",
-          {
-            name: window.sessionStorage.getItem("id"),
-          }
+          "http://ec2-3-37-87-254.ap-northeast-2.compute.amazonaws.com:8000/account/api/interestUpdate/",
+          PostData,
+          { headers: { "Content-Type": "application/json" } }
         )
         .catch(function (error) {
           console.log(error);
         })
         .then((response) => {
           if (response) {
-            console.log("관심종목==> ", response.data);
-            const Ints = response.data;
+            console.log("업데이트되었나요? ", response);
           }
         });
-      console.log("props", props);
-    };
+    }
+
+    setGroupKey();
+    setStockName("");
+  };
+  useState(() => {}, [StockName]);
+
+  //테이블 그리기
+  const table = (data) => {
+    const MyLink = styled(Link)`
+      text-decoration: none;
+      color: black;
+    `;
 
     const FindCode = (text) => {
       var Code = "";
-      console.log("Text?", text);
       Price.map((p, idx) => {
         if (p.company == text) {
           Code = p.stockcode;
@@ -165,9 +278,16 @@ const InfoTops = () => {
         dataIndex: "company",
         width: "5%",
         render: (text) => (
-          <MText font="a고딕13" size="13px" color="#098021" padding="2px 0 0 0">
-            <PlusCircleOutlined onClick={() => AddInt(text)} />
-          </MText>
+          <Dropdown overlay={menu} trigger={["click"]} text={text}>
+            <MText
+              font="a고딕13"
+              size="13px"
+              color="#098021"
+              padding="2px 0 0 0"
+            >
+              <PlusCircleOutlined onClick={() => setStockName(text)} />
+            </MText>
+          </Dropdown>
         ),
       },
     ];

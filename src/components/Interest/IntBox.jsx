@@ -12,11 +12,13 @@ import {
 } from "@ant-design/icons";
 import { AutoComplete } from "antd";
 import stocklist from "./stocklist.json";
+import { Input } from "antd";
 
 const Wrapper = styled.div`
   width: 100%;
   height: 100%;
-  padding: 60px 10px 10px 10px;
+  max-width: 370px;
+  padding: 40px 10px 10px 10px;
   display: block;
   justify-content: center;
   align-items: center;
@@ -27,6 +29,11 @@ const Wrapper = styled.div`
   }
   .ant-list-split .ant-list-item {
     border: 0;
+  }
+  .ant-input {
+    font-family: "a고딕17";
+    font-size: 22px;
+    color: #30475e;
   }
 `;
 
@@ -108,8 +115,7 @@ const IntBox = (i) => {
       })
       .then((response) => {
         if (response) {
-          console.log("업데이트되었나요? ", response);
-          //window.location.reload();
+          window.location.reload();
         }
       });
   };
@@ -120,8 +126,8 @@ const IntBox = (i) => {
   const [SBox, setSBox] = useState(false);
   const Complete = () => {
     const ComWrapper = styled.div`
-      margin-right: 5px;
-      float: right;
+      margin-left: 30px;
+      display: inline-block;
     `;
     const options = [];
     stocklist.map((stock, key) => {
@@ -130,7 +136,7 @@ const IntBox = (i) => {
     return (
       <ComWrapper>
         <AutoComplete
-          style={{ width: 130 }}
+          style={{ width: 140 }}
           options={options}
           placeholder="이름으로 찾기"
           onChange={(val) => UpdateInt(val)}
@@ -138,7 +144,29 @@ const IntBox = (i) => {
       </ComWrapper>
     );
   };
-
+  const ChangeGroup = (e) => {
+    console.log("그룹명변경e", e);
+    setGroupName(e.target.value);
+  };
+  const ChangeGroupName = (e) => {
+    const PostData = {
+      id: Group.id,
+      name: window.sessionStorage.getItem("id"),
+      group: e.target.value,
+      company1: Group.companies.company1.company,
+      company2: Group.companies.company2.company,
+      company3: Group.companies.company3.company,
+      company4: Group.companies.company4.company,
+      company5: Group.companies.company5.company,
+      company6: Group.companies.company6.company,
+      company7: Group.companies.company7.company,
+      company8: Group.companies.company8.company,
+      company9: Group.companies.company9.company,
+      company10: Group.companies.company10.company,
+    };
+    console.log("PostData", PostData);
+    UpdatePosting(PostData);
+  };
   const DeleteInt = (company) => {
     console.log("delete props", company);
     setG(g.filter((g) => g.company != company));
@@ -167,7 +195,10 @@ const IntBox = (i) => {
     console.log("PostData", PostData);
     UpdatePosting(PostData);
   };
-
+  const [GroupName, setGroupName] = useState("");
+  useEffect(() => {
+    setGroupName(Group.group);
+  }, [Group]);
   return (
     <Wrapper>
       <MText
@@ -183,8 +214,13 @@ const IntBox = (i) => {
         size="small"
         header={
           <div>
-            <MText color="#30475E" font="a고딕15" size="20px">
-              {Group.group}
+            <MText color="#30475E" font="a고딕15" size="26px">
+              <Input
+                value={GroupName}
+                onChange={(e) => ChangeGroup(e)}
+                bordered={false}
+                onPressEnter={(e) => ChangeGroupName(e)}
+              />
             </MText>
             <MText
               color="#247e05"
@@ -195,7 +231,6 @@ const IntBox = (i) => {
             >
               <PlusCircleOutlined onClick={() => setSBox(true)} />
             </MText>
-            {SBox ? <Complete /> : <div></div>}
           </div>
         }
         bordered
@@ -226,6 +261,7 @@ const IntBox = (i) => {
           </List.Item>
         )}
       />
+      {SBox ? <Complete /> : <div></div>}
     </Wrapper>
   );
 };

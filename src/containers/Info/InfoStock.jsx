@@ -29,7 +29,7 @@ const InfoStock = () => {
   const Wrapper = styled.div`
     height: 100%;
     width: 100%;
-    padding: 20px;
+    padding: 3% 20px;
     display: inline-flex;
 
     .ant-table-wrapper {
@@ -49,7 +49,7 @@ const InfoStock = () => {
     <div>
       <Wrapper>
         <BoxWrapper>
-          <KospiInfo text={false} chartH="400px" chartW="600px" />
+          <KospiInfo text={false} chartH="300px" chartW="600px" />
         </BoxWrapper>
         <BoxWrapper>
           <InfoTops></InfoTops>

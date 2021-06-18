@@ -249,6 +249,7 @@ const AntennaTestPage = () => {
   );
   useEffect(() => {
     console.log("chartArr", chartArr);
+    const GreenLine = chartArr.length - date - 1;
     if (chartArr.length > 0) {
       setView(
         <ResponsiveContainer width="100%" height="100%">
@@ -270,7 +271,7 @@ const AntennaTestPage = () => {
               tick={{ fontSize: 10 }}
               stroke="#a9a9a9"
             />
-            <ReferenceLine x={chartArr.length - 15} stroke="green" />
+            <ReferenceLine x={GreenLine} stroke="green" />
             <XAxis dataKey="x" stroke="#a9a9a9" />
             <Line
               type="monotone"
